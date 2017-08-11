@@ -18,6 +18,13 @@
     <meta http-equiv="X-Frame-Options" content="DENY">
     <meta http-equiv="X-XSS-Protection" content="1; mode=block">
     <meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
+    
+    <script type="text/javascript">
+    var host = "daqhris.me";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+    </script>
+
 
 
     <!-- Written 2.0.1
@@ -27,6 +34,7 @@
     <link rel="shortcut icon" href="/images/plain-white-background.png">
     <link rel="apple-touch-icon" href="/images/plain-white-background.png">
     <link rel="alternate" type="application/rss+xml" href="http://daqhris.me/rss">
+    <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
  
     <style type="text/css">
 
