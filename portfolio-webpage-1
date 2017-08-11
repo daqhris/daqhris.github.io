@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Webpage #1</title>
+  <meta name="description" content="Portfolio Webpage #1, designed for hikers who love to share their adventures."></meta>
+  <meta name="robots" content="index,follow,noodp">
+  <!--CSS stylesheets-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" ref="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <!--JavaScript Content Delivery Network-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300" rel="stylesheet">
+
+  <!--Custom CSS style -->
+  <style>
+  body{
+  background-color: #ffffff;
+  font-family: "Merriweather Sans";
+}
+#home{
+  background-color: #fefcff;
+  font-family: "Open Sans", sans-serif;
+}
+#gallery{
+  background-color: #ffffff;
+}
+  a {
+    text-decoration: none !important;
+}
+#map{
+  font-family: Georgia, serif;
+}
+#social{
+  background-color: #fefcff;
+}
+  </style>
+
+  <!--Script for Hover on Icon-->
+  <script>
+  $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+  });
+  </script>
+</head>
+
+<body>
+  <!--Webpage design and code made by Chris A. Iradukunda [http://daqhris.me].
+      All media included on the page belongs to public domain.
+      I hereby retain NO copyrights.
+      Only keep a reference to the original coder, please.
+      Have Fun!
+  -->
+  <!--Navigation bar-->
+  <nav class="navbar navbar-default navbar-fixed-top" id="navigation"><br>
+      <div class="container">
+      <ul class="nav nav-pills navbar-right">
+        <li role="presentation">
+          <a href="#home" data-toggle="tooltip" title="Welcome" data-placement="bottom"><b>Home</b></a></li>
+        <li role="presentation">
+          <a href="#gallery" data-toggle="tooltip" title="Images to blow your mind" data-placement="bottom"><b>Gallery</b></a></li>
+        <li role="presentation">
+          <a href="#map" data-toggle="tooltip" title="My Footprints on Earth" data-placement="bottom"><b>Map</b></a></li>
+        <li role="presentation">
+          <a href="#social" data-toggle="tooltip" title="Adventures on Instagram" data-placement="bottom"><b>Social</b></a></li>
+        <li role="presentation">
+          <a href="#contact" data-toggle="tooltip" title="Let's talk!" data-placement="bottom"><b>Contact</b></a></li>
+      </ul>
+    </div>
+    </nav>
+
+    <!--Home Section-->
+    <!--Textual introduction-->
+    <div class="container" id="home">
+    <br><br><br><br><br><br><br><br>
+      <div class="text-left">
+      <h1>Hi! I am <b>Clark Simmons-Duke</b>.
+      <br>I love to <em>travel</em> and take lots of <em>photos</em>.</h1>
+    </div>
+      <br><hr><br>
+      <div class="text-center">
+      <h1><b>Once a month</b>, I climb a <i>very</i> tall mountain. On a <i>different</i> continent.
+      <br>The journey started from <b>September 2015</b>.
+      <br>My first peak was <b>Machu Pichu</b> in South America.</h1>
+    </div>
+      <br><hr><br>
+      <div class="text-right">
+      <h1>Here is what <b>President B. Obama</b> said that <i>motivates</i> me:
+      <br><br><blockquote>The future rewards those who press on.
+        <br>I don't have time to feel sorry for myself.
+        <br>I don't have time to complain.
+        <br>I'm going to press on.</blockquote></h1>
+        <br><br><br><hr><br><br><br>
+    </div>
+  </div>
+
+  <!--Gallery Section-->
+  <!--All images originate from Flickr and were filed under Creative Commons rights-->
+  <div class="container-fluid" align="center" id="gallery">
+  <br><br><br><br><br>
+  <div class="container">
+  <div class="row" id="row1">
+  <div class="col-xs-6 col-md-4" id="image1">
+    <a data-flickr-embed="true"  href="https://www.flickr.com/photos/jmauerer/9723527796/" title="Großglockner"><img src="https://c5.staticflickr.com/6/5477/9723527796_a1c5ab50e6_k.jpg" width="319" height="180" alt="Großglockner"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+  <div class="col-xs-6 col-md-4" id="image2">
+    <a data-flickr-embed="true"  href="https://www.flickr.com/photos/ratioratio/5794568224/" title="Untitled"><img src="https://c1.staticflickr.com/3/2001/5794568224_764df7d9ac_b.jpg" width="319" height="180" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+  <div class="col-xs-6 col-md-4" id="image3">
+    <a data-flickr-embed="true"  href="https://www.flickr.com/photos/tormodspictures/11295957735/" title="Riding Aiguille d&#x27;Entrèves"><img src="https://c8.staticflickr.com/4/3795/11295957735_e709303649_k.jpg" width="319" height="180" alt="Riding Aiguille d&#x27;Entrèves"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+  </div>
+  </div>
+  <hr>
+  <div class="row" id="row2">
+    <div class="col-xs-6 col-md-4" id="image4">
+      <a data-flickr-embed="true"  href="https://www.flickr.com/photos/tataimitra/8248298687/in/photolist-qSDGwz-dySFQk-dtEdtF-dfjmJM" title="Radiant!"><img src="https://c8.staticflickr.com/9/8490/8248298687_fb81862d16_b.jpg" width="319" height="180" alt="Radiant!"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    </div>
+    <div class="col-xs-6 col-md-4" id="image5">
+      <a data-flickr-embed="true"  href="https://www.flickr.com/photos/124089352@N08/14837470825/in/photostream/" title="...excellent distant view..."><img src="https://c2.staticflickr.com/4/3855/14837470825_3fd2822aed_k.jpg" width="319" height="180" alt="...excellent distant view..."></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    </div>
+    <div class="col-xs-6 col-md-4" id="image6">
+      <a data-flickr-embed="true"  href="https://www.flickr.com/photos/leshaines123/6742702689/" title="Brecon Beacons the last big climb #dailyshoot #Wales"><img src="https://c2.staticflickr.com/8/7032/6742702689_174706eaea_b.jpg" width="319" height="180" alt="Brecon Beacons the last big climb #dailyshoot #Wales"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+        </div>
+      </div>
+    <hr>
+    <div class="row" id="row3">
+    <div class="col-xs-6 col-md-4" id="image7">
+      <a data-flickr-embed="true"  href="https://www.flickr.com/photos/zachd1_618/15597135248/" title="Autumn From Up High"><img src="https://c1.staticflickr.com/9/8623/15597135248_356f84d7c5_k.jpg" width="319" height="180" alt="Autumn From Up High"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    </div>
+    <div class="col-xs-6 col-md-4" id="image8">
+      <a data-flickr-embed="true"  href="https://www.flickr.com/photos/michaelmattiphotography/12782479705/" title="The View of Mount Si from Rattlesnake Ledge by Michael Matti"><img src="https://c2.staticflickr.com/8/7405/12782479705_f3eaf6e365_h.jpg" width="319" height="180" alt="The View of Mount Si from Rattlesnake Ledge by Michael Matti"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    </div>
+    <div class="col-xs-6 col-md-4" id="image9">
+      <a data-flickr-embed="true"  href="https://www.flickr.com/photos/absintheboy/14811579544/" title="P4061077"><img src="https://c1.staticflickr.com/4/3844/14811579544_814c38ecbb_b.jpg" width="319" height="180" alt="P4061077"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    </div>
+  </div>
+  <hr>
+  <div class="row" id="row4">
+    <div class="col-xs-6 col-md-4" id="image10">
+      <a data-flickr-embed="true"  href="https://www.flickr.com/photos/trekkingrinjani/4930552641/" title="Climbing Journal Mount Rinjani package"><img src="https://c2.staticflickr.com/5/4079/4930552641_10d06245a2_b.jpg" width="319" height="180" alt="Climbing Journal Mount Rinjani package"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    </div>
+    <div class="col-xs-6 col-md-4" id="image11">
+      <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emploia/15901406703/" title="bieszczady"><img src="https://c8.staticflickr.com/8/7402/15901406703_29f827285b_b.jpg" width="319" height="180" alt="bieszczady"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+        </div>
+    <div class="col-xs-6 col-md-4" id="image12">
+      <a data-flickr-embed="true"  href="https://www.flickr.com/photos/phahie/7981771555/" title="Mont Blanc ... 8"><img src="https://c4.staticflickr.com/9/8455/7981771555_5d700b4079_b.jpg" width="319" height="180" alt="Mont Blanc ... 8"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    </div>
+  </div>
+  </div>
+  <br><br><br>
+</div>
+
+    <!--Map Section-->
+    <!--This map was built by using Mapquest [https://www.mapquest.com]-->
+    <div class="container-fluid" id="map">
+    <br><br><br><br>
+    <h1>Clark's Expeditions</h1><h4>Pins show the location of a climbed mountain</h4>
+    <iframe height="600" width="100%" border="0" marginwidth="0" marginheight="0" src="https://www.mapquest.com/embed/my-maps/5b8ef5f8-1a9b-4577-aa4d-45b78071af33?center=25.940602589967884,-15.942047549999979&zoom=1&maptype=map">
+    </iframe>
+    <br><br><br><br><br>
+  </div>
+
+  <!--Social Section-->
+  <!--Instagram is the main social hub-->
+  <div class="container" id="social">
+    <br><br><br><br>
+    <button type="button" class="btn btn-primary btn-lg btn-block"><b><tall>Instagram</tall></b> is my <em>second</em> home</button>
+    <br>
+    <ul class="list-group">
+      <li class="list-group-item list-inline">
+        <a href="#" data-toggle="tooltip" title="Instagram is my #1 social platform" data-placement="right">
+        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+      <div class="well well-sm">
+        <h4 class="text-right">
+          <a href="https://www.instagram.com/clarksimmonsduke" target="_blank"><b>@clarksimmonsduke</b></a></h4></div>
+
+        <li class="list-group-item list-inline">
+          <a href="#" data-toggle="tooltip" title="Followers are the public eyes cheering for me" data-placement="right">
+          <i class="fa fa-eye fa-2x" aria-hidden="true"></i></a></li>
+          <div class="well well-sm">
+            <h4 class="text-right"><em>1,5 million</em> <b>followers</b></h4></div>
+
+      <li class="list-group-item list-inline">
+        <a href="#" data-toggle="tooltip" title="Adventure-like key words link back to my profile" data-placement="right">
+        <i class="fa fa-hashtag fa-2x" aria-hidden="true"></i></a></li>
+        <div class="well well-sm">
+          <h4 class="text-right"><em>5 popular</em> <b>hashtags</b></h4></div>
+
+      <li class="list-group-item list-inline">
+        <a href="#" data-toggle="tooltip" title="Tons of hearts or double-tap from fans" data-placement="right">
+        <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i></a></li>
+        <div class="well well-sm">
+          <h4 class="text-right"><em>250 million</em> <b>likes</b></h4></div>
+
+      <li class="list-group-item list-inline">
+        <a href="#" data-toggle="tooltip" title="Snaps taken from all over the world" data-placement="right">
+        <i class="fa fa-camera-retro fa-2x" aria-hidden="true"></i></a></li>
+        <div class="well well-sm">
+          <h4 class="text-right"><em>320</em> <b>pictures</b></h4></div>
+
+      <li class="list-group-item list-inline">
+        <a href="#" data-toggle="tooltip" title="Interaction with my followers" data-placement="right">
+        <i class="fa fa-comments-o fa-2x" aria-hidden="true"></i></a></li>
+        <div class="well well-sm">
+          <h4 class="text-right"><em>85 million</em> <b>comments</b></h4></div>
+    </ul>
+    <br><br><br><hr>
+    </div>
+
+    <!--Contact Section-->
+    <div class="container" id="contact">
+      <br><br>
+    <div class="jumbotron text-center">
+      <h2>I'm <b>happy</b> to meet you!</h2>
+      <p>Your visit brought a warm feeling to my heart.
+        I wish we could chat for a moment and kill some lonely time.
+        If you feel so, let's talk privately...</p>
+      <br>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="InputName">Name</label>
+          <input type="text" class="form-control" id="InputName" placeholder="What's your name?">
+        </div>
+        <div class="form-group">
+          <label for="InputEmail">Email</label>
+          <input type="email" class="form-control" id="InputEmail" placeholder="name@free_email.com">
+        </div>
+        <button type="submit" class="btn btn-default active">
+          <a href="#home">Send to Clark</a></button>
+      </form>
+    </div>
+    </div>
+      <br><br><br><br><br>
+</body>
+</html>
