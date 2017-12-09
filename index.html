@@ -215,16 +215,6 @@
               loadingText = '{lang:Loading}',
               loadMoreText = '{lang:Load more posts}',
               noMoreText = '{lang:No more posts}';
-
-          function createURL() {
-              var url = '';
-              if (location.href.indexOf('/tagged/') >= 0 ||
-                  location.href.indexOf('/search/') >= 0) {
-                  url = location.href + '/page/' + page;
-              } else {
-                  url = '/page/' + page;
-              }
-              return url;
           }
 
 
