@@ -8,32 +8,26 @@
 
 <url>
   <loc>https://daqhris.me/</loc>
-  <lastmod>2017-08-11T15:26:46+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+      <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>/bagaza-bio.html</loc>
-  <lastmod>2017-08-11T15:26:46+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://daqhris.me/portfolio-webpage-1.html</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>/portfolio-webpage-1.html</loc>
-  <lastmod>2017-08-11T15:26:46+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://daqhris.me/bagaza-bio.html</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>/all.day.walking.html</loc>
-  <lastmod>2017-08-11T15:26:46+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://daqhris.me/all.day.walking.html</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>/all.day.walking/FR.html</loc>
-  <lastmod>2017-08-11T15:26:46+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://daqhris.me/all.day.walking/FR.html</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>/all.day.walking/ZH.html</loc>
-  <lastmod>2017-08-11T15:26:46+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://daqhris.me/all.day.walking/ZH.html</loc>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>
