@@ -7,22 +7,32 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://daqhris.me/</loc>
+  <loc>https://daqhris.me/</loc>
   <lastmod>2017-08-11T15:26:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://daqhris.me/freecodecamp.html</loc>
+  <loc>/bagaza-bio.html</loc>
   <lastmod>2017-08-11T15:26:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://daqhris.me/portfolio-webpage-1.html</loc>
+  <loc>/portfolio-webpage-1.html</loc>
   <lastmod>2017-08-11T15:26:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://daqhris.me/bagaza-bio.html</loc>
+  <loc>/all.day.walking.html</loc>
+  <lastmod>2017-08-11T15:26:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>/all.day.walking/FR.html</loc>
+  <lastmod>2017-08-11T15:26:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>/all.day.walking/ZH.html</loc>
   <lastmod>2017-08-11T15:26:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
