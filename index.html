@@ -60,23 +60,10 @@
            color: #fff;
         }
 
-
         .siteNav-pages {
             display: none;
         }
-
-
-        .siteFooter-loadMore {
-            background: #666666;
-            color: #FFFFFF;
-        }
-
-
-
-        .post-photo {
-            cursor: auto;
-        }
-
+	    
         /* horizontal line */
         hr {
     display: block;
@@ -105,6 +92,7 @@
                 <hr>
         
         <nav class="siteNav">
+			
         <p title="Projects">
             <button class="siteNav-menuToggle">
             <!--{lang:Navigate} -->
@@ -123,23 +111,20 @@
 
         <ul class="siteNav-social">
         <li>
-        <a href="mailto:daqhris@hotmail.com" title="Send me an e-mail?" target="Email">
-        <i class="fa fa-envelope-o fa-2x"></i>
-        </a>
+		<a href="mailto:daqhris@hotmail.com" title="Send me an e-mail?" target="Email"><i class="fa fa-envelope-o fa-2x"></i></a>
         </li>
+		
         <li>
-        <a href="https://github.com/daqhris" title="Coding on Github" target="Github">
-        <i class="fa fa-github fa-2x"></i>
-        </a>
+        	<a href="https://github.com/daqhris" title="Coding on Github" target="Github"><i class="fa fa-github fa-2x"></i></a>
         </li>
+		
         <li>
-        <a href="https://www.instagram.com/all.day.walking/" title="Visuals on Instagram" target="_blank" rel="noopener">
-        <i class="fa fa-instagram fa-2x"></i>
-         </a>
+        <a href="https://www.instagram.com/all.day.walking/" title="Visuals on Instagram" target="_blank" rel="noopener"><i class="fa fa-instagram fa-2x"></i></a>
         </li>
         </ul>
         </nav>
         </header>
+		</div>
 
         <footer class="siteFooter">
         <p><small>License: <a rel="license" href="https://github.com/daqhris/daqhris.me/blob/master/LICENSE.md" title="The MIT License (MIT)">MIT</a></small></p>
@@ -175,19 +160,8 @@
 
           menuToggle.on('click', revealMenu);
 
-          // Pagination Options
-          var page = 2,
-              loading = false,
-              posts = $('.posts'),
-              loadMore = $('.siteFooter-loadMore'),
-              loadingText = '{lang:Loading}',
-              loadMoreText = '{lang:Load more posts}',
-              noMoreText = '{lang:No more posts}';
-
-
       });
 
     </script>
-  </div>
 </body>
 </html>
