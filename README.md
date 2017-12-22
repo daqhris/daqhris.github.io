@@ -1,5 +1,5 @@
 # daqhris.me front-end code
-Chris A. Iradukunda's personal website: https://daqhris.me
+This is Chris A. Iradukunda's personal website.
 
 Template from [Written Theme](https://www.tumblr.com/theme/38737)
 
