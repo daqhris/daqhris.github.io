@@ -1,6 +1,6 @@
 User-agent: *
-Disallow: /images/web-daqhris-photo.jpg
-Allow: /
+Disallow: /images/
+Allow: /index.html
 User-agent: ia_archiver
 Disallow: /
 Sitemap: https://daqhris.github.io/sitemap.xml
