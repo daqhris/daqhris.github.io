@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /images/web-daqhris-photo.jpg
+Sitemap: https://daqhris.github.io/sitemap.xml
