@@ -1,8 +1,8 @@
 User-agent: *
-Disallow: /
+Disallow: /images
 Allow: /index.html
+
 User-agent: ia_archiver
 Disallow: /
-User-agent: Googlebot-Image
-Disallow: /images/
+
 Sitemap: https://daqhris.github.io/sitemap.xml
