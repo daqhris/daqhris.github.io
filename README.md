@@ -1,5 +1,5 @@
-# daqhris.me front-end code
-This is Chris A. Iradukunda's personal website.
+# daqhris.github.io front-end code
+This is Chris A. Iradukunda's personal website (code repository).
 
 Template from [Written Theme](https://www.tumblr.com/theme/38737)
 
