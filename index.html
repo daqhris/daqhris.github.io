@@ -83,7 +83,8 @@
         	</header>
 		</div>
         <footer class="siteFooter">
-        	<small>License: <a href="https://github.com/daqhris/daqhris.github.io/blob/master/LICENSE.md" title="The MIT License (MIT)" target="_blank" rel="noopener">MIT</a></small>
+			<small><div id="google_translate_element"></div>
+			</small>
         </footer>
         <!-- /.siteContainer -->
 
@@ -125,6 +126,24 @@
 			  }
 			  menuToggle.on('click', revealMenu);
 	      });
-    </script>  
+	</script>
+	<script>
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement(
+				{pageLanguage: 'en'},
+				'google_translate_element'
+			);
+	
+			// Native (but only works in browsers that support query selector)
+			if(typeof(document.querySelector) == 'function') {
+			    document.querySelector('.goog-logo-link').setAttribute('style', 'display: none');
+			    document.querySelector('.goog-te-gadget').setAttribute('style', 'font-size: 0');
+			}
+	
+			jQuery('.goog-logo-link').css('display', 'none');
+			jQuery('.goog-te-gadget').css('font-size', '0');
+		}
+	</script>
+	<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>  
 </body>
 </html>
