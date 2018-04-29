@@ -1,5 +1,5 @@
 # daqhris.github.io front-end code
-This is: Chris-Armel IRADUKUNDA's personal website code repository.
+This is: [Chris-Armel IRADUKUNDA](https://daqhris.github.com)'s personal website code repository.
 
 Template from [Written Theme](https://www.tumblr.com/theme/38737)
 
