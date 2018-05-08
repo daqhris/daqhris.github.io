@@ -10,6 +10,6 @@ Forked from [@barryclark/jekyll-now](https://github.com/barryclark/jekyll-now).
 
 Template from [Written Theme](https://www.tumblr.com/theme/38737).
 
-Previous hosting platforms: *Tumblr* and *Alibaba Cloud*.
+Previous hosting platforms: [*Tumblr*](https://www.tumblr.com) and [*Alibaba Cloud 阿里云*](https://cn.aliyun.com)
 
 
