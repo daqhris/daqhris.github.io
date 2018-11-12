@@ -3,11 +3,16 @@
         html {
             background-color: #FFFFFF;
             color: #000000;
-            font: 100%/1.5 'Merriweather Sans', 'Avenir', 'Arial', sans-serif;
+            font: 100%/1.5 'Merriweather Sans', 'Helvetica', 'Arial', sans-serif;
         }
 
         a {
             color: #000000;
+        }
+        a:hover,
+        a:focus,
+        a:active {
+                text-decoration: underline;
         }
 
         .siteHeader {
