@@ -47,7 +47,7 @@
                 .siteNav-menuToggle{-webkit-appearance:none;-moz-appearance:none;appearance:none;background:0 0;border:0;border-radius:0;font:inherit;-webkit-font-smoothing:inherit;margin:0;outline:0}
                 .siteNav-social{list-style:none;margin:1rem 0;padding:0}
                 .siteNav-social>li{display:inline-block;margin:0 .5rem}
-                .siteFooter{padding:1rem;text-align:center;width:80%}
+                .siteFooter{padding:1rem;text-align:center;width:100%}
 
 /*! Google Fonts: Merriweather Sans (light 300) */
 <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
