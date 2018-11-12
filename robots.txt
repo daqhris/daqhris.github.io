@@ -1,6 +1,5 @@
 User-agent: *
 Disallow: /images
-Allow: /index.html
 
 User-agent: ia_archiver
 Disallow: /
