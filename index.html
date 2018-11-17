@@ -45,14 +45,21 @@
             }
             a{color:#000000
             }
+            a:hover,
+            a:focus,
+            a:active {
+                text-decoration: underline;
+            }
+
             .siteHeader{
-                border-bottom:1px solid #CCCCCC
+                border-bottom:1px solid #CCCCCC;
+                box-shadow: 2px 4px 6px 1px rgba(50, 50, 50, 0.14);
             }
             .siteHeader-title{
-                background-color:#222222
+                background-color:#222222;
             }
             .siteHeader-title a{
-                color:#fff
+                color:#fff;
             }hr{
                 display:block;
                 width:50% 50%;
@@ -68,7 +75,7 @@
                 h1{font-size:2em;margin:.67em 0}
                 small{font-size:50%}
                 img{border:0}
-                hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+                hr{-moz-box-sizing:content-box;box-sizing:content-box}
                 button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner{border:0;padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}img{max-width:100%}h1,p,ul{margin-bottom:1rem}a{text-decoration:none}ul{padding-left:1rem}
                 @media screen and (min-width:800px){ul{padding-left:0}}
                 .siteContainer{margin:0 auto;max-width:800px;padding:1rem}
@@ -139,4 +146,5 @@
     <!--Full CSS-->
     <link href="/style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet"> 
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      
