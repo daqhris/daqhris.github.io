@@ -1,8 +1,8 @@
-# `daqhris.github.io` Front-End Code
+# `daqhris.com` Front-End Code
 
 This is **Chris A. IRADUKUNDA**'s personal website [code repository](https://github.com/daqhris/daqhris.github.io).
 
-All of this [blog](https://daqhris.github.com)'s front-end code is open sourced under the [MIT License](https://github.com/daqhris/daqhris.github.io/blob/master/LICENSE.md).
+All of this [blog](https://daqhris.com/)'s front-end code is open sourced under the [MIT License](https://github.com/daqhris/daqhris.github.io/blob/master/LICENSE.md).
 
 Hosted by [GitHub Pages](https://pages.github.com/).
 
