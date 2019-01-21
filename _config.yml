@@ -1,2 +1,5 @@
-url: https://daqhris.github.io
-enforce_ssl: daqhris.github.io
+---
+url: https://daqhris.com
+enforce_ssl: daqhris.com
+permalink: /404.html
+---
