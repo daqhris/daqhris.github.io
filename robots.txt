@@ -4,4 +4,4 @@ Disallow:
 User-agent: ia_archiver
 Disallow: /
 
-Sitemap: https://daqhris.github.io/sitemap.xml
+Sitemap: https://daqhris.com/sitemap.xml
