@@ -3,7 +3,7 @@
         html {
             background-color: #FFFFFF;
             color: #000000;
-            font: 16px 'Merriweather Sans', 'Helvetica', 'Arial', sans-serif;
+            font: 16px 'Helvetica', 'Arial', sans-serif;
         }
 
         a {
@@ -62,6 +62,4 @@
                 .siteNav-social>li{display:inline-block;margin:0 .5rem}
                 .siteFooter{padding:1rem;text-align:center;width:100%}
     
-/*! Google Fonts: Merriweather Sans (regular 400) */
-<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet"> 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
