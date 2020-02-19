@@ -8,12 +8,11 @@
 	<link rel="alternate" href="https://daqhris.com/" hreflang="x-default" /> 
 	<link rel="alternate" href="https://daqhris.com/" hreflang="en-US"/> 
 	
-	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <meta content="yes" name="mobile-web-app-capable">
     <meta content="yes" name="apple-mobile-web-app-capable">
-    <meta content="1; mode=block" http-equiv="X-XSS-Protection">
-    <meta content="no-referrer" http-equiv="Referrer-Policy" name="referrer">
+    <meta content="no-referrer" http-equiv="Referrer-Policy">
 	<meta content="daqhris, chris-armel, chris iradukunda, iradukunda, burundian, actor, software engineer, cyclist" name="keywords">
 	
 	<meta content="Chris A. Iradukunda | Home" property="og:title">
@@ -57,7 +56,7 @@
                 color:#fff;
             }hr{
                 display:block;
-                width:50% 50%;
+                width:50%;
                 height:1px;
                 border:0;
                 border-top:1px solid #ccc;
@@ -89,7 +88,7 @@
 
     </head>
 
-    <body>
+    <body oncontextmenu="return false"> <!--Disabled Right-Clicks-->
         <div class="siteContainer">
 		<header class="siteHeader">
 			<h1 class="siteHeader-title">
@@ -105,7 +104,7 @@
                     <!--Online personal accounts/profiles-->
 				<ul class="siteNav-social">
 				<li>
-					<a href="mailto:info@daqhris.com" rel="noopener" target="_blank" title="Send him an e-mail?" rel="noopener"><i aria-hidden="true" class="fa fa-2x fa-envelope-o"></i></a>
+					<a href="mailto:info@daqhris.com" target="_blank" title="Send him an e-mail?" rel="noopener"><i aria-hidden="true" class="fa fa-2x fa-envelope-o"></i></a>
 					</li>
 				<li>
 					<a href="https://www.twitter.com/daqhris" target="_blank" title="Twitter Account" rel="noopener"><i aria-hidden="true" class="fa fa-2x fa-twitter"></i></a>
@@ -134,17 +133,19 @@
 				<li><a href="/portfolio-webpage-1.html" target="_blank" title="Webpage designed for hikers and travel enthusiasts">Portfolio Website ('16)</a></li>
                 <!-- <li><a href="/bagaza-bio.html" target="_blank" title="Biography of President Jean-Baptiste BAGAZA">J.B. Bagaza's Biography (2016)</a></li> -->
                 <li><a href="https://www.freecodecamp.org/daqhris/" target="_blank" title="HTML, CSS, JavaScript">freeCodeCamp Curriculum ('16)</a></li>
-                </ul> 
+                </ul>
+			</nav>
         	</header>
 		</div>
 	<footer class="siteFooter">
 		<small>(ɔ) 2010-2020 — <a href="https://github.com/daqhris/daqhris.github.io/blob/master/README.md" rel="noopener" target="_blank" title="Website's Front-End Code">Source Code</a> — <a href="https://github.com/daqhris/daqhris.github.io/blob/master/Terms.md" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy">Terms & Privacy</a></small>
         </footer>
+	    </body>
         
         <!-- /.siteContainer -->
 
     <!--Disable Right-Clicks-->
-    <body oncontextmenu="return false;"></body>
+    <body oncontextmenu="return false">
 
     <!--Full CSS-->
     <link href="/style.css" rel="stylesheet">
