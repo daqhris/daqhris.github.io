@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" class="no-js" translate="yes">
+<html lang="en-US" translate="yes">
 <head>
     <title>Chris A. Iradukunda &#124; Home</title>	
     <meta name="description" content="Welcome to Chris-Armel (&#64;daqhris) website! Find ways to contact him, browse some fine projects and satisfy your keen interest.">
@@ -46,6 +46,15 @@
                 font-family: "Noto Serif", serif;
                 src:
                     url("/style/notoserif-regular.ttf") format('truetype'); /* Safari, Android, iOS */
+
+                font-family: "FontAwesome";
+                font-weight:normal;
+                font-style:normal;
+                src:local("FontAwesome"),
+                    local("font-awesome");
+                src:url("/style/fontawesome-webfont.ttf") format('truetype'), /* Safari, Android, iOS */
+                    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff") format('woff'), /* Pretty Modern Browsers */
+                    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot") format('eot'); /* IE6+ Compat Modes */
             }
             html{
                 background-color:#FFFFFF;
@@ -94,11 +103,22 @@
                 .siteNav-social{list-style:none;margin:1rem 0;padding:1em}
                 .siteNav-social>li{display:inline-block;margin:0 .5rem;color:#000000}
                 .siteFooter{padding:1rem;text-align:center;width:100%}
+                .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+                .fa-2x{font-size:2em}
+                .fa-handshake-o:before{content:"\f2b5"}
+                .fa-male:before{content:"\f183"}
+                .fa-space-shuttle:before{content:"\f197"}
+                .fa-map-marker:before{content:"\f041"}
+                .fa-envelope-o:before{content:"\f003"}
+                .fa-twitter:before{content:"\f099"}
+                .fa-code:before{content:"\f121"}
+                .fa-picture-o:before{content:"\f03e"}
+                .fa-headphones:before{content:"\f025"}
+                .fa-book:before{content:"\f02d"}
+                .fa-id-card:before{content:"\f2c2"}
+
     </style>
 	
-	<!--Full CSS-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
-
     </head>
 
     <body oncontextmenu="return false"> <!--Disabled Right-Clicks-->
