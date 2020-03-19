@@ -33,7 +33,25 @@
     
     <!--Inline CSS-->
     <style>
-            html{background-color:#FFFFFF;color:#000000;font:18px 'Lucida Bright', serif;}
+             @font-face {
+                font-family: "Lucida Bright", Georgia, serif;
+                src: 
+                    local("Lucida Bright"),
+                    local("LucidaBright-Regular");
+                src:
+                    url("lbrite.ttf") format('truetype'), /* Safari, Android, iOS */
+                    url('lbrite.woff') format('woff'), /* Pretty Modern Browsers */
+                    url("/style/lucida.ttf") format('truetype'); /* Safari, Android, iOS */
+
+                font-family: "Noto Serif", serif;
+                src:
+                    url("/style/notoserif-regular.ttf") format('truetype'); /* Safari, Android, iOS */
+            }
+            html{
+                background-color:#FFFFFF;
+                color:#000000;
+                font:16px "Lucida Bright", "Noto Serif", serif;
+                }
             a{color:#000000}
             a:hover,
             a:focus,
@@ -51,7 +69,7 @@
                 margin:1em auto;
                 padding:0
             }
-                html{font-family: 'Lucida Bright', 'Merriweather', serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+                html{font-family: "Lucida Bright", "Noto Serif", serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
                 body{margin:0}footer,header,nav{display:block}
                 a{background-color:transparent}b{font-weight:400}
                 h1{font-size:2em;margin:.67em 0}
@@ -72,8 +90,7 @@
                 .siteHeader-description-name{display:inline-block;font-weight:bold}
                 .siteProjects{display:inline-block;font-weight:bold}
                 .siteNav-pages{list-style:none;padding:0}
-                .siteNav-pages>li{display:block;padding:2px;color:#000000}
-                .siteNav-menuToggle{-webkit-appearance:none;-moz-appearance:none;appearance:none;background:0 0;border:0;border-radius:0;font:inherit;-webkit-font-smoothing:inherit;margin:0;outline:0}
+                .siteNav-pages>li{display:block;padding:1px;color:#000000}
                 .siteNav-social{list-style:none;margin:1rem 0;padding:1em}
                 .siteNav-social>li{display:inline-block;margin:0 .5rem;color:#000000}
                 .siteFooter{padding:1rem;text-align:center;width:100%}
