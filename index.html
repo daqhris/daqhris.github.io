@@ -32,20 +32,21 @@
     <link href="/images/white-background.png" rel="apple-touch-icon"> 
     
     <!--Inline CSS-->
-    <style>
+    <style type="text/css">
              @font-face {
-                font-family: "Lucida Bright", Georgia, serif;
+                font-family: "Lucida Bright", serif;
+                font-weight:normal;
                 src: 
-                    local("Lucida Bright"),
-                    local("LucidaBright-Regular");
+                    local('Lucida Bright'),
+                    local('LucidaBright');
                 src:
-                    url("lbrite.ttf") format('truetype'), /* Safari, Android, iOS */
-                    url('lbrite.woff') format('woff'), /* Pretty Modern Browsers */
-                    url("/style/lucida.ttf") format('truetype'); /* Safari, Android, iOS */
+                    url("/style/lbrite.ttf") format('truetype'); /* Safari, Android, iOS */
 
-                font-family: "Noto Serif", serif;
-                src:
-                    url("/style/notoserif-regular.ttf") format('truetype'); /* Safari, Android, iOS */
+                font-family: 'Noto-Serif', serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size:large;
+                src:url("/style/notoserif-regular.ttf") format('truetype'); /* Safari, Android, iOS */
 
                 font-family: "FontAwesome";
                 font-weight:normal;
@@ -59,7 +60,7 @@
             html{
                 background-color:#FFFFFF;
                 color:#000000;
-                font:16px "Lucida Bright", "Noto Serif", serif;
+                font:16px "Lucida Bright", 'Noto-Serif', serif;
                 }
             a{color:#000000}
             a:hover,
