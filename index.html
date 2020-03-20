@@ -32,7 +32,7 @@
     <link href="/images/white-background.png" rel="apple-touch-icon"> 
     
     <!--Inline CSS-->
-    <style type="text/css">
+    <style>
              @font-face {
                 font-family: "Lucida Bright", serif;
                 font-weight:normal;
@@ -45,7 +45,6 @@
                 font-family: 'Noto-Serif', serif;
                 font-style: normal;
                 font-weight: normal;
-                font-size:large;
                 src:url("/style/notoserif-regular.ttf") format('truetype'); /* Safari, Android, iOS */
 
                 font-family: "FontAwesome";
@@ -65,7 +64,7 @@
             a{color:#000000}
             a:hover,
             a:focus,
-            a:active {text-decoration: underline;}
+            a:active {text-decoration: underline}
             .siteHeader{border-bottom:1px solid #CCCCCC;
                         box-shadow: 2px 4px 6px 1px rgba(50, 50, 50, 0.14);}
             .siteHeader-title{background-color:#000000;}
@@ -79,17 +78,18 @@
                 margin:1em auto;
                 padding:0
             }
-                html{font-family: "Lucida Bright", "Noto Serif", serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+                html{font-family: "Lucida Bright", "Noto-Serif", serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
                 body{margin:0}footer,header,nav{display:block}
                 a{background-color:transparent}b{font-weight:400}
                 h1{font-size:2em;margin:.67em 0}
                 h2{font-size:1em;margin:.67em 0}
+                p{font:18px "Noto-Serif"}
                 small{font-size:60%}
                 img{border:0}
                 hr{-moz-box-sizing:content-box;box-sizing:content-box}
                 button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner{border:0;padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
                 img{max-width:100%}
-                h1,p,ul{margin-bottom:1rem}
+                h1,p,ul{margin-bottom:.5rem}
                 a{text-decoration:none}
                 ul{padding-left:1rem}
                 @media screen and (min-width:800px){ul{padding-left:0}}
@@ -138,8 +138,8 @@
 			<section aria-label="Short Personal Description">
                 <p><i class="fa fa-male" aria-hidden="true" title="Description"></i>&#160;African <a href="https://en.wikipedia.org/wiki/Computer_engineering" title="What is Computer Engineering?" target="_blank" rel="noopener">computer engineer</a> trained in <a href="https://www.openstreetmap.org/relation/912940" title="Where is this on Earth?" target="_blank" rel="noopener">Beijing (China)</a> <br>with an entrepreneurial mindset and a gusto for sustainable transport.<br>
 			        <i class="fa fa-space-shuttle" aria-hidden="true" title="Achievement"></i>&#160;Formerly: Actor & Recruiting Manager in the Chinese film industry.<br>
-                    <i class="fa fa-map-marker" aria-hidden="true" title="Location"></i>&#160;<a href="https://www.openstreetmap.org/relation/52411" title="Where is this on Earth?" target="_blank" rel="noopener" class="siteHeader-description-name">Belgium, Europe</a>
-                </p></section><hr>
+                    <i class="fa fa-map-marker" aria-hidden="true" title="Location"></i>&#160;<a href="https://www.openstreetmap.org/relation/52411" title="Where is that?" target="_blank" rel="noopener">Belgium, Europe</a>&#x2024;</p>
+                </section><hr>
         	<section class="siteNav" aria-label="Web Presence and Contact Methods"><!--Online personal accounts/profiles-->
 				<ul class="siteNav-social">
 				<li>
@@ -170,7 +170,7 @@
             </section><hr>
                 <nav aria-label="Public Projects List">
                 <strong class="siteProjects">Open-Source Projects:</strong>
-				    <ul class="siteNav-pages">
+				<ul class="siteNav-pages">
                     <li><a href="/all.day.walking.html" target="_blank" title="'A WALK≡A DAY' online photo gallery">"A WALK≡A DAY" Photo Gallery ('17)</a></li>
 				    <li><a href="/portfolio-webpage-1.html" target="_blank" title="Webpage designed for hikers and travel enthusiasts">Website Design Template ('16)</a></li>
                     <li><a href="https://www.freecodecamp.org/daqhris/" target="_blank" title="Coding in HTML, CSS, JavaScript">freeCodeCamp Curriculum ('16)</a></li>
