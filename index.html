@@ -60,7 +60,7 @@
             a:focus,
             a:active {text-decoration: underline;color:#007fff}
             .siteHeader{border-bottom:1px solid #CCCCCC;
-                        box-shadow: 2px 4px 6px 1px rgba(50, 50, 50, 0.14);}
+                        box-shadow: 4px 8px 12px 2px rgba(50, 50, 50, 0.14);}
             .siteHeader-title{background-color:#000000;}
             .siteHeader-title a{color:#fff;}
             hr{
@@ -111,7 +111,8 @@
                 .fa-headphones:before{content:"\f025"}
                 .fa-book:before{content:"\f02d"}
                 .fa-id-card:before{content:"\f2c2"}
-
+                .button{border: none;background-color: white;display: inline-block;cursor: pointer;box-shadow: 0 2px 5px 0 #ccc;padding: 10px;border-radius: 2px}
+                .text-link{color: #696969}/*Colored links('dim gray')*/
     </style>
 	
     </head>
@@ -130,50 +131,50 @@
                 <h2><i aria-hidden="true" class="fa fa-id-card" title="Profile"></i>&#160;<a href="https://en.wikipedia.org/wiki/Burundi" target="_blank" title="Country: Burundi — Wikipedia" rel="noopener">Burundian</a> &mdash; Entrepreneur &mdash; Software Engineer</h2>
 			</nav><hr>
 			<section aria-label="Short Personal Description">
-                <div class="siteDescription"><i class="fa fa-male" aria-hidden="true" title="Description"></i>&#160;I'm an African <a href="https://en.wikipedia.org/wiki/Computer_engineering" title="What is Computer Engineering?" target="_blank" rel="noopener">computer engineer</a> trained in <a href="https://www.openstreetmap.org/relation/912940" title="Where is this on Earth?" target="_blank" rel="noopener">Beijing (China)</a> <br>with an entrepreneurial mindset and a gusto for <a href="https://sustainabledevelopment.un.org/topics/sustainabletransport" title="What is Sustainable Transport?" target="_blank" rel="noopener">sustainable transport</a>.</div>
+                <div class="siteDescription"><i class="fa fa-male" aria-hidden="true" title="Description"></i>&#160;I'm an African <a href="https://en.wikipedia.org/wiki/Computer_engineering" title="What is Computer Engineering?" target="_blank" rel="noopener" class="text-link">computer engineer</a> trained in <a href="https://www.openstreetmap.org/relation/912940" title="Where is this on Earth?" target="_blank" rel="noopener" class="text-link">Beijing (China)</a> <br>with an entrepreneurial mindset and a gusto for <a href="https://sustainabledevelopment.un.org/topics/sustainabletransport" title="What is Sustainable Transport?" target="_blank" rel="noopener" class="text-link">sustainable transport</a>.</div>
 			        <div class="siteDescription"><i class="fa fa-space-shuttle" aria-hidden="true" title="Achievement"></i>&#160;<em>Formerly:</em> Actor & Recruiting Manager in the Chinese film industry.</div>
-                    <div class="siteDescription"><i class="fa fa-map-marker" aria-hidden="true" title="Location"></i>&#160;<a href="https://www.openstreetmap.org/relation/52411" title="Where is that?" target="_blank" rel="noopener">Belgium, Europe</a>&#46;</div>
+                    <div class="siteDescription"><i class="fa fa-map-marker" aria-hidden="true" title="Location"></i>&#160;<a href="https://www.openstreetmap.org/relation/52411" title="Where is that?" target="_blank" rel="noopener" class="text-link">Belgium, Europe</a>&#46;</div>
                 </section><hr>
         	<section class="siteNav" aria-label="Web Presence and Contact Methods"><!--Online personal accounts/profiles-->
 				<ul class="siteNav-social">
 				<li>
-					<a role="button" href="mailto:info@daqhris.com" target="_blank" title="Contact by E-Mail" aria-label="electronic mail address" rel="noopener">
-                        <i class="fa fa-2x fa-envelope-o"></i></a>
+					<button class="button"><a role="button" href="mailto:info@daqhris.com" target="_blank" title="Contact by E-Mail" aria-label="electronic mail address" rel="noopener">
+                        <i class="fa fa-2x fa-envelope-o"></i></a></button>
 				</li>
 				<li>
-                    <a role="button" href="https://www.twitter.com/daqhris" target="_blank" title="Public Tweets and Retweets" aria-label="microblogging on Twitter" rel="noopener">
-                        <i class="fa fa-2x fa-twitter"></i></a>
+                    <button class="button"><a role="button" href="https://www.twitter.com/daqhris" target="_blank" title="Public Tweets and Retweets" aria-label="microblogging on Twitter" rel="noopener">
+                        <i class="fa fa-2x fa-twitter"></i></a></button>
 				</li>
 				<li>
-                    <a role="button" href="https://github.com/daqhris" target="_blank" title="Open-source Software Projects" aria-label="code snippets on GitHub" rel="noopener">
-                        <i  class="fa fa-2x fa-code"></i></a>
+                    <button class="button"><a role="button" href="https://github.com/daqhris" target="_blank" title="Open-source Software Projects" aria-label="code snippets on GitHub" rel="noopener">
+                        <i  class="fa fa-2x fa-code"></i></a></button>
                 </li>
 		        <li>
-                <a role="button" href="https://www.instagram.com/iamdaqhris/" title="Online Visuals" target="_blank" aria-label="pictures and illustrations on Instagram" rel="noopener">
-                    <i class="fa fa-2x fa-picture-o"></i></a>
+                <button class="button"><a role="button" href="https://www.instagram.com/iamdaqhris/" title="Online Visuals" target="_blank" aria-label="pictures and illustrations on Instagram" rel="noopener">
+                    <i class="fa fa-2x fa-picture-o"></i></a></button>
 		        </li>
                 <li> 				
-                    <a role="button" href="https://soundcloud.com/2x11" title="Curated Audio Stream" target="_blank" aria-label="listen to favourite sounds on Soundcloud" rel="noopener">
-                        <i class="fa fa-2x fa-headphones"></i></a>
+                    <button class="button"><a role="button" href="https://soundcloud.com/2x11" title="Curated Audio Stream" target="_blank" aria-label="listen to favourite sounds on Soundcloud" rel="noopener">
+                        <i class="fa fa-2x fa-headphones"></i></a></button>
 				</li> 			
 		        <li> 				
-                    <a role="button" href="https://www.goodreads.com/11x2" title="Reading Books" target="_blank" aria-label="list of collected books on Goodreads" rel="noopener">
-                        <i class="fa fa-2x fa-book"></i></a>
+                    <button class="button"><a role="button" href="https://www.goodreads.com/11x2" title="Reading Books" target="_blank" aria-label="list of collected books on Goodreads" rel="noopener">
+                        <i class="fa fa-2x fa-book"></i></a></button>
 				</li>
                 </ul>
             </section><hr>
                 <nav aria-label="Public Projects List">
                 <strong class="siteProjects">Open-Source Projects:</strong>
 				<ul class="siteNav-pages">
-                    <li><a href="/awalkaday.html" target="_blank" title="'A WALK≡A DAY' online photo gallery" rel=”noopener”>"A WALK≡A DAY" Photo Gallery ('17)</a></li>
-				    <li><a href="/portfolio-webpage-1.html" target="_blank" title="Webpage designed for hikers and travel enthusiasts" rel=”noopener”>Website Design Template ('16)</a></li>
-                    <li><a href="https://www.freecodecamp.org/daqhris/" target="_blank" title="Coding in HTML, CSS, JavaScript" rel=”noopener”>freeCodeCamp Curriculum ('16)</a></li>
+                    <li>&#10170; <a href="/awalkaday.html" target="_blank" title="'A WALK≡A DAY' online photo gallery" rel=”noopener” class="text-link">"A WALK≡A DAY" Photo Gallery ('17)</a></li>
+				    <li>&#10170; <a href="/portfolio-webpage-1.html" target="_blank" title="Webpage designed for hikers and travel enthusiasts" rel=”noopener” class="text-link">Website Design Template ('16)</a></li>
+                    <li>&#10170; <a href="https://www.freecodecamp.org/daqhris/" target="_blank" title="Coding in HTML, CSS, JavaScript" rel=”noopener” class="text-link">freeCodeCamp Curriculum ('16)</a></li>
                 </ul>
             </nav>
         	</header>
 		</div> <!-- /.siteContainer -->
 	        <footer class="siteFooter">
-		        <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io" rel="noopener" target="_blank" title="Website's Front-End Code">Source Code</a> &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/Terms.md" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy">Terms &#38; Privacy</a> &mdash; <a href="/about.html" title="Personal Info + Curriculum Vitae">About + Bio</a></small>
+		        <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io" rel="noopener" target="_blank" title="Website's Front-End Code">Source Code</a> &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/Terms.md" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy">Terms &#38; Privacy</a> &mdash; <a href="/about.html" title="Personal Info + Curriculum Vitae"><strong>About + Bio</strong></a></small>
             </footer>
         </body>
         </html>
