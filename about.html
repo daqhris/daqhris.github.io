@@ -55,7 +55,7 @@
         html{
             background-color:#FFFFFF;
             color:#000000;
-            font:100%/1.5 "Lucida Bright",'Noto-Serif', serif;
+            font:75%/1.5 "Lucida Bright",'Noto-Serif', serif;
             -ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;
             -webkit-font-smoothing: antialiased;
             }
@@ -71,35 +71,30 @@
         .siteHeader{
             border-bottom:1px solid #CCCCCC
             }
-        hr{
-            display:block;
-            width:100%;
-            height:1px;
-            border:0;
-            border-top:1px solid #ccc;
-            margin:1em auto;
-            padding:0
-            }
         body{margin:0}footer,header,nav{display:block}
         a{background-color:transparent}
         b{font-weight:700}
         h1{font-size:3em;margin:.67em 0}
-        small{font-size:70%}
         hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
         button{color:inherit;font:inherit;margin:0}button{overflow:visible}
         button{text-transform:none}button{-webkit-appearance:button}
         button::-moz-focus-inner{border:0;padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
         h1,p,ul{margin-bottom:1rem}
         a{text-decoration:none}
-        li,section{font-family:"Lucida Bright";padding:3px}
-        nav{font-family:'Noto-Serif';font-size:16px}
+        li{font-family:"Lucida Bright";padding:3px}
+        section{font-family:"Noto-Serif";padding:1rem;font-size:1.5em}
+        nav{font-family:'Noto-Serif';font-size:15px;padding:2rem;
+            border-bottom:1px solid #CCCCCC;
+            box-shadow: 4px 8px 12px 2px rgba(50, 50, 50, 0.14);}
         ul{padding-left:1rem;list-style-type:none}
         em{font-size:14px}
 		img{float: right;}
-        @media screen and (min-width:600px){ul{padding-left:0}}
-        .siteContainer{margin:0 auto;max-width:600px;padding:1rem}
-        .siteHeader{text-align:center;padding:1rem 0}
-        .siteFooter{padding:0;text-align:center;width:100%;margin-bottom:.5rem}
+        @media screen and (min-width:800px){ul{padding-left:0}}
+        .siteContainer{margin:1rem auto;max-width:600px;padding:1rem}
+        .siteHeader{text-align:center;padding:1rem .5rem;}
+        .siteFooter{padding:1em;text-align:center;width:100%;margin-bottom:1rem}
+        .text-link{color: #696969}/*Colored links('dim gray')*/
+        small{font-size:100%;font-family:"Noto-Serif"}
 
         #profile{font-family:"Lucida Bright"}
         #education{font-family:"Lucida Bright"}
@@ -114,10 +109,10 @@
         <div class="siteContainer">
             <header class="siteHeader">
                     <h1><a href="/about.html">about &#43; bio</a></h1>
-                    <section aria-label="Content Summary"><a href="#profile">profile</a> &mdash; <a href="#education">education</a> &mdash; <a href="#work">past work</a> &mdash; <a href="#social">social life</a> &mdash; <a href="#skills">applied skills</a></section>
+                    <section aria-label="Content Summary"><a href="#profile"><u>profile</u></a> &mdash; <a href="#education"><u>education</u></a> &mdash; <a href="#work"><u>past work</u></a> &mdash; <a href="#social"><u>social life</u></a> &mdash; <a href="#skills"><u>applied skills</u></a></section>
                 </header>
+                <nav aria-label="Brief presentation">
                     <h2 id="profile">Basic Info</h2>
-                    <nav aria-label="Brief presentation">
 						<picture>
 							<source media="(min-width: 800px)" srcset="/images/daqhris-qrcode1.png">
 							<img src="/images/daqhris-qrcode2.png" alt="QR Code (barcode to scan with smartphones)" width="150" height="150">
@@ -126,49 +121,56 @@
                         <li><em>Full Name:</em> <span translate="no">Chris-Armel IRADUKUNDA</span></li>
                         <li><em>Online Handle:</em> <span translate="no">daqhris</span></li>
                         <li><em>Birth Year:</em> 1992</li>
-                        <li><em>Nationality:</em> <a href="https://www.openstreetmap.org/relation/195269" rel="noopener" target="_blank" title="Where is Burundi?">Burundian</a></li>
+                        <li><em>Nationality:</em> <a href="https://www.openstreetmap.org/relation/195269" rel="noopener" target="_blank" title="Where is Burundi?" class="text-link">Burundian</a></li>
                     </ul>
 				</nav>
     
+                <nav aria-label="Schools and Universities">    
                     <h2 id="education">Formal Education</h2>
-                    <nav aria-label="Schools and Universities"><ul>
-                        <li><em>2019:</em> <a href="https://cvo.tsmmechelen.be/cvo/nt2_en" rel="noopener" target="_blank" title="Technische Scholen Mechelen - Nederlands voor anderstaligen (NT2)" lang="nl">CVO TSM Mechelen</a> - Campus Merode (België)</li>
-                        <li><em>2017:</em> <a href="https://en.wikipedia.org/wiki/Universit%C3%A9_de_Namur" rel="noopener" target="_blank" title="University of Namur (Belgium)" lang="fr">Université de Namur</a> (Belgique) - <a href="https://www.unamur.be/en/inf" rel="noopener" target="_blank" title="Faculté d'Informatique (UNamur)">Faculty of Computer Science</a></li>
-                        <li><em>2013-2016:</em> <a href="https://en.wikipedia.org/wiki/University_of_Science_and_Technology_Beijing" rel="noopener" target="_blank" title="北京科技大学">University of Science and Technology Beijing</a> (China) - <a href="https://scce.ustb.edu.cn/" rel="noopener" target="_blank" title="计算机与通信工程学院">School of Computer and Communication Engineering</a></li>
-                        <li><em>2012-2013:</em> <a href="https://en.wikipedia.org/wiki/Tianjin_University" title="天津大学">Tianjin University</a> (China) - <a href="http://sie.tju.edu.cn/" rel="noopener" target="_blank" title="汉语言进修和预科班 - 国际教育学院">School of International Education</a></li>
-                        <li><em>2005-2011:</em> <a href="https://fr.wikipedia.org/wiki/Lyc%C3%A9e_du_Saint-Esprit" rel="noopener" target="_blank" title="High School" lang="fr">Lycée du Saint-Esprit</a> (Burundi) - Scientific A Section (Maths & Physics)</li>
+                    <ul>
+                        <li><em>2019:</em> <a href="https://cvo.tsmmechelen.be/cvo/nt2_en" rel="noopener" target="_blank" title="Technische Scholen Mechelen - Nederlands voor anderstaligen (NT2)" lang="nl" class="text-link">CVO TSM Mechelen</a> - Campus Merode (België)</li>
+                        <li><em>2017:</em> <a href="https://en.wikipedia.org/wiki/Universit%C3%A9_de_Namur" rel="noopener" target="_blank" title="University of Namur (Belgium)" lang="fr" class="text-link">Université de Namur</a> (Belgique) - <a href="https://www.unamur.be/en/inf" rel="noopener" target="_blank" title="Faculté d'Informatique (UNamur)" class="text-link">Faculty of Computer Science</a></li>
+                        <li><em>2013-2016:</em> <a href="https://en.wikipedia.org/wiki/University_of_Science_and_Technology_Beijing" rel="noopener" target="_blank" title="北京科技大学" class="text-link">University of Science and Technology Beijing</a> (China) - <a href="https://scce.ustb.edu.cn/" rel="noopener" target="_blank" title="计算机与通信工程学院" class="text-link">School of Computer and Communication Engineering</a></li>
+                        <li><em>2012-2013:</em> <a href="https://en.wikipedia.org/wiki/Tianjin_University" title="天津大学" class="text-link">Tianjin University</a> (China) - <a href="http://sie.tju.edu.cn/" rel="noopener" target="_blank" title="汉语言进修和预科班 - 国际教育学院" class="text-link">School of International Education</a></li>
+                        <li><em>2005-2011:</em> <a href="https://fr.wikipedia.org/wiki/Lyc%C3%A9e_du_Saint-Esprit" rel="noopener" target="_blank" title="High School" lang="fr" class="text-link">Lycée du Saint-Esprit</a> (Burundi) - Scientific A Section (Maths & Physics)</li>
                         <li><em>1999-2005:</em> <span lang="fr">École Primaire Stella Matutina</span> (Burundi)</li>
                     </ul></nav>
     
-                    <h2 id="work">Work Experience</h2>
-                        <nav aria-label="Overview of select work functions and locations"><ul>
+                    
+                    <nav aria-label="Overview of select work functions and locations">
+                        <h2 id="work">Work Experience</h2>
+                        <ul>
                             <li><em>Autumn 2019:</em> Warehouse worker at a second-hand garments exporter in Beveren, Antwerp.</li>
-                            <li><em>Summer 2019:</em> Tour maker for <a href="https://www.brusselsgranddepart.com/letour/en/" rel="noopener" target="_blank"><i>Brussels Grand Départ 2019</i></a>: <a href="https://www.bxltour.be/" rel="noopener" target="_blank" title="Third edition of the BXL TOUR: 40 km of bike ride through the streets of the capital (June 16, 2019)">BXL Tour</a>, <a href="https://ecmc2019.com/" rel="noopener" target="_blank" title="ECMC 2019 - 26 to 30 June 2019 - Brussels, Belgium">European Cycle Messenger Championship</a> and <a href="https://www.letour.fr/en/grand-depart-2019" rel="noopener" target="_blank" title="Brussels Grand Départ, July 6-7 2019">Tour de France 2019</a>.</li>
-                            <li><em>Winter 2017-Spring 2018:</em> Bicycle mechanic and <a href="https://www.canalc.be/seconde-vie-pour-des-velos-en-bout-de-course/" rel="noopener" target="_blank">all-round volunteer in a bike workshop</a> at a <a href="https://accueil-migration.croix-rouge.be/" rel="noopener" target="_blank" title="Aide aux demandeur(e)s d'asile - Croix-Rouge de Belgique"><i>Red Cross</i> refugee center</a> in Namur (Belgium).</li>
+                            <li><em>Summer 2019:</em> Tour maker for <a href="https://www.brusselsgranddepart.com/letour/en/" rel="noopener" target="_blank" class="text-link"><i>Brussels Grand Départ 2019</i></a>: <a href="https://www.bxltour.be/" rel="noopener" target="_blank" title="Third edition of the BXL TOUR: 40 km of bike ride through the streets of the capital (June 16, 2019)" class="text-link">BXL Tour</a>, <a href="https://ecmc2019.com/" rel="noopener" target="_blank" title="ECMC 2019 - 26 to 30 June 2019 - Brussels, Belgium" class="text-link">European Cycle Messenger Championship</a> and <a href="https://www.letour.fr/en/grand-depart-2019" rel="noopener" target="_blank" title="Brussels Grand Départ, July 6-7 2019" class="text-link">Tour de France 2019</a>.</li>
+                            <li><em>Winter 2017-Spring 2018:</em> Bicycle mechanic and <a href="https://www.canalc.be/seconde-vie-pour-des-velos-en-bout-de-course/" rel="noopener" target="_blank" class="text-link">all-round volunteer in a bike workshop</a> at a <a href="https://accueil-migration.croix-rouge.be/" rel="noopener" target="_blank" title="Aide aux demandeur(e)s d'asile - Croix-Rouge de Belgique" class="text-link"><i>Red Cross</i> refugee center</a> in Namur (Belgium).</li>
                             <li><em>Summer-Autumn 2016:</em> Web developer in Mohandessin, Cairo (Egypt).</li>
-                            <li><em>2015-2016:</em> Foreign talent recruiter and manager for Chinese blockbuster movies (<a href="https://www.imdb.com/title/tt6015706" rel="noopener" target="_blank"><i>China Salesman</i></a>, <a href="https://www.imdb.com/title/tt7131870" rel="noopener" target="_blank"><i>Wolf Warrior 2</i></a>, <a href="https://www.imdb.com/title/tt6177592/" rel="noopener" target="_blank"><i>My War</i></a>).</li>
+                            <li><em>2015-2016:</em> Foreign talent recruiter and manager for Chinese blockbuster movies (<a href="https://www.imdb.com/title/tt6015706" rel="noopener" target="_blank" class="text-link"><i>China Salesman</i></a>, <a href="https://www.imdb.com/title/tt7131870" rel="noopener" target="_blank" class="text-link"><i>Wolf Warrior 2</i></a>, <a href="https://www.imdb.com/title/tt6177592/" rel="noopener" target="_blank" class="text-link"><i>My War</i></a>).</li>
                             <li><em>2014-2015:</em> Male fashion model and movie actor in Beijing (China).</li>
                         </ul></nav>
-                    <h2 id="social">Social Commitment</h2>
-                        <nav aria-label="Interesting social activities that he led or participated in"><ul>
-                            <li>Cub leader in the <a href="https://en.wikipedia.org/wiki/Scouting" rel="noopener" target="_blank" title="Scouting movement - Wikipedia">Scout movement</a> as part of the <i>Charles de Foucauld Unit</i> in Rohero (Bujumbura).</li>
-                            <li>Editor-in-chief, online content manager and fund-raiser of the high school magazine <a href="https://twitter.com/AKANUMAjournal" title="Periodical students magazine at Lycée du Saint-Esprit"><i>Akanuma Journal</i></a>.</li>
+
+                    <nav aria-label="Interesting social activities that he led or participated in">
+                        <h2 id="social">Social Commitment</h2>
+                        <ul>
+                            <li>Cub leader in the <a href="https://en.wikipedia.org/wiki/Scouting" rel="noopener" target="_blank" title="Scouting movement - Wikipedia" class="text-link">Scout movement</a> as part of the <i>Charles de Foucauld Unit</i> in Rohero (Bujumbura).</li>
+                            <li>Editor-in-chief, online content manager and fund-raiser of the high school magazine <a href="https://twitter.com/AKANUMAjournal" title="Periodical students magazine at Lycée du Saint-Esprit" class="text-link"><i>Akanuma Journal</i></a>.</li>
                             <li>Recipient of the <i>Best Devotion to School Award</i> in 2012 and Grantee of a full-ride scholarship to China in 2013.</li>
                             <li>Ardent member of the <i>AEBUP</i> (Association of Burundian Students in Beijing) and Promoter of cultural events in the African diaspora.</li>
-                            <li>Mechanic renovator of bikes allocated to <a href="https://www.amnesty.org.au/refugee-and-an-asylum-seeker-difference/" rel="noopener" target="_blank" title="What is 'asylum seeker' or 'refugee'?">asylum seekers</a> within the framework of <a href="http://www.collectifcsnamur.be/" rel="noopener" target="_blank" lang="fr" title="Local citizen initiative for helping refugees"><i>Collectif Citoyens Solidaires</i></a> (Namur).</li>
+                            <li>Mechanic renovator of bikes allocated to <a href="https://www.amnesty.org.au/refugee-and-an-asylum-seeker-difference/" rel="noopener" target="_blank" title="What is 'asylum seeker' or 'refugee'?" class="text-link">asylum seekers</a> within the framework of <a href="http://www.collectifcsnamur.be/" rel="noopener" target="_blank" lang="fr" title="Local citizen initiative for helping refugees" class="text-link"><i>Collectif Citoyens Solidaires</i></a> (Namur).</li>
                         </ul></nav>
-                    <h2 id="skills">Technical Abilities</h2>
-                        <nav aria-label="Noteworthy skills"><ul>
+
+                    
+                    <nav aria-label="Noteworthy skills">
+                        <ul>
+                            <h2 id="skills">Technical Abilities</h2>
                             <li><em>Languages:</em> Kirundi, <span lang="fr">Français</span>, English and <span lang="zh">中文</span> (<span lang="sw">Swahili</span>, <span lang="ar">عربى</span> and <span lang="nl">Nederlands</span>)</li>
                             <li><em>Coding:</em> HTML, CSS, JavaScript, Python, C</li>
                             <li><em>Operating Systems:</em> MS Windows, Linux (Ubuntu), Android</li>
                             <li><em>Sports:</em> Cycling, Swimming, Basketball, Football</li>
                             <li><em>Hobbies:</em> Photography, Reading, FinTech</li>
                             </ul></nav>
-                <hr>
-        <footer class="siteFooter">
-                        <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/README.md" rel="noopener" target="_blank" title="Website's Front-End Code">Source Code</a> &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/Terms.md" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy">Terms & Privacy</a> &mdash; <a href="/" title="Back to Homepage">Home</a></small>	
-                        </footer>
                         </div>
+        <footer class="siteFooter">
+                        <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/README.md" rel="noopener" target="_blank" title="Website's Front-End Code"><u>Source Code</u></a> &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/Terms.md" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy"><u>Terms & Privacy</u></a> &mdash; <a href="/" title="Back to Homepage"><u>Home</u></a></small>	
+                        </footer>
     </body>
 </html>
