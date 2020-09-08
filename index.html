@@ -53,51 +53,49 @@
             html{
                 background-color:#FFFFFF;
                 color:#000000;
-                font:16px "Lucida Bright", 'Noto-Serif', serif;
+                font:1em "Lucida Bright", 'Noto-Serif', serif;
                 }
             a{color:#000000}
             a:hover,
             a:focus,
             a:active {text-decoration: underline;color:#007fff}
-            .siteHeader{border-bottom:1px solid #CCCCCC;
-                        box-shadow: 4px 8px 12px 2px rgba(50, 50, 50, 0.14);}
+            .siteHeader{border-bottom:.0625em solid #CCCCCC;
+                        box-shadow: .25em .5em .75em .125em rgba(50, 50, 50, 0.14);}
             .siteHeader-title{background-color:#000000;}
             .siteHeader-title a{color:#fff;}
             hr{
                 display:block;
                 width:50%;
-                height:1px;
+                height:.0625em;
                 border:0;
-                border-top:1px solid #ccc;
+                border-top:.0625em solid #ccc;
                 margin:1em auto;
                 padding:0
             }
                 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing: antialiased;}
-                body{margin:0}footer,header,nav{display:block}
+                body{margin:1em;padding:1em}footer,header,nav{display:block}
                 a{background-color:transparent}b{font-weight:400}
-                h1{font-size:1rem;margin:.67em 0;font-family: "Lucida Bright"}
-                h2{font-size:14px;margin:.67em 0;font-family: "Lucida Bright"}
-                section{font-size:14px}
+                h1{font-size:1em;margin:.67em 0;font-family: "Lucida Bright"}
+                h2{font-size:.875em;margin:.67em 0;font-family: "Lucida Bright"}
+                section{font-size:.875em}
                 small{font-size:60%;font-family:"Noto-Serif"}
                 hr{-moz-box-sizing:content-box;box-sizing:content-box}
                 button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner{border:0;padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-                h1,ul{margin-bottom:.5rem}
+                h1,ul{margin-bottom:.5em}
                 a{text-decoration:none}
-                ul{padding-left:1rem}
-                @media screen and (min-width:800px){ul{padding-left:0}}
-                .siteContainer{margin:0 auto;max-width:800px;padding:1.5rem}
-                .siteHeader{text-align:center;padding:1rem}
-                .siteHeader-title{border-radius:2px;display:inline-block;font-size:1.2rem;line-height:2rem;padding:.25rem .75rem}
-                .siteHeader-description{font-size:12px;font-style:normal;margin:1rem 1rem}
-                .siteHeader-description-name{display:inline-block;font-weight:bold;font-size:13px;font-family: "Lucida Bright"}
-                .siteDescription{font-size:14px;padding:2px}
-                .siteProjects{display:inline-block;font-family:"Lucida Bright";font-weight:bold;font-size:12px}
-                .siteNav-pages{list-style:none;padding:0;font-family:"Lucida Bright";font-size:13px}
-                .siteNav-pages>li{display:block;padding:.8px;color:#000000}
-                .siteNav-social{list-style:none;margin:1rem 0;padding:0}
-                .siteNav-social>li{display:inline-block;margin:.5rem .5rem;color:#000000}
+                .siteContainer{margin:.25em;padding:.5em}
+                .siteHeader{text-align:center;padding:1em}
+                .siteHeader-title{border-radius:.125em;display:inline-block;line-height:2em;padding:.25em .75em}
+                .siteHeader-description{font-size:.75em;font-style:normal;margin:1em 1em}
+                .siteHeader-description-name{display:inline-block;font-weight:bold}
+                .siteDescription{font-size:.875em;padding:.125em}
+                .siteProjects{display:inline-block;font-family:"Lucida Bright";font-weight:bold;font-size:.75em}
+                .siteNav-pages{list-style:none;padding:0;font-family:"Lucida Bright";font-size:.8125em}
+                .siteNav-pages>li{display:block;padding:.05em;color:#000000}
+                .siteNav-social{list-style:none;margin:1em 0;padding:0}
+                .siteNav-social>li{display:inline-block;margin:.5em .5em;color:#000000}
                 .siteFooter{padding:0;text-align:center;width:100%;margin-bottom:1em}
-                .fa{display:inline-block;font:normal normal normal 14px/1 "FontAwesome";font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+                .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
                 .fa-2x{font-size:2em}
                 .fa-handshake-o:before{content:"\f2b5"}
                 .fa-male:before{content:"\f183"}
@@ -110,8 +108,59 @@
                 .fa-headphones:before{content:"\f025"}
                 .fa-book:before{content:"\f02d"}
                 .fa-id-card:before{content:"\f2c2"}
-                .button{border: none;background-color: white;display: inline-block;cursor: pointer;box-shadow: 0 2px 5px 0 #ccc;padding: 10px;border-radius: 2px}
+                .button{border: none;background-color: white;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em}
                 .text-link{color: #696969}/*Colored links('dim gray')*/
+
+                /*Small screen*/
+                @media (max-width: 425px) {
+                    body {
+                        font-size: .875em; /*12px*/
+                    } 
+                }
+                /*Mobile screen*/
+                @media (min-width: 425px) {
+                    body {
+                        font-size: 1em; /*16px*/
+                    } 
+                }
+                /*Tablet screen*/
+                @media (min-width: 768px) {
+                    body {
+                        font-size: 1.25em; /*20px*/
+                    }
+                }
+                /*Laptop screen*/
+                @media (min-width: 1024px) {
+                    body {
+                        font-size: 1.5em; /*24px*/
+                    }
+                }
+                /*Desktop HD screen*/
+                @media (min-width: 1440px) {
+                    body {
+                        font-size: 2.5em; /*40px*/
+                    }
+                }
+                /*4K screen*/
+                @media (min-width: 2560px) {
+                    body {
+                        font-size: 4em; /*64px*/
+                    }
+                }
+
+                /*8K screen*/
+                @media (min-width: 4320px) {
+                    body {
+                        font-size: 6em; /*96px*/
+                    }
+                }
+
+                /*16K screen*/
+                @media (min-width: 8640px) {
+                    body {
+                        font-size: 10em; /*160px*/
+                    }
+                }
     </style>
 	
     </head>
