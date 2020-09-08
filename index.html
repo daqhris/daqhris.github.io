@@ -111,54 +111,76 @@
                 .button{border: none;background-color: white;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em}
                 .text-link{color: #696969}/*Colored links('dim gray')*/
 
-                /*Small screen*/
-                @media (max-width: 425px) {
+                /*Tiny screen*/
+                @media (max-width: 320px) {
                     body {
                         font-size: .875em; /*12px*/
+                        margin: .25em;
+                        padding: .25em;
+                    } 
+                }
+                /*Small screen*/
+                @media (min-width: 320px) and (min-height:320px) {
+                    body {
+                        font-size: 1em; /*16px*/
+                        margin: .5em;
+                        padding: .5em;
                     } 
                 }
                 /*Mobile screen*/
-                @media (min-width: 425px) {
+                @media (min-width: 425px) and (min-height:425px) {
                     body {
-                        font-size: 1em; /*16px*/
+                        font-size: 1.125em; /*18px*/
+                        margin: .75em;
+                        padding: .75em;
                     } 
                 }
                 /*Tablet screen*/
-                @media (min-width: 768px) {
+                @media (min-width: 768px) and (min-height:768px) {
                     body {
                         font-size: 1.25em; /*20px*/
                     }
                 }
                 /*Laptop screen*/
-                @media (min-width: 1024px) {
+                @media (min-width: 1024px) and (min-height:1024px) {
                     body {
                         font-size: 1.5em; /*24px*/
+                        margin: 1.125em;
+                        padding: 1.125em;
                     }
                 }
                 /*Desktop HD screen*/
-                @media (min-width: 1440px) {
+                @media (min-width: 1440px) and (min-height:1440px) {
                     body {
                         font-size: 2.5em; /*40px*/
+                        margin: 1.5em;
+                        padding: 1.5em;
                     }
                 }
                 /*4K screen*/
-                @media (min-width: 2560px) {
+                @media (min-width: 2560px) and (min-height:2560px) {
                     body {
                         font-size: 4em; /*64px*/
+                        margin: 2em;
+                        padding: 2em;
                     }
                 }
 
                 /*8K screen*/
-                @media (min-width: 4320px) {
+                @media (min-width: 4320px) and (min-height:4320px) {
                     body {
                         font-size: 6em; /*96px*/
+                        margin: 3.125em;
+                        padding: 3.125em;
                     }
                 }
 
                 /*16K screen*/
-                @media (min-width: 8640px) {
+                @media (min-width: 8640px) and (min-height:8640px) {
                     body {
                         font-size: 10em; /*160px*/
+                        margin: 5em;
+                        padding: 5em;
                     }
                 }
     </style>
