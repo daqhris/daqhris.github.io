@@ -34,22 +34,24 @@
                 src:local('Lucida Bright'),
                     local('LucidaBright');
                 src:url(/style/lbrite.TTF) format("truetype"); /* Safari, Android, iOS */
-                }
-            @font-face{
-                font-family: 'Noto-Serif';
-                font-weight: normal;
-                src:url(/style/NotoSerif-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
+                font-display: swap;
                 }
             @font-face{
                 font-family: "FontAwesome";
                 font-weight:normal;
-                font-style:normal;
                 src:local("FontAwesome"),
                     local("font-awesome");
                 src:url(/style/fontawesome-webfont.ttf) format("truetype"), /* Safari, Android, iOS */
                     url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff) format("woff"), /* Pretty Modern Browsers */
                     url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
+                font-display: swap;
             }
+            @font-face{
+                font-family: 'Noto-Serif';
+                font-weight: normal;
+                src:url(/style/NotoSerif-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
+                font-display: swap;
+                }
             html{
                 background-color:#FFFFFF;
                 color:#000000;
