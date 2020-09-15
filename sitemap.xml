@@ -27,7 +27,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/all.day.walking.html</loc>
+  <loc>https://daqhris.com/awalkaday.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -37,12 +37,12 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/all.day.walking/FR.html</loc>
+  <loc>https://daqhris.com/awalkaday/FR.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/all.day.walking/ZH.html</loc>
+  <loc>https://daqhris.com/awalkaday/ZH.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
