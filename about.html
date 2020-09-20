@@ -93,7 +93,8 @@
         .siteContainer{margin:1rem auto;max-width:600px;padding:1rem}
         .siteHeader{text-align:center;padding:1rem .5rem;}
         .siteFooter{padding:0;text-align:center;width:100%;margin-bottom:1em}
-        .text-link{color: #696969}/*Colored links('dim gray')*/
+        .text-link{color: #808080}/*Colored links*/
+        .underline-text{border-bottom-width:.1em;border-bottom-style: solid;}/*Underlined links at the bottom*/
         small{font-size:80%;font-family:"Noto-Serif"}
 
         #profile{font-family:"Lucida Bright"}
@@ -109,13 +110,13 @@
         <div class="siteContainer">
             <header class="siteHeader">
                     <h1><a href="/about.html">about &#43; bio</a></h1>
-                    <section aria-label="Content Summary"><a href="#profile"><u>profile</u></a> &mdash; <a href="#education"><u>education</u></a> &mdash; <a href="#work"><u>past work</u></a> &mdash; <a href="#social"><u>social life</u></a> &mdash; <a href="#skills"><u>applied skills</u></a></section>
+                    <section aria-label="Content Summary"><a href="#profile" class="underline-text">profile</a> &mdash; <a href="#education" class="underline-text">education</a> &mdash; <a href="#work" class="underline-text">past work</a> &mdash; <a href="#social" class="underline-text">social life</a> &mdash; <a href="#skills" class="underline-text">applied skills</a></section>
                 </header>
                 <nav aria-label="Brief presentation">
                     <h2 id="profile">Basic Info</h2>
 						<picture>
 							<source media="(min-width: 800px)" srcset="/images/daqhris-qrcode1.png">
-							<img src="/images/daqhris-qrcode2.png" alt="QR Code (barcode to scan with smartphones)" width="150" height="150">
+							<img src="/images/daqhris-qrcode2.png" alt="QR Code (barcode to scan with smartphones)" width="100" height="100">
 						</picture>
 						<ul>
                         <li><em>Full Name:</em> <span translate="no">Chris-Armel IRADUKUNDA</span></li>
@@ -170,7 +171,7 @@
                             </ul></nav>
                         </div>
         <footer class="siteFooter">
-                        <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/README.md" rel="noopener" target="_blank" title="Website's Front-End Code"><u>Source Code</u></a> &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/Terms.md" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy"><u>Terms & Privacy</u></a> &mdash; <a href="/" title="Back to Homepage"><u>Home</u></a></small>	
+                        <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/README.md" rel="noopener" target="_blank" title="Website's Front-End Code" class="underline-text">Source Code</a> &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/Terms.md" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy" class="underline-text">Terms & Privacy</a> &mdash; <a href="/" title="Back to Homepage" class="underline-text">Home</a></small>	
                         </footer>
     </body>
 </html>
