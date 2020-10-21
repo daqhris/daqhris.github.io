@@ -272,3 +272,9 @@ Appendix
   covered Source Code from exclusive appropriation.
 — All other changes or additions to this Appendix require the production of a
   new EUPL version.
+
+  
+  
+   
+     
+*sources*: [pdf](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl_v1.2_en.pdf) - [text](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).
