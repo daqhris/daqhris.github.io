@@ -75,15 +75,14 @@
                 margin:1em auto;
                 padding:0
             }
-                html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing: antialiased;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
                 body{margin:1em;padding:1em}footer,header,nav{display:block}
                 a{background-color:transparent}b{font-weight:400}
                 h1{font-size:1.125em;margin:.5em .5em;font-family: "Lucida Bright"}
                 h2{font-size:1.25em;margin:.25em .25em;font-family: "Lucida Bright"}
                 section{font-size:1em;font-family: 'Noto-Serif'}
                 small{font-size:60%;font-family:"Noto-Serif"}
-                hr{-moz-box-sizing:content-box;box-sizing:content-box}
-                button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner{border:0;padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+                hr{box-sizing:content-box}
+                button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{border:0;padding:0}*{box-sizing:border-box}
                 a{text-decoration:none}
                 .siteContainer{margin:.25em;padding:.75em}
                 .siteHeader{text-align:center;padding:.75em}
@@ -99,7 +98,7 @@
                 .siteFooter{padding:0;text-align:center;width:100%;margin-bottom:1em}
                 
                 /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
-                .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+                .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
                 .fa-2x{font-size:2em} 
                 .fa-handshake-o:before{content:"\f2b5"}
                 .fa-info-circle:before{content:"\f05a"}
@@ -198,16 +197,16 @@
 			<h1 class="siteHeader-title">
                     <a href="/" title="Welcome, dear guest!" translate="no">Chris A. IRADUKUNDA</a>
                 </h1>
-                <article class="siteHeader-description" aria-label="Greetings">
-                    <i class="fa fa-handshake-o" aria-hidden="true" title="Greeting"></i>&#160;Hi! Glad to meet you. My name is <strong class="siteHeader-description-name" translate="no">Chris-Armel</strong>&#46;</article>
+                <div><p class="siteHeader-description" aria-label="Greetings">
+                    <i class="fa fa-handshake-o" aria-hidden="true" title="Greeting"></i>&#160;Hi! Glad to meet you. My name is <strong class="siteHeader-description-name" translate="no">Chris-Armel</strong>&#46;</p></div>
                 <hr>
                 <h2>
                     Entrepreneur &mdash; Software Engineer
                 </h2><hr>
 			<section aria-label="Short Personal Description">
-                <article class="siteDescription"><i class="fa fa-info-circle" aria-hidden="true" title="Description"></i>&#160;I am an African <a href="https://en.wikipedia.org/wiki/Computer_engineering" title="What is Computer Engineering?" target="_blank" rel="noopener" class="text-link">computer engineer</a> trained in <a href="https://www.openstreetmap.org/relation/912940" title="Where is this on Earth?" target="_blank" rel="noopener" class="text-link">Beijing (China)</a> <br>with an entrepreneurial mindset and a gusto for <a href="https://sustainabledevelopment.un.org/topics/sustainabletransport" title="What is Sustainable Transport?" target="_blank" rel="noopener" class="text-link">sustainable transport</a>.</article>
-			        <article class="siteDescription"><i class="fa fa-space-shuttle" aria-hidden="true" title="Achievement"></i>&#160;<em>Formerly:</em> Actor & Recruiting Manager in the Chinese film industry.</article>
-                    <article class="siteDescription"><i class="fa fa-map-marker" aria-hidden="true" title="Location"></i>&#160;<a href="https://www.openstreetmap.org/relation/52411" title="Where is that?" target="_blank" rel="noopener" class="text-link">Belgium, Europe</a>&#46;</article>
+                <div class="siteDescription"><i class="fa fa-info-circle" aria-hidden="true" title="Description"></i>&#160;I am an African <a href="https://en.wikipedia.org/wiki/Computer_engineering" title="What is Computer Engineering?" target="_blank" rel="noopener" class="text-link">computer engineer</a> trained in <a href="https://www.openstreetmap.org/relation/912940" title="Where is this on Earth?" target="_blank" rel="noopener" class="text-link">Beijing (China)</a> <br>with an entrepreneurial mindset and a gusto for <a href="https://sustainabledevelopment.un.org/topics/sustainabletransport" title="What is Sustainable Transport?" target="_blank" rel="noopener" class="text-link">sustainable transport</a>.</div>
+			        <div class="siteDescription"><i class="fa fa-space-shuttle" aria-hidden="true" title="Achievement"></i>&#160;<em>Formerly:</em> Actor & Recruiting Manager in the Chinese film industry.</div>
+                    <div class="siteDescription"><i class="fa fa-map-marker" aria-hidden="true" title="Location"></i>&#160;<a href="https://www.openstreetmap.org/relation/52411" title="Where is that?" target="_blank" rel="noopener" class="text-link">Belgium, Europe</a>&#46;</div>
                 </section><hr>
         	<nav class="siteNav" aria-label="Web Presence and Contact Methods"><!--Online personal accounts/profiles-->
 				<ul class="siteNav-social">
@@ -224,7 +223,7 @@
                     <i class="fa fa-2x fa-picture-o"></i></a>
 		        </li> 			
 		        <li> 				
-                    <a role="button" class="button" href="https://www.goodreads.com/11x2" title="Reading Books" target="_blank" aria-label="list of collected books on Goodreads" rel="noopener">
+                    <a role="button" class="button" href="https://www.goodreads.com/user/show/37259266-chris-armel" title="Reading Books" target="_blank" aria-label="list of collected books on Goodreads" rel="noopener">
                         <i class="fa fa-2x fa-book"></i></a>
 				</li>
                 </ul>
@@ -234,13 +233,15 @@
 				<ul class="siteNav-pages">
                     <li>&#10170; <a href="/awalkaday.html" target="_blank" title="'A WALK≡A DAY' online photo gallery" rel=”noopener” class="text-link">"A WALK≡A DAY" Photo Gallery</a> <em>('17)</em></li>
 				    <li>&#10170; <a href="/portfolio-webpage-1.html" target="_blank" title="Webpage designed for hikers and travel enthusiasts" rel=”noopener” class="text-link">Website Design Template</a> <em>('16)</em></li>
-                    <li>&#10170; <a href="https://www.freecodecamp.org/daqhris/" target="_blank" title="Coding in HTML, CSS, JavaScript" rel=”noopener” class="text-link">freeCodeCamp Curriculum</a> <em>('16)</em></li>
+                    <li>&#10170; <a href="https://www.freecodecamp.org/daqhris" target="_blank" title="Coding in HTML, CSS, JavaScript" rel=”noopener” class="text-link">freeCodeCamp Curriculum</a> <em>('16)</em></li>
                 </ul>
             </nav>
         	</header>
 		</main> <!-- /.siteContainer -->
 	        <footer class="siteFooter">
-		        <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io" rel="noopener" target="_blank" title="Website's Front-End Code" class="underline-footer">Source Code</a> &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/Terms.md#terms--privacy" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy" class="underline-footer">Terms &#38; Privacy</a> &mdash; <a href="/about.html" title="Personal Info + Curriculum Vitae" class="underline-footer">About + Bio</a></small>
+		        <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io" rel="noopener" target="_blank" title="Website's Front-End Code" class="underline-footer">Source Code</a> &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/Terms.md" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy" class="underline-footer">Terms &#38; Privacy</a> &mdash; <a href="/about.html" title="Personal Info + Curriculum Vitae" class="underline-footer">About + Bio</a></small>
             </footer>
         </body>
         </html>
+
+        
