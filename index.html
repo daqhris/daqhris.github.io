@@ -61,11 +61,6 @@
             a:hover,
             a:focus,
             a:active {color:#007fff}
-            .siteHeader{border-bottom:.0625em solid #CCCCCC;
-                        box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}
-                        /*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
-            .siteHeader-title{background-color:#333333;}
-            .siteHeader-title a{color:#fff;}
             hr{
                 display:block;
                 width:25%;
@@ -85,8 +80,9 @@
                 button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{border:0;padding:0}*{box-sizing:border-box}
                 a{text-decoration:none}
                 .siteContainer{margin:.25em;padding:.75em}
-                .siteHeader{text-align:center;padding:.05em}
-                .siteHeader-title{border-radius:.25em;display:inline-block;line-height:2em;padding:.25em .75em}
+                .siteHeader{text-align:center;padding:.05em;border-bottom:.0625em solid #CCCCCC;box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}/*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
+                .siteHeader-title{border-radius:.25em;display:inline-block;line-height:2em;padding:.25em .75em;background-color:#333333}
+                .siteHeader-title a{color:#fff}
                 .siteHeader-description{font-size:.75em;font-style:normal;margin:2em 2em 1em}
                 .siteHeader-description-name{display:inline-block;font-weight:bold}
                 .siteDescription{font-size:.875em;padding:.25em}
@@ -155,7 +151,7 @@
                     }
                 }
                 /*Desktop HD screen*/
-                @media (min-width: 1440px) {
+                @media (min-width: 1440px) and (min-height: 900px) {
                     body {
                         font-size: 2em; /*32px*/
                         margin: 1em;
@@ -163,7 +159,7 @@
                     }
                 }
                 /*4K screen*/
-                @media (min-width: 2560px) {
+                @media (min-width: 2560px) and (min-height: 1080px){
                     body {
                         font-size: 3em; /*48px*/
                         margin: 1.25em;
@@ -172,7 +168,7 @@
                 }
 
                 /*8K screen*/
-                @media (min-width: 4320px) {
+                @media (min-width: 4320px) and (min-height: 2160px) {
                     body {
                         font-size: 4em; /*64px*/
                         margin: 1.5em;
@@ -181,7 +177,7 @@
                 }
 
                 /*16K screen*/
-                @media (min-width: 8640px) {
+                @media (min-width: 8640px) and (min-height: 4320px) {
                     body {
                         font-size: 5em; /*80px*/
                         margin: 1.75em;
