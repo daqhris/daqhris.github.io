@@ -1,0 +1,264 @@
+<!DOCTYPE html> <!--This is a template file for the landing page of a personal webpage-->
+<html lang="TEXT-HERE" translate="yes"> <!--type of human-readable language-->
+<head>
+    <title>TEXT-HERE</title> <!--website title -->
+    <meta name="description" content="TEXT-HERE"> <!--website description, appears in serach engine results-->
+    <meta charset="UTF-8">
+    <meta name="author" content="TEXT-HERE"> <!--name of website owner or public project name-->
+	<link rel="canonical" href="LINK-HERE" /> <!--main webpage link-->
+	<link rel="alternate" href="LINK-HERE" hreflang="x-default" /> <!--default webpage version-->
+	<link rel="alternate" href="LINK-HERE" hreflang="TEXT-HERE"/> <!--other webpage versions and languages-->
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="referrer" content="no-referrer">
+	<meta content="TEXT-HERE, TEXT-HERE" name="keywords"> <!-- website keywords-->
+	<meta content="TEXT-HERE" property="og:title"> <!-- website title-->
+	<meta content="TEXT-HERE" property="og:locale"> <!-- language locale name-->
+	<meta content="website" property="og:type">
+	<meta content="LINK-HERE" property="og:url"> <!-- website url-->
+	<meta content="TEXT-HERE" property="og:site_name"> <!-- website name-->
+	<meta content="TEXT-HERE" property="og:description"> <!-- with website description-->
+    <meta content="LINK-HERE" property="og:image"> <!-- website background image url-->
+    <meta name="theme-color" content="#FFFFFF"/>
+	<link href="LINK-HERE" rel="shortcut icon" type="image/x-icon"> <!--website favicon url-->
+    <link href="LINK-HERE" rel="shortcut icon"> <!--website icon-->
+    <link href="LINK-HERE" rel="apple-touch-icon"> <!--website icon, intended for use on Apple OS devices-->
+    <!--Inline CSS-->
+    <style>
+        /*Fonts used and served locally with this webpage*/
+        @font-face {
+            font-family: "Lucida Bright";
+            font-weight:normal;
+            src:local('Lucida Bright'),
+                local('LucidaBright');
+            src:url(/style/lbrite.TTF) format("truetype"); /* Safari, Android, iOS */
+            font-display: swap;
+        }
+        @font-face{
+            font-family: "FontAwesome";
+            font-weight:normal;
+            src:local("FontAwesome"),
+                local("font-awesome");
+            src:url(/style/fontawesome-webfont.ttf) format("truetype"), /* Safari, Android, iOS */
+                url(/style/fontawesome-webfont.woff) format("woff"), /* Pretty Modern Browsers */
+                url(/style/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
+            font-display: swap;
+        }
+        @font-face{
+            font-family: 'Noto-Serif';
+            font-weight: normal;
+            src:url(/style/NotoSerif-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
+            font-display: swap;
+            }
+        /*CSS code - visual styling*/
+        html{
+            background-color:#FFFFFF;
+            color:#000000;
+            font:1em "Lucida Bright", 'Noto-Serif', serif;
+            }
+        a{color:#000000}
+        a:hover,
+        a:focus,
+        a:active {color:#007fff}
+        hr{
+            display:block;
+            width:25%;
+            height:.0625em;
+            border:0;
+            border-top:.0625em solid #ccc;
+            margin:1em auto;
+            padding:0
+        }
+        body{margin:1em;padding:1em}
+        footer,header,nav{display:block}
+        a{background-color:transparent;text-decoration:none}b{font-weight:400}
+        h1{font-size:1.125em;margin:.5em .5em;font-family: "Lucida Bright", serif}
+        h2{font-size:1.125em;margin:.25em .25em;font-family: "Lucida Bright", serif}
+        section{font-size:1em;font-family: 'Noto-Serif', serif}
+        small{font-size:70%;font-family:'Noto-Serif', serif}
+        hr{box-sizing:content-box}
+        button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{border:0;padding:0}*{box-sizing:border-box}
+        .siteContainer{margin:.25em;padding:.75em}
+        .siteHeader{text-align:center;padding:.05em;border-bottom:.0625em solid #CCCCCC;box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}/*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
+        .siteHeader-title{border-radius:.25em;display:inline-block;line-height:2em;padding:.25em .75em;background-color:#333333}
+        .siteHeader-title a{color:#fff}
+        .siteHeader-description{font-size:.75em;font-style:normal;margin:2em 2em 1em}
+        .siteHeader-description-name{display:inline-block;font-weight:bold}
+        .siteDescription{font-size:.875em;padding:.25em}
+        .siteProjects{display:inline-block;font-family:"Lucida Bright", serif;font-weight:bold;font-size:.75em}
+        .siteNav{font-size:.875em}
+        .siteNav-pages{list-style:none;padding:0;font-family:"Lucida Bright", serif;font-size:.875em}
+        .siteNav-pages>li{display:block;padding:.1em;color:#000000}
+        .siteNav-social{list-style:none;margin:1em 0;padding:0}
+        .siteNav-social>li{display:inline-block;margin:.5em .5em;color:#000000}
+        .siteFooter{text-align:center;width:100%;font-size:.875em}       
+        /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
+        .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
+        .fa-2x{font-size:2em} /*double size for font-awesome icon*/
+        .fa-TEXT-HERE:before{content:"ICON-HERE"} /*corresponding icon name and code from the original font-awesome CSS file*/
+        .fa-TEXT-HERE:before{content:"ICON-HERE"}
+        .fa-TEXT-HERE:before{content:"ICON-HERE"}
+        .fa-TEXT-HERE:before{content:"ICON-HERE"}
+        .fa-TEXT-HERE:before{content:"ICON-HERE"}
+        .fa-TEXT-HERE:before{content:"ICON-HERE"}
+        .fa-TEXT-HERE:before{content:"ICON-HERE"}
+        .fa-TEXT-HERE:before{content:"ICON-HERE"}
+        <!--Custom CSS-->
+        .button {
+            border: none;
+            background-color: white;
+            display: inline-block;
+            cursor: pointer;
+            box-shadow: 0 .125em .3125em 0 #ccc;
+            padding: .625em;
+            border-radius: .125em}
+        .text-link{color: #808080} /*Colored links*/
+        .underline-footer{border-bottom-width:.1em;border-bottom-style: solid;} /*Underlined links at the bottom*/
+        /*Different screen sizes, different appearance rules*/
+        /*Tiny screen*/
+        @media (max-width: 320px) {
+            body {
+                font-size: .875em; /*14px*/
+                margin: .125em;
+                padding: .125em;
+            } 
+        }
+        /*Small screen*/
+        @media (min-width: 320px) {
+            body {
+                font-size: .9375em; /*15px*/
+                margin: .25em;
+                padding: .25em;
+            } 
+        }
+        /*Mobile screen*/
+        @media (min-width: 425px) {
+                body {
+                    font-size: 1em; /*16px*/
+                    margin: .5em;
+                    padding: .5em;
+                } 
+            }
+        /*Tablet screen*/
+        @media (min-width: 768px) and (min-height:432px){
+            body {
+                font-size: 1.125em; /*18px*/
+                margin: .75em;
+                padding: .75em;
+            }
+        }
+        /*Laptop screen*/
+        @media (min-width: 1280px) and (min-height: 720px) {
+            body {
+                font-size: 1.25em; /*20px*/
+                margin: 1em;
+                padding: 1em;
+            }
+        }
+        /*Desktop HD screen*/
+        @media (min-width: 1440px) and (min-height: 810px) {
+            body {
+                font-size: 1.5em; /*24px*/
+                margin: 1.125em;
+                padding: 1.125em;
+            }
+        }
+        /*4K screen*/
+        @media (min-width: 2560px) and (min-height: 1440px){
+            body {
+                font-size: 2em; /*32px*/
+                margin: 1.5em;
+                padding: 1.5em;
+            }
+        }
+        /*8K screen*/
+        @media (min-width: 4320px) and (min-height: 2430px) {
+            body {
+                font-size: 3em; /*48px*/
+                margin: 1.75em;
+                padding: 1.75em;
+            }
+        }
+        /*16K screen*/
+        @media (min-width: 8640px) and (min-height: 4860px) {
+            body {
+                font-size: 4em; /*64px*/
+                margin: 2em;
+                padding: 2em;
+            }
+        }
+        /*code for dark mode*/
+        @media (prefers-color-scheme: dark) {
+            body{background-color: #000000;color:#FFFFFF}
+        .text-link{color:#cacaca}
+        hr{border-top-color:#F2F2F2}
+        .siteHeader{border-bottom-color:#F2F2F2}
+        .siteHeader-title{background-color:#666666}
+        .underline-footer{color:#FFFFFF}
+        }
+    </style>
+	</head>
+    <body oncontextmenu="return false"> <!--Disabled Right-Clicks-->
+        <main class="siteContainer">
+		    <header class="siteHeader">
+            <!--Headline-->
+			<h1 class="siteHeader-title">
+                <a href="/" title="TEXT-HERE" translate="no">TEXT-HERE</a>
+            </h1>
+            <!--Welcome Message-->
+            <div class="siteHeader-description">
+                <p><i class="fa fa-handshake-o" aria-hidden="true" title="TEXT-HERE"></i>&#160;TEXT-HERE <strong class="siteHeader-description-name" translate="no">TEXT-HERE</strong>&#46;</p>
+            </div>
+            <hr> <!--Horizontal line separator-->
+            <!--Title/Occupation/Function-->
+            <h2>
+                TEXT-HERE
+            </h2><hr>
+            <!--Short Description-->
+			<section aria-label="Short Personal Description">
+                <div class="siteDescription"><i class="fa fa-TEXT-HERE" aria-hidden="true" title="Description"></i>&#160;TEXT-HERE <a href="LINK-HERE" title="What is TEXT-HERE?" target="_blank" rel="noopener" class="text-link">TEXT-HERE</a> TEXT-HERE <a href="LINK-HERE" title="Where is TEXT-HERE?" target="_blank" rel="noopener" class="text-link">TEXT-HERE</a> <br>TEXT-HERE <a href="LINK-HERE" title="What is TEXT-HERE?" target="_blank" rel="noopener" class="text-link">TEXT-HERE</a>.</div>
+			    <div class="siteDescription"><i class="fa fa-TEXT-HERE" aria-hidden="true" title="Achievement"></i>&#160;<em>TEXT-HERE:</em> TEXT-HERE</div>
+                <div class="siteDescription"><i class="fa fa-TEXT-HERE" aria-hidden="true" title="Location"></i>&#160;<a href="LINK-HERE" title="Where is TEXT-HERE?" target="_blank" rel="noopener" class="text-link">TEXT-HERE</a>&#46;</div>
+            </section>
+            <hr> <!--Horizontal line separator-->
+            <!--Online personal accounts/profiles-->
+        	<nav class="siteNav" aria-label="TEXT-HERE">
+				<ul class="siteNav-social">
+				<li>
+					<a role="button" class="button" href="LINK-HERE" target="_blank" title="TEXT-HERE" aria-label="TEXT-HERE" rel="noopener">
+                        <i class="fa fa-2x fa-TEXT-HERE"></i></a>
+				</li>
+				<li>
+                    <a role="button" class="button" href="LINK-HERE" target="_blank" title="TEXT-HERE" aria-label="TEXT-HERE" rel="noopener">
+                        <i  class="fa fa-2x fa-TEXT-HERE"></i></a>
+                </li>
+		        <li>
+                <a role="button" class="button" href="LINK-HERE" title="TEXT-HERE" target="_blank" aria-label="TEXT-HERE" rel="noopener">
+                    <i class="fa fa-2x fa-TEXT-HERE"></i></a>
+		        </li> 			
+		        <li> 				
+                    <a role="button" class="button" href="LINK-HERE" title="TEXT-HERE" target="_blank" aria-label="TEXT-HERE" rel="noopener">
+                        <i class="fa fa-2x fa-TEXT-HERE"></i></a>
+				</li>
+                </ul>
+            </nav>
+            <hr> <!--Horizontal line separator-->
+            <!--List of public projects-->
+            <nav aria-label="Public Projects List">
+                <strong class="siteProjects">TEXT-HERE:</strong>
+				<ul class="siteNav-pages">
+                    <li>&#10170; <a href="LINK-HERE" target="_blank" title="TEXT-HERE" rel=”noopener” class="text-link">TEXT-HERE</a> <em>(TEXT-HERE)</em></li>
+				    <li>&#10170; <a href="LINK-HERE" target="_blank" title="TEXT-HERE" rel=”noopener” class="text-link">TEXT-HERE</a> <em>(TEXT-HERE)</em></li>
+                    <li>&#10170; <a href="LINK-HERE" target="_blank" title="TEXT-HERE" rel=”noopener” class="text-link">TEXT-HERE</a> <em>(TEXT-HERE)</em></li>
+                </ul>
+            </nav>
+        	</header>
+        </main> <!-- Closing tag for siteContainer CSS -->
+        <!--Website Footer-->
+	    <footer class="siteFooter">
+		    <small>&#169; TEXT-HERE &mdash; <a href="LINK-HERE" rel="noopener" target="_blank" title="LINK-HERE" class="underline-footer">TEXT-HERE</a> &mdash; <a href="LINK-HERE" rel="noopener" target="_blank" title="TEXT-HERE" class="underline-footer">TEXT-HERE</a></small>
+        </footer>
+    </body>
+    </html>
