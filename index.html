@@ -63,6 +63,7 @@
             a:hover,
             a:focus,
             a:active {color:#007fff}
+            p{margin:0 0 .5em;padding:0;}
             hr{
                 display:block;
                 width:25%;
@@ -94,7 +95,7 @@
                 .siteNav-pages>li{display:block;padding:.1em;color:#000000}
                 .siteNav-social{list-style:none;margin:1em 0;padding:0}
                 .siteNav-social>li{display:inline-block;margin:.5em .5em;color:#000000}
-                .siteFooter{text-align:center;width:100%;font-size:.875em}
+                .siteFooter{text-align:center;width:100%;font-size:.875em;margin:0 0 1em;}
                 
                 /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
                 .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
@@ -108,12 +109,24 @@
                 .fa-picture-o:before{content:"\f03e"}
                 .fa-book:before{content:"\f02d"}
                 .fa-language:before{content:"\f1ab"}
+                .fa-border{padding:.2em .25em .15em;border:solid .08em #eee;border-radius:.1em}
+                .fa-lg{font-size:1.55em;line-height:1em;vertical-align:-15%}
 
-                .button{border: none;background-color: white;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em}
-                .text-link{color: #808080}/*Colored links*/
-                .underline-footer{border-bottom-width:.1em;border-bottom-style: solid;}/*Underlined links at the bottom*/
-                .lang-button{float:center;}
-
+                /*Custom CSS*/
+                .button {
+                    border: none;
+                    background-color: white;
+                    display: inline-block;
+                    cursor: pointer;
+                    box-shadow: 0 .125em .3125em 0 #ccc;
+                    padding: .625em;
+                    border-radius: .125em;
+                }
+                .text-link{color: #808080} /*Colored links*/
+                .underline-footer{border-bottom-width:.1em;border-bottom-style: solid;} /*Underlined links at the bottom*/
+                .lang-button{float:center;line-height: 1em;}
+                
+                /*Different screen sizes, different appearance rules*/
                 /*Tiny screen*/
                 @media (max-width: 320px) {
                     body {
@@ -204,6 +217,9 @@
 
     <body oncontextmenu="return false"> <!--Disabled Right-Clicks-->
         <main class="siteContainer">
+            <p><small><i class="fa fa-lg fa-language fa-border" aria-hidden="true"></i>&#160;&#160;<small><a role="button" class="button lang-button" href="https://daqhris.com/lang/zh.html" rel="noopener" title="中文版"><b>中文</b></a>
+                &#160;&#160;<a role="button" class="button lang-button" href="https://daqhris.com/lang/fr.html" rel="noopener" title="Lire en Français"><b>FR</b></a></small></p>
+        
 		<header class="siteHeader">
 			<h1 class="siteHeader-title">
                     <a href="/" title="Welcome, dear guest!" translate="no">Chris A. IRADUKUNDA</a>
@@ -251,8 +267,6 @@
 		</main> <!-- /.siteContainer -->
 	        <footer class="siteFooter">
                 <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io" rel="noopener" target="_blank" title="Website's Front-End Code" class="underline-footer">Source Code</a> &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/Terms.md#terms--privacy" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy" class="underline-footer">Terms &#38; Privacy</a> &mdash; <a href="/about.html" title="Personal Info + Curriculum Vitae" class="underline-footer">About + Bio</a></small>
-                <p><i class="fa fa-language"></i>&#160;<small><a role="button" class="button lang-button" href="https://daqhris.com/lang/zh.html" rel="noopener" title="中文版"><b>中文</b></a></small>
-                    &#160;<small><a role="button" class="button lang-button" href="https://daqhris.com/lang/fr.html" rel="noopener" title="Lire en Français"><b>FR</b></i></a></small></p>
             </footer>
         </body>
         </html>
