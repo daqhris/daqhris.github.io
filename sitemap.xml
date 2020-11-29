@@ -22,24 +22,29 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://daqhris.com/lang/nl.html</loc>
+      <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://daqhris.com/freecodecamp.html</loc>
       <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://daqhris.com/portfolio-webpage-1.html</loc>
       <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.0.64</priority>
 </url>
 <url>
   <loc>https://daqhris.com/bagaza-bio.html</loc>
       <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.0.64</priority>
 </url>
 <url>
   <loc>https://daqhris.com/awalkaday.html</loc>
       <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.0.64</priority>
 </url>
 <url>
   <loc>https://daqhris.com/about.html</loc>
