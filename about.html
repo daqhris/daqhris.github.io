@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" translate="yes">
+<html lang="en" translate="yes">
 <head>
     <title>About &#124; Chris A. Iradukunda</title>	
     <meta name="description" content="About: Chris-Armel (&#64;daqhris)">
@@ -16,11 +16,11 @@
     <meta name="referrer" content="no-referrer">
     <meta content="daqhris, chris-armel, chris iradukunda, iradukunda, about, bio" name="keywords">
 	<meta content="About &#124; Chris A. Iradukunda" property="og:title">
-	<meta content="en_US" property="og:locale">
+	<meta content="en" property="og:locale">
 	<meta content="website" property="og:type">
 	<meta content="https://daqhris.com/about.html" property="og:url">
 	<meta content="about &#64;daqhris" property="og:site_name">
-	<meta content="Welcome to Chris-Armel's info page!" property="og:description">
+	<meta content="All About: Chris-Armel" property="og:description">
     <meta content="/images/white-background.png" property="og:image">
     <meta name="theme-color" content="#FFFFFF"/>
     <meta name="robots" content="noindex, nofollow, noarchive">
@@ -31,45 +31,28 @@
     <!--Inline CSS-->
     <style>
         @font-face {
-                font-family: "Lucida Bright";
+                font-family: "Lucida Bright", serif;
                 font-weight:normal;
                 src:local('Lucida Bright'),
                     local('LucidaBright');
                 src:url(/style/lbrite.TTF) format("truetype"); /* Safari, Android, iOS */
                 font-display: swap;}
         @font-face{
-                font-family: 'Noto-Serif';
+                font-family: 'Noto-Serif', serif;
                 font-weight: normal;
                 src:url(/style/NotoSerif-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
                 font-display: swap;}
-        @font-face{
-                font-family: "FontAwesome";
-                font-weight:normal;
-                font-style:normal;
-                src:local("FontAwesome"),
-                    local("font-awesome");
-                src:url(/style/fontawesome-webfont.ttf) format("truetype"), /* Safari, Android, iOS */
-                    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff) format("woff"), /* Pretty Modern Browsers */
-                    url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
-                font-display: swap;}
+        
         html{
             background-color:#FFFFFF;
             color:#000000;
             font:75%/1.5 "Lucida Bright",'Noto-Serif', serif;
-            -ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;
-            -webkit-font-smoothing: antialiased;
             }
-        a {
-            color: #000000;
-        	}
+        a {color: #000000;}
         a:hover,
         a:focus,
-        a:active {
-            color:#007fff;
-                    }
-        .siteHeader{
-            border-bottom:0 solid #CCCCCC
-            }
+        a:active {color:#007fff;}
+        .siteHeader{border-bottom:0 solid #CCCCCC}
         body{margin:0}footer,header,nav{display:block}
         a{background-color:transparent}
         b{font-weight:700}
@@ -80,9 +63,9 @@
         button::-moz-focus-inner{border:0;padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
         h1,p,ul{margin-bottom:1rem}
         a{text-decoration:none}
-        li{font-family:"Lucida Bright";padding:.25em}
-        section{font-family:"Noto-Serif";padding:1rem;font-size:1.5em}
-        nav{font-family:'Noto-Serif';font-size:16px;padding:2rem;
+        li{font-family:"Lucida Bright", serif;padding:.25em}
+        section{font-family:"Noto-Serif", serif;padding:1rem;font-size:1.5em}
+        nav{font-family:'Noto-Serif', serif;font-size:16px;padding:2rem;
             border-bottom:0 solid #CCCCCC;
             box-shadow: .25em .5em .75em .125em rgba(50, 50, 50, 0.14);}
         ul{padding-left:1rem;list-style-type:none}
@@ -90,10 +73,10 @@
 		img{float: right;}
         .siteContainer{margin:1rem auto;max-width:50em;padding:1rem}
         .siteHeader{text-align:center;padding:1rem .5rem;}
-        .siteFooter{padding:0;text-align:center;width:100%;margin-bottom:1em}
+        .siteFooter{text-align:center;font-size:.875em;margin:.5em;}
         .text-link{color: #808080}/*Colored links*/
         .underline-text{border-bottom-width:.1em;border-bottom-style: solid;}/*Underlined links at the bottom*/
-        small{font-size:80%;font-family:"Noto-Serif"}
+        small{font-size:90%;font-family:"Noto-Serif", serif}
 
         #profile{font-family:"Lucida Bright"}
         #education{font-family:"Lucida Bright"}
@@ -101,6 +84,41 @@
         #social{font-family:"Lucida Bright"}
         #social{font-family:"Lucida Bright"}
         #skills{font-family:"Lucida Bright"}
+
+        /*Different screen sizes, different appearance rules*/
+        /*Tiny screen*/
+        @media (max-width: 320px) {
+            body {font-size: .875em;/*14px*/margin: .125em;padding: .125em;}}
+        /*Small screen*/
+        @media (min-width: 320px) {
+            body {font-size: .9375em;/*15px*/margin: .25em;padding: .25em;}}
+        /*Mobile screen*/
+        @media (min-width: 425px) {
+                body {font-size: 1em;/*16px*/margin: .5em;padding: .5em;}}
+        /*Tablet screen*/
+        @media (min-width: 768px) and (min-height:432px){
+            body {font-size: 1.125em;/*18px*/margin: .75em;padding: .75em;}}
+        /*Laptop screen*/
+        @media (min-width: 1280px) and (min-height: 720px) {
+            body {font-size: 1.25em; /*20px*/margin: 1em;padding: 1em;}}
+        /*Desktop HD screen*/
+        @media (min-width: 1440px) and (min-height: 810px) {
+            body {font-size: 1.5em;/*24px*/margin: 1.125em;padding: 1.125em;}}
+        /*4K screen*/
+        @media (min-width: 2560px) and (min-height: 1440px){
+            body {font-size: 2em;/*32px*/margin: 1.5em;padding: 1.5em;}}
+        /*8K screen*/
+        @media (min-width: 4320px) and (min-height: 2430px) {
+            body {font-size: 3em;/*48px*/margin: 1.75em;padding: 1.75em;}}
+        /*16K screen*/
+        @media (min-width: 8640px) and (min-height: 4860px) {
+            body {font-size: 4em;/*64px*/margin: 2em;padding: 2em;}}
+        /*code for dark mode*/
+        @media (prefers-color-scheme: dark) {
+            html{background-color: #000000;color:#FFFFFF}
+            .text-link{color:#cacaca}
+            hr{border-top-color:#F2F2F2}
+            .siteHeader{border-bottom-color:#F2F2F2}
 
     </style>
     </head>
@@ -123,7 +141,6 @@
                         <li><em>Nationality:</em> <a href="https://www.openstreetmap.org/relation/195269" rel="noopener" target="_blank" title="Where is Burundi?" class="text-link">Burundian</a></li>
                     </ul>
 				</nav>
-    
                 <nav aria-label="Schools and Universities" id="education">    
                     <h2>Formal Education</h2>
                     <ul>
@@ -134,8 +151,6 @@
                         <li><em>2005-2011:</em> <a href="https://fr.wikipedia.org/wiki/Lyc%C3%A9e_du_Saint-Esprit" rel="noopener" target="_blank" title="High School" lang="fr" class="text-link">Lycée du Saint-Esprit</a> (Burundi) - Scientific A Section (Maths & Physics)</li>
                         <li><em>1999-2005:</em> <span lang="fr">École Primaire Stella Matutina</span> (Burundi)</li>
                     </ul></nav>
-    
-                    
                     <nav aria-label="Overview of select work functions and locations" id="work">
                         <h2>Work Experience</h2>
                         <ul>
@@ -146,7 +161,6 @@
                             <li><em>2015-2016:</em> Foreign talent recruiter and manager for Chinese blockbuster movies (<a href="https://www.imdb.com/title/tt6015706" rel="noopener" target="_blank" class="text-link"><i>China Salesman</i></a>, <a href="https://www.imdb.com/title/tt7131870" rel="noopener" target="_blank" class="text-link"><i>Wolf Warrior 2</i></a>, <a href="https://www.imdb.com/title/tt6177592/" rel="noopener" target="_blank" class="text-link"><i>My War</i></a>).</li>
                             <li><em>2014-2015:</em> Male fashion model and movie actor in Beijing (China).</li>
                         </ul></nav>
-
                     <nav aria-label="Interesting social activities that he led or participated in" id="social">
                         <h2>Social Commitment</h2>
                         <ul>
@@ -156,8 +170,6 @@
                             <li>Ardent member of the <i>AEBUP</i> (Association of Burundian Students in Beijing) and Promoter of cultural events in the African diaspora.</li>
                             <li>Mechanic renovator of bikes allocated to <a href="https://www.amnesty.org.au/refugee-and-an-asylum-seeker-difference/" rel="noopener" target="_blank" title="What is 'asylum seeker' or 'refugee'?" class="text-link">asylum seekers</a> within the framework of <a href="http://www.collectifcsnamur.be/" rel="noopener" target="_blank" lang="fr" title="Local citizen initiative for helping refugees" class="text-link"><i>Collectif Citoyens Solidaires</i></a> (Namur).</li>
                         </ul></nav>
-
-                    
                     <nav aria-label="Noteworthy skills" id="skills">
                         <h2>Technical Abilities</h2>
                             <ul>
@@ -169,7 +181,7 @@
                             </ul></nav>
                         </div>
         <footer class="siteFooter">
-                        <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/README.md" rel="noopener" target="_blank" title="Website's Front-End Code" class="underline-text">Source Code</a> &mdash; <a href="https://github.com/daqhris/daqhris.github.io/blob/master/Terms.md" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy" class="underline-text">Terms & Privacy</a> &mdash; <a href="/" title="Back to Homepage" class="underline-text">Home</a></small>	
+                        <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io" rel="noopener" target="_blank" title="Website's Front-End Code" class="underline-text">Source Code</a> &mdash; <a href="/legal.html" rel="noopener" target="_blank" title="Terms of Use & Privacy Policy" class="underline-text">Terms & Privacy</a> &mdash; <a href="/" title="Back to Homepage" class="underline-text">Home</a></small>	
                         </footer>
     </body>
 </html>
