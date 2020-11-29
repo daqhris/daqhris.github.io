@@ -50,15 +50,16 @@
             font:1em "Lucida Bright", 'Noto-Serif', serif;
             }
         a{color:#007fff}
+        hr{display:block;width:25%;height:.0625em;border:0;border-top:.0625em solid #ccc;margin:1em auto;padding:0}
         p{margin:1.25em;padding:.125em;font-family: 'Noto-Serif', serif}
         body{margin:.5em;padding:.5em}
         h1{font-size:2em;margin:.25em;font-family: "Lucida Bright", serif}
         h2{font-size:1.25em;margin:.5em;font-family: "Lucida Bright", serif}
+        small{font-size:90%;font-family:'Noto-Serif', serif}
         h3{font-size:1em;font-family: "Lucida Bright", serif}
-        .siteContainer{margin:.125em;padding:.125em}
+        .siteContainer{margin:.125em;padding:.125em}        
         /*Custom CSS*/
-        .text-link{color: #808080} /*Colored links*/
-        .underline-footer{border-bottom-width:.1em;border-bottom-style: solid;} /*Underlined links at the bottom*/
+        .siteFooter{text-align:center;font-size:.875em;margin:.5em;}
         
         /*Different screen sizes, different appearance rules*/
         /*Tiny screen*/
@@ -109,12 +110,7 @@
         /*code for dark mode*/
         @media (prefers-color-scheme: dark) {
             html{background-color: #000000;color:#FFFFFF}
-            .text-link{color:#cacaca}
             hr{border-top-color:#F2F2F2}
-            .siteHeader{border-bottom-color:#F2F2F2}
-            .siteHeader-title{background-color:#666666}
-            .underline-footer{color:#FFFFFF}
-            .siteNav-pages>li{color:#FFFFFF}
         }
     </style>
     </head>
@@ -141,6 +137,10 @@
             <br><a href="https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement#github-pages" title="GitHub Privacy Statement">Read more</a>
         </p>
         <em>Last modified:</em> October 23, 2020
+        <hr>
     </main>
+    <footer class="siteFooter">
+        <small>&#169; 2010-2020 DaQhris &mdash; <a href="https://github.com/daqhris/daqhris.github.io" rel="noopener" target="_blank" title="Website's Front-End Code">Source Code</a> &mdash; <a href="/" title="Back to Homepage">Home</a></small>	
+        </footer>
     </body>
     </html>
