@@ -30,36 +30,30 @@
 
     <!--Inline CSS-->
     <style>
-        @font-face {
-                font-family: "Lucida Bright", serif;
-                font-weight:normal;
-                src:local('Lucida Bright'),
-                    local('LucidaBright');
-                src:url(/style/lbrite.TTF) format("truetype"); /* Safari, Android, iOS */
-                font-display: swap;}
         @font-face{
-                font-family: 'Noto-Serif', serif;
-                font-weight: normal;
-                src:url(/style/NotoSerif-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
-                font-display: swap;}
+            font-family: "Lucida Bright", serif;
+            font-weight:normal;
+            src:local('Lucida Bright'),
+                local('LucidaBright');
+            src:url(/style/lbrite.TTF) format("truetype"); /* Safari, Android, iOS */
+            font-display: swap;}
+        @font-face{
+            font-family: 'Noto-Serif', serif;
+            font-weight: normal;
+            src:url(/style/NotoSerif-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
+            font-display: swap;}
         
-        html{
-            background-color:#FFFFFF;
-            color:#000000;
-            font:85%/1.5 "Lucida Bright",'Noto-Serif', serif;
-            }
-        a {color: #000000;}
+        html{background-color:#FFFFFF;color:#000000;font:85%/1.5 "Lucida Bright",'Noto-Serif', serif;}
+        a {color: #000000;text-decoration:none;background-color:transparent}
         a:hover,
         a:focus,
-        a:active {color:#007fff;}
+        a:active {color:#007fff}
         .siteHeader{border-bottom:0 solid #CCCCCC}
         body{margin:0}footer,header,nav{display:block}
-        a{background-color:transparent}
-        b{font-weight:700}
         h1{font-family: "Lucida Bright", serif;font-size:2em;margin:.67em 0;}
         h2{font-family: "Lucida Bright", serif;font-size:1.5em}
         h1,p,ul{margin-bottom:1em}
-        a{text-decoration:none}
+        b{font-weight:700}
         li{padding:.25em}
         section{font-family:'Noto-Serif', serif;padding:1em;font-size:1.25em}
         nav{font-family:'Noto-Serif', serif;font-size:1em;padding:2em;
@@ -67,13 +61,13 @@
             box-shadow: .25em .5em .75em .125em rgba(50, 50, 50, 0.14);}
         ul{padding-left:1em;list-style-type:none}
         em{font-size:.9375em}
-		img{float: right;}
+		img{float: right}
         .siteContainer{margin:1em auto;max-width:50em;padding:1em}
-        .siteHeader{text-align:center;padding:1em .5em;}
+        .siteHeader{text-align:center;padding:1em .5em}
         .siteFooter{font-family:"Lucida Bright", serif;text-align:center;margin:.25em;}
-        .text-link{color: #808080}/*Colored links*/
-        .underline-text{border-bottom-width:.1em;border-bottom-style: solid;}/*Underlined links at the bottom*/
-        small{font-size:80%;}
+        .text-link{color: #808080} /*Colored links*/
+        .underline-text{border-bottom-width:.1em;border-bottom-style: solid;} /*Underlined links at the bottom*/
+        small{font-size:80%}
 
         #profile{font-family:"Lucida Bright"}
         #education{font-family:"Lucida Bright"}
@@ -118,6 +112,7 @@
             .underline-text{color:#FFFFFF}
             nav{border:solid #FFFFFF}
             a{color: #FFFFFF}
+            }
             </style>
     </head>
     <body>
