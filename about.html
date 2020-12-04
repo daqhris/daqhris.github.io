@@ -42,7 +42,15 @@
             font-weight: normal;
             src:url(/style/NotoSerif-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
             font-display: swap;}
-        
+        @font-face{
+            font-family: "FontAwesome";
+            font-weight:normal;
+            src:local("FontAwesome"),
+                local("font-awesome");
+            src:url(/style/fontawesome-webfont.ttf) format("truetype"), /* Safari, Android, iOS */
+                url(/style/fontawesome-webfont.woff) format("woff"), /* Pretty Modern Browsers */
+                url(/style/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
+            font-display: swap;}
         html{background-color:#FFFFFF;color:#000000;font:85%/1.5 "Lucida Bright",'Noto-Serif', serif;}
         a {color: #000000;text-decoration:none;background-color:transparent}
         a:hover,
@@ -62,8 +70,12 @@
         ul{padding-left:1em;list-style-type:none}
         em{font-size:.9375em}
 		img{float: right}
+        button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{border:0;padding:0}*{box-sizing:border-box}
+        .button {border: none;background-color: white;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em;}
         .siteContainer{margin:1em auto;max-width:50em;padding:1em}
         .siteHeader{text-align:center;padding:1em .5em}
+        .siteNav-social{text-align:center;list-style:none;margin:.25em 0;padding:0}
+        .siteNav-social>li{display:inline-block;margin:.25em;color:#000000}
         .siteFooter{font-family:"Lucida Bright", serif;text-align:center;margin:.25em;}
         .text-link{color: #808080} /*Colored links*/
         .underline-text{border-bottom-width:.1em;border-bottom-style: solid;} /*Underlined links at the bottom*/
@@ -75,6 +87,12 @@
         #social{font-family:"Lucida Bright"}
         #social{font-family:"Lucida Bright"}
         #skills{font-family:"Lucida Bright"}
+
+        /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
+        .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
+        .fa-twitter:before {content:"\f099"}
+        .fa-soundcloud:before {content:"\f1be"}
+        .fa-instagram:before {content:"\f16d"}
 
         /*Different screen sizes, different appearance rules*/
         /*Tiny screen*/
@@ -121,6 +139,16 @@
                     <h1><a href="/about.html">about &#43; bio</a></h1>
                     <section aria-label="Content Summary"><a href="#profile" class="underline-text">profile</a> &mdash; <a href="#education" class="underline-text">education</a> &mdash; <a href="#work" class="underline-text">past work</a> &mdash; <a href="#social" class="underline-text">social life</a> &mdash; <a href="#skills" class="underline-text">applied skills</a></section>
                 </header>
+                <nav aria-label="Social media accounts">
+                    <ul class="siteNav-social">
+                        <li><a role="button" class="button" href="https://www.twitter.com/daqhris" target="_blank" title="Twitter profile" aria-label="twitter account" rel="noopener">
+                            <i class="fa fa-twitter"></i></a></li>
+                        <li><a role="button" class="button" href="https://www.soundcloud.com/2x11" target="_blank" title="Soundcloud profile" aria-label="soundcloud account" rel="noopener">
+                            <i class="fa fa-soundcloud"></i></a></li>
+                        <li><a role="button" class="button" href="https://www.instagram.com/iamdaqhris" target="_blank" title="Instagram profile" aria-label="instagram account" rel="noopener">
+                            <i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
                 <nav aria-label="Brief presentation" id="profile">
                     <h2>Basic Info</h2>
 						<picture>
