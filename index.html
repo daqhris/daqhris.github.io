@@ -11,7 +11,8 @@
     <link rel="alternate" href="https://daqhris.com/lang/zh.html" hreflang="zh"/>
     <link rel="alternate" href="https://daqhris.com/lang/fr.html" hreflang="fr"/>
     <link rel="alternate" href="https://daqhris.com/lang/nl.html" hreflang="nl"/> 
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none';font-src 'self';img-src 'self';base-uri 'self';style-src 'nonce-5hDh9NGESgNz8WRMxdkRJALzyBbaeqB5QVCgqq43UVQmA7A98jCBAbX4EEn8e6zpbcEGLhDcgeJ3uC3yc7DaF84Adw6ekek6MvJ2DxUHV9LtFy3vRGK2AjCW8Cgn3Fvw';">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="yes" name="mobile-web-app-capable">
     <meta content="yes" name="apple-mobile-web-app-capable">
@@ -30,7 +31,7 @@
     <link href="/images/white-background.png" rel="apple-touch-icon"> 
     
     <!--Inline CSS-->
-    <style>
+    <style nonce="5hDh9NGESgNz8WRMxdkRJALzyBbaeqB5QVCgqq43UVQmA7A98jCBAbX4EEn8e6zpbcEGLhDcgeJ3uC3yc7DaF84Adw6ekek6MvJ2DxUHV9LtFy3vRGK2AjCW8Cgn3Fvw">
             @font-face {
                 font-family: "Lucida Bright";
                 font-weight:normal;
@@ -60,7 +61,7 @@
                 color:#000000;
                 font:1em "Lucida Bright", 'Noto-Serif', serif;
                 }
-            a{color:#000000}
+            a{color:#000000;background-color:transparent;text-decoration:none;}
             a:hover,
             a:focus,
             a:active {color:#007fff}
@@ -76,14 +77,12 @@
             }
             body{margin:1em;padding:1em}
             footer,header,nav{display:block}
-            a{background-color:transparent}b{font-weight:400}
             h1{font-size:1.125em;margin:.5em .5em;font-family: "Lucida Bright", serif}
             h2{font-size:1.125em;margin:.25em .25em;font-family: "Lucida Bright", serif}
             section{font-size:1em;margin:.25em;font-family: 'Noto-Serif', serif}
             small{font-size:70%;font-family:'Noto-Serif', serif}
             hr{box-sizing:content-box}
             button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{border:0;padding:0}*{box-sizing:border-box}
-            a{text-decoration:none}
             nav{margin:.25em;}
             .siteContainer{margin:.25em;padding:.25em}
             .siteHeader{text-align:center;padding:.05em;border-bottom:.0625em solid #CCCCCC;box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}/*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
@@ -219,9 +218,9 @@
     <body oncontextmenu="return false"> <!--Disabled Right-Clicks-->
         <main class="siteContainer">
             <p><small><i class="fa fa-lg fa-language fa-border" aria-hidden="true"></i>
-                &#160;&#160;<a role="button" class="button lang-button" href="/lang/zh.html" rel="noopener" title="中文版"><b>中文</b></a>
-                &#160;&#160;<a role="button" class="button lang-button" href="/lang/fr.html" rel="noopener" title="Lire en Français"><b>FR</b></a>
-                &#160;&#160;<a role="button" class="button lang-button" href="/lang/nl.html" rel="noopener" title="Bekijk in het Nederlands"><b>NL</b></a>
+                &#160;&#160;<a role="button" class="button lang-button" href="/lang/zh.html" rel="noopener" title="中文版">中文</a>
+                &#160;&#160;<a role="button" class="button lang-button" href="/lang/fr.html" rel="noopener" title="Lire en Français">FR</a>
+                &#160;&#160;<a role="button" class="button lang-button" href="/lang/nl.html" rel="noopener" title="Bekijk in het Nederlands">NL</a>
             </small></p>
 		    <header class="siteHeader">
 			    <h1 class="siteHeader-title">
