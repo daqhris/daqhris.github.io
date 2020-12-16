@@ -50,16 +50,10 @@
                     url(/style/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
                 font-display: swap;
             }
-            @font-face{
-                font-family: 'Noto-Serif';
-                font-weight: normal;
-                src:url(/style/NotoSerif-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
-                font-display: swap;
-                }
             html{
                 background-color:#FFFFFF;
                 color:#000000;
-                font:1em "Lucida Bright", 'Noto-Serif', serif;
+                font:1em "Lucida Bright", serif;
                 }
             a{color:#000000}
             a:hover,
@@ -78,43 +72,35 @@
             body{margin:1em;padding:1em}
             footer,header,nav{display:block}
             a{background-color:transparent}
-            h1{font-size:1.125em;margin:.5em .5em;font-family: "Lucida Bright", serif}
-            h2{font-size:1.125em;margin:.25em .25em;font-family: "Lucida Bright", serif}
-            section{font-size:1em;margin:.25em 1em;font-family: 'Noto-Serif', serif}
-            small{font-size:70%;font-family:'Noto-Serif', serif}
+            h1{font-size:1.125em;margin:.5em .5em}
+            h2{font-size:1.125em;margin:.25em .25em}
+            section{font-size:1em;margin:.25em 1em}
+            small{font-size:75%}
             hr{box-sizing:content-box}
             button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{border:0;padding:0}*{box-sizing:border-box}
             a{text-decoration:none}
-            nav{margin:.25em;}
-            .siteContainer{margin:.25em;padding:.25em}
-            .siteHeader{text-align:center;padding:.05em;border-bottom:.0625em solid #CCCCCC;box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}/*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
+            nav{margin:.25em}
+            .siteContainer{margin:.5em 1.5em}
+            .siteHeader{text-align:center;padding:.5em;border-bottom:.0625em solid #CCCCCC;box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}/*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
             .siteHeader-title{border-radius:.25em;display:inline-block;line-height:2em;padding:.25em .75em;background-color:#333333}
             .siteHeader-title a{color:#fff}
-            .siteHeader-description{font-size:.75em;font-style:normal;margin:2em 2em 1em}
-            .siteHeader-description-name{display:inline-block;font-weight:bold}
+            .siteHeader-description{font-size:.75em;margin:2em 2em 1em}
             .siteDescription{font-size:.875em;padding:.25em}
             .siteProjects{display:inline-block;font-family:"Lucida Bright", serif;font-weight:bold;font-size:.75em}
             .siteNav{font-size:.875em}
-            .siteNav-pages{list-style:none;margin:.25em;padding:0;font-family:"Lucida Bright",serif;font-size:.875em}
+            .siteNav-pages{list-style:none;margin:.25em;padding:0;font-size:.875em}
             .siteNav-pages>li{display:block;margin:.1em;padding:.1em;color:#000000}
             .siteNav-social{list-style:none;margin:1em 0;padding:0}
             .siteNav-social>li{display:inline-block;margin:.5em;color:#000000}
-            .siteFooter{text-align:center;font-size:.875em;margin:.5em;}
+            .siteFooter{text-align:center;font-size:.75em;margin:1em 2em}
 
             /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
             .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
             .fa-2x{font-size:2em} 
-            .fa-handshake-o:before{content:"\f2b5"}
-            .fa-info-circle:before{content:"\f05a"}
-            .fa-space-shuttle:before{content:"\f197"}
-            .fa-map-marker:before{content:"\f041"}
             .fa-envelope-o:before{content:"\f003"}
             .fa-code:before{content:"\f121"}
             .fa-picture-o:before{content:"\f03e"}
             .fa-book:before{content:"\f02d"}
-            .fa-language:before{content:"\f1ab"}
-            .fa-border{padding:.2em .25em .15em;border:solid .08em #eee;border-radius:.1em}
-            .fa-lg{font-size:1.55em;line-height:1em;vertical-align:-15%}
 
             /*Custom CSS*/
             .button {
@@ -217,28 +203,26 @@
             }
     </style>
     </head>
-    <body oncontextmenu="return false"> <!--Disabled Right-Clicks-->
-        <main class="siteContainer">
-            <p><small><i class="fa fa-lg fa-language fa-border" aria-hidden="true"></i>
-                &#160;&#160;<a role="button" class="button lang-button" href="/" rel="noopener" title="View in English">EN</a>
-                &#160;&#160;<a role="button" class="button lang-button" href="/lang/fr.html" rel="noopener" title="Lire en Français">FR</a>
-                &#160;&#160;<a role="button" class="button lang-button" href="/lang/zh.html" rel="noopener" title="中文版">中文</a></small></p>
+<body oncontextmenu="return false"> <!--Disabled Right-Clicks-->
+    <main class="siteContainer">
+            <p><small>
+                <a role="button" class="button lang-button" href="/" rel="noopener" title="View in English">EN</a>
+                &#160;<a role="button" class="button lang-button" href="/lang/fr.html" rel="noopener" title="Lire en Français">FR</a>
+                &#160;<a role="button" class="button lang-button" href="/lang/zh.html" rel="noopener" title="中文版">中文</a></small></p>
 		    <header class="siteHeader">
 			    <h1 class="siteHeader-title">
                     <a href="/lang/nl.html" title="Welkom, beste gast!" translate="no">Chris A. IRADUKUNDA</a>
                 </h1>
                 <div class="siteHeader-description">
-                    <p><i class="fa fa-handshake-o" aria-hidden="true" title="Groeten">
-                    </i>&#160;Hoi! Blij je te ontmoeten. Mijn naam is <strong class="siteHeader-description-name" translate="no">Chris-Armel</strong>&#46;</p></div>
+                    <p>Hoi! Blij je te ontmoeten. Mijn naam is <strong class="siteHeader-description-name" translate="no">Chris-Armel</strong>&#46;</p></div>
                 <hr>
-                <h2>
-                    Ondernemer &mdash; Software Ingenieur
+                <h2>Ondernemer &mdash; Software Ingenieur
                 </h2><hr>
 			<section aria-label="Korte persoonlijke beschrijving">
-                <div class="siteDescription"><i class="fa fa-info-circle" aria-hidden="true" title="Beschrijving"></i>&#160;Ik ben een Afrikaanse <a href="https://nl.wikipedia.org/wiki/Technische_informatica" title="Wat is computertechniek?" target="_blank" rel="noopener" class="text-link">computeringenieur</a>, die in <a href="https://www.openstreetmap.org/relation/912940" title="Waar is dit op aarde?" target="_blank" rel="noopener" class="text-link">Peking</a> is opgeleid, 
+                <div class="siteDescription">Ik ben een Afrikaanse <a href="https://nl.wikipedia.org/wiki/Technische_informatica" title="Wat is computertechniek?" target="_blank" rel="noopener" class="text-link">computeringenieur</a>, die in <a href="https://www.openstreetmap.org/relation/912940" title="Waar is dit op aarde?" target="_blank" rel="noopener" class="text-link">Peking</a> is opgeleid, 
                     <br>met een ondernemersmentaliteit en een passie voor <a href="https://www.milieucentraal.nl/duurzaam-vervoer/" title="Wat is duurzaam vervoer?" target="_blank" rel="noopener" class="text-link">duurzaam vervoer</a>.</div>
-			        <div class="siteDescription"><i class="fa fa-space-shuttle" aria-hidden="true" title="Verwezenlijking"></i>&#160;<em>Vroeger:</em> Acteur & Recruiting Manager in de Chinese filmindustrie.</div>
-                    <div class="siteDescription"><i class="fa fa-map-marker" aria-hidden="true" title="Locatie"></i>&#160;<a href="https://www.openstreetmap.org/relation/52411" title="Waar is dat?" target="_blank" rel="noopener" class="text-link">België, Europa</a>&#46;</div>
+			        <div class="siteDescription"><em>Vroeger:</em> Acteur & Recruiting Manager in de Chinese filmindustrie.</div>
+                    <div class="siteDescription"><a href="https://www.openstreetmap.org/relation/52411" title="Waar is dat?" target="_blank" rel="noopener" class="text-link">België, Europa</a>&#46;</div>
                 </section><hr>
         	<nav class="siteNav" aria-label="Aanwezigheid op het web en contactmethoden"><!--Online personal accounts/profiles-->
 				<ul class="siteNav-social">
@@ -263,9 +247,9 @@
                 <nav aria-label="Lijst van openbare projecten">
                 <strong class="siteProjects">Open-Source Projecten:</strong>
 				<ul class="siteNav-pages">
-                    <li>&#10170; <a href="/awalkaday.html" title="'A WALK≡A DAY' online fotogalerij" rel=”noopener” class="text-link">"A WALK≡A DAY" Fotogalerij</a> <em>('17)</em></li>
-				    <li>&#10170; <a href="/portfolio-webpage-1.html" title="Webpagina ontworpen voor wandelaars en reislustigen" rel=”noopener” class="text-link">Website Ontwerp Sjabloon</a> <em>('16)</em></li>
-                    <li>&#10170; <a href="https://www.freecodecamp.org/daqhris" target="_blank" title="Codering in HTML, CSS, JavaScript" rel=”noopener” class="text-link">freeCodeCamp : leerplan</a> <em>('16)</em></li>
+                    <li><a href="/awalkaday.html" title="'A WALK≡A DAY' online fotogalerij" rel=”noopener” class="text-link">"A WALK≡A DAY" Fotogalerij</a> <em>('17)</em></li>
+				    <li><a href="/portfolio-webpage-1.html" title="Webpagina ontworpen voor wandelaars en reislustigen" rel=”noopener” class="text-link">Website Ontwerp Sjabloon</a> <em>('16)</em></li>
+                    <li><a href="https://www.freecodecamp.org/daqhris" target="_blank" title="Codering in HTML, CSS, JavaScript" rel=”noopener” class="text-link">freeCodeCamp : leerplan</a> <em>('16)</em></li>
                 </ul>
             </nav>
         	</header>
