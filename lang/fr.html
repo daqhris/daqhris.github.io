@@ -50,17 +50,11 @@
                 url(/style/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
             font-display: swap;
         }
-        @font-face{
-                font-family: 'Noto-Serif';
-                font-weight: normal;
-                src:url(/style/NotoSerif-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
-                font-display: swap;
-        }
         /*CSS code - visual styling*/
         html{
             background-color:#FFFFFF;
             color:#000000;
-            font:1em "Lucida Bright", 'Noto-Serif', serif;
+            font:1em "Lucida Bright", serif;
             }
         a{color:#000000}
         a:hover,
@@ -79,42 +73,34 @@
         body{margin:1em;padding:1em}
         footer,header,nav{display:block}
         a{background-color:transparent;text-decoration:none}
-        h1{font-size:1.125em;margin:.5em .5em;font-family: "Lucida Bright", serif}
-        h2{font-size:1.125em;margin:.25em .25em;font-family: "Lucida Bright", serif}
-        section{font-size:1em;margin:.25em 1em;font-family: 'Noto-Serif', serif}
-        small{font-size:70%;font-family:'Noto-Serif', serif}
+        h1{font-size:1.125em;margin:.5em .5em}
+        h2{font-size:1.125em;margin:.25em .25em}
+        section{font-size:1em;margin:.25em 1em}
+        small{font-size:75%}
         hr{box-sizing:content-box}
         button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{border:0;padding:0}*{box-sizing:border-box}
         nav{margin:.25em;}
-        .siteContainer{margin:.25em;padding:.25em}
-        .siteHeader{text-align:center;padding:.05em;border-bottom:.0625em solid #CCCCCC;box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}/*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
+        .siteContainer{margin:.5em 1.5em}
+        .siteHeader{text-align:center;padding:.5em;border-bottom:.0625em solid #CCCCCC;box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}/*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
         .siteHeader-title{border-radius:.25em;display:inline-block;line-height:2em;padding:.25em .75em;background-color:#333333}
         .siteHeader-title a{color:#fff}
-        .siteHeader-description{font-size:.75em;font-style:normal;margin:2em 2em 1em}
-        .siteHeader-description-name{display:inline-block;font-weight:bold}
+        .siteHeader-description{font-size:.75em;margin:2em 2em 1em}
         .siteDescription{font-size:.875em;padding:.25em}
-        .siteProjects{display:inline-block;font-family:"Lucida Bright", serif;font-weight:bold;font-size:.75em}
+        .siteProjects{display:inline-block;font-size:.75em;margin:.25em}
         .siteNav{font-size:.875em}
-        .siteNav-pages{list-style:none;margin:.25em;padding:0;font-family:"Lucida Bright", serif;font-size:.875em}
+        .siteNav-pages{list-style:none;margin:.25em;padding:0;font-size:.875em}
         .siteNav-pages>li{display:block;margin:.1em;padding:.1em;color:#000000}
         .siteNav-social{list-style:none;margin:1em 0;padding:0}
         .siteNav-social>li{display:inline-block;margin:.5em;color:#000000}
-        .siteFooter{text-align:center;font-size:.875em;margin:.5em;}
+        .siteFooter{text-align:center;font-size:.75em;margin:1em 2em}
 
         /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
         .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
         .fa-2x{font-size:2em} /*double size for font-awesome icon*/
-        .fa-handshake-o:before{content:"\f2b5"} /*corresponding icon name and code from the original font-awesome CSS file*/
-        .fa-info-circle:before{content:"\f05a"}
-        .fa-space-shuttle:before{content:"\f197"}
-        .fa-map-marker:before{content:"\f041"}
         .fa-envelope-o:before{content:"\f003"}
         .fa-code:before{content:"\f121"}
         .fa-picture-o:before{content:"\f03e"}
         .fa-book:before{content:"\f02d"}
-        .fa-language:before{content:"\f1ab"}
-        .fa-border{padding:.2em .25em .15em;border:solid .08em #eee;border-radius:.1em}
-        .fa-lg{font-size:1.55em;line-height:1em;vertical-align:-15%}
         
         /*Custom CSS*/
         .button {
@@ -217,10 +203,10 @@
 	</head>
     <body oncontextmenu="return false"> <!--Disabled Right-Clicks-->
         <main class="siteContainer">
-            <p><small><i class="fa fa-lg fa-language fa-border" aria-hidden="true"></i>
-                &#160;&#160;<a role="button" class="button lang-button" href="/lang/zh.html" rel="noopener" title="中文版">中文</a>
-                &#160;&#160;<a role="button" class="button lang-button" href="/" rel="noopener" title="View in English">EN</a>
-                &#160;&#160;<a role="button" class="button lang-button" href="/lang/nl.html" rel="noopener" title="Bekijk in het Nederlands">NL</a></small></p>
+            <p><small>
+                <a role="button" class="button lang-button" href="/lang/zh.html" rel="noopener" title="中文版">中文</a>
+                &#160;<a role="button" class="button lang-button" href="/" rel="noopener" title="View in English">EN</a>
+                &#160;<a role="button" class="button lang-button" href="/lang/nl.html" rel="noopener" title="Bekijk in het Nederlands">NL</a></small></p>
             <header class="siteHeader">
             <!--Headline-->
 			<h1 class="siteHeader-title">
@@ -228,18 +214,17 @@
             </h1>
             <!--Welcome Message-->
             <div class="siteHeader-description">
-                <p><i class="fa fa-handshake-o" aria-hidden="true" title="Salutations"></i>&#160;Bonjour! Enchanté de vous rencontrer. Mon nom est <strong class="siteHeader-description-name" translate="no">Chris-Armel</strong>&#46;</p>
+                <p>Bonjour! Enchanté de vous rencontrer. Mon nom est <strong class="siteHeader-description-name" translate="no">Chris-Armel</strong>&#46;</p>
             </div>
             <hr> <!--Horizontal line separator-->
             <!--Title/Occupation/Function-->
-            <h2>
-                Entrepreneur &mdash; Ingénieur logiciel
+            <h2>Entrepreneur &mdash; Ingénieur logiciel
             </h2><hr>
             <!--Short Description-->
 			<section aria-label="Short Personal Description">
-                <div class="siteDescription"><i class="fa fa-info-circle" aria-hidden="true" title="Explication"></i>&#160;Je suis un <a href="https://fr.wikipedia.org/wiki/G%C3%A9nie_informatique" title="Qu'est-ce que l'ingénierie informatique?" target="_blank" rel="noopener" class="text-link">ingénieur en informatique</a> africain formé à <a href="https://www.openstreetmap.org/relation/912940" title="Où cela se trouve-t-il?" target="_blank" rel="noopener" class="text-link">Pékin</a><br>avec un esprit entrepreneurial et une ardeur pour le <a href="https://fr.wikipedia.org/wiki/%C3%89comobilit%C3%A9" title="Qu'est-ce que le transport durable?" target="_blank" rel="noopener" class="text-link">transport durable</a>&#46;</div>
-			    <div class="siteDescription"><i class="fa fa-space-shuttle" aria-hidden="true" title="Accomplissement"></i>&#160;<em>Autrefois: </em>Acteur & Chargé de Recrutement dans l'industrie cinématographique chinoise.</div>
-                <div class="siteDescription"><i class="fa fa-map-marker" aria-hidden="true" title="Emplacement"></i>&#160;<a href="https://www.openstreetmap.org/relation/52411" title="Où est-ce que c'est?" target="_blank" rel="noopener" class="text-link">Belgique, Europe</a>&#46;</div>
+                <div class="siteDescription">Je suis un <a href="https://fr.wikipedia.org/wiki/G%C3%A9nie_informatique" title="Qu'est-ce que l'ingénierie informatique?" target="_blank" rel="noopener" class="text-link">ingénieur en informatique</a> africain formé à <a href="https://www.openstreetmap.org/relation/912940" title="Où cela se trouve-t-il?" target="_blank" rel="noopener" class="text-link">Pékin</a><br>avec un esprit entrepreneurial et une ardeur pour le <a href="https://fr.wikipedia.org/wiki/%C3%89comobilit%C3%A9" title="Qu'est-ce que le transport durable?" target="_blank" rel="noopener" class="text-link">transport durable</a>&#46;</div>
+			    <div class="siteDescription"><em>Autrefois: </em>Acteur & Chargé de Recrutement dans l'industrie cinématographique chinoise.</div>
+                <div class="siteDescription"><a href="https://www.openstreetmap.org/relation/52411" title="Où est-ce que c'est?" target="_blank" rel="noopener" class="text-link">Belgique, Europe</a>&#46;</div>
             </section>
             <hr> <!--Horizontal line separator-->
             <!--Online personal accounts/profiles-->
@@ -268,9 +253,9 @@
             <nav aria-label="Liste des projets publics">
                 <strong class="siteProjects">Projets de logiciels libres :</strong>
 				<ul class="siteNav-pages">
-                    <li>&#10170; <a href="/awalkaday.html" title="A WALK≡A DAY Galerie de photos en ligne" rel=”noopener” class="text-link">A WALK≡A DAY galerie de photos</a> <em>('17)</em></li>
-				    <li>&#10170; <a href="/portfolio-webpage-1.html" title="Page web pour les randonneurs et les amateurs de voyages" rel=”noopener” class="text-link">Modèle de conception de site web</a> <em>('16)</em></li>
-                    <li>&#10170; <a href="https://www.freecodecamp.org/daqhris" target="_blank" title="Programmation en HTML, CSS, JavaScript" rel=”noopener” class="text-link">freeCodeCamp : cursus</a> <em>('16)</em></li>
+                    <li><a href="/awalkaday.html" title="A WALK≡A DAY Galerie de photos en ligne" rel=”noopener” class="text-link">A WALK≡A DAY galerie de photos</a> <em>('17)</em></li>
+				    <li><a href="/portfolio-webpage-1.html" title="Page web pour les randonneurs et les amateurs de voyages" rel=”noopener” class="text-link">Modèle de conception de site web</a> <em>('16)</em></li>
+                    <li><a href="https://www.freecodecamp.org/daqhris" target="_blank" title="Programmation en HTML, CSS, JavaScript" rel=”noopener” class="text-link">freeCodeCamp : cursus</a> <em>('16)</em></li>
                 </ul>
             </nav>
             </header>
