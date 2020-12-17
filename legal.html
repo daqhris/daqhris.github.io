@@ -50,70 +50,106 @@
             color:#000000;
             font:1em "Lucida Bright", 'Noto-Serif', serif;
             }
-        
         a {color: #000000;text-decoration:none}
         a:hover,
         a:focus,
         a:active {color:#007fff;}
-        hr{display:block;width:50%;height:.0625em;border:0;border-top:.0625em solid #ccc;margin:1em auto;padding:0}
-        p{margin:.25em 2em;padding:.125em;font-family: 'Noto-Serif', serif}
+        hr{display:block;width:50%;height:.0625em;border:0;border-top:.0625em solid #ccc;margin:2em auto 1em;padding:0}
+        p{margin:.25em 2em;padding:.125em}
         body{margin:.5em;padding:.5em}
         h1{font-size:2em;margin:.5em .25em 1em;font-family: "Lucida Bright", serif}
         h2{font-size:1.25em;margin:1em .25em 1em;font-family: "Lucida Bright", serif}
         h3{font-size:.8em;margin:2em .25em 1em;font-family: "Lucida Bright", serif}
         small{font-size:90%}
-        .siteContainer{margin:.125em;padding:.125em}        
+        .siteContainer{margin:.5em 1.5em}
+        .siteContent{font-family:'Noto-Serif', serif}
         /*Custom CSS*/
-        footer{text-align:center;font-size:.875em;margin:.5em;font-family:'Noto-Serif', serif}
+        footer{text-align:center;font-size:.875em;margin:.5em 2em;font-family:'Noto-Serif', serif}
         .underline-link{border-bottom-width:.1em;border-bottom-style: solid;} /*Underlined links at the bottom*/
         
         /*Different screen sizes, different appearance rules*/
         /*Tiny screen*/
         @media (max-width: 320px) {
-            body {font-size: .875em;/*14px*/margin: .125em;padding: .125em;
-            } 
-        }
-        /*Small screen*/
-        @media (min-width: 320px) {
-            body {font-size: .9375em;/*15px*/margin: .25em;padding: .25em;
-            } 
-        }
-        /*Mobile screen*/
-        @media (min-width: 425px) {
-                body {font-size: 1em;/*16px*/margin: .5em;padding: .5em;
+                body {
+                    font-size: .59375em; /*9.5px*/
+                    margin: .25em;
+                    padding: .25em;
                 } 
             }
-        /*Tablet screen*/
-        @media (min-width: 768px) and (min-height:432px){
-            body {font-size: 1.125em;/*18px*/margin: .75em;padding: .75em;
+            /*Small screen*/
+            @media (min-width: 320px) and (min-width: 320px){
+                body {
+                    font-size: .75em; /*12px*/
+                    margin: .5em;
+                    padding: .5em;
+                } 
             }
-        }
-        /*Laptop screen*/
-        @media (min-width: 1280px) and (min-height: 720px) {
-            body {font-size: 1.25em; /*20px*/margin: 1em;padding: 1em;
+            /*Mobile screen*/
+            @media (min-width: 375px) {
+                body {
+                    font-size: .875em; /*14px*/
+                    margin: .75em;
+                    padding: .75em;
+                }
             }
-        }
-        /*Desktop HD screen*/
-        @media (min-width: 1440px) and (min-height: 810px) {
-            body {font-size: 1.5em;/*24px*/margin: 1.125em;padding: 1.125em;
+            /*Mobile screen*/
+            @media (min-width: 425px) {
+                body {
+                    font-size: 1em; /*16px*/
+                    margin: .75em;
+                    padding: .75em;
+                } 
             }
-        }
-        /*4K screen*/
-        @media (min-width: 2560px) and (min-height: 1440px){
-            body {font-size: 2em;/*32px*/margin: 1.5em;padding: 1.5em;
+            /*Tablet screen*/
+            @media (min-width: 768px) and (min-height:320px){
+                body {
+                    font-size: 1.125em; /*18px*/
+                    margin: .875em;
+                    padding: .875em;
+                }
             }
-        }
-        /*8K screen*/
-        @media (min-width: 4320px) and (min-height: 2430px) {
-            body {font-size: 3em;/*48px*/margin: 1.75em;padding: 1.75em;
+            /*Laptop screen*/
+            @media (min-width: 1024px) and (min-height: 425px) {
+                body {
+                    font-size: 1.25em; /*20px*/
+                    margin: 1em;
+                    padding: 1em;
+                }
             }
-        }
-        /*16K screen*/
-        @media (min-width: 8640px) and (min-height: 4860px) {
-            body {font-size: 4em;/*64px*/margin: 2em;padding: 2em;
+            /*Desktop HD screen*/
+            @media (min-width: 1440px) and (min-height: 768px) {
+                body {
+                    font-size: 1.5em; /*24px*/
+                    margin: 1.125em;
+                    padding: 1.125em;
+                }
             }
-        }
-        /*code for dark mode*/
+            /*4K screen*/
+            @media (min-width: 2560px) and (min-height: 1024px){
+                body {
+                    font-size: 2.5em; /*40px*/
+                    margin: 2em;
+                    padding: 2em;
+                }
+            }
+            /*8K screen*/
+            @media (min-width: 4320px) and (min-height: 1440px) {
+                body {
+                    font-size: 4em; /*64px*/
+                    margin: 2.5em;
+                    padding: 2.5em;
+                }
+            }
+
+            /*16K screen*/
+            @media (min-width: 8640px) and (min-height: 2560px) {
+                body {
+                    font-size: 5em; /*80px*/
+                    margin: 3em;
+                    padding: 3em;
+                }
+            }
+            /*code for dark mode*/
         @media (prefers-color-scheme: dark) {
             html{background-color: #000000;color:#FFFFFF}
             hr{border-top-color:#F2F2F2}
@@ -125,7 +161,7 @@
     <main class="siteContainer">
         <h1>Legal</h1>
         <h2>Terms and Conditions Policy</h2>
-            <div>
+            <div class="siteContent">
                 <p>All content provided on this website is for informational purposes only.
                 <p>The owner of this website makes no representations as to the accuracy or completeness of any information on this site or found by following any link on this site.
                 <p>The owner will not be liable for any errors or omissions in this information nor for the availability of this information.
@@ -134,18 +170,18 @@
                 <p>Any feedback, comments or suggestions you may provide, by e-mail or in-person regarding this Website or its services, is entirely voluntary and we will be free to use or reply to such feedback, comments, or suggestions as we see fit and without any obligation to you.
                 <p>These terms and conditions of use are subject to change at any time and without notice.</div>
         <h2>Privacy Policy</h2>
-            <div>
+            <div class="siteContent">
                 <p><em>No Cookies!</em>
                 <p>We consciously refrain from using tracking, marketing, or any other commercial cookies.
                 <p>We do not share personal information with third-parties nor do we collect or store information about your visit to this website.
                 <p>We are not responsible for the republishing of the content found on this website on other websites or media without our permission.
                 <p>These privacy policies are subject to change at any time and without notice.</div>
         <h2>Disclaimer</h2>
-            <div>
+            <div class="siteContent">
                 <p>This site is hosted on Github Pages.
                 <p>Please note that GitHub may collect logs from visitors to this website.
                 <p><a href="https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement#github-pages" title="GitHub Privacy Statement" rel="noopener" target="_blank" class="underline-link">Read more</a></div>
-        <h3><em>Last update:</em> October 23, 2020
+        <h3><em>Latest policy update:</em> October 23, 2020</h3>
     </main>
     <footer>
         <hr>
