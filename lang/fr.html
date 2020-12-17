@@ -26,7 +26,7 @@
     <meta content="Bienvenue sur le site web de Chris-Armel!" property="og:description"> <!-- with website description-->
     <meta content="/images/white-background.png" property="og:image"> <!-- website background image url-->
     <meta name="theme-color" content="#FFFFFF"/>
-	<link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"> <!--website favicon url-->
+    <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"> <!--website favicon url-->
     <link href="/images/white-background.png" rel="shortcut icon"> <!--website icon-->
     <link href="/images/white-background.png" rel="apple-touch-icon"> <!--website icon, intended for use on Apple OS devices-->
     <!--Inline CSS-->
@@ -93,7 +93,6 @@
         .siteNav-social{list-style:none;margin:1em 0;padding:0}
         .siteNav-social>li{display:inline-block;margin:.5em;color:#000000}
         .siteFooter{text-align:center;font-size:.75em;margin:1em 2em}
-
         /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
         .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
         .fa-2x{font-size:2em} /*double size for font-awesome icon*/
@@ -101,7 +100,6 @@
         .fa-code:before{content:"\f121"}
         .fa-picture-o:before{content:"\f03e"}
         .fa-book:before{content:"\f02d"}
-        
         /*Custom CSS*/
         .button {
             border: none;
@@ -115,7 +113,6 @@
         .text-link{color: #808080} /*Colored links*/
         .underline-footer{border-bottom-width:.1em;border-bottom-style: solid;} /*Underlined links at the bottom*/
         .lang-button{line-height: 1em;}
-        
             /*Different screen sizes, different appearance rules*/
             /*Tiny screen*/
             @media (max-width: 320px) {
@@ -140,7 +137,8 @@
                     margin: .75em;
                     padding: .75em;
                 }
-            /*Mobile screen*/
+            }
+            /*Phablet screen*/
             @media (min-width: 425px) {
                 body {
                     font-size: 1em; /*16px*/
@@ -180,7 +178,6 @@
                     padding: 2em;
                 }
             }
-
             /*8K screen*/
             @media (min-width: 4320px) and (min-height: 1440px) {
                 body {
@@ -189,7 +186,6 @@
                     padding: 2.5em;
                 }
             }
-
             /*16K screen*/
             @media (min-width: 8640px) and (min-height: 2560px) {
                 body {
