@@ -2,7 +2,6 @@ User-agent: *
 Disallow: /about.html
 Disallow: /freecodecamp.html
 Disallow: /templates/
-Allow: /
 
 User-agent: ia_archiver
 Disallow: /
