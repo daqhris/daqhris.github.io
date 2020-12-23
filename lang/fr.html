@@ -5,7 +5,7 @@
     <meta name="description" content="Bienvenue sur le site web de Chris-Armel (&#64;daqhris). Trouvez comment le contacter et découvrez-y certains de ses projets sublimes pour satisfaire votre engouement."> <!--website description, appears in search engine results-->
     <meta charset="UTF-8">
     <meta name="author" content="Chris A. Iradukunda"> <!--name of website owner or public project name-->
-    <link rel="canonical" href="https://daqhris.com/lang/zh.html" /> <!--main webpage link-->
+    <link rel="canonical" href="https://daqhris.com/lang/fr.html" /> <!--main webpage link-->
     <link rel="alternate" href="https://daqhris.com/" hreflang="x-default" /> <!--default webpage version-->
     <link rel="alternate" href="https://daqhris.com/" hreflang="en"/>  <!--other webpage versions and languages-->
     <link rel="alternate" href="https://daqhris.com/lang/zh.html" hreflang="zh"/>
@@ -52,11 +52,14 @@
         }
         /*CSS code - visual styling*/
         html{
-            background-color:#FFFFFF;
-            color:#000000;
+            background-color:#fff;
+            color:#1d1d1f;
             font:1em "Lucida Bright", serif;
+            direction: ltr;
+            line-height: 1.3;
+            letter-spacing: .01em;
             }
-        a{color:#000000}
+        a{color:#000000;background-color:transparent;text-decoration:none}
         a:hover,
         a:focus,
         a:active {color:#007fff}
@@ -72,7 +75,6 @@
         }
         body{margin:1em;padding:1em}
         footer,header,nav{display:block}
-        a{background-color:transparent;text-decoration:none}
         h1{font-size:1.125em;margin:.5em .5em}
         h2{font-size:1.125em;margin:.25em .25em}
         section{font-size:1em;margin:.25em 1em}
@@ -81,18 +83,18 @@
         button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{border:0;padding:0}*{box-sizing:border-box}
         nav{margin:.25em;}
         .siteContainer{margin:.5em 1.5em}
-        .siteHeader{text-align:center;padding:.5em;border-bottom:.0625em solid #CCCCCC;box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}/*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
-        .siteHeader-title{border-radius:.25em;display:inline-block;line-height:2em;padding:.25em .75em;background-color:#333333}
+        .siteHeader{text-align:center;padding:1em;border-bottom:.0625em solid #CCC;box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}/*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
+        .siteHeader-title{border-radius:.25em;display:inline-block;line-height:2em;padding:.25em .75em;background-color:#333}
         .siteHeader-title a{color:#fff}
-        .siteHeader-description{font-size:.75em;margin:2em 2em 1em}
-        .siteDescription{font-size:.875em;padding:.5em}
+        .siteHeader-description{font-size:.75em;font-weight:lighter;margin:2em 2em 1em}
+        .siteDescription{font-size:.875em;font-weight:lighter;padding:.5em}
         .siteProjects{display:inline-block;font-size:.75em;margin:.25em}
         .siteNav{font-size:.875em}
         .siteNav-pages{list-style:none;margin:.25em;padding:0;font-size:.875em}
-        .siteNav-pages>li{display:block;margin:.1em;padding:.1em;color:#000000}
+        .siteNav-pages>li{display:block;margin:.1em;padding:.1em;color:#000}
         .siteNav-social{list-style:none;margin:1em 0;padding:0}
-        .siteNav-social>li{display:inline-block;margin:.5em;color:#000000}
-        .siteFooter{text-align:center;font-size:.75em;margin:1em 2em}
+        .siteNav-social>li{display:inline-block;margin:.5em;color:#000}
+        .siteFooter{text-align:center;font-size:.75em;font-weight:lighter;margin:1em 2em}
         /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
         .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
         .fa-2x{font-size:2em} /*double size for font-awesome icon*/
@@ -110,7 +112,8 @@
             padding: .625em;
             border-radius: .125em;
         }
-        .text-link{color: #808080} /*Colored links*/
+        .text-link{color:rgb(100, 100, 100);font-weight:bold;} /*Colored links*/
+        .project-name{color:#86868b;font-weight:lighter}
         .underline-footer{border-bottom-width:.1em;border-bottom-style: solid;} /*Underlined links at the bottom*/
         .lang-button{line-height: 1em;}
             /*Different screen sizes, different appearance rules*/
@@ -198,6 +201,7 @@
             @media (prefers-color-scheme: dark) {
                 html{background-color: #000000;color:#FFFFFF}
                 .text-link{color:#cacaca}
+                .project-name{color:#cacaca}
                 hr{border-top-color:#F2F2F2}
                 .siteHeader{border:solid #F2F2F2}
                 .siteHeader-title{background-color:#666666}
@@ -258,9 +262,9 @@
             <nav aria-label="Liste des projets publics">
                 <strong class="siteProjects">Projets de logiciels libres :</strong>
 				<ul class="siteNav-pages">
-                    <li><a href="/awalkaday.html" title="A WALK≡A DAY Galerie de photos en ligne" rel=”noopener” class="text-link">A WALK≡A DAY galerie de photos</a> <em>('17)</em></li>
-				    <li><a href="/portfolio-webpage-1.html" title="Page web pour les randonneurs et les amateurs de voyages" rel=”noopener” class="text-link">Modèle de conception de site web</a> <em>('16)</em></li>
-                    <li><a href="https://www.freecodecamp.org/daqhris" target="_blank" title="Programmation en HTML, CSS, JavaScript" rel=”noopener” class="text-link">freeCodeCamp : cursus</a> <em>('16)</em></li>
+                    <li><a href="/awalkaday.html" title="A WALK≡A DAY Galerie de photos en ligne" rel=”noopener” class="project-name">A WALK≡A DAY galerie de photos</a> <em>('17)</em></li>
+				    <li><a href="/portfolio-webpage-1.html" title="Page web pour les randonneurs et les amateurs de voyages" rel=”noopener” class="project-name">Modèle de conception de site web</a> <em>('16)</em></li>
+                    <li><a href="/freecodecamp.html" target="_blank" title="Programmation en HTML, CSS, JavaScript" rel=”noopener” class="project-name">freeCodeCamp : cursus</a> <em>('16)</em></li>
                 </ul>
             </nav>
             </header>
