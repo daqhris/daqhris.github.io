@@ -32,9 +32,11 @@
     <!--Inline CSS-->
     <style nonce="ZD3kZ4qd92Jx5MGCxbURNnkzg5jkjBjTUUCNQKAeaLxbraYEUaEM7LM6dWjjZSVSKCeAN7MgJ5NxGeNnaMRpwkt2hfrqCCBEVxVq82pE2gWjdueVLrFW5d6rS4s3havA">
         /*Fonts used and served locally with this webpage*/
-        @font-face{
-            font-family: 'Noto-SerifSC';
-            src:url(/style/NotoSerifSC-Regular.otf) format("opentype"); 
+        @font-face {
+            font-family: "Lucida Bright";
+            src:local('Lucida Bright'),
+                local('LucidaBright');
+            src:url(/style/lbrite.TTF) format("truetype"); /* Safari, Android, iOS */
             font-display: swap;
             }
         @font-face{
@@ -51,7 +53,7 @@
         html{
             background-color:#FFF;
             color:#1d1d1f;
-            font:1em 'Noto-SerifSC', serif;
+            font:1em "Lucida Bright", serif;
             direction: ltr;
             line-height: 1.3;
             }
