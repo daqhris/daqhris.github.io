@@ -3,7 +3,7 @@
         html {
             background-color: #FFFFFF;
             color: #000000;
-            font: 16px 'Helvetica', 'Arial', sans-serif;
+            font: 16px "Source-Sans", 'Arial', sans-serif;
         }
 
         a {
@@ -14,6 +14,11 @@
         a:active {
                 text-decoration: underline;
         }
+        @font-face {
+                font-family: "Source-Sans";
+                src:url(/style/SourceSans3-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
+                font-display: swap;
+                }
 
         .siteHeader {
             border-bottom: 1px solid #CCCCCC;
