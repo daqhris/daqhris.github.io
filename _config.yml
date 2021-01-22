@@ -2,6 +2,7 @@ url: https://daqhris.com
 enforce_ssl: daqhris.com
 permalink: /:title/
 version: v1.2.0
+kramdown:
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
@@ -9,7 +10,6 @@ version: v1.2.0
 gems:
   - jekyll-sitemap
   - jekyll-feed
-kramdown:
 exclude:
   - Gemfile
   - Gemfile.lock
