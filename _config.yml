@@ -1,5 +1,18 @@
----
 url: https://daqhris.com
 enforce_ssl: daqhris.com
-permalink: /404.html
----
+permalink: /:title/
+version: v1.2.0
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+  css_class: 'highlight'  
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+kramdown:
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
