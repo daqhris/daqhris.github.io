@@ -12,32 +12,32 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/lang/zh.html</loc>
+  <loc>https://daqhris.com/index/zh.html</loc>
       <changefreq>hourly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/lang/fr.html</loc>
+  <loc>https://daqhris.com/index/fr.html</loc>
       <changefreq>hourly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/lang/nl.html</loc>
+  <loc>https://daqhris.com/index/nl.html</loc>
       <changefreq>hourly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/portfolio-webpage-1.html</loc>
+  <loc>https://daqhris.com/projects/portfolio-page/travel-photo.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.0.64</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/bagaza-bio.html</loc>
+  <loc>https://daqhris.com/projects/tribute-page/bagaza-bio.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.0.64</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/awalkaday.html</loc>
+  <loc>https://daqhris.com/projects/awalkaday/en.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.0.64</priority>
 </url>
@@ -52,12 +52,12 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/awalkaday/FR.html</loc>
+  <loc>https://daqhris.com/projects/awalkaday/fr.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/awalkaday/ZH.html</loc>
+  <loc>https://daqhris.com/projects/awalkaday/zh.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
