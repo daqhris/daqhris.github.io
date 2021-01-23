@@ -12,4 +12,4 @@ Design inspiration: [Written Theme](https://www.tumblr.com/theme/38737).
 
 Previous hosting platforms: [*Tumblr*](https://www.tumblr.com) and [*Alibaba Cloud 阿里云*](https://cn.aliyun.com)
 
-#### Copyright © 2010-present DaQhris
+#### Copyright © 2010-*present* DaQhris
