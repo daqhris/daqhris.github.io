@@ -1,6 +1,7 @@
+name: Chris A. Iradukunda
 url: https://daqhris.com
 enforce_ssl: daqhris.com
-permalink: /:title/
+permalink: /404/
 version: v1.2.0
 kramdown:
   input: GFM
