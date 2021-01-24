@@ -70,7 +70,7 @@ nav{margin:.25em;}
 .siteNav-pages>li{display:block;margin:.2em;padding:.1em}
 .siteNav-social{list-style:none;margin:1em 0;padding:0}
 .siteNav-social>li{display:inline-block;margin:.5em;color:#3D3D3D}
-.siteFooter{text-align:center;font-size:.875em;margin:1em 2em}
+.siteFooter{text-align:center;font-size:.875em;margin:1em 2em;font-family: "NotoSerif-Regular", serif;}
 /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
 .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
 .fa-2x{font-size:2em}
