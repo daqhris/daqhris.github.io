@@ -38,7 +38,7 @@ a{color:#1d1d1f;background-color:transparent;text-decoration:none;}
 a:hover,
 a:focus,
 a:active,
-a:link:focus, a:link:active {outline: 1px solid #3740ff;color:#0000cd}
+a:link:focus, a:link:active {outline: 1px solid #3740ff;color:#3740ff}
 p{margin:0 0 .5em;padding:0;}
 hr{
     display:block;
