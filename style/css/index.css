@@ -56,6 +56,8 @@ nav{margin:.25em;}
 .fa-code:before{content:"\f121"}
 .fa-picture-o:before{content:"\f03e"}
 .fa-book:before{content:"\f02d"}
+.fa-music:before{content:"\f001"}
+.fa-bitcoin:before,.fa-btc:before{content:"\f15a"}
 /*Custom CSS*/
 .button {border: none;background-color:#F5F5F5;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em;}
 .text-link{color:#0057af} /*Colored links*/
