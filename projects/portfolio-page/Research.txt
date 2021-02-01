@@ -1,0 +1,51 @@
+#  HOME
+
+  Hello, I am **Clark Simon**.
+  I love to travel and take *lots of* photos.
+  ___
+  Once a month, I climb a *very* tall mountain. On a *different* continent.
+  My journey started from **September 2015**. My first peak was **Machu Pichu**.
+  ___
+  Here is what **President Barack Obama** _might have_ said about me:
+  >The future rewards those who press on. I don't have time to feel sorry for myself. I don't have time to complain. I'm going to press on.
+
+#  GALLERY
+
+  |Peak1|Peak2|Peak3|Peak4|
+  |---|---|---|---|
+  |Photo1|Photo2|Photo3|Photo4|
+
+  |Peak5|Peak6|Peak7|Peak8|
+  |---|---|---|---|
+  |Photo5|Photo6|Photo7|Photo8|
+
+# MAP
+
+  [**_Openstreetmap_**](https://www.openstreetmap.org)
+  * Global View Map
+  * Pinpoint Locations
+  * Mobile Responsive Embed
+
+
+# SOCIAL
+
+  **Instagram**:
+  + Handle: _@clarktravels_
+  + Audience:  _1,5 million followers_
+  + Interaction: _250 million likes_, _85 million comments_
+
+# PRESS
+
+  ![alt text](#)
+  >Press Quote 1
+
+  ![alt text](#)
+  >Press Quote 2
+
+  ![alt text](#)
+  >Press Quote 3
+
+# CONTACT
+
+#### If you wish, let's talk privately... `
+clark@clarktravels.me`
