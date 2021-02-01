@@ -2,7 +2,7 @@
 
 This is [Chris A. IRADUKUNDA](https://daqhris.com)'s personal website [code repository](https://github.com/daqhris/daqhris.github.io).
 
-All of this [website](https://daqhris.com/)'s front-end code is open-sourced under the [European Union Public Licence](https://github.com/daqhris/daqhris.github.io/blob/master/licence.md).
+All of this [website](https://daqhris.com/)'s front-end code is open-sourced under the [European Union Public Licence](https://raw.githubusercontent.com/daqhris/daqhris.github.io/master/LICENSE).
 
 Fonts used are licensed under the [SIL Open Font License](https://raw.githubusercontent.com/daqhris/daqhris.github.io/master/style/font/LICENSE.txt).
 
