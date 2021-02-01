@@ -1,0 +1,62 @@
+DEFINITION: Survey: the act or an instance of surveying: such as
+                        a : a broad treatment of a subject.
+                        b : a questioning or canvassing of persons selected at random or by quota to obtain information or opinions to be analyzed.
+
+
+TOPIC: Bike Owners
+
+TITLE: Electric Bicycle Owners Survey Form
+SUBTITLE: Thank you for taking the time to help us improve the platform!
+
+FIELDS: Name :
+        Email :
+        Brand :
+        Age (optional) :
+
+        Which option best describes your biking frequency?
+            - Everyday
+            - Work days (Monday-Friday)
+            - Weekend
+            - One day per week
+            - Only during Holidays or Vacation
+
+        How did you get in possession of the bicycle?
+            - Purchase/Buying
+            - Gift
+            - Leasing
+            - Heritage
+            - Stolen
+
+        Would you recommend owning an electric bicycle to a friend?
+            - Definitely
+            - Maybe
+            - Never
+
+        What is your favorite feature of the bicycle?
+            - Battery Pack
+            - Seat
+            - Lights
+            - Insurance
+            - Reminders and Notifications
+            - Waterproof Screen
+            - Voice Assistant
+            - Hill Push
+            - No-Squeaking
+            - Rear View Mirror
+
+        What would you like to see improved? (Check all that apply)
+            - Battery range
+            - GPS
+            - Tyres
+            - Sturdiness
+            - Repair tools
+            - Security Locks
+            - Voice-enabled guide
+            - Phone App
+            - On-the-road Support Services
+            - Forum
+            - Garage Membership
+            - Nothing, I am a satisfied owner
+
+        Any comments or suggestions?
+            - Enter your comment here
