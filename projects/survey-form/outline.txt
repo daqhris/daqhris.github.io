@@ -6,11 +6,11 @@ DEFINITION: Survey: the act or an instance of surveying: such as
 TOPIC: Bike Owners
 
 TITLE: Electric Bicycle Owners Survey Form
-SUBTITLE: Thank you for taking the time to help us improve the platform!
+SUBTITLE: Thank you for taking the time to help us and save our planet!
 
 FIELDS: Name :
         Email :
-        Brand :
+        Brand (optional) :
         Age (optional) :
 
         Which option best describes your biking frequency?
