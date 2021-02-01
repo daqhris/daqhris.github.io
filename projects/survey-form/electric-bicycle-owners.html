@@ -9,9 +9,9 @@
 
         :root {
         --color-white: #f3f3f3;
-        --color-darkblue: #1b1b32;
-        --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
-        --color-green: #37af65;
+        --color-dodgerblue:#0080FF;
+        --color-jordyblue:#80B0DF;
+        --color-lightgreen:#80FF80;
         }
 
         *,
@@ -22,15 +22,15 @@
 
         body {
         font-family: 'MerriweatherSans-Regular', sans-serif;
-        font-size: 1rem;
+        font-size: 1em;
         font-weight: 400;
-        line-height: 1.5;
+        line-height: 1.25;
         color: var(--color-white);
         margin: 0;
         }
 
-        footer{display:block;text-align:center;margin:1em;}
-        a{color: inherit;text-decoration:underline;background-color:transparent}
+        footer{display:block;text-align:center;margin:1em;font-size:85%}
+        a{color:inherit;background-color:transparent}
 
         /* mobile friendly alternative to using background-attachment: fixed */
         body::before {
@@ -41,11 +41,11 @@
         height: 100%;
         width: 100%;
         z-index: -1;
-        background: var(--color-darkblue);
+        background: var(--color-dodgerblue);
         background-image: linear-gradient(
-            115deg,
-            rgba(58, 58, 158, 0.8),
-            rgba(136, 136, 206, 0.7)
+            90deg,
+            rgba(27, 43, 196, 0.767),
+            rgba(109, 196, 207, 0.7)
             ),
             url('https://daqhris.com/image/white-background.png');
         background-size: cover;
@@ -54,25 +54,25 @@
         }
 
         h1 {
-        font-weight: 400;
-        line-height: 1.2;
+        font-weight: 500;
+        line-height: 1.5;
         }
 
         p {
-        font-size: 1.125rem;
+        font-size: 1.125em;
         }
 
         h1,
         p {
         margin-top: 0;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.5em;
         }
 
         label {
         display: flex;
         align-items: center;
-        font-size: 1.125rem;
-        margin-bottom: 0.5rem;
+        font-size: 1.125em;
+        margin-bottom: 0.5em;
         }
 
         input,
@@ -91,7 +91,7 @@
 
         .container {
         width: 100%;
-        margin: 3.125rem auto 0 auto;
+        margin: 3.125em auto 0 auto;
         }
 
         @media (min-width: 576px) {
@@ -107,8 +107,8 @@
         }
 
         .header {
-        padding: 0 0.625rem;
-        margin-bottom: 1.875rem;
+        padding: 0 0.625em;
+        margin-bottom: 1.875em;
         }
 
         .description {
@@ -118,8 +118,8 @@
         }
 
         .clue {
-        margin-left: 0.25rem;
-        font-size: 0.9rem;
+        margin-left: 0.25em;
+        font-size: 0.75em;
         color: #e4e4e4;
         }
 
@@ -130,61 +130,62 @@
         /* form */
 
         form {
-        background: var(--color-darkblue-alpha);
-        padding: 2.5rem 0.625rem;
-        border-radius: 0.25rem;
+        background: var(--color-jordyblue);
+        padding: 2.5em 0.625em;
+        border: .125em solid #5cfa00;
+        border-radius: 1em;
         }
 
         @media (min-width: 480px) {
         form {
-            padding: 2.5rem;
+            padding: 2.5em;
         }
         }
 
         .form-group {
-        margin: 0 auto 1.25rem auto;
-        padding: 0.25rem;
+        margin: 0 auto 1.25em auto;
+        padding: 0.25em;
         }
 
         .form-control {
         display: block;
         width: 100%;
-        height: 2.375rem;
-        padding: 0.375rem 0.75rem;
-        color: #495057;
+        height: 2.375em;
+        padding: 0.375em 0.75em;
+        color: #006fdf;
         background-color: #fff;
         background-clip: padding-box;
-        border: 1px solid #ced4da;
-        border-radius: 0.25rem;
+        border: 1px solid #92fa00;
+        border-radius: 0.25em;
         transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
         }
 
         .form-control:focus {
         border-color: #80bdff;
         outline: 0;
-        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        box-shadow: 0 0 0 0.2em rgba(0, 123, 255, 0.25);
         }
 
         .input-radio,
         .input-checkbox {
         display: inline-block;
-        margin-right: 0.625rem;
-        min-height: 1.25rem;
-        min-width: 1.25rem;
+        margin-right: 0.625em;
+        min-height: 1.25em;
+        min-width: 1.25em;
         }
 
         .input-textarea {
         min-height: 120px;
         width: 100%;
-        padding: 0.625rem;
+        padding: 0.625em;
         resize: vertical;
         }
 
         .submit-button {
         display: block;
         width: 100%;
-        padding: 0.75rem;
-        background: var(--color-green);
+        padding: 0.75em;
+        background: var(--color-lightgreen);
         color: inherit;
         border-radius: 2px;
         cursor: pointer;
@@ -258,7 +259,7 @@
               <div class="form-group">
                 <p>How did you get in possession of the bicycle?</p>
                 <select id="dropdown" name="role" class="form-control" required>
-                  <option disabled selected value>Choose your way of getting the bike</option>
+                  <option disabled selected value>Choose the option that reflects how you got the bike</option>
                   <option value="purchase">Purchase/Buying</option>
                   <option value="gift">Gift</option>
                   <option value="lease">Leasing</option>
@@ -298,7 +299,7 @@
                   What is your favorite feature of the electric bike?
                 </p>
                 <select id="most-like" name="mostLike" class="form-control" required>
-                  <option disabled selected value>Select an option</option>
+                  <option disabled selected value>Select a beloved feature</option>
                   <option value="battery">Battery Pack</option>
                   <option value="seat">Seat</option>
                   <option value="lights">Lights</option>
@@ -315,7 +316,7 @@
               <div class="form-group">
                 <p>
                   What would you like to see improved?
-                  <span class="clue">(Check whatever that apply)</span>
+                  <span class="clue">(leave empty if satisfied)</span>
                 </p>
           
                 <label>
@@ -395,13 +396,6 @@
                     type="checkbox"
                     class="input-checkbox"
                   />Garage Membership</label>
-                <label>
-                  <input
-                    name="prefer"
-                    value="nothing"
-                    type="checkbox"
-                    class="input-checkbox"
-                  />Nothing, I am a satisfied owner</label>
               </div>
           
               <div class="form-group">
@@ -423,6 +417,6 @@
           </div>
     </body>
     <footer>
-      &#169; 2021 DaQhris &mdash; <a href="/legal.html" rel="noopener" title="Terms of Use & Privacy Policy" class="underline-text">Terms & Privacy</a> &mdash; <a href="/" title="Back to Homepage" class="underline-text">Home</a>
+      &#169; 2021 DaQhris &mdash; <a href="/legal.html" rel="noopener" title="Terms of Use & Privacy Policy">Terms & Privacy</a> &mdash; <a href="/" title="Back to Homepage">Home</a>
     </footer>
 </html>
