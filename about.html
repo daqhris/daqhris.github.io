@@ -9,7 +9,7 @@
     <link rel="alternate" href="https://daqhris.com/about.html" hreflang="en-US" />
     <link rel="alternate" href="https://daqhris.com/about.html" hreflang="x-default" />
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none';font-src 'self';img-src 'self';base-uri 'self';style-src 'nonce-mEeq6p8pkxae92vhVL6pW6nVuFhv8CxQjAUXUbn3mknReyLA29GFduknx9reaAGvsxTdkm6YGtTNgGKUBeT9kgyCgPgjD7WqHw688gnLTDcu95Hyhg6LbkbBbUnXNFUN';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none';font-src https://daqhris.com:443; img-src https://daqhris.com:443; base-uri 'self'; style-src 'nonce-mEeq6p8pkxae92vhVL6pW6nVuFhv8CxQjAUXUbn3mknReyLA29GFduknx9reaAGvsxTdkm6YGtTNgGKUBeT9kgyCgPgjD7WqHw688gnLTDcu95Hyhg6LbkbBbUnXNFUN'">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="yes" name="mobile-web-app-capable">
     <meta content="yes" name="apple-mobile-web-app-capable">
@@ -24,9 +24,9 @@
     <meta content="/image/white-background.png" property="og:image">
     <meta name="theme-color" content="#FFFFFF"/>
     <meta name="robots" content="noindex, none, nofollow, noarchive, nosnippet, noodp, noydir" />
-    <link href="/image/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link href="/image/white-background.png" rel="shortcut icon">
-    <link href="/image/white-background.png" rel="apple-touch-icon">
+    <link href="https://daqhris.com/image/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://daqhris.com/image/white-background.png" rel="shortcut icon">
+    <link href="https://daqhris.com/image/white-background.png" rel="apple-touch-icon">
 
     <!--Inline CSS-->
     <style nonce="mEeq6p8pkxae92vhVL6pW6nVuFhv8CxQjAUXUbn3mknReyLA29GFduknx9reaAGvsxTdkm6YGtTNgGKUBeT9kgyCgPgjD7WqHw688gnLTDcu95Hyhg6LbkbBbUnXNFUN">
@@ -35,21 +35,21 @@
             font-weight:normal;
             src:local('Lucida Bright'),
                 local('LucidaBright');
-            src:url(/style/font/LucidaBright.ttf) format("truetype"); /* Safari, Android, iOS */
+            src:url(https://daqhris.com/style/font/LucidaBright.ttf) format("truetype"); /* Safari, Android, iOS */
             font-display: swap;}
         @font-face{
             font-family: 'Noto-Serif';
             font-weight: normal;
-            src:url(/style/font/NotoSerif-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
+            src:url(https://daqhris.com/style/font/NotoSerif-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
             font-display: swap;}
         @font-face{
             font-family: "FontAwesome";
             font-weight:normal;
             src:local("FontAwesome"),
                 local("font-awesome");
-            src:url(/style/font/fontawesome-webfont.ttf) format("truetype"), /* Safari, Android, iOS */
-                url(/style/font/fontawesome-webfont.woff) format("woff"), /* Pretty Modern Browsers */
-                url(/style/font/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
+            src:url(https://daqhris.com/style/font/fontawesome-webfont.ttf) format("truetype"), /* Safari, Android, iOS */
+                url(https://daqhris.com/style/font/fontawesome-webfont.woff) format("woff"), /* Pretty Modern Browsers */
+                url(https://daqhris.com/style/font/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
             font-display: swap;}
         html{background-color:#FFFFFF;color:#000000;font:85%/1.5 "Lucida Bright",'Noto-Serif', serif;}
         a {color: #000000;text-decoration:none;background-color:transparent}
@@ -58,7 +58,7 @@
         a:active {color:#007fff}
         .siteHeader{border-bottom:0 solid #CCCCCC}
         body{margin:0}footer,header,nav{display:block}
-        h1{font-family: "Lucida Bright", serif;font-size:2em;margin:.67em 0;}
+        h1{font-family: "Lucida Bright", serif;font-size:2.5em;margin:.67em 0;}
         h2{font-family: "Lucida Bright", serif;font-size:1.5em}
         h1,p,ul{margin-bottom:1em}
         b{font-weight:700}
@@ -71,7 +71,7 @@
         em{font-size:.9375em}
         img{float: right}
         button{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{border:0;padding:0}*{box-sizing:border-box}
-        .button {border: none;background-color: white;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em;}
+        .button {border: none;background-color: white;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em}
         .siteContainer{margin:1em auto;max-width:50em;padding:1em}
         .siteHeader{text-align:center;padding:1em .5em}
         .siteNav-social{text-align:center;list-style:none;margin:0;padding:0}
@@ -142,8 +142,8 @@
                 <nav aria-label="Brief presentation" id="profile">
                     <h2>Basic Info</h2>
 						<picture>
-							<source media="(min-width: 800px)" srcset="/image/daqhris-qrcode1.png">
-							<img src="/image/daqhris-qrcode2.png" alt="QR Code (barcode to scan with smartphones)" width="100" height="100">
+							<source media="(min-width: 800px)" srcset="https://daqhris.com/image/daqhris-qrcode1.png">
+							<img src="https://daqhris.com/image/daqhris-qrcode2.png" alt="QR Code (barcode to scan with smartphones)" width="100" height="100">
 						</picture>
 						<ul>
                         <li><em>Full Name:</em> <span translate="no">Chris-Armel IRADUKUNDA</span></li>
@@ -165,7 +165,7 @@
                     <nav aria-label="Overview of select work functions and locations" id="work">
                         <h2>Work Experience</h2>
                         <ul>
-                            <li><em>Winter 2020:</em> Audio data contributor/validator at <a href="https://commonvoice.mozilla.org" rel="noopener" target="_blank" class="text-link">Common Voice</a> (<a href="https://www.mozilla.org/about/" rel="noopener" target="_blank" class="text-link" title="Learn about Mozilla">Mozilla</a>'s voice recognition database).</li>
+                            <li><em>Winter 2020:</em> Audio data contributor/validator at <a href="https://commonvoice.mozilla.org" rel="noopener" target="_blank" class="text-link">Common Voice</a> (<a href="https://www.mozilla.org/about/" rel="noopener" target="_blank" class="text-link" title="Learn about Mozilla">Mozilla</a>'s voice recognition dataset).</li>
                             <li><em>Autumn 2019:</em> Warehouse worker at a second-hand garments exporter in Sint-Niklaas.</li>
                             <li><em>Summer 2019:</em> Tour maker for <a href="https://www.brusselsgranddepart.com/letour/en/" rel="noopener" target="_blank" class="text-link"><i>Brussels Grand Départ 2019</i></a> : <a href="https://www.bxltour.be/" rel="noopener" target="_blank" title="Third edition of the BXL TOUR: 40 km of bike ride through the streets of the capital (June 16, 2019)" class="text-link">BXL Tour</a>, <a href="https://ecmc2019.com/" rel="noopener" target="_blank" title="ECMC 2019 - 26 to 30 June 2019 - Brussels, Belgium" class="text-link">European Cycle Messenger Championship</a> and <a href="https://www.letour.fr/en/grand-depart-2019" rel="noopener" target="_blank" title="Brussels Grand Départ, July 6-7 2019" class="text-link">Tour de France 2019</a>.</li>
                             <li><em>Winter 2017-Spring 2018:</em> Bicycle mechanic and <a href="https://www.canalc.be/seconde-vie-pour-des-velos-en-bout-de-course/" rel="noopener" target="_blank" class="text-link">all-round volunteer in a bike workshop</a> at a <a href="https://accueil-migration.croix-rouge.be/" rel="noopener" target="_blank" title="Aide aux demandeur(e)s d'asile - Croix-Rouge de Belgique" class="text-link"><i>Red Cross</i> refugee center</a> in Namur (Belgium).</li>
@@ -176,11 +176,12 @@
                     <nav aria-label="Interesting social activities that he led or participated in" id="social">
                         <h2>Social Commitment</h2>
                         <ul>
-                            <li>Cub leader in the <a href="https://en.wikipedia.org/wiki/Scouting" rel="noopener" target="_blank" title="Scouting movement - Wikipedia" class="text-link">Scout movement</a> as part of the <i>Charles de Foucauld Unit</i> in Rohero (Bujumbura).</li>
-                            <li>Editor-in-chief, online content manager and fund-raiser of the high school magazine <a href="https://twitter.com/AKANUMAjournal" title="Periodical students magazine at Lycée du Saint-Esprit" class="text-link"><i>Akanuma Journal</i></a>.</li>
-                            <li>Recipient of the <i>Best Devotion to School Award</i> in 2012 and Grantee of a full-ride scholarship to China in 2013.</li>
-                            <li>Ardent member of the <i>AEBUP</i> (Association of Burundian Students in Beijing) and Promoter of cultural events in the African diaspora.</li>
-                            <li>Mechanic renovator of bikes allocated to <a href="https://www.amnesty.org.au/refugee-and-an-asylum-seeker-difference/" rel="noopener" target="_blank" title="What is 'asylum seeker' or 'refugee'?" class="text-link">asylum seekers</a> within the framework of <a href="http://www.collectifcsnamur.be/" rel="noopener" target="_blank" lang="fr" title="Local citizen initiative for helping refugees" class="text-link"><i>Collectif Citoyens Solidaires</i></a> (Namur).</li>
+                            <li>Cub leader in the <a href="https://en.wikipedia.org/wiki/Scouting" rel="noopener" target="_blank" title="Scouting movement - Wikipedia" class="text-link">Scout movement</a> as part of the <i>Charles de Foucauld Unit</i> in Rohero (Bujumbura) <em>(2000-2004)</em>.</li>
+                            <li>Editor-in-chief, online content manager and fund-raiser of the high school magazine <a href="https://twitter.com/AKANUMAjournal" title="Periodical students magazine at Lycée du Saint-Esprit" class="text-link"><i>Akanuma Journal</i></a> <em>(2009-2011)</em>.</li>
+                            <li>Recipient of the <i>Best Devotion to School Award</i> <em>(2012)</em> and Grantee of a full-ride scholarship to China <em>(2013)</em>.</li>
+                            <li>Ardent member of the <i>AEBUP</i> (Association of Burundian Students in Beijing) and Promoter of cultural events among the African diaspora <em>(2013-2016)</em>.</li>
+                            <li>Mechanic renovator of bikes allocated to <a href="https://www.amnesty.org.au/refugee-and-an-asylum-seeker-difference/" rel="noopener" target="_blank" title="What is 'asylum seeker' or 'refugee'?" class="text-link">asylum seekers</a> within the framework of <a href="http://www.collectifcsnamur.be/" rel="noopener" target="_blank" lang="fr" title="Local citizen initiative for helping refugees" class="text-link"><i>Collectif Citoyens Solidaires</i></a> (Namur) <em>(2017-2019)</em>.</li>
+                            <li>Tech talks host and volunteer at <a href="https://fosdem.org" rel="noopener" target="_blank" title="Free and open-source software development conference held in Brussels (Belgium)" class="text-link">FOSDEM</a> (Free and Open-source Software Developers' European Meeting) <em>(2020-2021)</em>.</li>
                         </ul></nav>
                     <nav aria-label="Noteworthy skills" id="skills">
                         <h2>Technical Abilities</h2>
