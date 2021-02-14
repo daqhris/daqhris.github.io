@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Author, Code & Design: Chris A. Iradukunda (https://daqhris.com)-->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <style>/** global element styling **/
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        body {
+          background-color: #FAFAFA;
+          font-family: sans-serif;
+        }
+        
+        #page-wrapper {
+          position: relative;
+        }
+        
+        li {
+          list-style: none;
+        }
+        
+        a {
+          color: #000;
+          text-decoration: none;
+        }
+
+        a:hover {
+          color:green;
+          text-decoration: underline;
+        }
+        
+        /** global classes styling **/
+
+        .btn {
+          padding: 0 20px;
+          height: 40px;
+          font-size: 1em;
+          font-weight: 900;
+          text-transform: uppercase;
+          border: 3px black solid;
+          border-radius: 2px;
+          background: transparent;
+          cursor: pointer;
+        }
+        
+        .grid {
+          display: flex;
+        }
+        
+        header {
+          position: fixed;
+          top: 0;
+          min-height: 4em;
+          padding: 0px 20px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          background-color: #FAFAFA;
+        }
+        
+        @media (max-width: 600px) {
+          header {
+            flex-wrap: wrap;
+          }
+        }
+        
+        .logo {
+          width: 60vw;
+        }
+        
+        @media (max-width: 650px) {
+          .logo {
+            margin-top: 15px;
+            width: 100%;
+            position: relative;
+          }
+        }
+        
+        nav {
+          font-weight: 400;
+        }
+
+        @media (max-width: 650px) {
+          nav {
+            margin-top: 10px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 0 50px;
+          }
+          nav li {
+            padding-bottom: 5px;
+          }
+        }
+        
+        nav > ul {
+          width: 35vw;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        
+        @media (max-width: 650px) {
+          nav > ul {
+            flex-direction: column;
+          }
+        }
+        
+        #plantation {
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          height: 40em;
+          margin: 2em auto 0;
+        }
+
+        #hero {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          margin-top: 0;
+        }
+        
+        #hero > h2 {
+          margin-top: 1em;
+          margin-bottom: 1em;
+          word-wrap: break-word;
+        }
+        
+        #hero input[type='email'] {
+          max-width: 275px;
+          width: 100%;
+          padding: .75em;
+        }
+        
+        #hero input[type='submit'] {
+          max-width: 150px;
+          width: 100%;
+          height: 40px;
+          margin: .9375em 0;
+          border: 0;
+          background-color: #f1c40f;
+        }
+        
+        #hero input[type='submit']:hover {
+          background-color: yellowgreen;
+          transition: background-color 1s;
+        }
+        
+        @media (max-width: 650px) {
+          #hero {
+            margin-top: 120px;
+          }
+        }
+        
+        #features {
+          max-width: 1000px;
+          width: 100%;
+          margin: 3em auto;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        #features .icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 125px;
+          width: 20vw;
+          color: darkgreen;
+        }
+        
+        @media (max-width: 500px) {
+          #features .icon {
+            display: none;
+          }
+        }
+        
+        #features .desc {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 125px;
+          width: 80vw;
+          padding: 5px;
+        }
+        
+        @media (max-width: 550px) {
+          #features .desc {
+            width: 100%;
+            text-align: center;
+            padding: 0;
+            height: 150px;
+          }
+        }
+        
+        @media (max-width: 650px) {
+          #features {
+            margin-top: 0;
+          }
+        }
+        
+        #products {
+          display: flex;
+          max-width: 1000px;
+          margin: 3em auto;
+        }
+        
+        #products > iframe {
+           width: 100%;
+        }
+        
+        #pricing {
+          display: flex;
+          max-width: 1000px;
+          margin: 3em auto;
+        }
+        
+        .product {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          width: calc(100% / 3);
+          margin: 1em;
+          border: .2em solid green;
+          border-radius: 3px;
+          margin-top: 3em;
+        } /*applies on the products pricing section*/
+        
+        .product > .level {
+          background-color: #bbb;
+          color: green;
+          padding: 1.25em 0;
+          width: 100%;
+          text-transform: uppercase;
+          font-weight: 700;
+        } /*applies on the product names inside the pricing section*/
+        
+        .product > h2 {
+          margin-top: 1em;
+        }
+        
+        .product > ol {
+          margin: 1em 0;
+        }
+        
+        .product > ol > li {
+          padding: .3125em 0;
+        }
+        
+        .product > button {
+          border: 0;
+          margin: 15px 0;
+          background-color: #f1c40f;
+          font-weight: 500;
+        }
+        
+        .product > button:hover {
+          background-color: yellowgreen;
+          transition: background-color 1s;
+        }
+        
+        @media (max-width: 800px) {
+          #pricing {
+            flex-direction: column;
+          }
+          .product {
+            max-width: 300px;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 10px;
+          }
+        }
+        
+        footer {
+          margin: 3em auto 0;
+          background-color: #bbb;
+          padding: 2em;
+        }
+        
+        footer > ul {
+          display: flex;
+          justify-content: center;
+          font-size: 1em;
+          font-weight: 600;
+        }
+        
+        footer > ul > li {
+          padding: 0 .75em;
+        }
+        
+        footer > span {
+          margin-top: .75em;
+          display: flex;
+          justify-content: center;
+          font-size: 1em;
+          font-weight: 400;
+          color: #444;
+        }
+        </style>
+      </head>
+    <body>
+        <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <h1><a href="/">African Highlands Bananas&#8482;</a></h1>
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#products">Products</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="plantation">
+    <img
+        width="800"
+        height="533"
+        alt="Banana Plantation Image"
+        src='https://upload.wikimedia.org/wikipedia/commons/c/c4/Banana_plantain_in_Costa_Rica.jpg'
+      >
+  </div>
+
+  <section id="hero">
+    <h2>Natural, outdoor-grown, delicious bananas</h2>
+    <form id="form" action="">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Say, Hello!" class="btn" />
+    </form>
+  </section>
+
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Pure Organic</h2>
+          <p>
+            Our bananas are grown in local communities that use first-rate ecological techniques.
+            <br>Best agricultural practices to foster sustainable livelihoods for African farmers.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="desc">
+          <h2>Fast Delivery</h2>
+          <p>
+            We make sure you receive your bananas as soon as we harvest them. 
+            <br>Direct shipping to any address in Europe.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+        </div>
+        <div class="desc">
+          <h2>Quality Assurance</h2>
+          <p>
+            We make sure that there are no damaged or ripe fruits included. 
+            <br>Each package has a unique tracking QR code.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="products">
+      <iframe
+        id="small-banana-photo"
+        height="320"
+        title="AA Banana Image"
+        src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ripe_latundan_bananas.jpg/320px-Ripe_latundan_bananas.jpg'
+        frameborder="0"
+      ></iframe>
+      <iframe
+        id="regular-banana-photo"
+        height="320"
+        title="AAA Banana Image"
+        src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bananas.jpg/320px-Bananas.jpg'
+        frameborder="0"
+      ></iframe>
+      <iframe
+        id="cooking-banana-photo"
+        height="320"
+        title="AAB Banana Image"
+        src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Plantain_Harvested.jpg/320px-Plantain_Harvested.jpg'
+        frameborder="0"
+      ></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="AA">
+        <div class="level">AA Banana</div>
+        <h2>100 &#xb5;&#8383;</h2>
+        <ol>
+          <li>Small & Sweet</li>
+          <li>Baby Nutrition</li>
+          <li>Dessert</li>
+          <li>Quantity: 5 KG</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="AAA">
+        <div class="level">AAA Banana</div>
+        <h2>500 &#xb5;&#8383;</h2>
+        <ol>
+          <li>Tasty & Unripe</li>
+          <li>Regular size</li>
+          <li>Energy-dense fruit</li>
+          <li>Quantity: 5 KG</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="AAB">
+        <div class="level">AAB Banana</div>
+        <h2>1 m&#8383;</h2>
+        <ol>
+          <li>For Cooking</li>
+          <li>True Plantain</li>
+          <li>BBQ and Grilled recipes</li>
+          <li>Quantity: 5 KG</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright &copy; 2021 &mdash; African Highlands Bananas&#8482;</span>
+    </footer>
+  </div>
+    </body>
+</html>
