@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+        html,
+            body {
+              min-width: 290px;
+              color: #4d4e53;
+              background-color: #ffffff;
+              font-family: Arial, sans-serif;
+              line-height: 1.5;
+            }
+            
+            #navbar {
+              position: fixed;
+              min-width: 290px;
+              top: 0px;
+              left: 0px;
+              width: 300px;
+              height: 100%;
+              border-right: solid;
+              border-color: rgba(0, 22, 22, 0.4);
+            }
+            
+            header {
+              color: black;
+              margin: 10px;
+              text-align: center;
+              font-size: 1.8em;
+              font-weight: thin;
+            }
+            
+            #main-doc header {
+              text-align: left;
+              margin: 0px;
+            }
+            
+            #navbar ul {
+              height: 88%;
+              padding: 0;
+              overflow-y: auto;
+              overflow-x: hidden;
+            }
+            
+            #navbar li {
+              color: #4d4e53;
+              border-top: 1px solid;
+              list-style: none;
+              position: relative;
+              width: 100%;
+            }
+            
+            #navbar a {
+              display: block;
+              padding: 10px 30px;
+              color: #4d4e53;
+              text-decoration: none;
+              cursor: pointer;
+            }
+            
+            #main-doc {
+              position: absolute;
+              margin-left: 310px;
+              padding: 20px;
+              margin-bottom: 110px;
+            }
+            
+            section article {
+              color: #4d4e53;
+              margin: 15px;
+              font-size: 0.96em;
+            }
+            
+            section li {
+              margin: 15px 0px 0px 20px;
+            }
+            
+            code {
+              display: block;
+              text-align: left;
+              white-space: pre-line;
+              position: relative;
+              word-break: normal;
+              word-wrap: normal;
+              line-height: 2;
+              background-color: #f7f7f7;
+              padding: 15px;
+              margin: 10px;
+              border-radius: 5px;
+            }
+            
+            @media only screen and (max-width: 815px) {
+              /* For mobile phones: */
+              #navbar ul {
+                border: 1px solid;
+                height: 207px;
+              }
+            
+              #navbar {
+                background-color: white;
+                position: absolute;
+                top: 0;
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                max-height: 275px;
+                border: none;
+                z-index: 1;
+                border-bottom: 2px solid;
+              }
+            
+              #main-doc {
+                position: relative;
+                margin-left: 0px;
+                margin-top: 270px;
+              }
+            }
+            
+            @media only screen and (max-width: 400px) {
+              #main-doc {
+                margin-left: -10px;
+              }
+            
+              code {
+                margin-left: -20px;
+                width: 100%;
+                padding: 15px;
+                padding-left: 10px;
+                padding-right: 45px;
+                min-width: 233px;
+              }
+            }
+            
+        </style>
+    </head>
+    <body>
+        <nav id="navbar">
+            <header>Bitcoin Full Node Documentation</header>
+            <ul>
+              <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+              <li>
+                <a class="nav-link" href="#What_is_a_full_node">What is a Full Node?</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Minimum_requirements">Minimum Requirements</a>
+              </li>
+              <li><a class="nav-link" href="#RaspberryPi">Raspberry Pi</a></li>
+              <li>
+                <a class="nav-link" href="#Linux">Linux</a>
+              </li>
+              <li><a class="nav-link" href="#possible_issues">Possible Issues</a></li>
+              <li><a class="nav-link" href="#License">License</a></li>
+              <li><a class="nav-link" href="#References">References</a></li>
+            </ul>
+          </nav>
+          <main id="main-doc">
+            <section class="main-section" id="Introduction">
+              <header>Introduction</header>
+              <article>
+                <h2>What is a node?</h2>
+                <p>
+                    A node is a computer that is running the Bitcoin program. 
+                    More importantly, it is connected to other computers (running the same program) to create a network.
+                </p>
+
+                <h2>What is the bitcoin network?</h2>
+                <p>
+                    The Bitcoin Network is made up of everyone running the bitcoin software, better known as <em>bitcoin clients</em>.
+                </p>
+                <h2>What does the network do?</h2>
+                <p>
+                    People (well, bitcoin clients) on the network talk to each other. 
+                    They pass on information about what’s going on in other parts of the network. 
+                    This is done by sending each other messages. For example, 
+                    a message could be information about a new <em>transaction</em>.
+                </p>
+                <p>
+                    This sharing of information is what allows to everyone on the network to keep up-to-date, 
+                    which is pretty important if you want to run a digital currency on the Internet.
+                </p>
+                <p>The Bitcoin Network is described as a <strong>peer-to-peer network</strong> because:</p>
+                <ul>
+                  <li>everyone is connected to each other, so it’s a network.
+                  </li>
+                  <li>everyone on the network is equal, so we are peers.
+                  </li>
+                </ul>
+              </article>
+            </section>
+            <section class="main-section" id="What_is_a_full_node">
+              <header>What is a full node?</header>
+              <article>
+                <p>
+                    A full node is a program that fully validates transactions and blocks. 
+                    Almost all full nodes also help the network by accepting transactions and blocks from other full nodes, 
+                    validating those transactions and blocks, and then relaying them to further full nodes. </p>
+
+                <p>
+                    Most full nodes also serve lightweight clients by allowing them to transmit their transactions to the network 
+                    and by notifying them when a transaction affects their wallet. If not enough nodes perform this function, 
+                    clients won’t be able to connect through the peer-to-peer network—they’ll have to use centralized services instead.
+                </p>
+              </article>
+            </section>
+            <section class="main-section" id="Minimum_requirements">
+              <header>Minimum Requirements</header>
+              <article>
+                <p>
+                    Bitcoin Core full nodes have certain requirements. If you try running a node on weak hardware, 
+                    it may work but you’ll likely spend more time dealing with issues.
+                </p>
+                <p>
+                    If you can meet the following requirements, you’ll have an easy-to-use node.
+                </p>
+                <ul>
+                    <li>
+                        Desktop or laptop hardware running recent versions of Windows, Mac OS X, or Linux
+                    </li>
+                    <li>
+                        350 GB of free disk space, accessible at a minimum read/write speed of 100 MB/s
+                    </li>
+                    <li>
+                        2 GB of memory (RAM)
+                    </li>
+                    <li>
+                        A broadband Internet connection with upload speeds of at least 400 kB (50 kB) per second.
+                    </li>
+                    <li>
+                        An unmetered connection, a connection with high upload limits, 
+                        or a connection you regularly monitor to ensure it doesn’t exceed its upload limits. 
+                        It’s common for full nodes on high-speed connections to use 200 GB upload or more a month. 
+                        Download usage is around 20 GB/month, 
+                        plus around an additional 340 GB the first time you start your node
+                    </li>
+                    <li>
+                        6 hours/day that your full node can be left running. 
+                        More hours would be better, and best of all would be if you can run your node continuously.
+                        (<em>Tip</em>: disable <em>"speed"</em> or <em>"suspend"</em> options on screensaver for uninterrupted network traffic)
+                    </li>
+                    <li>
+                        Allow inbound connections to Bitcoin port 8333</li>
+                </ul>
+              </article>
+            </section>
+            <section class="main-section" id="RaspberryPi">
+              <header>Install on Raspberry Pi</header>
+              <article>
+              <h2>Why a Raspberry Pi?</h2>
+              <p
+              >Raspberry Pi is an inexpensive computing hardware platform 
+                that generates little heat, draws little power, 
+                and can run silently 24 hours a day without having to think about it.</p>
+              <h2>Steps to follow:</h2>
+              <h3>1. Prepare the MicroSD Card</h3>
+              <p
+              >The MicroSD card will likely come formatted as exfat, instead of FAT32, but the Raspberry Pi needs FAT32. 
+                I recommend using the built-in tools on Windows or Mac OS X to format the MicroSD.  
+                If you only have a Linux box to start, you probably already know how to format the microSD card.</p>
+                <h3>2. Install the operating system</h3>
+              <p>
+                Installing software on a Raspberry Pi can be mildly complicated.   
+                I suggest using their <a href="https://www.raspberrypi.org/documentation/installation/noobs.md" target="_blank">NOOBS install manager</a> to make it painless. 
+                Just follow the link for <a href="https://www.raspberrypi.org/documentation/installation/noobs.md" target="_blank">NOOBS</a>, 
+                download the files and copy them to your FAT32 microSD card and get ready to turning things on.</p>
+                <h3>3. Initial configuration</h3>
+              <p
+                >There are ways to avoid using a keyboard, video display, and mouse (KVM) altogether.  
+                  But in the interest of keeping things simple, I recommend putting your Raspberry Pi into its case, 
+                  then insert the microSD card into your Raspberry Pi, hook up the KVM cables, plugin the ethernet cable, and plugin the power.   
+                  At boot up, select Raspbian as your operating system and let NOOBS get the OS set up. 
+                  Do not bother with any setting that will launch “startx” (the GUI interface) at boot time, since this full node will only be configured via command line.</p>
+              <h3>4. Update Raspberry Pi</h3>
+              <p>Add <strong>“en_US.UTF-8 UTF-8”</strong> to the locale list and set your time zone and then reboot:</p>
+                <code
+                  >sudo raspi-config
+                  sudo reboot
+                </code>
+                <p>Keep everything fresh:</p>
+                <code
+                  >sudo apt-get update
+                  sudo apt-get upgrade
+                </code>
+                <p>Install dependencies (broken up here to show more cleanly – you can do one apt-get call if you want):</p>
+                <code
+                  >sudo apt-get install build-essential autoconf libssl-dev libboost-dev 
+                  sudo apt-get install libboost-chrono-dev libboost-filesystem-dev
+                  sudo apt-get install libboost-program-options-dev libboost-system-dev 
+                  sudo apt-get install libboost-test-dev libboost-thread-dev libtool
+                </code>
+                <p>Prepare for and download bitcoin source code:</p>
+                <code>mkdir ~/bin
+                  cd ~/bin
+                  git clone -b v0.11.2 https://github.com/bitcoin/bitcoin.git
+                  cd bitcoin/
+                </code>
+                <p>Configure and compile the source code; install to the bin directory (this will take 30+ minutes):</p>
+                <code>./autogen.sh
+                  ./configure CPPFLAGS="-I/usr/local/BerkeleyDB.4.8/include -O2" LDFLAGS="-L/usr/local/BerkeleyDB.4.8/lib" --disable-wallet
+                  make
+                  sudo make install
+                </code>
+                <h3>5. Verify your Bitcoin full node is working</h3>
+                <p>Assuming all went well (above) you can just type the following in your command line:</p>
+                <code>bitcoind &</code>
+                <p
+                >The & at the end tells the app to run in the background so that your command line interface can be used for more commands. 
+                  If you type the following you will see the status of your Bitcoin full node:</p>
+                <code
+                >bitcoin-cli getinfo
+                </code>
+                <p>
+                  It will likely tell you that it is loading the blockchain or tell you how many blocks have been loaded thus far. If you made it this far, congratulations! Unfortunately, you are far from over. For now, just stop the Bitcoin server you just worked so hard to start with the following command:</p>
+                <code
+                >bitcoin-cli stop
+                </code>
+                <h3>6. Side-load the blockchain</h3>
+                <p>
+                  Synchronize the blockchain on your primary machine and then simply copy your personal seed of the Bitcoin blockchain to your Raspberry Pi full node. 
+                  The files you need are in the ‘blocks’ folder and the ‘chainstate’ folder. 
+                  You can use the following command using SCP (basically SSH for copying files) to move the files from your main computer to your Raspberry Pi full node (you can also use WinSCP on a Windows machine or Cyberduck on a Mac – but I prefer the command line):</p>
+                <code
+                  >scp -r blocks your_username@raspberrypiIPaddress:/home/pi/.bitcoin
+                  scp -r chainstate your_username@raspberrypiIPaddress:/home/pi/.bitcoin
+                </code>
+                <p
+                >Now you should be able to start up your bitcoin server again and start relaying Bitcoin transactions in realtime. 
+                  Just execute the Bitcoin server command:</p>
+                <code>bitcoind &</code>
+                <h3>7. Turn on port forwarding in your router</h3>
+                <p
+                  >You need to enable port forwarding on your router to point to port 8333 to your internal Bitcoin full node IP address.  
+                  I’m not sure if you need both TCP and UDP forwarded, but I did both and everything is working great.</p>
+                <p>
+                  <em>How do you do this?</em></p>
+                <p
+                >Each router is different and each cable/fiber/DSL provider has instructions somewhere. 
+                  Your router, in fact, might automatically do it for you, since gaming machines like the XBOX and Playstation benefit from port forwarding and ISPs don’t want to deal with explaining how to set it up, 
+                  so they auto-detect services you are running that need port forwarding and make it happen.</p>
+                <p>
+                  <em>Why do you need port forwarding?</em></p>
+                <p
+                  >Basically, it allows other Bitcoin peers to automatically connect to you without the need for you to invite them first. 
+                  Without port forwarding you will have far fewer peers and not allow the Bitcoin network to be healthy. 
+                  So much so, that you cannot really claim you are running a full node without port forwarding (or wide open IP access) enabled.</p>
+                <h3>8. Run & Check</h3>
+                <p>You should be all set! Remember when you want to check in on things just open and SSH connection and run:</p>
+                <code>bitcoin-cli getinfo
+                </code>
+              </article>
+            </section>
+            <section class="main-section" id="Linux">
+              <header>Install on Linux (2018)</header>
+              <article>
+                <h2>Prerequisites & Dependencies</h2>
+                <em
+                  >Skim this section for the commands if you’re already on Linux. 
+                  I’ll even condense them all at the bottom of this article for those who don’t need the explanations.</em>
+                  <p
+                  >The first thing we’re going to do in the terminal is check for updates.  
+                  Type the following and hit enter (along the way you’ll be prompted to type “y” for yes, and your password):</p>
+                  <code>satoshi@nakamoto:~$ sudo apt-get update</code>
+                  <p>
+                    <a href="https://en.wikipedia.org/wiki/Sudo" target="_blank">sudo</a> is sometimes called “superuser do”. It’s kind of like using “Run as administrator” in Windows, but better. 
+                    It’s necessary throughout this tutorial because the commands that follow it will try to do things that require superuser privileges.</p>
+                  <p><a href="https://en.wikipedia.org/wiki/APT_(software)" target="_blank">apt-get</a> lets you interface with available software libraries 
+                    so you can download software straight from the terminal.</p>
+                  <p>
+                    <strong>update</strong> is one of a few commands that must follow the use of apt-get, and it will check for updates to any packages you have installed and install them.</p>
+                  <p>Next we’re going to install <a href="https://git-scm.com/">Git</a>. 
+                    It’s widely used <a href="https://en.wikipedia.org/wiki/Open-source_software" target="_blank">open-source software</a> designed for handling other open-source (and closed) projects. 
+                    We’ll be using Git to access the Bitcoin repository and download its code.</p>
+                  <code>satoshi@nakamoto:~$ sudo apt-get install git</code>
+                  <p>
+                    <strong>install</strong> should be self explanatory, it’s like update, but for when you’re installing a specific package for the first time. It requires a package name.</p>
+                  <p>
+                    <strong>git</strong> is the name of the Git package, and is recognized as such by the list of <a href="https://en.wikipedia.org/wiki/APT_(software)#Sources">sources</a> the apt-get command refers to. 
+                    It will also function as a command after it is installed.</p>
+                  <hr>
+                  <p
+                    >Now we’re going to make a folder within our home directory and then change to that directory so we can copy the files we need right into it. 
+                    We could clone this into any folder we want, this is just the path I chose to create within the home folder.</p>
+                  <p>First, enter the following line:</p>
+                  <code>satoshi@nakamoto:~$ mkdir -p bitcoin-source && cd bitcoin-source</code>
+                  <p>Now it should look like:</p>
+                  <code>satoshi@nakamoto:/home/satoshi/bitcoin-source$</code>
+                  <p>
+                    <strong>mkdir</strong> makes a directory. 
+                    This is like right clicking on the desktop or in a window and selecting “New > Folder”.</p>
+                  <p>
+                    <strong>-p</strong> is a flag. Flags are <a href="https://en.wikipedia.org/wiki/Command-line_interface#Command-line_option" target="_blank">command-line options</a> and will start with a — . 
+                    Each command (like <em>mkdir</em>) has their own set of options, so <em>-p</em> may do something else for another command. 
+                    In this case <em>-p</em> overrides some errors you might get when trying to create a directory, and actually does what you’d probably want mkdir to do in the first place. 
+                    If you wanted to create the directory <em>/test1/abc123/haha</em> , without </em>-p</em>, 
+                    it thinks you just want /haha and you would get an <a href="https://stackoverflow.com/questions/22737933/mkdirs-p-option" target="_blank">error</a> saying /test1 and /abc123 don’t exist. 
+                    With -p those errors are ignored and both parent directories that “don’t exist” are created as well.</p>
+                  <p>
+                    <strong>bitcoin-source</strong> is just the directory/folder name we’re going to create.</p>
+                  <p>
+                    <strong>&&</strong> allows you to execute another command on the same line, 
+                    but will only execute the second command if the first command doesn’t fail with an error.</p>  
+                
+                  <p><strong>cd</strong> will change the current directory to the one you specify.  
+                    In this case it will change to the /bitcoin-source directory we just created.</p>
+                  <p>Then enter:</p>
+                  <code>$ git clone https://github.com/bitcoin/bitcoin.git</code>
+                  <p><strong>git clone</strong> will copy the Bitcoin repository from Github.com into the directory you’re in when you enter the command.</p>
+                  <p>Since were in <strong>~/bitcoin-source</strong>, 
+                    this will create the directory <strong>~/bitcoin-source/bitcoin</strong> and place all the necessary files in there.</p>
+                  <hr>
+                  <p>You can check to see if the files installed by using the ls command, or you can browse to that directory in the File Manager.</p>
+                  <code>$ ls bitcoin</code>
+                  <p>
+                    <strong>ls</strong> will output all the non-hidden folders in the directory you’re currently in.</p>
+                  <p>
+                    <strong>ls</strong> bitcoin will look for a /bitcoin folder within the directory you’re in, and then output all the non-hidden folders in that directory.</p>
+                
+                  <p>
+                    <strong>ls -a</strong> will output all folders, including hidden folders if any exist.  
+                    Hidden folders begin with a <strong>.</strong> and will look like this: <strong>/home/satoshi/.abc123</strong>.</p>
+                  <hr>
+                  <p
+                    >Now we need to install some <a href="https://en.wikipedia.org/wiki/Library_%28computing%29" target="_blank">libraries</a>, 
+                    along with the <a href="https://en.wikipedia.org/wiki/Berkeley_DB" target="_blank">Berkeley Database</a>. 
+                    When installing libraries you can sometimes list many in a single command and separate them with a single space. 
+                    In this tutorial I’ve split them into groups per the <a href="https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md" target="_blank">build documentation</a> on Github for Ubuntu, 
+                    as I’ve tried to combine them before and have gotten errors:</p>
+                  <p>Libraries:</p>
+                    <code>$ sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3</code>
+                    <code>$ sudo apt-get install libboost-all-dev</code>
+                  <hr>
+                  <p>This will download and verify the Berkeley Database is legitimate:</p>
+                  <code>
+                    $ wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
+                    $ echo '12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz' | sha256sum -c</code>
+                  <p>After entering the echo command you should get this response back:</p>
+                  <code>db-4.8.30.NC.tar.gz: O`K</code>
+                  <hr>
+                  <p>The following commands will extract (<em>tar -xvf</em>) the Berkley Database that we just downloaded and checked, 
+                    then build and install it. It will also set a path shortcut so only _BDB\_PREFIX_ needs to be typed when referencing the dependency. 
+                    Normally when entering a command, if you’re already halfway into the path you only need to reference to the remaining path, 
+                    but when you’re compiling you want to ensure the full path gets referenced:</p>
+                  <code
+                    >$ tar -xvf db-4.8.30.NC.tar.gz
+                    $ cd db-4.8.30.NC/build_unix
+                    $ mkdir -p build
+                    $ BDB_PREFIX=$(pwd)/build
+                    $ ../dist/configure --disable-shared --enable-cxx --with-pic --prefix=$BDB_PREFIX
+                    $ sudo make install
+                    $ cd ../..</code>
+                  <p>The database took about 2 minutes during sudo make install. I cut that out.</p>
+                  <hr>
+                  <p>More Libraries:</p>
+                  <code
+                  >$ sudo apt-get install libminiupnpc-dev
+                  $ sudo apt-get install libzmq3-dev
+                  $ sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+                  $ sudo apt-get install libqrencode-dev</code>
+                
+                  <h2>Compiling Bitcoin Core 0.16.3</h2>
+                
+                  <p><em>(This was originally written for 0.16.0, but a critical bug was detected and patched in 0.16.3. 
+                    There should be no installation complications otherwise.)</em></p>
+                  <p>We’re still in /home/satoshi/bitcoin-source so let’s move into the /bitcoin directory, compile, and install:</p>
+                  <code
+                    >$ cd bitcoin
+                    $ git checkout tags/v0.16.3
+                    $ ./autogen.sh
+                    $ ./configure CPPFLAGS="-I${BDB_PREFIX}/include/ -O2" LDFLAGS="-L${BDB_PREFIX}/lib/" --with-gui</code>
+                  <code
+                    >$ make
+                    $ sudo make instal</code>
+                  <p>
+                    <strong>git checkout tags/v0.16.3</strong> will reference the specific “commit” from the git history. 
+                    “Branches” can change as updates occur so referencing a branch may make the command not work in the future.</p>
+                  <p>
+                    <strong>./autgen.sh</strong> will, simply put, prepare the build files for install.</p>
+                
+                  <p>Once that completes you have Bitcoin Core installed.</p>
+                  <h2>Configuring and familiarizing yourself with your new node</h2>
+                
+                  <p><em>Much of this section isn’t required to run the software. In the future you’ll likely just run it in the background and let it be. 
+                    Again, this just to help you get a feel for what’s going on behind the scenes, not just trusting a background process to work.</em></p>
+                
+                  <p>The first thing I want you to do is set up a few windows before we run Bitcoin for the first time. 
+                    We’re going to run the GUI version first, called bitcoin-qt, then we’ll exit it and run the non-GUI version called <strong>bitcoind</strong>, 
+                    and then back to <strong>bitcoin-qt</strong>, with some steps and configuration in between so you can understand what’s really happening and feel comfortable starting and stopping the software when you need to.</p>
+                
+                  <p
+                    >Close all open windows, and open two brand new terminal windows and the file manager. 
+                    In the file manager navigate to <strong>/home/satoshi/</strong>. 
+                    You only have to click <strong>Home</strong> on the sidebar. 
+                    Then from the menu bar at the top select Control and check the box for <strong>Hidden Files</strong>. 
+                    In one of the terminal windows enter the following:</p>
+                  <code
+                    >$ mkdir ~/.bitcoin
+                    $ cd ~/.bitcoin</code>
+                  <p
+                    >You should now see a folder named .bitcoin appear in the file manager as well. 
+                    Navigate into that folder, and we’re now redundantly in this directory both in the terminal and file manager, but for a reason.</p>
+                  <hr>
+                  <p
+                    >Now we’re going to create a file called <strong>debug.log</strong>. 
+                    When you first launch Bitcoin, both this hidden folder, and the debug.log file are automatically created, 
+                    but you’ll see why I want to do this ahead of time in a moment:</p>
+                  <code>$ touch ~/.bitcoin/debug.log</code>
+                  <p
+                    >Now we’re going to tail the <strong>debug.log</strong> file. 
+                    Log files get updated continuously with new lines of information as the program takes a log of it’s actions. 
+                    The <strong>tail</strong> command shows you the most recent entries into that file, but only once. 
+                    Using the <strong>-f</strong> flag will give you a continuously running stream of those updates. 
+                    When you enter the following command you’ll see nothing because Bitcoin isn’t running yet, but we’ll leave it like this for now:</p>
+                  <code>$ tail -f ~/.bitcoin/debug.log</code>
+                  <p>In the <strong>other</strong> terminal window we opened, run Bitcoin by entering the following:</p>
+                  <code>$ bitcoin-qt</code>
+                  <p
+                    >You’ll see the loading image and then the GUI with a message that shows the syncing status. 
+                    If we never created that <strong>.bitcoin</strong> folder you also see the setup screen 
+                    where you’d select the location you want to store the blockchain data and other files. 
+                    The default location is the folder we just created <strong>(/home/satoshi/.bitcoin)</strong> so it won’t ask and just assume.</p>
+                
+                  <p>You’ll start to see activity in the terminal where you tailed the <strong>debug.log</strong> file. All of the above should look like this on your screen:</p>
+                
+                  <p
+                    >You can watch this for however long you want because it will take a long time to sync, 
+                    but at some point, in the terminal window you entered <strong>bitcoin-qt</strong> on, press <strong>CONTROL+C</strong>. 
+                    You’ll see the GUI close down, and the log file will stop. 
+                    You can read the exit messages in the log, and you can scroll up and read all the different events that occurred. 
+                    Now that it’s stopped, in the same terminal you ran <strong>bitcoin-qt</strong> in, type the following:</p>
+                  <code>$ bitcoind</code>
+                  <p
+                    >You should see the log tail going again, but this time you won’t see the GUI. 
+                    Bitcoin is running in the background. 
+                    Hit <strong>CONTROL+C</strong> again and let it stop.</p>
+                  <hr>
+                  <p
+                    >We need to create a configuration file now so n the file explorer create a file called bitcoin.conf. 
+                    Open it, type the following and save the file:</p>
+                  <code>debug=net</code>
+                  <p>By default, not all the debug information is included in the log file. 
+                    Setting it to 1 will include all of it, but there’s way too much to that all the info flies by too fast. 
+                    All the options you can set are: net, tor, mempool, http, bench, zmq, db, rpc, estimatefee, addrman, 
+                    selectcoins, reindex, cmpctblock, rand, prune, proxy, mempoolrej, libevent, coindb, qt, leveldb.</p>
+                
+                  <strong>Disclaimer: Do not leave debug set to 1 indefinitely or your log file will grow larger than the entire blockchain and fill up your hard drive.</strong>
+                
+                  <p>This is also where you can optionally set your node to <strong>prune</strong> the blockchain as it goes along. 
+                    Right now the entire blockchain is about 160 GB in size. 
+                    If you don’t have enough storage space, you could prune the data down to under 5 GB at the moment. 
+                    I don’t recommend doing that unless you <em>need</em> to, 
+                    but this is what you would enter on it’s own line to bring it down to 10 GB:</p>
+                  <code
+                    >debug=net
+                    prune=10000
+                  </code>
+                
+                  <p>Your config file can have many options set, and it doesn’t matter what order they’re in, 
+                    so it could also look like this if you hypothetically want to restrict your nodes mempool to 100 MB worth of transactions:</p>
+                  <code
+                    >maxmempool=100
+                    prune=10000
+                    debug=net
+                  </code>
+                  <p>For now just save the bitcoin.conf file with <strong>debug</strong> set to <strong>net</strong> and pruned if you need it. 
+                    Originally when I recorded this for the tutorial, I made some mistakes and set it to 1, but the steps are the same:</p>
+                  <hr>
+                  <p>Open a <em>third</em> terminal and enter the following:</p>
+                  <code>$ tail -f ~/.bitcoin/debug.log | grep "UpdateTip:"</code>
+                  <p>Again because it’s a tail, you’ll see nothing until you re-run <strong>bitcoin-qt</strong> or <strong>bitcoind</strong>.</p>
+                
+                  <p><strong>grep</strong> is a command that has a few functions, but in this context, 
+                  it will take the output from the first command and filter it so it only shows lines that include the text within the quotes.</p>   
+                  <p><strong>UpdateTip:</strong> is specific verbiage that only appears when a new block is added.</p> 
+                  <p>The <strong>|</strong> is commonly called a “pipe”, and all it really means is “take the output of the first command and send it through the second command”. 
+                  You’ll hear people say terms like “pipe it to <strong>grep</strong>” or “pipe it to <strong>more</strong>”, and this is what they mean.</p>
+                
+                  <p>In the other terminal enter the following:</p>
+                  <code>
+                    $ tail -f ~/.bitcoin/debug.log | grep -v "UpdateTip:\|Requesting block\|sending getdata\|recieved block\|received: block"</code>
+                  <p>This is the same command but with the <strong>-v</strong> flag, and will do the opposite of the previous command and filter out any line with the text we specify.</p>
+                
+                  <p><strong>UpdateTip:</strong> is included first, because we’re already pulling that specific information into a different window. 
+                  What you’ll see next are the two symbols <strong>\|</strong> and what these do is tell the grep command “filter out x <strong>and</strong> y <strong>and</strong> z <strong>and</strong> …”</p>  
+                
+                  <p
+                    >So now we’ve effectively split a single log file up into two outputs so we can more accurately watch what’s going on, 
+                    and filter out some redundant info I’ve chosen so you have a slower scrolling output. 
+                    This way you can keep direct track of the blocks coming in with the second tail command without it forcing the other information out of the way. 
+                    Feel free to play around with what you want to include and exclude until you’re comfortable using the command.</p>
+                
+                  <p>Now that you have two terminals with tail commands “waiting”, go ahead and run bitcoin-qt again, 
+                    and this time let it run so it actually starts making sync progress:</p>
+                
+                  <p>That’s it! Just let it sync. 
+                    Depending on your hardware/bandwidth it could take anywhere from a handful of hours to multiple weeks <em>(unlikely)</em>.</p>
+                  <p>When it’s finally synced, blocks will start coming in once every ~10 minutes on average 
+                    and the the debug.log file will start showing a lot more activity, 
+                    including transaction relaying information which doesn’t begin until after the IBD <em>(Initial Block Download)</em> period.</p>
+                  <h3>For those here who just need the commands:</h3>
+                  <code
+                    >sudo apt-get update;
+                    sudo apt-get install git;
+                    mkdir -p bitcoin-source && cd bitcoin-source
+                    git clone https://github.com/bitcoin/bitcoin.git;
+                    sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3;
+                    sudo apt-get install libboost-all-dev;
+                    wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz;
+                    echo '12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz' | sha256sum -c;
+                    tar -xvf db-4.8.30.NC.tar.gz;
+                    cd db-4.8.30.NC/build_unix;
+                    mkdir -p build;
+                    BDB_PREFIX=$(pwd)/build;
+                    ../dist/configure --disable-shared --enable-cxx --with-pic --prefix=$BDB_PREFIX;
+                    sudo make install;
+                    cd ../..;
+                    sudo apt-get install libminiupnpc-dev;
+                    sudo apt-get install libzmq3-dev;
+                    sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler;
+                    sudo apt-get install libqrencode-dev;
+                    cd bitcoin;
+                    git checkout tags/v0.16.3;
+                    ./autogen.sh;
+                    ./configure CPPFLAGS="-I${BDB_PREFIX}/include/ -O2" LDFLAGS="-L${BDB_PREFIX}/lib/" --with-gui;
+                    make;
+                    sudo make install;
+                  </code>
+                  <code>bitcoin-qt</code>
+                  <h3>UPDATE: Upgrading from 0.16.0 to 0.16.3</h3>
+                  <p>If you installed Bitcoin via this tutorial, the following will explain how to go about upgrading to 0.16.3. 
+                    If you’re looking to install 0.16.3 from scratch, follow the tutorial above from the beginning and don’t worry about these steps, which will be as follows:</p>
+                  <ul>
+                    <li>Make sure Bitcoin Core is no longer running</li>
+                    <li>Renaming the installation folder</li>
+                    <li>Downloading and installing the new client</li>
+                  </ul>
+                  <p>There are some specific details you will need to pay attention too, but otherwise it will be pretty straightforward. 
+                    First…</p>
+                  <p><strong>Do Not Delete:</strong> /home/[user]/.bitcoin</p>
+                  <p>Let’s make this clear in case you’re reviewing this and need a refresher.</p>
+                  <p>There are two directories:</p>
+                  <ul>
+                    <li>/home/[user]/.bitcoin — Which is the hidden folder (the period before the b) in your home directory that holds your wallet and configuration files, along with other data that you want to keep.</li>
+                    <li>/home/[user]/bitcoin-source/bitcoin — Which is the normal folder where 0.16.0 is installed. This is the one we want to rename so we can install 0.16.3 in its place.</li>
+                  </ul>
+                
+                  <p>You can run the following commands in the shell, which I recommend doing anyway because we then need redownload the Bitcoin binaries. 
+                    <strong>Do not make a new folder named “bitcoin”</strong>, this will be done automatically with the clone command:</p>
+                  <code
+                    >$ cd ~/bitcoin-source
+                    $ mv bitcoin bitcoin-old-16.0
+                    $ git clone https://github.com/bitcoin/bitcoin.git</code>
+                
+                  <p>Next we’re going to recreate a prefix <em>(directory shortcut)</em> that we set up in the original tutorial. 
+                    This doesn’t have to be done this way, but for simplicity sake we’re going to. 
+                    Please note that this prefix is only temporary, if you close out the shell after this, you will have to follow this step again:</p>
+                  <code>
+                    $ cd ~/bitcoin-source/db-4.8.30.NC/build_unix
+                    $ BDB_PREFIX=$(pwd)/build</code>
+                  <p>Now we’re going to proceed like normal:</p>
+                  <code
+                    >$ cd ~/bitcoin-source/bitcoin
+                    $ git checkout tags/v0.16.3
+                    $ ./autogen.sh
+                    $ ./configure CPPFLAGS="-I${BDB_PREFIX}/include/ -O2" LDFLAGS="-L${BDB_PREFIX}/lib/" --with-gui</code>
+                  <code
+                    >$ make
+                    $ sudo make install</code>
+                  <p>That should be all you need to do.</p></article>
+            </section>
+            <section class="main-section" id="possible_issues">
+              <header>Possible Issues</header>
+              <article>
+                <h3>Legal</h3>
+                <p>Bitcoin use is prohibited or restricted in some areas.</p>
+                <h3>Bandwidth limits</h3>
+                <p
+                  >Some Internet plans will charge an additional amount for any excess upload bandwidth used that isn’t included in the plan. 
+                    Worse, some providers may terminate your connection without warning because of overuse. 
+                    We advise that you check whether your Internet connection is subjected to such limitations 
+                    and monitor your bandwidth use so that you can stop Bitcoin Core before you reach your upload limit.</p>
+                <h3>Anti-virus</h3>
+                <p
+                  >Several people have placed parts of known computer viruses in the Bitcoin block chain. 
+                    This block chain data can’t infect your computer, but some anti-virus programs quarantine the data anyway, 
+                    making it more difficult to run Bitcoin Core. This problem mostly affects computers running Windows.</p>
+                <h3>Attack target</h3>
+                <p
+                  >Bitcoin Core powers the Bitcoin peer-to-peer network, 
+                    so people who want to disrupt the network may attack Bitcoin Core users in ways that will affect other things you do with your computer, 
+                    such as an attack that limits your available download bandwidth.</p>
+              </article>
+            </section>
+            <section class="main-section" id="License">
+              <header>License</header>
+              <article>
+                <p>
+                    Bitcoin Core is a community-driven free software project released under the 
+                    <strong>MIT license</strong>.</p>
+              </article>
+            </section>
+            <section class="main-section" id="References">
+              <header>References</header>
+              <article>
+                <ul>
+                  <li>
+                    Documentation for Bitcoin Core users and developers 
+                    <a
+                      href="https://en.bitcoin.it/wiki/Category:Bitcoin_Core_documentation"
+                      target="_blank">
+                      https://en.bitcoin.it/wiki/Category:Bitcoin_Core_documentation</a>
+                  </li>
+
+                  <li>Bitcoin Core 
+                    <a href="https://en.bitcoin.it/wiki/Bitcoin_Core" target="_blank">
+                        https://en.bitcoin.it/wiki/Bitcoin_Core</a>
+                    </li>
+                    
+                    <li>Full node 
+                        <a href="https://en.bitcoin.it/wiki/Full_node" target="_blank">
+                    https://en.bitcoin.it/wiki/Full_node</a>
+                    </li>
+
+                    <li>Running Bitcoin 
+                        <a href="https://en.bitcoin.it/wiki/Running_Bitcoin" target="_blank">
+                        https://en.bitcoin.it/wiki/Running_Bitcoin</a>
+                    </li>
+
+                    <li>Running a full node 
+                        <a href="https://bitcoin.org/en/full-node " target="_blank">
+                        https://bitcoin.org/en/full-node </a>
+                    </li>
+
+                    <li>Bitcoin.org developer documentation 
+                        <a href="https://github.com/bitcoin-dot-org/developer.bitcoin.org" target="_blank">
+                        https://github.com/bitcoin-dot-org/developer.bitcoin.org</a>
+                    </li>
+
+                    <li>Bitcoin network 
+                        <a href="https://en.wikipedia.org/wiki/Bitcoin_network" target="_blank">
+                        https://en.wikipedia.org/wiki/Bitcoin_network</a>
+                    </li>
+
+                    <li>Learn me a Bitcoin 
+                        <a href="https://learnmeabitcoin.com/beginners/getting-started" target="_blank">
+                            https://learnmeabitcoin.com/beginners/getting-started</a>
+                    </li>
+                    <li>Raspberrypifullnode 
+                      <a href="https://www.raspberrypifullnode.com" target="_blank">https://www.raspberrypifullnode.com</a></li>
+                    <li>A complete beginners guide to installing a Bitcoin Full Node on Linux (2018 Edition) | HackerNoon 
+                      <a href="https://hackernoon.com/a-complete-beginners-guide-to-installing-a-bitcoin-full-node-on-linux-2018-edition-cb8e384479ea" target="_blank">https://hackernoon.com/a-complete-beginners-guide-to-installing-a-bitcoin-full-node-on-linux-2018-edition-cb8e384479ea</a></li>
+                </ul>
+              </article>
+            </section>
+          </main>
+          
+    </body>
+</html>
