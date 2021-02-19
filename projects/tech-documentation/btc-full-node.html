@@ -2,31 +2,46 @@
 <html lang="en">
     <head>
         <style>
+          @font-face{
+          font-family: "SourceSans3";
+          font-weight:normal;
+          src:local('SourceSans3');
+          src:url(https://daqhris.com/style/font/SourceSans3-Regular.ttf) format("truetype");
+          font-display: swap;}
+
+          @font-face{
+          font-family: "MillerTextRoman";
+          font-weight:normal;
+          src:local('MillerTextRoman');
+          src:url(https://daqhris.com/style/font/MillerTextRoman.ttf) format("truetype");
+          font-display: swap;}
         html,
             body {
-              min-width: 290px;
-              color: #4d4e53;
-              background-color: #ffffff;
-              font-family: Arial, sans-serif;
+              min-width: 250px;
+              color: darkgrey;
+              background-color:snow;
+              font-family: SourceSans3, Arial, sans-serif;
               line-height: 1.5;
             }
             
             #navbar {
               position: fixed;
-              min-width: 290px;
+              min-width: 250px;
               top: 0px;
               left: 0px;
               width: 300px;
               height: 100%;
+              background-color: ivory;
               border-right: solid;
               border-color: rgba(0, 22, 22, 0.4);
             }
             
             header {
               color: black;
-              margin: 10px;
+              font-family: MillerTextRoman, Georgia, serif;
+              margin: .625em;
               text-align: center;
-              font-size: 1.8em;
+              font-size: 2em;
               font-weight: thin;
             }
             
@@ -43,8 +58,8 @@
             }
             
             #navbar li {
-              color: #4d4e53;
-              border-top: 1px solid;
+              color: darkgrey;
+              border-top: 2px solid seagreen;
               list-style: none;
               position: relative;
               width: 100%;
@@ -52,8 +67,10 @@
             
             #navbar a {
               display: block;
-              padding: 10px 30px;
-              color: #4d4e53;
+              font-size: 1.25em;
+              font-weight: thin;
+              padding: 20px 30px;
+              color:darkolivegreen;
               text-decoration: none;
               cursor: pointer;
             }
@@ -68,11 +85,11 @@
             section article {
               color: #4d4e53;
               margin: 15px;
-              font-size: 0.96em;
+              font-size: 1em;
             }
             
             section li {
-              margin: 15px 0px 0px 20px;
+              margin: 10px 0px 0px 15px;
             }
             
             code {
@@ -83,12 +100,11 @@
               word-break: normal;
               word-wrap: normal;
               line-height: 2;
-              background-color: #f7f7f7;
+              background-color: lightgrey;
               padding: 15px;
               margin: 10px;
               border-radius: 5px;
             }
-            
             @media only screen and (max-width: 815px) {
               /* For mobile phones: */
               #navbar ul {
@@ -97,7 +113,7 @@
               }
             
               #navbar {
-                background-color: white;
+                background-color: seashell;
                 position: absolute;
                 top: 0;
                 padding: 0;
@@ -142,13 +158,13 @@
                 <a class="nav-link" href="#What_is_a_full_node">What is a Full Node?</a>
               </li>
               <li>
-                <a class="nav-link" href="#Minimum_requirements">Minimum Requirements</a>
+                <a class="nav-link" href="#Minimum_Requirements">Minimum Requirements</a>
               </li>
               <li><a class="nav-link" href="#RaspberryPi">Raspberry Pi</a></li>
               <li>
                 <a class="nav-link" href="#Linux">Linux</a>
               </li>
-              <li><a class="nav-link" href="#possible_issues">Possible Issues</a></li>
+              <li><a class="nav-link" href="#Possible_Issues">Possible Issues</a></li>
               <li><a class="nav-link" href="#License">License</a></li>
               <li><a class="nav-link" href="#References">References</a></li>
             </ul>
@@ -187,6 +203,7 @@
                 </ul>
               </article>
             </section>
+            <hr>
             <section class="main-section" id="What_is_a_full_node">
               <header>What is a full node?</header>
               <article>
@@ -202,7 +219,8 @@
                 </p>
               </article>
             </section>
-            <section class="main-section" id="Minimum_requirements">
+            <hr>
+            <section class="main-section" id="Minimum_Requirements">
               <header>Minimum Requirements</header>
               <article>
                 <p>
@@ -242,6 +260,7 @@
                 </ul>
               </article>
             </section>
+            <hr>
             <section class="main-section" id="RaspberryPi">
               <header>Install on Raspberry Pi</header>
               <article>
@@ -348,6 +367,7 @@
                 </code>
               </article>
             </section>
+            <hr>
             <section class="main-section" id="Linux">
               <header>Install on Linux (2018)</header>
               <article>
@@ -375,7 +395,6 @@
                   <p>
                     <strong>git</strong> is the name of the Git package, and is recognized as such by the list of <a href="https://en.wikipedia.org/wiki/APT_(software)#Sources">sources</a> the apt-get command refers to. 
                     It will also function as a command after it is installed.</p>
-                  <hr>
                   <p
                     >Now we’re going to make a folder within our home directory and then change to that directory so we can copy the files we need right into it. 
                     We could clone this into any folder we want, this is just the path I chose to create within the home folder.</p>
@@ -406,7 +425,6 @@
                   <p><strong>git clone</strong> will copy the Bitcoin repository from Github.com into the directory you’re in when you enter the command.</p>
                   <p>Since were in <strong>~/bitcoin-source</strong>, 
                     this will create the directory <strong>~/bitcoin-source/bitcoin</strong> and place all the necessary files in there.</p>
-                  <hr>
                   <p>You can check to see if the files installed by using the ls command, or you can browse to that directory in the File Manager.</p>
                   <code>$ ls bitcoin</code>
                   <p>
@@ -417,7 +435,6 @@
                   <p>
                     <strong>ls -a</strong> will output all folders, including hidden folders if any exist.  
                     Hidden folders begin with a <strong>.</strong> and will look like this: <strong>/home/satoshi/.abc123</strong>.</p>
-                  <hr>
                   <p
                     >Now we need to install some <a href="https://en.wikipedia.org/wiki/Library_%28computing%29" target="_blank">libraries</a>, 
                     along with the <a href="https://en.wikipedia.org/wiki/Berkeley_DB" target="_blank">Berkeley Database</a>. 
@@ -427,14 +444,12 @@
                   <p>Libraries:</p>
                     <code>$ sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3</code>
                     <code>$ sudo apt-get install libboost-all-dev</code>
-                  <hr>
                   <p>This will download and verify the Berkeley Database is legitimate:</p>
-                  <code>
-                    $ wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
+                  <code
+                    >$ wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
                     $ echo '12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz' | sha256sum -c</code>
                   <p>After entering the echo command you should get this response back:</p>
                   <code>db-4.8.30.NC.tar.gz: O`K</code>
-                  <hr>
                   <p>The following commands will extract (<em>tar -xvf</em>) the Berkley Database that we just downloaded and checked, 
                     then build and install it. It will also set a path shortcut so only _BDB\_PREFIX_ needs to be typed when referencing the dependency. 
                     Normally when entering a command, if you’re already halfway into the path you only need to reference to the remaining path, 
@@ -448,7 +463,6 @@
                     $ sudo make install
                     $ cd ../..</code>
                   <p>The database took about 2 minutes during sudo make install. I cut that out.</p>
-                  <hr>
                   <p>More Libraries:</p>
                   <code
                   >$ sudo apt-get install libminiupnpc-dev
@@ -497,7 +511,6 @@
                   <p
                     >You should now see a folder named .bitcoin appear in the file manager as well. 
                     Navigate into that folder, and we’re now redundantly in this directory both in the terminal and file manager, but for a reason.</p>
-                  <hr>
                   <p
                     >Now we’re going to create a file called <strong>debug.log</strong>. 
                     When you first launch Bitcoin, both this hidden folder, and the debug.log file are automatically created, 
@@ -531,7 +544,6 @@
                     >You should see the log tail going again, but this time you won’t see the GUI. 
                     Bitcoin is running in the background. 
                     Hit <strong>CONTROL+C</strong> again and let it stop.</p>
-                  <hr>
                   <p
                     >We need to create a configuration file now so n the file explorer create a file called bitcoin.conf. 
                     Open it, type the following and save the file:</p>
@@ -562,7 +574,6 @@
                   </code>
                   <p>For now just save the bitcoin.conf file with <strong>debug</strong> set to <strong>net</strong> and pruned if you need it. 
                     Originally when I recorded this for the tutorial, I made some mistakes and set it to 1, but the steps are the same:</p>
-                  <hr>
                   <p>Open a <em>third</em> terminal and enter the following:</p>
                   <code>$ tail -f ~/.bitcoin/debug.log | grep "UpdateTip:"</code>
                   <p>Again because it’s a tail, you’ll see nothing until you re-run <strong>bitcoin-qt</strong> or <strong>bitcoind</strong>.</p>
@@ -574,8 +585,8 @@
                   You’ll hear people say terms like “pipe it to <strong>grep</strong>” or “pipe it to <strong>more</strong>”, and this is what they mean.</p>
                 
                   <p>In the other terminal enter the following:</p>
-                  <code>
-                    $ tail -f ~/.bitcoin/debug.log | grep -v "UpdateTip:\|Requesting block\|sending getdata\|recieved block\|received: block"</code>
+                  <code
+                    >$ tail -f ~/.bitcoin/debug.log | grep -v "UpdateTip:\|Requesting block\|sending getdata\|recieved block\|received: block"</code>
                   <p>This is the same command but with the <strong>-v</strong> flag, and will do the opposite of the previous command and filter out any line with the text we specify.</p>
                 
                   <p><strong>UpdateTip:</strong> is included first, because we’re already pulling that specific information into a different window. 
@@ -652,8 +663,8 @@
                   <p>Next we’re going to recreate a prefix <em>(directory shortcut)</em> that we set up in the original tutorial. 
                     This doesn’t have to be done this way, but for simplicity sake we’re going to. 
                     Please note that this prefix is only temporary, if you close out the shell after this, you will have to follow this step again:</p>
-                  <code>
-                    $ cd ~/bitcoin-source/db-4.8.30.NC/build_unix
+                  <code
+                    >$ cd ~/bitcoin-source/db-4.8.30.NC/build_unix
                     $ BDB_PREFIX=$(pwd)/build</code>
                   <p>Now we’re going to proceed like normal:</p>
                   <code
@@ -666,7 +677,8 @@
                     $ sudo make install</code>
                   <p>That should be all you need to do.</p></article>
             </section>
-            <section class="main-section" id="possible_issues">
+            <hr>
+            <section class="main-section" id="Possible_Issues">
               <header>Possible Issues</header>
               <article>
                 <h3>Legal</h3>
@@ -689,6 +701,7 @@
                     such as an attack that limits your available download bandwidth.</p>
               </article>
             </section>
+            <hr>
             <section class="main-section" id="License">
               <header>License</header>
               <article>
@@ -697,6 +710,7 @@
                     <strong>MIT license</strong>.</p>
               </article>
             </section>
+            <hr>
             <section class="main-section" id="References">
               <header>References</header>
               <article>
@@ -750,6 +764,10 @@
                 </ul>
               </article>
             </section>
+            <hr>
+            <footer style="text-align:center;background-color:gainsboro;color:black;line-height: 1.75em;">
+            <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#"><a rel="cc:attributionURL" property="dct:title" href="https://daqhris.com/projects/tech-docs-page/btc-full-node">Bitcoin Full Node Documentation</a> created by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://daqhris.com/">Chris-Armel</a> is licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0?ref=chooser-v1" target="_blank" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" alt="Creative commons icon" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" alt="Human author icon" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" rel="noopener noreferrer"></a></p>
+            </footer>
           </main>
           
     </body>
