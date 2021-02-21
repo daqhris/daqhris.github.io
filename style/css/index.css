@@ -61,7 +61,7 @@ nav{margin:.25em;}
 /*Custom CSS*/
 .button {border: none;background-color:#F5F5F5;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em;}
 .text-link{color:#0057af} /*Colored links*/
-.underline-footer{border-bottom-width:.05em;border-bottom-style: solid} /*Underlined links at the bottom*/
+.underline{border-bottom-width:.1em;border-bottom-style: solid} /*Underlined links at the bottom*/
 .lang-button{line-height: 1em;font-family: "MerriweatherSans-Light", sans-serif;}
 /*Different screen sizes, different appearance rules*/
 /*Tiny screen*/
@@ -151,7 +151,7 @@ nav{margin:.25em;}
     hr{border-top-color:#F2F2F2}
     .siteHeader{border:solid #F2F2F2;background-color:#181a1b}
     .siteHeader-title{background-color:#444444}
-    .siteProjects>a{color:#FFFFFF}
+    .siteProjects a{color:#FFFFFF}
     .underline-footer{color:#FFFFFF}
     .siteNav-pages>li{color:#FFFFFF}
 }
