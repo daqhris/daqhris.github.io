@@ -30,7 +30,7 @@ p{margin:0 0 .5em;padding:0;}
 hr{display:block;width:25%;height:.0625em;border:0;border-top:.0625em solid #ccc;margin:1em auto;padding:0}
 body{margin:1em;padding:1em}
 footer,header,nav{display:block}
-h1{font-size:1.125em;margin:.5em .5em}
+h1{font-size:1.25em;margin:.5em .5em}
 h2{font-size:1.125em;margin:.25em .25em}
 section{margin:.25em 1em}
 small{font-size:75%}
@@ -56,8 +56,6 @@ nav{margin:.25em;}
 .fa-code:before{content:"\f121"}
 .fa-picture-o:before{content:"\f03e"}
 .fa-book:before{content:"\f02d"}
-.fa-music:before{content:"\f001"}
-.fa-bitcoin:before,.fa-btc:before{content:"\f15a"}
 /*Custom CSS*/
 .button {border: none;background-color:#F5F5F5;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em;}
 .text-link{color:#0057af} /*Colored links*/
@@ -67,7 +65,6 @@ nav{margin:.25em;}
 /*Tiny screen*/
 @media (max-width: 320px) {
     body {
-        font-size: .59375em; /*9.5px*/
         margin: .25em;
         padding: .25em;
     } 
@@ -75,7 +72,6 @@ nav{margin:.25em;}
 /*Small screen*/
 @media (min-width: 320px) and (min-width: 320px){
     body {
-        font-size: .75em; /*12px*/
         margin: .5em;
         padding: .5em;
     } 
@@ -83,7 +79,6 @@ nav{margin:.25em;}
 /*Mobile screen*/
 @media (min-width: 375px) {
     body {
-        font-size: .875em; /*14px*/
         margin: .75em;
         padding: .75em;
     }
@@ -91,7 +86,6 @@ nav{margin:.25em;}
 /*Phablet screen*/
 @media (min-width: 425px) {
     body {
-        font-size: 1em; /*16px*/
         margin: .75em;
         padding: .75em;
     } 
@@ -99,7 +93,6 @@ nav{margin:.25em;}
 /*Tablet screen*/
 @media (min-width: 768px) and (min-height:320px){
     body {
-        font-size: 1.125em; /*18px*/
         margin: .875em;
         padding: .875em;
     }
@@ -107,7 +100,6 @@ nav{margin:.25em;}
 /*Laptop screen*/
 @media (min-width: 1024px) and (min-height: 425px) {
     body {
-        font-size: 1.25em; /*20px*/
         margin: 1em;
         padding: 1em;
     }
@@ -115,7 +107,6 @@ nav{margin:.25em;}
 /*Desktop HD screen*/
 @media (min-width: 1440px) and (min-height: 768px) {
     body {
-        font-size: 1.5em; /*24px*/
         margin: 1.125em;
         padding: 1.125em;
     }
@@ -123,7 +114,6 @@ nav{margin:.25em;}
 /*4K screen*/
 @media (min-width: 2560px) and (min-height: 1024px){
     body {
-        font-size: 2.5em; /*40px*/
         margin: 2em;
         padding: 2em;
     }
@@ -131,7 +121,6 @@ nav{margin:.25em;}
 /*8K screen*/
 @media (min-width: 4320px) and (min-height: 1440px) {
     body {
-        font-size: 4em; /*64px*/
         margin: 2.5em;
         padding: 2.5em;
     }
@@ -139,7 +128,6 @@ nav{margin:.25em;}
 /*16K screen*/
 @media (min-width: 8640px) and (min-height: 2560px) {
     body {
-        font-size: 5em; /*80px*/
         margin: 3em;
         padding: 3em;
     }
