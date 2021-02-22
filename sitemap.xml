@@ -27,7 +27,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/projects/portfolio-page/travel-photo.html</loc>
+  <loc>https://daqhris.com/projects/portfolio-page/clark-travel-photo.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -42,9 +42,29 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://daqhris.com/about.html</loc>
+  <loc>https://daqhris.com/projects/product-page/african-highlands-bananas.html</loc>
       <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://daqhris.com/projects/survey-form/electric-bicycle-owners.html</loc>
+      <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://daqhris.com/projects/tech-documentation/btc-full-node.html</loc>
+      <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc</loc>
+      <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://daqhris.com/docs/bitcoin.pdf</loc>
+      <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://daqhris.com/legal.html</loc>
@@ -61,5 +81,4 @@
       <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
-
 </urlset>
