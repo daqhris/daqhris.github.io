@@ -1,17 +1,20 @@
-### E-Mail
-Only __encrypted e-mails__ are received, read and replied to by `Chris A. Iradukunda`.  
-Regular e-mails are either considered read-only or blocked, like _public advertisements_.  
-You are strongly advised to send your electronic message by using his __GPG public key__.
+## E-Mail
+Only _encrypted e-mails_ are received, read and replied to by `Chris A. Iradukunda`.  
+Regular e-mails are either ignored or blocked, like _public advertisements_.  
+You are strongly advised to send your electronic message by using his __GPG public key__.   
+### Problems?
+- If you didn't understand a word, Click [HERE](https://emailselfdefense.fsf.org/en/) to learn how to send secure messages.  
+- If you are too lazy to learn, click [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) to view his electronic mail address from __Ubuntu Keyserver__.  
 
-### Public Key cryptography
+## Public Key cryptography
 This is __Chris-Armel (_@daqhris_)__ public key.  
 All of his secure communications require the usage of such basic cryptographic method.  
-The same key is used to digitally sign and/or encrypt any of his messages and documents.   
+The same key is used to digitally sign and encrypt any of his messages and documents.   
 
-__PGP fingerprint__ : `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`
+__PGP fingerprint__ : `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
 
-Alternatively, you may __Copy & Paste__ the following code or 
-__Download__ his ASC file from this [link](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).
+_Alternatively_, you may __Copy & Paste__ the following code or directly 
+__Download__ his ASC file from this [LINK](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).  
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
