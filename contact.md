@@ -1,13 +1,15 @@
+# How to contact _daqhris_ ? 
+
 ## E-Mail
 Only _encrypted e-mails_ are received, read and replied to by `Chris A. Iradukunda`.  
 Regular e-mails are either ignored or blocked, like _public advertisements_.  
 You are strongly advised to send your electronic message by using his __GPG public key__.   
-### Problems?
-- If you didn't understand a word, Click [HERE](https://emailselfdefense.fsf.org/en/) to learn how to send secure messages.  
-- If you are too lazy to learn, click [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) to view his electronic mail address from __Ubuntu Keyserver__.  
+#### Problems ?
+- If you didn't understand a word, click [HERE](https://emailselfdefense.fsf.org/en/) to learn how to send secure messages.  
+- If you are too lazy to learn, click [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) to view his e-mail address (from an __OpenPGP Keyserver__).  
 
 ## Public Key cryptography
-This is __Chris-Armel (_@daqhris_)__ public key.  
+This is __Chris-Armel__ (@daqhris) public key.  
 All of his secure communications require the usage of such basic cryptographic method.  
 The same key is used to digitally sign and encrypt any of his messages and documents.   
 
