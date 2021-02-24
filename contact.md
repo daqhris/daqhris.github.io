@@ -6,7 +6,7 @@ You are strongly advised to send your electronic message by using his __PGP publ
 #### Problems?
 - If you didn't understand a word, click [HERE](https://emailselfdefense.fsf.org/en/) to learn how to send and receive secure messages.  
 - If you feel too lazy to learn, click [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) to view his e-mail address (from an __OpenPGP Keyserver__).  
-- If you don't get a reply as fast as you want, wait patiently _or_ say hello on his [Element/Matrix](https://matrix.to/#/@daqhris:matrix.org).
+- If you don't get a reply as fast as you want, wait patiently _or_ say hello on his [Matrix/Element](https://matrix.to/#/@daqhris:matrix.org).
 
 ## Public Key cryptography
 This is __Chris-Armel__ (@__daqhris__) public key.  
