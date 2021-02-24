@@ -4,13 +4,14 @@ Regular e-mails are either considered read-only or blocked, like _public adverti
 You are strongly advised to send your electronic message by using his __GPG public key__.
 
 ### Public Key cryptography
-This is __Chris-Armel (_@daqhris_)__ public key. Also, called PGP/GPG or secret key.  
+This is __Chris-Armel (_@daqhris_)__ public key.  
 All of his secure communications require the usage of such basic cryptographic method.  
 The same key is used to digitally sign and/or encrypt any of his messages and documents.   
 
-_PGP fingerprint_ : `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`
+__PGP fingerprint__ : `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`
 
-Alternatively, you may __copy and paste__ the code or __download__ his ASC file from this [link](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).
+Alternatively, you may __Copy & Paste__ the following code or 
+__Download__ his ASC file from this [link](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
