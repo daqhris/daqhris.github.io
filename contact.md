@@ -1,22 +1,21 @@
-# How to contact _daqhris_ ? 
-
+# How to get in touch? 
 ## E-Mail
 Only _encrypted e-mails_ are received, read and replied to by `Chris A. Iradukunda`.  
-Regular e-mails are either ignored or blocked, like _public advertisements_.  
+Regular e-mails are either ignored or blocked or considered read-only, like _public advertisements_.  
 You are strongly advised to send your electronic message by using his __GPG public key__.   
-#### Problems ?
+#### Problems?
 - If you didn't understand a word, click [HERE](https://emailselfdefense.fsf.org/en/) to learn how to send secure messages.  
-- If you are too lazy to learn, click [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) to view his e-mail address (from an __OpenPGP Keyserver__).  
+- If you feel too lazy to learn, click [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) to view his e-mail address (from an __OpenPGP Keyserver__).  
 
 ## Public Key cryptography
-This is __Chris-Armel__ (@daqhris) public key.  
+This is __Chris-Armel__ (@__daqhris__) public key.  
 All of his secure communications require the usage of such basic cryptographic method.  
 The same key is used to digitally sign and encrypt any of his messages and documents.   
 
 __PGP fingerprint__ : `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
 
 _Alternatively_, you may __Copy & Paste__ the following code or directly 
-__Download__ his ASC file from this [LINK](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).  
+__Download__ his pubkey ASC file from this [LINK](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).  
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
