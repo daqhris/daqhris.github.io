@@ -2,10 +2,11 @@
 ## E-Mail
 Only _encrypted e-mails_ are received, read and replied to by `Chris A. Iradukunda`.  
 Regular e-mails are either ignored or blocked or considered read-only, like _public advertisements_.  
-You are strongly advised to send your electronic message by using his __GPG public key__.   
+You are strongly advised to send your electronic message by using his __PGP public key__.   
 #### Problems?
-- If you didn't understand a word, click [HERE](https://emailselfdefense.fsf.org/en/) to learn how to send secure messages.  
+- If you didn't understand a word, click [HERE](https://emailselfdefense.fsf.org/en/) to learn how to send and receive secure messages.  
 - If you feel too lazy to learn, click [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) to view his e-mail address (from an __OpenPGP Keyserver__).  
+- If you don't get a reply as fast as you want, wait patiently _or_ say hello on his [Element/Matrix](https://matrix.to/#/@daqhris:matrix.org).
 
 ## Public Key cryptography
 This is __Chris-Armel__ (@__daqhris__) public key.  
@@ -14,7 +15,7 @@ The same key is used to digitally sign and encrypt any of his messages and docum
 
 __PGP fingerprint__ : `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
 
-_Alternatively_, you may __Copy & Paste__ the following code or directly 
+_Alternatively_, you may __Copy & Paste__ the following code block _or_ directly 
 __Download__ his pubkey ASC file from this [LINK](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).  
 
 ```
