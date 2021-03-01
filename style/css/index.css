@@ -45,7 +45,7 @@ nav{margin:.25em;}
 code{font-family:"Inconsolata", monospace;font-size: 105%;background-color: #F5F5F5;border-radius: 0.1875em;padding: 0 0.1875em;}
 .siteContainer{margin:.5em 1.5em;}
 .siteHeader{text-align:center;padding:1em;border-bottom:.0625em solid #CCC;box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}/*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
-.siteHeader-title{border-radius:.25em;display:inline-block;line-height:2em;padding:.25em .75em;background-color:#3D3D3D}
+.siteHeader-title{border-radius:.15em;display:inline-block;line-height:1.75em;padding:.25em .5em;background-color:#3D3D3D}
 .siteHeader-title a{color:#fff}
 .siteHeader-description{font-size:.75em;margin:2em 2em 1em;font-family: "MerriweatherSans-Light", sans-serif;}
 .siteDescription{margin:.5em;font-family: "MillerTextRoman", serif;}
@@ -58,7 +58,7 @@ code{font-family:"Inconsolata", monospace;font-size: 105%;background-color: #F5F
 .siteFooter{text-align:center;font-size:.875em;margin:1em 2em;}
 /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
 .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
-.fa-3x{font-size:3em}
+.fa-3x{font-size:2.5em}
 .fa-envelope-o:before{content:"\f003"}
 .fa-code:before{content:"\f121"}
 .fa-picture-o:before{content:"\f03e"}
