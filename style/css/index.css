@@ -3,21 +3,27 @@
     font-weight:normal;
     src:local("FontAwesome"),
         local("font-awesome");
-    src:url(/style/font/fontawesome-webfont.ttf) format("truetype"), /* Safari, Android, iOS */
-        url(/style/font/fontawesome-webfont.woff) format("woff"), /* Pretty Modern Browsers */
-        url(/style/font/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
+    src:url(https://daqhris.com/style/font/fontawesome-webfont.ttf) format("truetype"), /* Safari, Android, iOS */
+        url(https://daqhris.com/style/font/fontawesome-webfont.woff) format("woff"), /* Pretty Modern Browsers */
+        url(https://daqhris.com/style/font/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
     font-display: swap;
 }
 @font-face{
     font-family: "MerriweatherSans-Light";
     font-weight:normal;
-    src:url(/style/font/MerriweatherSans-Light.ttf) format("truetype"); /* Safari, Android, iOS */
+    src:url(https://daqhris.com/style/font/MerriweatherSans-Light.ttf) format("truetype"); /* Safari, Android, iOS */
     font-display: swap;
 }
 @font-face{
     font-family: "MillerTextRoman";
     font-weight:normal;
-    src:url(/style/font/MillerTextRoman.ttf) format("truetype"); /* Safari, Android, iOS */
+    src:url(https://daqhris.com/style/font/MillerTextRoman.ttf) format("truetype"); /* Safari, Android, iOS */
+    font-display: swap;
+}
+@font-face{
+    font-family: "Inconsolata";
+    font-weight:normal;
+    src:url(https://daqhris.com/style/font/Inconsolata-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
     font-display: swap;
 }
 html{background-color:#fff;color:#1d1d1f;font:1em "MillerTextRoman", serif;direction: ltr;line-height: 1.5}
@@ -36,6 +42,7 @@ section{margin:.25em 1em}
 small{font-size:75%}
 hr{box-sizing:content-box}
 nav{margin:.25em;}
+code{font-family:"Inconsolata", monospace;font-size:large;font-weight: 500}
 .siteContainer{margin:.5em 1.5em;}
 .siteHeader{text-align:center;padding:1em;border-bottom:.0625em solid #CCC;box-shadow: .125em .125em .75em .25em rgba(50, 50, 50, 0.14);}/*box-shadow: third value adds blur effect and fourth value defines the spread of the shadow*/
 .siteHeader-title{border-radius:.25em;display:inline-block;line-height:2em;padding:.25em .75em;background-color:#3D3D3D}
