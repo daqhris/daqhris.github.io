@@ -4,7 +4,7 @@ This is [Chris A. IRADUKUNDA](https://daqhris.com)'s personal website [code repo
 
 All of this [website](https://daqhris.com/)'s front-end code is open-sourced under the [European Union Public Licence](https://raw.githubusercontent.com/daqhris/daqhris.github.io/master/LICENSE).
 
-Fonts used are licensed under the [SIL Open Font License](https://raw.githubusercontent.com/daqhris/daqhris.github.io/master/style/font/LICENSE.txt).
+Fonts used are licensed under the [SIL Open Font License](https://raw.githubusercontent.com/daqhris/daqhris.github.io/master/style/font/license/OFL.txt).
 
 Hosted by [GitHub Pages](https://pages.github.com/). Forked from [@barryclark/jekyll-now](https://github.com/barryclark/jekyll-now).
 
