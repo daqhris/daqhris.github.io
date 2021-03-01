@@ -58,7 +58,7 @@ code{font-family:"Inconsolata", monospace;font-size: 110%;background-color: #F5F
 .siteFooter{text-align:center;font-size:.875em;margin:1em 2em;}
 /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
 .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
-.fa-2x{font-size:2em}
+.fa-3x{font-size:3em}
 .fa-envelope-o:before{content:"\f003"}
 .fa-code:before{content:"\f121"}
 .fa-picture-o:before{content:"\f03e"}
@@ -153,7 +153,7 @@ code{font-family:"Inconsolata", monospace;font-size: 110%;background-color: #F5F
     html{background-color: #212121;color:#FFFFFF}
     .text-link{color:#007fff}
     hr{border-top-color:#F2F2F2}
-    code{background-color: #222222;}
+    code{background-color: #333;}
     .siteHeader{border:solid #F2F2F2;background-color:#181a1b}
     .siteHeader-title{background-color:#444444}
     .siteProjects a{color:#FFFFFF}
