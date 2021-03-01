@@ -28,7 +28,7 @@
 }
 html{background-color:#fff;color:#1d1d1f;font:1em "MillerTextRoman", serif;direction: ltr;line-height: 1.5}
 a{color:#1d1d1f;background-color:transparent;text-decoration:none;}
-a:link:focus, a:link:active, a:hover, a:active {outline: #3740ff solid 0.0625‬em}
+a:link, a:focus, a:active, a:hover, a:active {outline-color: #3740ff; outline-style:auto}
 p{margin:0 0 .5em;padding:0;}
 hr{display:block;width:25%;height:.0625em;border:0;border-top:.0625em solid #ccc;margin:1em auto;padding:0}
 body{margin:1em;padding:1em}
