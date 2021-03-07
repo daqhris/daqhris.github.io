@@ -66,7 +66,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
 .lang-button{line-height: 1em;font-family: "MerriweatherSans-Light", sans-serif;}
 /*Different screen sizes, different appearance rules*/
 /*Tiny screen*/
-@media (max-width: 320px) {
+@media (min-width: 320px) {
     body {
         font-size: .59375em; /*9.5px*/
         margin: .25em;
@@ -90,7 +90,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
     } 
 }
 /*Tablet screen*/
-@media (min-width: 768px) and (min-height:320px){
+@media (min-width: 768px) {
     body {
         font-size: 1.125em; /*18px*/
         margin: .875em;
@@ -98,7 +98,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
     }
 }
 /*Laptop screen*/
-@media (min-width: 1024px) and (min-height: 425px) {
+@media (min-width: 1024px) {
     body {
         font-size: 1.25em; /*20px*/
         margin: 1em;
@@ -106,7 +106,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
     }
 }
 /*Desktop HD screen*/
-@media (min-width: 1440px) and (min-height: 768px) {
+@media (min-width: 1440px) {
     body {
         font-size: 1.5em; /*24px*/
         margin: 1.125em;
@@ -114,7 +114,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
     }
 }
 /*4K screen*/
-@media (min-width: 2560px) and (min-height: 1024px){
+@media (min-width: 2560px) {
     body {
         font-size: 2.5em; /*40px*/
         margin: 2em;
@@ -122,7 +122,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
     }
 }
 /*8K screen*/
-@media (min-width: 4320px) and (min-height: 1440px) {
+@media (min-width: 4320px) {
     body {
         font-size: 4em; /*64px*/
         margin: 2.5em;
@@ -130,7 +130,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
     }
 }
 /*16K screen*/
-@media (min-width: 8640px) and (min-height: 2560px) {
+@media (min-width: 8640px) {
     body {
         font-size: 5em; /*80px*/
         margin: 3em;
