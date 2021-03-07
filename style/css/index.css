@@ -81,60 +81,52 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
         padding: .5em;
     }
 }
-/*Phablet screen*/
-@media (min-width: 425px) {
+/*Tablet screen*/
+@media (min-width: 768px) {
     body {
         font-size: 1em; /*16px*/
         margin: .75em;
         padding: .75em;
-    } 
+    }
 }
-/*Tablet screen*/
-@media (min-width: 768px) {
+/*Laptop screen*/
+@media (min-width: 1024px) {
     body {
         font-size: 1.125em; /*18px*/
         margin: .875em;
         padding: .875em;
     }
 }
-/*Laptop screen*/
-@media (min-width: 1024px) {
+/*Desktop HD screen*/
+@media (min-width: 1440px) {
     body {
         font-size: 1.25em; /*20px*/
         margin: 1em;
         padding: 1em;
     }
 }
-/*Desktop HD screen*/
-@media (min-width: 1440px) {
+/*4K screen*/
+@media (min-width: 2560px) {
     body {
         font-size: 1.5em; /*24px*/
         margin: 1.125em;
         padding: 1.125em;
     }
 }
-/*4K screen*/
-@media (min-width: 2560px) {
+/*8K screen*/
+@media (min-width: 4320px) {
     body {
         font-size: 2.5em; /*40px*/
         margin: 2em;
         padding: 2em;
     }
 }
-/*8K screen*/
-@media (min-width: 4320px) {
+/*16K screen*/
+@media (min-width: 8640px) {
     body {
         font-size: 4em; /*64px*/
         margin: 2.5em;
         padding: 2.5em;
-    }
-}
-/*16K screen*/
-@media (min-width: 8640px) {
-    body {
-        font-size: 5em; /*80px*/
-        margin: 3em;
-        padding: 3em;
     }
 }
 /*code for dark mode*/
