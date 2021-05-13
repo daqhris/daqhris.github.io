@@ -51,7 +51,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
 .siteNav-pages{list-style:none;margin:.5em;padding:0;font-size:.875em;font-family: "MerriweatherSans-Light", sans-serif;}
 .siteNav-pages>li{display:block;margin:.05em;padding:.05em}
 .siteNav-social{list-style:none;margin:1em 0;padding:0;}
-.siteNav-social>li{display:inline-block;margin:.25em;padding:.25em;color:#3D3D3D;font-family: "Inconsolata", monospace;}
+.siteNav-social>li{display:inline-block;margin:.25em;padding:.25em;color:#3D3D3D;font-family: "MillerTextRoman", serif;}
 .siteFooter{text-align:center;font-size:.875em;margin:1em 2em;}
 /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
 .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
