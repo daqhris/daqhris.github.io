@@ -17,7 +17,7 @@
         }
         @font-face {
                 font-family: "Source-Sans";
-                src:url(/style/SourceSans3-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
+                src:url(/style/font/SourceSans3-Regular.ttf) format("truetype"); /* Safari, Android, iOS */
                 font-display: swap;
                 }
 
