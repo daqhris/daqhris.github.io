@@ -46,5 +46,5 @@
 
         @media (prefers-color-scheme: dark) {
             html{background-color: #212121;color:#FFFFFF;}
-            mark{color:gray}
+            mark{background-color:yellow;color:green}
         }
