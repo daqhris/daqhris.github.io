@@ -1,5 +1,7 @@
 # Basic JavaScript : Notes 
-These are notes taken during self-training sessions on the freeCodeCamp platform.  
+These are notes taken during self-learning sessions on the [freeCodeCamp](https://www.freecodecamp.org) platform.  
+
+~~_Notes: brief records written down to aid the memory._~~
 
 ***Last changes: 2021/05/25***
 
