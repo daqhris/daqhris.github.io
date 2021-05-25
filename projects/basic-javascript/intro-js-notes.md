@@ -1,4 +1,4 @@
-# Basic JavaScript Notes 
+# Basic JavaScript : Notes 
 These are notes taken during self-training sessions on the freeCodeCamp platform.  
 
 ***Last changes: 2021/05/25***
@@ -11,8 +11,8 @@ Variables allow computers to store and manipulate data.  Declare a variable by u
 End statements with *semicolons*.
 
 2. Storing values with the assignment operator  
-Store a value in a variable with the *assignment* operator **=**.  
-Caculations are firstly performed on the right side of **=** before the value is assigned to the left side.  
+Store a value in a variable with the *assignment* operator `=`.  
+Caculations are firstly performed on the right side of `=` before the value is assigned to the left side.  
 
 3. Assigning the value of one variable to another  
 The value of one variable can be assigned to another variable by using the assignment operator.
@@ -30,23 +30,23 @@ Multi-word variable names have the first word in lowercase and the first letter 
 
 7. Add two numbers with JavaScript  
 *Number* is a data type that represents numeric data.  
-Use **+** as a symbol for an addition operator when placed between two numbers.  
+Use `+` as a symbol for an addition operator when placed between two numbers.  
 
 8. Substract one number from another  
-Use **-** as symbol for substraction.  
+Use `-` as symbol for substraction.  
 
 9. Multiply two numbers  
-Use __*__ for multiplication of 2 numbers.
+Use `*` for multiplication of 2 numbers.
 
 10. Divide one number by another  
-Use __/__ for division.
+Use `/` for division.
 
 11. Increment a number  
-Use __++__ to *increment* or add 1 to a variable.  
+Use `++` to *increment* or add 1 to a variable.  
 `i++;` equals `i=i+1;`
 
 12. Decrement a number  
-Decrease a variable by 1 with **--**.  
+Decrease a variable by 1 with `--`.  
 
 13. Create decimal numbers  
 Decimal numbers can also be called *floating point* or *floats* and be stored in variables as value.  
@@ -57,20 +57,20 @@ Decimal numebrs can be multiplied like the whole numbers.
 15. Divide one decimal by another  
 
 16. Finding a remainder  
-__%__ is the remainder operator that gives the remainder of the division of two numbers.  
+`%` is the remainder operator that gives the remainder of the division of two numbers.  
 Remainder division by 2 will determine if a number is *Odd* or *Even*.  
 
 17. Compound assignment with augmented addition  
-The __+=__ operator is used to add by addition and assign directly a value to a variable.
+The `+=` operator is used to add by addition and assign directly a value to a variable.
 
 18. Compound assignment with augmented substraction  
-The operator __-=__ substracts a number from a variable.  
+The operator `-=` substracts a number from a variable.  
 
 19. Compound assignment with augmented multiplication  
-__*=__ multiplies a variable by a number.  
+`*=` multiplies a variable by a number.  
  
 20. Compound assignment with augmented division  
-__/=__ divides a variable by another number.  
+`/=` divides a variable by another number.  
 
 21. Declaring string variables  
 A string is a series of zero or more characters enclosed in single or double quotes.
@@ -89,4 +89,40 @@ Reasons to use escaping characters : usage of special characters such as carriag
 25. Concatening strings with plus operator  
 The *concatenating* operator is the `+` operator used with a `String` value.
 
-26. Concatenating strings with the plus equals operator
+26. Concatenating strings with the plus equals operator  
+*concatenate*: linked together in a chain or series.  
+Use `+=` to concatenate a string onto the end of an existing string variable.
+
+27. Constructing strings with variables   
+One or more variables can be inserted into a string by using the concatenation operator `+`. 
+
+28. Appending variables to strings  
+It is possible to append more than one variables to a string by using `+=`.
+
+29. Find the length of a string  
+To know the length of a string value, you write `.length` after the string variable or string literal.
+
+30. Use bracket notation to find the first character in a string  
+*zero-based* indexing: starting to count from zero.  
+Finding a character at a specific zero-based index within a string is called *bracket notation*.  
+```javascript
+var firstName = "Charles";
+var firstLetter = firstName[0];
+```  
+
+31. Understand string immutability  
+*immutable*: can't be altered after creation  
+String values are immutable.  
+You can not change an individual character of a string.  
+The only way to change this string is to assign it with a whole new string.
+
+32. Use bracket notation to find the Nth character in a string  
+Bracket notation `[]` is necessary to get the character at any position inside a string. 
+
+33. Use bracket notation to find the last character in a string  
+Substract one from the string's length in order to get the last letter. `.length - 1` 
+
+34. Use bracket notation to find the Nth-to-last character in a string  
+Use `.lenght - nth` to get the value of the nth-to-last caharacter in a string value.
+
+35. Word blanks
