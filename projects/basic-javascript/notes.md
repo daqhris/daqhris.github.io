@@ -3,9 +3,9 @@ These are notes taken during self-learning sessions on the [freeCodeCamp](https:
 
 ~~Notes: brief records written down to aid the memory.~~
 
-***Last updates: 2021/05/25***
+**Last update: 2021/05/26** (_ongoing changes_) 
 
-## Main Lessons
+## Lessons
 
 1. Declare JavaScript variables  
 JavaScript has 8 data types: `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, `object`.  
@@ -167,4 +167,36 @@ Entries of arrays are *mutable*.
 44. Manipulate arrays with unshift()  
 `.unshift()` function is used to add elements in front of an array. 
 
-45. Shopping List
+45. Shopping List  
+```javascript
+var myList = [["peanuts", 10],["books", 9],["shirts", 8],["lamps", 7],["shoes", 7],["watches", 6]];
+```
+
+46. Write reusable JavaScript with functions  
+*functions* are reusable parts of code.
+Once they are defined, you can omit writing the full code and only *invoke* the function `functionName();`.  
+```javascript
+function functionName() {
+  console.log("Hello World");
+}
+```
+
+47. Passing values to function with arguments  
+*Parameters* are variables that act as placeholders for the value that are to be input when it is called.   
+*Arguments* are the actual values that are input into a function when it is called.  
+```javascript
+function testFun(param1, param2) {
+  console.log(param1, param2);
+}
+```
+```javascript
+function functionWithArgs(param1, param2) {
+  console.log(param1 + param2);
+};
+functionWithArgs(144, 256);
+```
+
+48. Global scope and functions
+*Scope* means the visibility of variables.  
+Variables which are defined outside of a function block have *global* scope, meaning that they can be seen everywhere in the code.  
+
