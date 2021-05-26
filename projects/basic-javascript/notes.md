@@ -3,7 +3,7 @@ These are notes taken during self-learning sessions on the [freeCodeCamp](https:
 
 ~~Notes: brief records written down to aid the memory.~~
 
-***Last changes: 2021/05/25***
+***Last updates: 2021/05/25***
 
 ## Main Lessons
 
@@ -127,4 +127,44 @@ Substract one from the string's length in order to get the last letter. `.length
 34. Use bracket notation to find the Nth-to-last character in a string  
 Use `.lenght - nth` to get the value of the nth-to-last caharacter in a string value.
 
-35. Word blanks
+35. Word blanks  
+_Mad Libs_ is a game of filling words in the missing pieces of a sentence.
+
+36. Store multiple values in one variable using JavaScript Arrays
+Store many pieces of data in one place by using the variable `array`.
+```javascript
+var sandwich = ["peanut butter", "bread", 2021]
+```
+
+37. Nest one array within another array
+Otherwise called *multi-dimensional array*.
+```javascript
+var myArray = [["jump", 100],["dance", 150], ["walk", 50]];
+```
+
+38. Access array data with indexes
+Access to data inside arrays is done with *indexes*.
+_array indexes_ have the same bracket notation as strings and are *zero-based*.  
+`var myData = myArray[0];`
+
+39. Modify array data with indexes  
+Entries of arrays are *mutable*.
+`myArray[0] = 45;`
+
+40. Access mutli-dimensional arrays with indexes  
+*Multi-dimensional arrays* are an array of arrays.
+
+41. Manipulate arrays with push()
+`.push()` function is used to append data at the end of an array.
+`.push()` takes one or more parameters. 
+
+42. Manipulate arrays with pop()  
+`.pop()` function is used to pop a value off of the end of an array which will be store by assigning it to a variable.
+
+43. Manipulate arrays with shift()  
+`.shift()` function removes the first element from an array.
+
+44. Manipulate arrays with unshift()  
+`.unshift()` function is used to add elements in front of an array. 
+
+45. Shopping List
