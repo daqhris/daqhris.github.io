@@ -1,11 +1,13 @@
 # Basic JavaScript : Notes 
-These are notes taken during self-learning sessions on the [freeCodeCamp](https://www.freecodecamp.org) platform.  
+These are notes taken during self-learning sessions on the [freeCodeCamp](https://www.freecodecamp.org) platform. 
+
+This notebook contains an overview of the fundamentals of JavaScript including *variables*, *arrays*, *loops* and *functions*.
 
 ~~Notes: brief records written down to aid the memory.~~
 
 **Last update: 2021/05/26** (_ongoing changes_) 
 
-## Lessons
+## Courses (_51/111_)
 
 1. Declare JavaScript variables  
 JavaScript has 8 data types: `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, `object`.  
@@ -198,5 +200,13 @@ functionWithArgs(144, 256);
 
 48. Global scope and functions
 *Scope* means the visibility of variables.  
-Variables which are defined outside of a function block have *global* scope, meaning that they can be seen everywhere in the code.  
+Variables which are defined outside of a function block have *global* scope, meaning that they can be seen everywhere in the code. 
+Always declare variables with `var`. Without `var`, they are created in the *global* scope. 
 
+49. Local scope and functions  
+Variables that are only visible within a function or function parameters have *local* scope. 
+
+50. Global vs. Local scope in functions  
+*local* variable takes precedence over the *global* variable.
+
+51. Return a value from a function with return
