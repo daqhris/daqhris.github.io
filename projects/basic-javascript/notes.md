@@ -5,9 +5,9 @@ This notebook contains an overview of the fundamentals of JavaScript including *
 
 ~~Notes: brief records written down to aid the memory.~~
 
-**Last update: 2021/05/26** (_ongoing changes_) 
+**Last update: 2021/05/29** (_ongoing changes_) 
 
-## Courses (_51/111_)
+## Courses (_68/111_)
 
 1. Declare JavaScript variables  
 JavaScript has 8 data types: `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, `object`.  
@@ -209,4 +209,106 @@ Variables that are only visible within a function or function parameters have *l
 50. Global vs. Local scope in functions  
 *local* variable takes precedence over the *global* variable.
 
-51. Return a value from a function with return
+51. Return a value from a function with return  
+`return` statement is used to send a value back out of a function.  
+Pass values into a function with *arguments*.  
+```javascript
+function plusThree(num) {
+  return num + 3;
+}
+var answer = plusThree(5);
+```
+`answer` has the value `8`. 
+
+52. Understanding undefined value returned from a function   
+```javascript
+var sum = 0;
+function addSum(num) {
+  sum = sum + num;
+}
+addSum(3);
+```
+`addSum` is a function without a `return` statement. The function will change the global `sum` variable but the returned value of the function is `undefined`.
+
+53. Assignment with a returned value  
+Whatever that's on the right of the equal sign will be resolved before the value is assigned, even if it's a return value. 
+
+54. Stand in line  
+A *queue* is an abstract *data structure* where items are kept in order.  
+```javascript
+function nextInLine(arr, item) {
+  arr.push(item);
+    return item = arr.shift();
+}
+```
+55. Understanding boolean values 
+*boolean* is a data type that may only be: `true` or `false`.  
+These two states are mutually exclusive, one is on and other is off.  
+
+56. Use conditional logic with if statements  
+_if_ statements lead to the execution of code in the curly braces under certain conditions defined in the parantheses.
+```
+if (condition is true) {
+  statement is executed
+}
+```
+```javascript
+function trueOrFalse(wasThatTrue) {
+if (wasThatTrue) {
+  return "Yes, that was true"
+}
+return "No, that was false";
+}
+```
+
+57. Comparison with the equality operator  
+`==` is called the *equality operator*, one of many *comparison operators*. 
+It compares two values and returns `true` if they're equivalent or `false` if they are not. It also operates a type conversion of the compared values(_number, string, ..._)
+
+58. Comparison with the strict equality operator  
+`===` is called the *strict equality* and does not perform a type conversion. 
+
+59. Practice comparing different values  
+Determine the type of a variable or a value with the `typeof` operator. 
+`==` operator performs type conversion but `===` does not perform type conversion. 
+
+60. Comparison with the inequality operator  
+`!=` is the inequality operator, meaning *not equivalent* and that it returns `false` where equality would return `true` and *vice versa*.
+
+61. Comparison with the strict inequality operator  
+`!==` means **striclty not equal** and does not convert data types.
+
+62. Comparisson with the greater than operator  
+The _greater than_ operator `>` compares the values of two numbers.  
+It returns `true` when the number on the left is greater than the number to the right. 
+
+63. Comparison with the greater than or equal to operator  
+`>=` is called the _greater than or equal to_ operator.
+
+64. Comparison with the less than operator  
+`<` is named the *less than* operator that compares the values of two numbers. 
+
+65. Comparison with the less than or equal to operator  
+The _less than or equal to_ operator is `<=`.
+
+66. Comparison with the logical and operator  
+`&&` is called the _logical and_ operator.
+It will return `true` if and only if the _operands_ to the left and to the right of it are true.   
+```javascript
+if (num > 5 && num < 10) {
+  return "Yes";
+}
+return "No";
+```
+
+67. Comparisons with the logical or operator  
+The *logical or* operator `||` returns `true` if either of the _operands_ is `true`.  
+
+```javascript
+if (num > 10 || num < 5) {
+  return "No";
+}
+return "Yes";
+```
+
+68. Introducing else statements  
