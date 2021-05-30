@@ -5,9 +5,9 @@ This notebook contains an overview of the fundamentals of JavaScript including *
 
 ~~Notes: brief records written down to aid the memory.~~
 
-**Last update: 2021/05/29** (_ongoing changes_) 
+**Last update: 2021/05/30** (_ongoing changes_) 
 
-## Courses (_68/111_)
+## Courses (_71/111_)
 
 1. Declare JavaScript variables  
 JavaScript has 8 data types: `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, `object`.  
@@ -312,3 +312,36 @@ return "Yes";
 ```
 
 68. Introducing else statements  
+With an `else` statement, an alternate block of code gets executed. `if/else`
+
+69. Introducing else if statements   
+In the case of many conditions, you can chain `if` statements together with `else if` statements. 
+```javascript
+if (num > 15) {
+  return "Bigger than 15";
+} else if (num < 5) {
+  return "Smaller than 5";
+} else {
+  return "Between 5 and 15";
+}
+```
+
+70. Logical order in if else statements  
+Order is very important when working with `if` and `else if` statements. 
+
+71. Chaining if else statements  
+```javascript
+if (condition1) {
+  statement1
+} else if (condition2) {
+  statement2
+} else if (condition3) {
+  statement3
+. . .
+} else {
+  statementN
+}
+```
+
+72. Golf Code  
+
