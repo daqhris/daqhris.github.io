@@ -7,7 +7,7 @@ This notebook contains an overview of the fundamentals of JavaScript including *
 
 **Last update: 2021/05/30** (_ongoing changes_) 
 
-## Courses (_71/111_)
+## Courses (_73/111_)
 
 1. Declare JavaScript variables  
 JavaScript has 8 data types: `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, `object`.  
@@ -344,4 +344,52 @@ if (condition1) {
 ```
 
 72. Golf Code  
+```javascript
+var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+function golfScore(par, strokes) {
+  // Only change code below this line
+if (par, strokes == 1) {
+  return "Hole-in-one!";
+}
+else if (par, strokes <= par - 2) {
+  return "Eagle";
+}
+else if (par, strokes == par - 1) {
+  return "Birdie";
+}
+else if (par, strokes == par) {
+  return "Par";
+}
+else if (par, strokes == par + 1) {
+  return "Bogey";
+}
+else if (par, strokes == par + 2) {
+  return "Double Bogey";
+}
+else {
+  return "Go Home!";
+}
+  // Only change code above this line
+}
+golfScore(5, 4);
+```
+
+73. Selecting from many options with switch statements   
+Use a `switch` statement when you have many options to choose from.  
+`case` statements define various possible values.  
+`switch` tests a value and can have many *case* statements.  
+Statements are executed from the first matched `case` value until a `break` is encountered.  
+```javascript
+switch(lowercaseLetter) {
+  case "a":
+    console.log("A");
+    break;
+  case "b":
+    console.log("B");
+    break;
+}
+```
+`case` values are tested with strict equality `===`.  
+The `break` stops executing statements.  
+If `break` is omitted, next statement will be executed.  
 
