@@ -5,9 +5,9 @@ This notebook contains an overview of the fundamentals of JavaScript including *
 
 ~~Notes: brief records written down to aid the memory.~~
 
-**Last update: 2021/05/30** (_ongoing changes_) 
+**Last update: 2021/05/31** (_ongoing changes_) 
 
-## Courses (_73/111_)
+## Courses (_78/111_)
 
 1. Declare JavaScript variables  
 JavaScript has 8 data types: `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number`, `object`.  
@@ -25,7 +25,9 @@ The value of one variable can be assigned to another variable by using the assig
 It's totally right to attribute value to a variable in the same line that it is declared. 
 
 5. Understanding uninitialized variables  
-New variables have an initial value of **undefined**.
+New variables have an initial value of `undefined`.  
+If you do a mathematical operation on an `undefined` variable your result will be **NaN** which means _"Not a Number"_.  
+If you concatenate a string with an `undefined` variable, you will get a literal string of `undefined`.
 
 6. Understanding case sensitivity in variables  
 All variables and function names are **case sensitive**.  
@@ -392,4 +394,77 @@ switch(lowercaseLetter) {
 `case` values are tested with strict equality `===`.  
 The `break` stops executing statements.  
 If `break` is omitted, next statement will be executed.  
+```javascript
+function caseInSwitch(val) {
+  var answer = "";
+  // Only change code below this line
+switch(val) {
+  case 1:
+      return "alpha";
+    break;
 
+  case 2:
+      return "beta";
+    break;
+
+  case 3:
+      return "gamma";
+    break;
+
+  case 4:
+      return "delta";
+    break;
+}
+  // Only change code above this line
+  return answer;
+}
+caseInSwitch(1);
+```  
+
+74. Adding a default option in switch statements  
+Add the `default` statement which will be executed if no matching `case` statements are found.  
+`default` statement should come in the last position.  
+```javascript
+default:
+  defaultStatement;
+  break;
+```
+
+75. Multiple identical options in switch statements  
+```javascript
+var result = "";
+switch(val) {
+  case 1:
+  case 2:
+  case 3:
+    result = "1, 2, or 3";
+    break;
+  case 4:
+    result = "4 alone";
+}
+```
+
+75. Replacing if else chains with switch  
+`switch` statements can be easier to write than many chained `if/else if` statements.  
+
+76. Returning boolean values from functions  
+Use *equality comparison* instead of *if/else* statements. 
+```javascript
+function isEqual(a,b) {
+  return a === b;
+}
+```
+
+77. Return early pattern for functions  
+As soon as `return` statement is reached, the execution of the current function stops and control returns to the calling location.  
+```javascript
+function abTest(a, b) {
+if (a<0 || b<0) {
+  return undefined;
+}
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+abTest(2,2);
+```
+
+78. Counting cards  
