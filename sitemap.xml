@@ -4,8 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 <url>
   <loc>https://daqhris.com/</loc>
       <changefreq>hourly</changefreq>
@@ -27,17 +25,17 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://daqhris.com/contact/</loc>
+      <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://daqhris.com/projects/portfolio-page/clark-travel-photo.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://daqhris.com/projects/tribute-page/bagaza-bio.html</loc>
-      <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://daqhris.com/projects/awalkaday/en.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
@@ -68,16 +66,6 @@
 </url>
 <url>
   <loc>https://daqhris.com/legal.html</loc>
-      <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://daqhris.com/projects/awalkaday/fr.html</loc>
-      <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://daqhris.com/projects/awalkaday/zh.html</loc>
       <changefreq>monthly</changefreq>
   <priority>0.64</priority>
 </url>
