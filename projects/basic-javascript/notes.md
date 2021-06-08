@@ -305,7 +305,6 @@ return "No";
 
 67. Comparisons with the logical or operator  
 The *logical or* operator `||` returns `true` if either of the _operands_ is `true`.  
-
 ```javascript
 if (num > 10 || num < 5) {
   return "No";
