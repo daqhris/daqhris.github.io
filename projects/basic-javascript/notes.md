@@ -345,125 +345,127 @@ if (condition1) {
 ```  
 
 72. Golf Code  
-```javascript
-var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
-function golfScore(par, strokes) {
-  // Only change code below this line
-if (par, strokes == 1) {
-  return "Hole-in-one!";
-}
-else if (par, strokes <= par - 2) {
-  return "Eagle";
-}
-else if (par, strokes == par - 1) {
-  return "Birdie";
-}
-else if (par, strokes == par) {
-  return "Par";
-}
-else if (par, strokes == par + 1) {
-  return "Bogey";
-}
-else if (par, strokes == par + 2) {
-  return "Double Bogey";
-}
-else {
-  return "Go Home!";
-}
-  // Only change code above this line
-}
-golfScore(5, 4);
-```  
+  ```javascript
+  var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+  function golfScore(par, strokes) {
+    // Only change code below this line
+  if (par, strokes == 1) {
+    return "Hole-in-one!";
+  }
+  else if (par, strokes <= par - 2) {
+    return "Eagle";
+  }
+  else if (par, strokes == par - 1) {
+    return "Birdie";
+  }
+  else if (par, strokes == par) {
+    return "Par";
+  }
+  else if (par, strokes == par + 1) {
+    return "Bogey";
+  }
+  else if (par, strokes == par + 2) {
+    return "Double Bogey";
+  }
+  else {
+    return "Go Home!";
+  }
+    // Only change code above this line
+  }
+  golfScore(5, 4);
+  ```  
 
 73. Selecting from many options with switch statements   
 Use a `switch` statement when you have many options to choose from.  
 `case` statements define various possible values.  
 `switch` tests a value and can have many *case* statements.  
 Statements are executed from the first matched `case` value until a `break` is encountered.  
-```javascript
-switch(lowercaseLetter) {
-  case "a":
-    console.log("A");
-    break;
-  case "b":
-    console.log("B");
-    break;
-}
-```  
+  ```javascript
+  switch(lowercaseLetter) {
+    case "a":
+      console.log("A");
+      break;
+    case "b":
+      console.log("B");
+      break;
+  }
+  ```  
 `case` values are tested with strict equality `===`.  
 The `break` stops executing statements.  
 If `break` is omitted, next statement will be executed.  
 
-```javascript
-function caseInSwitch(val) {
-  var answer = "";
-  // Only change code below this line
-switch(val) {
-  case 1:
-      return "alpha";
-    break;
-  case 2:
-      return "beta";
-    break;
-  case 3:
-      return "gamma";
-    break;
-  case 4:
-      return "delta";
-    break;
-}
-  return answer;
-}
-caseInSwitch(1);
-```  
+  ```javascript
+  function caseInSwitch(val) {
+    var answer = "";
+    // Only change code below this line
+  switch(val) {
+    case 1:
+        return "alpha";
+      break;
+    case 2:
+        return "beta";
+      break;
+    case 3:
+        return "gamma";
+      break;
+    case 4:
+        return "delta";
+      break;
+  }
+    return answer;
+  }
+  caseInSwitch(1);
+  ```  
 
 74. Adding a default option in switch statements  
 Add the `default` statement which will be executed if no matching `case` statements are found.  
 `default` statement should come in the last position.  
 
-```javascript
-default:
-  defaultStatement;
-  break;
-```
+  ```javascript
+  default:
+    defaultStatement;
+    break;
+  ```
 
 75. Multiple identical options in switch statements  
 
-```javascript
-var result = "";
-switch(val) {
-  case 1:
-  case 2:
-  case 3:
-    result = "1, 2, or 3";
-    break;
-  case 4:
-    result = "4 alone";
-}
-```
+  ```javascript
+  var result = "";
+  switch(val) {
+    case 1:
+    case 2:
+    case 3:
+      result = "1, 2, or 3";
+      break;
+    case 4:
+      result = "4 alone";
+  }
+  ```
 
 76. Replacing if else chains with switch  
+
 `switch` statements can be easier to write than many chained `if/else if` statements.  
 
 77. Returning boolean values from functions  
 Use *equality comparison* instead of *if/else* statements. 
-```javascript
-function isEqual(a,b) {
-  return a === b;
-}
-```  
+  ```javascript
+  function isEqual(a,b) {
+    return a === b;
+  }
+  ```  
 
 78. Return early pattern for functions  
-As soon as `return` statement is reached, the execution of the current function stops and control returns to the calling location.  
+As soon as `return` statement is reached, the execution of the current function stops and 
+control returns to the calling location.  
 
-```javascript
-function abTest(a, b) {
-if (a<0 || b<0) {
-  return undefined;
-}
-  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
-}
-abTest(2,2);
-```
+  ```javascript
+  function abTest(a, b) {
+  if (a<0 || b<0) {
+    return undefined;
+  }
+    return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+  }
+  abTest(2,2);
+  ```
 
 79. Counting cards  
