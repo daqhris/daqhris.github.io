@@ -342,7 +342,7 @@ if (condition1) {
 } else {
   statementN
 }
-```
+```  
 
 72. Golf Code  
 ```javascript
@@ -373,7 +373,7 @@ else {
   // Only change code above this line
 }
 golfScore(5, 4);
-```
+```  
 
 73. Selecting from many options with switch statements   
 Use a `switch` statement when you have many options to choose from.  
@@ -389,10 +389,11 @@ switch(lowercaseLetter) {
     console.log("B");
     break;
 }
-```
+```  
 `case` values are tested with strict equality `===`.  
 The `break` stops executing statements.  
 If `break` is omitted, next statement will be executed.  
+
 ```javascript
 function caseInSwitch(val) {
   var answer = "";
@@ -401,20 +402,16 @@ switch(val) {
   case 1:
       return "alpha";
     break;
-
   case 2:
       return "beta";
     break;
-
   case 3:
       return "gamma";
     break;
-
   case 4:
       return "delta";
     break;
 }
-  // Only change code above this line
   return answer;
 }
 caseInSwitch(1);
@@ -423,6 +420,7 @@ caseInSwitch(1);
 74. Adding a default option in switch statements  
 Add the `default` statement which will be executed if no matching `case` statements are found.  
 `default` statement should come in the last position.  
+
 ```javascript
 default:
   defaultStatement;
@@ -430,6 +428,7 @@ default:
 ```
 
 75. Multiple identical options in switch statements  
+
 ```javascript
 var result = "";
 switch(val) {
@@ -443,19 +442,20 @@ switch(val) {
 }
 ```
 
-75. Replacing if else chains with switch  
+76. Replacing if else chains with switch  
 `switch` statements can be easier to write than many chained `if/else if` statements.  
 
-76. Returning boolean values from functions  
+77. Returning boolean values from functions  
 Use *equality comparison* instead of *if/else* statements. 
 ```javascript
 function isEqual(a,b) {
   return a === b;
 }
-```
+```  
 
-77. Return early pattern for functions  
+78. Return early pattern for functions  
 As soon as `return` statement is reached, the execution of the current function stops and control returns to the calling location.  
+
 ```javascript
 function abTest(a, b) {
 if (a<0 || b<0) {
@@ -466,4 +466,4 @@ if (a<0 || b<0) {
 abTest(2,2);
 ```
 
-78. Counting cards  
+79. Counting cards  
