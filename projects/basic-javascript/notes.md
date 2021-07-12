@@ -393,11 +393,9 @@ Statements are executed from the first matched `case` value until a `break` is e
 `case` values are tested with strict equality `===`.  
 The `break` stops executing statements.  
 If `break` is omitted, next statement will be executed.  
-
   ```javascript
   function caseInSwitch(val) {
     var answer = "";
-    // Only change code below this line
   switch(val) {
     case 1:
         return "alpha";
@@ -417,7 +415,7 @@ If `break` is omitted, next statement will be executed.
   caseInSwitch(1);
   ```  
 
-74. Adding a default option in switch statements  
+74. Adding a default option in switch statements    
 Add the `default` statement which will be executed if no matching `case` statements are found.  
 `default` statement should come in the last position.  
 
