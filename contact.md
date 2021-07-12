@@ -22,7 +22,7 @@ __PGP fingerprint__ : `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`
 
 _Alternatively_, you may __Copy & Paste__ the following code block _or_ directly 
 __Download__ his pubkey ASC file from this 
-[LINK](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).  
+[LINK](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc). For improved safety, you can __View__ the same key on a dedicated page of his site's server [HERE](https://raw.githubusercontent.com/daqhris/daqhris.github.io/master/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
