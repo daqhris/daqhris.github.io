@@ -9,9 +9,8 @@ You are strongly advised to send your electronic message by using his __PGP publ
 to learn how to send and receive secure messages.  
 - If you feel too lazy to learn, click 
 [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) 
-to view his e-mail address (from an __OpenPGP Keyserver__).  
-- If you don't get a reply as fast as you want, wait patiently _or_ say hello on his 
-[Matrix/Element](https://matrix.to/#/@daqhris:matrix.org).
+to view his e-mail adress (uploaded to a public __OpenPGP Keyserver__).  
+- If you don't get a reply as fast as you want, click [HERE](https://matrix.to/#/@daqhris:matrix.org) to say hello directly on his __Matrix__ account.
 
 ## Public Key cryptography
 This is __Chris-Armel__ (@__daqhris__) public key.  
