@@ -15,3 +15,6 @@ Feel free to browse the projects showcase demo on [CodePen](https://codepen.io/c
 * Technical Documentation Page :  [Bitcoin Full Node Documentation](https://daqhris.com/projects/tech-documentation/btc-full-node) _('21)_  
 * Personal Portfolio Webpage : [Clark's Expeditions to Earth's Highest Peaks](https://daqhris.com/projects/portfolio-page/clark-travel-photo)  _('16)_  
 
+### JavaScript Algorithms and Data Structures  
+* [Basic JavaScript](https://daqhris.com/projects/basic-javascript/notes/) : Notes _('21)_
+
