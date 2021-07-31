@@ -45,7 +45,7 @@ This type of fund owns and manages digital assets that are:
 ## Portfolio  
 
 ### Wallet Adresses 
-BTC : `bc1ql3ly9gaesnyxr5jj49rprmsdg2hlvtvqe7yc3d`
+BTC : `bc1q0yt7l945lkn8fcc76uyrcwy85c3wyrqtztc027`
 
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 
