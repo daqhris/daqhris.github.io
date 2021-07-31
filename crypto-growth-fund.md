@@ -1,5 +1,15 @@
 # daqhris.eth Crypto Growth Fund  
 
+## Menu  
+
+1. [Introduction](https://daqhris.com/crypto-growth-fund/#introduction)  
+2. [Portfolio](https://daqhris.com/crypto-growth-fund/#portfolio)  
+3. [Manager](https://daqhris.com/crypto-growth-fund/#manager)  
+4. [Founding Story](https://daqhris.com/crypto-growth-fund/#founding-story)  
+5. [Holdings](https://daqhris.com/crypto-growth-fund/#holdings)  
+6. [Goals](https://daqhris.com/crypto-growth-fund/#goals)  
+7. [Transparency](https://daqhris.com/crypto-growth-fund/#transparency)
+
 ## Introduction 
 
 ### What is a *growth fund*?  
@@ -100,7 +110,11 @@ Basic Attention Token | BAT | 69.86390108
 
 ## Transparency
 ### Disclosures 
-Really, nothing! It's all on the **blockchain**, baby.   
+Really, nothing! It's all on the **blockchains**, baby.   
+
+### Source of Income  
+Some kind of hard work that may be done with human body parts but without insurance, contract or legal rights.  
+Otherwise, it consists of cash gifts or ethical handouts. 
 
 
 
