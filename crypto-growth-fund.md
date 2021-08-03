@@ -93,7 +93,7 @@ In case I earn or receive more paper money than the amount that is necessary for
 Crypto or Tokens | Symbol | Size 
 ---------------- | ------ | ---- 
 Bitcoin | BTC | 0.0030368 
-Ethereum | ETH | 0.0563192 
+Ethereum | ETH | 0.04953445 
 Uniswap | UNI | 2.13426917 
 ChainLink Token | LINK | 0.77483313 
 Compound | COMP | 0.3160238 
