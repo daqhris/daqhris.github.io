@@ -72,25 +72,46 @@ He will not replace your banker nor your accountant. Neither will he act as your
 E-mail (for business enquiries): `media at daqhris dot com` 
 
 ## Founding Story  
-> The inability to settle and remain steadily in a physical location (due to many reasons) has taught me recently that any physical asset may be seized, stolen, damaged or devalued by an individual, a group of persons or a larger entity like a government.  
-> 
-> Since the summer of 2015 until now, I live more or less with few personal belongings. 
-> I have experienced events that forced me to stay on the move due to safety, poverty or weather reasons.
-> 
-> At least once a year, an event has occured that led me to losing access to banking services or university facilities or health care systems. 
-> I have given up on owning large or heavy items after life-altering experiences as in detention centers, refugee camps, homelessness, seasonal lodging/couchsurfing and lately as an undocumented immigrant. 
-> 
-> After repeatedly going through the loss of personal properties, reputation, material possessions, human connections and at the end, stumbling into a slow but steady recovery, I have only been able to regain few valuable assets. 
-> Chief among them are some digital assets, namely Bitcoin and Ether purchased in Autumn 2017. 
-> I managed to recover the BTC holdings in Summer 2019 and ETH in Summer 2021. 
-> How? Well, by regaining access to digital wallet backups!  
-> 
-> Although, I was not actively managing the crypto wallets, they remained intact and had gained much value afterwards. 
-> For a long time, I thought of them as lost property. But later on, after the recovery of their secrets keys, I understood the high-value of global decentralized blockchains and the related digital currencies. 
-> 
-> Thus, I decided to entirely play the long game and set up a personal crypto growth fund with the intent of holding long-term investments in digital assets. 
-> In case I earn or receive more paper money than the amount that is necessary for basic needs (i.e: food, transport, accomodation), then I will purchase some cryptocurrencies and add them to the self-custodial wallets of the fund. 
+```
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
 
+The inability to settle and remain steadily in a physical location (due to many reasons) has taught me recently that any physical asset may be seized, stolen, damaged or devalued by an individual, a group of persons or a larger entity like a government.
+
+Since the summer of 2015 until now, I live more or less with few personal belongings.
+I have experienced events that forced me to stay on the move due to safety, poverty or weather reasons.
+
+At least once a year, an event has occured that led me to losing access to banking services or university facilities or health care systems.
+I have given up on owning large or heavy items after life-altering experiences as in detention centers, refugee camps, homelessness, seasonal lodging/couchsurfing and lately as an undocumented immigrant.
+
+After repeatedly going through the loss of personal properties, reputation, material possessions, human connections and at the end, stumbling into a slow but steady recovery, I have only been able to regain few valuable assets.
+Chief among them are some digital assets, namely Bitcoin and Ether purchased in Autumn 2017.
+I managed to recover the BTC holdings in Summer 2019 and ETH in Summer 2021.
+How? Well, by regaining access to digital wallet backups!
+
+Although, I was not actively managing the crypto wallets, they remained intact and had gained much value afterwards.
+For a long time, I thought of them as lost property. But later on, after the recovery of their secrets keys, I understood the high-value of global decentralized blockchains and the related digital currencies.
+
+Thus, I decided to entirely play the long game and set up a personal crypto growth fund with the intent of holding long-term investments in digital assets.
+In case I earn or receive more paper money than the amount that is necessary for basic needs (i.e: food, transport, accomodation), then I will purchase some cryptocurrencies and add them to the self-custodial wallets of the fund.
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEhxUjsxFFwjNUNY2UEcav5WsnH4gFAmEMR0sACgkQEcav5Wsn
+H4hlVw//Rh1yMftrsAVFT5YNFB8g5hwfPO+VBqgSX0KvKxdIBhGn+KO+pb7OKhD+
+6GOuINC+xlreN+PQsG9BRMZ+6ocOTh4b0o0g5VzhBzOfGm37+DleSLnqXamqTftl
+s04F33Gg+jpEOPIBPNDrZv8vyaIwZ4A3+02zLtDup/CnfX1GU40IWvqjgQSEpQey
+gCBj+u5zL1YitK64SotFNV8/+eY8DjorGocKVeD9Q65atDNyQ75r5B7mLEVMV4cB
+tFYzvDf43N2c44TB50KmahSu4OYauKUuOz5IP/uFEIlM6QNIfCXhIgz8IuibtuOY
+pYM9giaEWMVLyZYsKyZSgGGXqo9SPtdt8mrOH+/n3HQFP7tptfsVZCxITZp47FsK
+oGqRswjdFG/efn1Yzp+ICegOS743ZmYPV/d00mLhpXYX3zCcrWwKR5HKt8Bio7jx
+t/FVrtbOnRRYjCp/OQrSMJjhZMfiDPyTg3A0RyFhrCc9/JyblUIfkFPcZrmlDael
+Hb0ksc6m99pnQfjcSxM9RWRp9rIaJCURfYb0YizYUu9YSfy93qQIg/usW3GgqlXk
+j9BTa1fKBjqGEj+3VdOFeM+lh2YSY8ny6jKYRRVSr31JR5er8GDJThUdAKHQ65RA
+R8DgKc5eom4JdodVeL2h4XoQR5gnxi3+Y5Pwat1CfAyn2JjayU4=
+=d9LO
+-----END PGP SIGNATURE-----
+
+```
 
 ## Holdings  
 
