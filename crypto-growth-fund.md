@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : 2021-August-05_  
+_Latest changes : [2021-August-05](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_
 
 ## Menu  
@@ -42,7 +42,7 @@ and is also independent from any centralized entity like a regulatory body, a lo
 This type of fund owns and manages digital assets that are:
 - easily accessible by using the Internet  
 - known for practical & technical implementations  
-- on-track for fast growth over a long-term time horizon (5 - 10 years) 
+- on-track for fast growth over a long-term time horizon (10 - 20 years) 
 - not redeemable or convertible into physical assets afterwards
 
 ## Portfolio  
