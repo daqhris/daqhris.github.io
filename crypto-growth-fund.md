@@ -94,21 +94,22 @@ For a long time, I thought of them as lost property. But later on, after the rec
 
 Thus, I decided to entirely play the long game and set up a personal crypto growth fund with the intent of holding long-term investments in digital assets.
 In case I earn or receive more paper money than the amount that is necessary for basic needs (i.e: food, transport, accomodation), then I will purchase some cryptocurrencies and add them to the self-custodial wallets of the fund.
+
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEhxUjsxFFwjNUNY2UEcav5WsnH4gFAmEMR0sACgkQEcav5Wsn
-H4hlVw//Rh1yMftrsAVFT5YNFB8g5hwfPO+VBqgSX0KvKxdIBhGn+KO+pb7OKhD+
-6GOuINC+xlreN+PQsG9BRMZ+6ocOTh4b0o0g5VzhBzOfGm37+DleSLnqXamqTftl
-s04F33Gg+jpEOPIBPNDrZv8vyaIwZ4A3+02zLtDup/CnfX1GU40IWvqjgQSEpQey
-gCBj+u5zL1YitK64SotFNV8/+eY8DjorGocKVeD9Q65atDNyQ75r5B7mLEVMV4cB
-tFYzvDf43N2c44TB50KmahSu4OYauKUuOz5IP/uFEIlM6QNIfCXhIgz8IuibtuOY
-pYM9giaEWMVLyZYsKyZSgGGXqo9SPtdt8mrOH+/n3HQFP7tptfsVZCxITZp47FsK
-oGqRswjdFG/efn1Yzp+ICegOS743ZmYPV/d00mLhpXYX3zCcrWwKR5HKt8Bio7jx
-t/FVrtbOnRRYjCp/OQrSMJjhZMfiDPyTg3A0RyFhrCc9/JyblUIfkFPcZrmlDael
-Hb0ksc6m99pnQfjcSxM9RWRp9rIaJCURfYb0YizYUu9YSfy93qQIg/usW3GgqlXk
-j9BTa1fKBjqGEj+3VdOFeM+lh2YSY8ny6jKYRRVSr31JR5er8GDJThUdAKHQ65RA
-R8DgKc5eom4JdodVeL2h4XoQR5gnxi3+Y5Pwat1CfAyn2JjayU4=
-=d9LO
+iQIzBAEBCAAdFiEEhxUjsxFFwjNUNY2UEcav5WsnH4gFAmEMSAIACgkQEcav5Wsn
+H4iOHQ//Zn6RP4lFpe+puaOSYwuS+c/LfnNH/sHRSL161nibmOsKbJSsSPoPggHo
+vyEboYRQmPp5cay/84vOE7CGTVzhVPSQicz6hG8Z7QO4zzaYt7H65Vk3v7AkJ57k
+NsLpVB+P0nICRuzgto8PDBJCfnd36R31j5uWJR9MOnbNsSnuCZE34mdBk9dyIgpX
+yevwHXS3WHKEf5AW/vePRdshpato+wdjl7ukSPNIr+givIFl4EE9cBf6CpIZSu1s
+Hl2oqeklE9W+8Ddi/kVlYQVBMqifW79p++WnhxISO65lEAqhQAqAmOY61OGfC2QY
+7ICqISqRbmtZmiVz52nXpz6XK3A7yhJJVKRCJPOCRJVo7CbYZgynLgjua31uneCL
+MkDGrH7bf/XlU9ttYoPJxwMoWGmYhb3X7gg9vJ3KUXaHkoSKT0dWUiGFFFDa54zD
+BiPVBgLGpFg7aEncxMoNQ12VtUXjkpkTgoSg1NpCRGjCxgIKw5c4R0VkB1NY9fwh
+ixuaAR/h+SHUiiO6KJHkhhdxa0VGfaNHhLMURd5PG9i4IrJ5emVk2a5Vvo5/+bEF
+lBI6mNrkU8yoRL+uffzfzktIR8QCujHBH36WU2gxXYBLZ8cK4+8DGVvKS1ku/4bI
+AEjoPJHft12F8ROEejVRgDahanhmsFPFw8qnrpTnU9BteztivVA=
+=ARWq
 -----END PGP SIGNATURE-----
 
 ```
