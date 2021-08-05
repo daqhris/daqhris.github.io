@@ -44,7 +44,7 @@ This type of fund owns and manages digital assets that are:
 
 ## Portfolio  
 
-### Wallet Adresses 
+### Digital Wallet Addresses 
 BTC : `bc1q0yt7l945lkn8fcc76uyrcwy85c3wyrqtztc027`
 
 View the most recent transaction on a [Bitcoin blockchain explorer](https://live.blockcypher.com/btc/address/bc1q0yt7l945lkn8fcc76uyrcwy85c3wyrqtztc027/).
