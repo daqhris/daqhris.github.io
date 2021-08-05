@@ -1,5 +1,8 @@
 # daqhris.eth Crypto Growth Fund  
 
+_Latest changes : 2021-August-05_  
+_Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_
+
 ## Menu  
 
 1. [Introduction](https://daqhris.com/crypto-growth-fund/#introduction)  
@@ -34,7 +37,7 @@ A **crypto growth fund** is a fully digitized version of a growth fund which is 
 based on digital public ledgers (such as a blockchain).  
 
 It is an online-native investment portfolio that has operations uniquely in the cyberspace, openly shares transactions records and holdings 
-and is also not formally registered with any regulatory body, local authority or government agency. 
+and is also independent from any centralized entity like a regulatory body, a local authority or a government agency. 
 
 This type of fund owns and manages digital assets that are:
 - easily accessible by using the Internet  
@@ -117,6 +120,9 @@ Really, nothing! It's all publicly verifiable on the **blockchains**.
 ### Source of Income  
 Some kind of hard work that may be done with human body parts but without insurance, contract or legal rights.  
 Otherwise, it consists of cash gifts or monetary handouts. 
+
+
+
 
 
 
