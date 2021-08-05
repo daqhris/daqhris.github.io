@@ -110,8 +110,8 @@ Another great influence is the venture capital firm [Andreessen Horowitz (a16z)]
 
 **Main Targets**: 
 1. Foster [decentralized digital assets, protocols and platforms](https://www.investopedia.com/decentralized-finance-defi-5113835).  
-2. Guarantee future [financial independence](https://en.wikipedia.org/wiki/Financial_independence).   
-3. Seek personal [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp).  
+2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence).   
+3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp).  
 
 ## Transparency
 ### Disclosures 
