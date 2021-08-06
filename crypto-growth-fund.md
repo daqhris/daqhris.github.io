@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-August-05](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-August-06](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_
 
 ## Menu  
