@@ -1,7 +1,7 @@
 # daqhris.eth Crypto Growth Fund  
 
 _Latest changes : [2021-August-27](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
-_Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_
+_Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
 
@@ -72,32 +72,74 @@ He will not replace your banker nor your accountant. Neither will he act as your
 E-mail (for business enquiries): `media at daqhris dot com` 
 
 ## Founding Story  
-> The inability to settle and remain steadily in a physical location (due to many reasons) has taught me recently that any physical asset may be seized, stolen, damaged or devalued by an individual, a group of persons or a larger entity like a government.  
-> 
-> Since the summer of 2015 until now, I live more or less with few personal belongings. 
-> I have experienced events that forced me to stay on the move due to safety, poverty or weather reasons.
-> 
-> At least once a year, an event has occured that led me to losing access to banking services or university facilities or health care systems. 
-> I have given up on owning large or heavy items after life-altering experiences as in detention centers, refugee camps, homelessness, seasonal lodging/couchsurfing and lately as an undocumented immigrant. 
-> 
-> After repeatedly going through the loss of personal properties, reputation, material possessions, human connections and at the end, stumbling into a slow but steady recovery, I have only been able to regain few valuable assets. 
-> Chief among them are some digital assets, namely Bitcoin and Ether purchased in Autumn 2017. 
-> I managed to recover the BTC holdings in Summer 2019 and ETH in Summer 2021. 
-> How? Well, by regaining access to digital wallet backups!  
-> 
-> Although, I was not actively managing the crypto wallets, they remained intact and had gained much value afterwards. 
-> For a long time, I thought of them as lost property. But later on, after the recovery of their secrets keys, I understood the high-value of global decentralized blockchains and the related digital currencies. 
-> 
-> Thus, I decided to entirely play the long game and set up a personal crypto growth fund with the intent of holding long-term investments in digital assets. 
-> In case I earn or receive more paper money than the amount that is necessary for basic needs (i.e: food, transport, accomodation), then I will purchase some cryptocurrencies and add them to the self-custodial wallets of the fund. 
+```
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
 
+The inability to settle and remain steadily in a physical location 
+has taught me recently that any physical asset may be seized, stolen, 
+damaged or devalued by an individual, 
+a group of persons or a larger entity like a government.
+
+Since the summer of 2015 until now, 
+I live more or less with few personal belongings.
+I have experienced events that forced me to stay on the move 
+due to safety, poverty or weather reasons.
+
+At least once a year, an event has occured that led me to losing access 
+to banking services or university facilities or health care systems.
+I have given up on owning large or heavy items after life-altering experiences 
+as in detention centers, refugee camps, homelessness, seasonal lodging, 
+couchsurfing and lately as an undocumented immigrant.
+
+After repeatedly going through the loss of personal properties, reputation, 
+material possessions, human connections and at the end, 
+stumbling into a slow but steady recovery, 
+I have only been able to regain few valuable assets.
+Chief among them are some digital assets, 
+namely Bitcoin and Ether purchased in Autumn 2017.
+I managed to recover the BTC holdings in Summer 2019 and ETH in Summer 2021.
+How? Well, by regaining access to digital wallet backups!
+
+Although, I was not actively managing the crypto wallets, 
+they remained intact and had gained much value afterwards.
+For a long time, I thought of them as lost property. 
+But later on, after the recovery of their secrets keys, 
+I understood the high-value of global decentralized blockchains 
+and the related digital currencies.
+
+Thus, I decided to entirely play the long game 
+and set up a personal crypto growth fund 
+with the intent of holding long-term investments in digital assets.
+In case I earn or receive more paper money than the amount 
+that is necessary for basic needs (i.e: food, transport, accomodation), 
+then I will purchase some cryptocurrencies and add them to 
+the self-custodial wallets of the fund.
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEhxUjsxFFwjNUNY2UEcav5WsnH4gFAmENOhIACgkQEcav5Wsn
+H4i92xAAt3Mcwp8TbDGYGiPSaNvca/muh4GwtwGs36Eu0Vut3NAUKrUrxYkgHSvl
+ymnVp8mTTgJujnlsKdFcx39tuwu0FS9941j4KF1FMA0//XSkdsnjmT2AJlYdYbGO
+gyD1aIUdKgZJKRE7cFnSfgYnucE41HhJguk0FdN70AWGGf/2KEOjA51VjfgIM/VW
+oRoejVrg41nC+H2w6bTFqjxWl1ouE3HOiUbfDUOl7M/1yAUbqjn4jOqBboIQlDWx
+u9HpY2g+0jskMs+JVe1XZu94OrSpcXcU8U3BD1AR7hYjsvESyoJHWaE5+UYg/YYP
+vhRqzO12dQv88Xo33lz7h4ICQCzat4dZ56mpwtgd21QMsPCHiDm82yPdgyN79GV+
+W+g+dqpH9Io4L/4aSyrbbgxGODFWmSn5wEzkC+1/KBefh3bDu4gINuFIJC2QZUq1
+VlXbgbAZBcOu3AwqyKmfZDBhpi1qBhbBHQ5XYtM80rUt/9XKN8kLFPI3qZpIDTh9
+S2juASj/TE/Yu7cBe977Gz+XhN6Nfa2qza6Hs9SB5ilXzBRjw3SPAxk/j935kVQ6
+PGKKOL0CEsdhsfgJx55SZabYNaPN9nC75upa1WF+mdZxnMk31zue41Vpf/kpEx8y
+LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
+=BUBH
+-----END PGP SIGNATURE-----
+```
 
 ## Holdings  
 
 Crypto or Tokens | Symbol | Size 
 ---------------- | ------ | ---- 
 [Bitcoin](https://daqhris.com/docs/bitcoin.pdf) | BTC | 0.0030368 
-[Ethereum](https://ethereum.org/en/whitepaper/) | ETH | 0.04466762  
+[Ethereum](https://ethereum.org/en/whitepaper/) | ETH | 0.04466762 
 [Uniswap](https://uniswap.org/whitepaper-v3.pdf) | UNI | 2.13426917 
 [Chainlink](https://chain.link/whitepaper) | LINK | 0.77483313 
 [Compound](https://compound.finance/documents/Compound.Whitepaper.pdf) | COMP | 0.3160238 
