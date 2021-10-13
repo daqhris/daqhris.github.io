@@ -51,8 +51,8 @@ This type of fund owns and manages digital assets that are:
 ## Portfolio  
 
 ### Digital Wallet Addresses 
-BTC : `bc1ql3ly9gaesnyxr5jj49rprmsdg2hlvtvqe7yc3d`  
-View the most recent transaction on a [Bitcoin blockchain explorer](https://live.blockcypher.com/btc/address/bc1q0yt7l945lkn8fcc76uyrcwy85c3wyrqtztc027/).
+BTC : `bc1q3249nfvyel8wsry8mlr6ykkmu3mlmal6p4vgsq`  
+View the most recent transaction on a [Bitcoin blockchain explorer](https://www.blockchain.com/btc/address/bc1q3249nfvyel8wsry8mlr6ykkmu3mlmal6p4vgsq).
 
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View token holdings on an [Ethereum blockchain explorer](https://etherscan.io/tokenholdings?a=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
@@ -154,9 +154,9 @@ Crypto or Tokens | Symbol | Size
 Another great influence is the venture capital firm [Andreessen Horowitz (a16z)](https://a16z.com/about/) that coined the motto [*Software is eating the world*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/).  
 
 **Main Targets**: 
-1. Foster [decentralized digital assets, protocols and platforms](https://www.investopedia.com/decentralized-finance-defi-5113835).  
-2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence).   
-3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp).  
+1. Foster [decentralized digital assets, protocols and platforms](https://www.investopedia.com/decentralized-finance-defi-5113835)  
+2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence)   
+3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp)  
 
 ## Transparency
 ### Disclosures 
