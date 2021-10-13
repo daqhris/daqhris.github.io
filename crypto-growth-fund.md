@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-August-27](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-October-13](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -33,33 +33,36 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
 *Source*: [Wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
 
 ### What do you mean by *crypto growth fund*? 
-A **crypto growth fund** is a fully digitized version of a growth fund which is exclusively dedicated to investing and trading cryptocurrencies 
+A **crypto growth fund** can be defined as a fully digitized version of a growth fund which is exclusively dedicated to investing and trading cryptocurrencies 
 based on digital public ledgers (such as a blockchain).  
 
-It is an online-native investment portfolio that has operations uniquely in the cyberspace, openly shares transactions records and holdings 
-and is also independent from any centralized entity like a regulatory body, a local authority or a government agency. 
+It is an online-native investment portfolio that: 
+- has operations uniquely in the cyberspace,
+- openly shares transactions records and holdings 
+and 
+- is also independent from any centralized entity like a regulatory body, a local authority or a government agency. 
 
 This type of fund owns and manages digital assets that are:
 - easily accessible by using the Internet  
 - known for practical & technical implementations  
-- on-track for fast growth over a long-term time horizon (10 - 20 years) 
-- not redeemable or convertible into physical assets afterwards
+- on-track for an increase in value over a long-term time horizon (at least 10 to 20 years)
+- not redeemable or convertible into physical assets afterwards 
 
 ## Portfolio  
 
 ### Digital Wallet Addresses 
-BTC : `bc1q0yt7l945lkn8fcc76uyrcwy85c3wyrqtztc027`
-
+BTC : `bc1q0yt7l945lkn8fcc76uyrcwy85c3wyrqtztc027`  
 View the most recent transaction on a [Bitcoin blockchain explorer](https://live.blockcypher.com/btc/address/bc1q0yt7l945lkn8fcc76uyrcwy85c3wyrqtztc027/).
 
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
-
 View token holdings on an [Ethereum blockchain explorer](https://etherscan.io/tokenholdings?a=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
 
 ### ERC-20 Token Assets  
 Ethereum Name Service (web3 domain): `daqhris.eth`  
+Verify the digital wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.eth).  
 
-Verify the digital wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.eth).
+`awalkaday.art` Non-Fungible Tokens Collection (43 items).  
+Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/collection/awalkaday).  
 
 ## Manager  
 The **daqhris.eth Crypto Growth Fund** is operated by [Chris A. Iradukunda](https://daqhris.com).  
@@ -139,12 +142,12 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 Crypto or Tokens | Symbol | Size 
 ---------------- | ------ | ---- 
 [Bitcoin](https://daqhris.com/docs/bitcoin.pdf) | BTC | 0.0030368 
-[Ethereum](https://ethereum.org/en/whitepaper/) | ETH | 0.04466762 
+[Ethereum](https://ethereum.org/en/whitepaper/) | ETH | 0.00217661 
 [Uniswap](https://uniswap.org/whitepaper-v3.pdf) | UNI | 2.13426917 
 [Chainlink](https://chain.link/whitepaper) | LINK | 0.77483313 
-[Compound](https://compound.finance/documents/Compound.Whitepaper.pdf) | COMP | 0.3160238 
-[Decentraland](https://decentraland.org/whitepaper.pdf) | MANA | 23.99659617 
-[Basic Attention Token](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) | BAT | 69.86390108 
+[Compound](https://compound.finance/documents/Compound.Whitepaper.pdf) | COMP | 0.03160238 
+[Decentraland](https://decentraland.org/whitepaper.pdf) | MANA | 82.50219037 
+[Basic Attention Token](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) | BAT | 132.51201006 
 
 ## Goals  
 [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) said it in the best possible way on one of his hit song: [*The Story of O.J.*](https://www.youtube.com/watch?v=RM7lw0Ovzq0) which aligns well with the fund's perspective.  
@@ -157,18 +160,10 @@ Another great influence is the venture capital firm [Andreessen Horowitz (a16z)]
 
 ## Transparency
 ### Disclosures 
-Really, nothing! It's all publicly verifiable on the **blockchains**.   
+All informations related to this fund is verifiable on the relevant public **blockchains**.   
 
 ### Source of Income  
 Some kind of hard work that may be done with human body parts but without insurance, contract or legal rights.  
-Otherwise, it consists of cash gifts or monetary handouts. 
+It may also consist of monetary gifts. 
 
-
-
-
-
-
-
-
-
-
+_ _ _ 
