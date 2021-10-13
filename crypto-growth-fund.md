@@ -141,8 +141,8 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 Crypto or Tokens | Symbol | Size 
 ---------------- | ------ | ---- 
-[Bitcoin](https://daqhris.com/docs/bitcoin.pdf) | BTC | 0.0030368 
-[Ethereum](https://ethereum.org/en/whitepaper/) | ETH | 0.00217661 
+[Bitcoin](https://daqhris.com/docs/bitcoin.pdf) | BTC | 0.0015165 
+[Ethereum](https://ethereum.org/en/whitepaper/) | ETH | 0.02208311 
 [Uniswap](https://uniswap.org/whitepaper-v3.pdf) | UNI | 2.13426917 
 [Chainlink](https://chain.link/whitepaper) | LINK | 0.77483313 
 [Compound](https://compound.finance/documents/Compound.Whitepaper.pdf) | COMP | 0.03160238 
