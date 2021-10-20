@@ -2,7 +2,7 @@
 ## E-Mail
 Only __encrypted e-mails__ are received, read and replied to by `Chris A. Iradukunda`.  
 Regular e-mails are either ignored or blocked or considered read-only, like _public advertisements_.  
-You are strongly advised to send your electronic message by using his __PGP public key__.   
+You are strongly advised to send your electronic message by using his [GPG public key](https://www.gnupg.org/gph/en/manual/c14.html).   
 #### Problems?
 - If you didn't understand a word, click 
 [HERE](https://emailselfdefense.fsf.org/en/) 
@@ -10,18 +10,19 @@ to learn how to send and receive secure messages.
 - If you feel too lazy to learn, click 
 [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) 
 to view his e-mail adress (uploaded to a public __OpenPGP Keyserver__).  
-- If you don't get a reply as fast as you want, click [HERE](https://matrix.to/#/@daqhris:matrix.org) to say hello directly on his __Matrix__ account.
+- If you don't get a reply as fast as you wish, click [HERE](https://matrix.to/#/@daqhris:matrix.org) to say hello directly on his __Matrix__ account.
 
 ## Public Key cryptography
-This is __Chris-Armel__ (@__daqhris__) public key.  
-All of his secure communications require the usage of such basic cryptographic method.  
-The same key is used to digitally sign and encrypt any of his messages and documents.   
+This is __Chris-Armel__ (@__daqhris__)'s GPG key.  
+Most of his secure communications require to use of such basic cryptographic method.  
+The same key is used to digitally sign and encrypt some of his messages, documents or Git commits.   
 
 __PGP fingerprint__ : `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
 
-_Alternatively_, you may __Copy & Paste__ the following code block _or_ directly 
+Alternatively, you may __Copy & Paste__ the following code block _or_ directly 
 __Download__ his pubkey ASC file from this 
-[LINK](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc). For improved safety, you can __View__ the same key on a dedicated page of his site's server [HERE](https://raw.githubusercontent.com/daqhris/daqhris.github.io/master/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).
+[LINK](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).  
+For improved safety, you can __View__ the same key on a dedicated page of his site's server [HERE](https://raw.githubusercontent.com/daqhris/daqhris.github.io/master/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
