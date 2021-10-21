@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-October-13](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-October-21](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -15,26 +15,25 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
 
 ## Introduction 
 
-### What is a *growth fund*?  
-> A growth fund is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
+### What is a *"growth fund"*?  
+> A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
 > with little or no dividend payouts. 
-> The portfolio mainly consists of companies with above-average growth that 
-> reinvest their earnings into expansion, acquisitions, and/or research and development (R&D). 
+>
 > Most growth funds offer higher potential capital appreciation but usually at above-average risk.   
   
 *Source*: [Investopedia.com](https://www.investopedia.com/terms/g/growthfund.asp)  
 
-### What is the meaning of *crypto*?  
-> A cryptocurrency (or crypto) is a digital asset designed to work as a medium of exchange 
+### What is the meaning of *"crypto"*?  
+> A **cryptocurrency** (or crypto) is a digital asset designed to work as a medium of exchange 
 > wherein individual coin ownership records are stored in a ledger existing in a form of a computerized database using strong cryptography to secure transaction records, 
-> to control the creation of additional coins, and to verify the transfer of coin ownership. 
+> to control the creation of additional coins, and to verify the transfer of coin ownership.
+>
 > Cryptocurrency does not exist in physical form (like paper money) and is typically not issued by a central authority.  
 
 *Source*: [Wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
 
 ### What do you mean by *crypto growth fund*? 
-A **crypto growth fund** can be defined as a fully digitized version of a growth fund which is exclusively dedicated to investing and trading cryptocurrencies 
-based on digital public ledgers (such as a blockchain).  
+A **crypto growth fund** is a fully digitized version of a growth fund that is dedicated to investing and trading cryptos and tokens on public blockchains.  
 
 It is an online-native investment portfolio that: 
 - has operations uniquely in the cyberspace,
@@ -42,11 +41,12 @@ It is an online-native investment portfolio that:
 and 
 - is also independent from any centralized entity like a regulatory body, a local authority or a government agency. 
 
-This type of fund owns and manages digital assets that are:
-- easily accessible by using the Internet  
-- known for practical & technical implementations  
-- on-track for an increase in value over a long-term time horizon (at least 10 to 20 years)
-- not redeemable or convertible into physical assets afterwards 
+This fund owns and manages digital assets that are:
+- easily accessible on the Internet,  
+- known for practical and technical implementations,  
+- on-track for an increase in value overtime,  
+- not redeemable or convertible into physical assets,     
+- held onto over a long-term horizon (min. 10 years).  
 
 ## Portfolio  
 
@@ -65,14 +65,13 @@ Verify the digital wallet records on [ENS Domains](https://app.ens.domains/name/
 Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/collection/awalkaday).  
 
 ## Manager  
-The **daqhris.eth Crypto Growth Fund** is operated by [Chris A. Iradukunda](https://daqhris.com).  
-This fund manager does not handle other people's money or give financial advice.  
+The **daqhris.eth Crypto Growth Fund** is operated by [Chris-Armel](https://daqhris.com).  
+This fund manager does not handle other people's wealth.  
 
 [Chris-Armel](https://daqhris.com/about) has a strong background in computer-related fields going back to his teenage years.  
-He will not replace your banker nor your accountant. Neither will he act as your [money mule](https://www.fbi.gov/scams-and-safety/common-scams-and-crimes/money-mules).
 
 #### Contact 
-E-mail (for business enquiries): `media at daqhris dot com` 
+E-mail (*only business enquiries*): `media at daqhris dot com` 
 
 ## Founding Story  
 ```
@@ -150,20 +149,20 @@ Crypto or Tokens | Symbol | Size
 [Basic Attention Token](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) | BAT | 132.51201006 
 
 ## Goals  
-[Shawn Carter](https://twitter.com/sc) (aka JAY-Z) said it in the best possible way on one of his hit song: [*The Story of O.J.*](https://www.youtube.com/watch?v=RM7lw0Ovzq0) which aligns well with the fund's perspective.  
-Another great influence is the venture capital firm [Andreessen Horowitz (a16z)](https://a16z.com/about/) that coined the motto [*Software is eating the world*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/).  
+**Inception**:  
+- [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) was the first influence after hearing his song: [*The Story of O.J.*](https://www.youtube.com/watch?v=RM7lw0Ovzq0)  
+- Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/)  
 
 **Main Targets**: 
-1. Foster [decentralized digital assets, protocols and platforms](https://www.investopedia.com/decentralized-finance-defi-5113835)  
+1. Foster [decentralized digital assets and web3 protocols](https://www.investopedia.com/decentralized-finance-defi-5113835)  
 2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence)   
 3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp)  
 
 ## Transparency
-### Disclosures 
-All informations related to this fund is verifiable on the relevant public **blockchains**.   
-
+### Disclosure 
+The transactions related to this fund are recorded on the relevant public **blockchains**.   
 ### Source of Income  
-Some kind of hard work that may be done with human body parts but without insurance, contract or legal rights.  
+Hard work that may be done with human body parts but without insurance, contract or legal rights.  
 It may also consist of monetary gifts. 
 
 _ _ _ 

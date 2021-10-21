@@ -13,7 +13,7 @@ to view his e-mail adress (uploaded to a public __OpenPGP Keyserver__).
 - If you don't get a reply as fast as you wish, click [HERE](https://matrix.to/#/@daqhris:matrix.org) to say hello directly on his __Matrix__ account.
 
 ## Public Key cryptography
-This is __Chris-Armel__ (@__daqhris__)'s GPG key.  
+This is [Chris-Armel (@daqhris)](https://github.com/daqhris)'s GPG key.  
 Most of his secure communications require to use of such basic cryptographic method.  
 The same key is used to digitally sign and encrypt some of his messages, documents or Git commits.   
 
