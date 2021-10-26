@@ -151,15 +151,15 @@ Basic Attention Token _BAT_ | 132.51201006 | Advertising/Marketing | [https://ba
 
 ### Investment History  
 #### Bitcoin
-Date | Price | Payment (€) | Purchase (BTC)
------- | ------ | ------ | ------
-21.07.2021 | 29503 | 90 | 0.00237262
-22.07.2021 | 30051 | 200 | 0.00598965  
+| Date | Price | Payment (€) | Purchase (BTC) |
+| ------ | ------ | ------ | ------ |
+| 21.07.2021 | 29503 | 90 | 0.00237262 |
+| 22.07.2021 | 30051 | 200 | 0.00598965 |  
 #### Ether    
-Date | Price | Payment (€) | Purchase (ETH)
------- | ------ | ------ | ------ 
-21.07.2021 | 1779 | 100 | 0.04775345
-22.07.2021 | 1877 | 100 | 0.04526517  
+| Date | Price | Payment (€) | Purchase (ETH) |
+| ------ | ------ | ------ | ------ |
+| 21.07.2021 | 1779 | 100 | 0.04775345 |
+| 22.07.2021 | 1877 | 100 | 0.04526517 | 
 
 ## Goals  
 ### Inception  
@@ -167,14 +167,13 @@ Date | Price | Payment (€) | Purchase (ETH)
 - Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Main Targets 
-1. Foster [decentralized digital assets and web3 protocols](https://www.investopedia.com/decentralized-finance-defi-5113835).  
+1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835).  
 2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence).   
 3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp).  
 
 ## Transparency
 ### Disclosure 
-The transactions related to this fund are recorded on relevant public **blockchains**.   
+The transactions related to this fund are recorded on the relevant public **blockchains**.   
 ### Source of Income  
 Hard work that may or may not be done with human body parts but without insurance, contract or legal rights.  
-It may also consist of monetary gifts. 
-_ _ _ 
+Otherwise, it might consist of monetary gifts. 
