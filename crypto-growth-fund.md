@@ -144,10 +144,10 @@ Crypto/Tokens | Amount | Function | Whitepaper
 Bitcoin _BTC_ | 0.00334807 | Store of Value/Blockchain | [https://daqhris.com/docs/bitcoin.pdf](https://daqhris.com/docs/bitcoin.pdf)
 Ethereum _ETH_ | 0.02208311 | Apps/Blockchain | [https://ethereum.org/en/whitepaper/](https://ethereum.org/en/whitepaper/) 
 Uniswap _UNI_ | 2.13426917 | Exchange/Trading | [https://uniswap.org/whitepaper-v3.pdf](https://uniswap.org/whitepaper-v3.pdf) 
-Chainlink _LINK_ | 0.77483313 | Data/Oracle | [https://chain.link/whitepaper](https://chain.link/whitepaper) 
+Chainlink _LINK_ | 0.77483313 | Data Processing/Oracle | [https://chain.link/whitepaper](https://chain.link/whitepaper) 
 Compound _COMP_ | 0.03160238 | Lending/Borrowing | [https://compound.finance/documents/Compound.Whitepaper.pdf](https://compound.finance/documents/Compound.Whitepaper.pdf)
 Decentraland _MANA_ | 82.50219037 | Gaming/Metaverse | [https://decentraland.org/whitepaper.pdf](https://decentraland.org/whitepaper.pdf) 
-Basic Attention Token _BAT_ | 132.51201006 | Advertisement | [https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) 
+Basic Attention Token _BAT_ | 132.51201006 | Advertising/Marketing | [https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) 
 
 ### Investment History  
 #### Bitcoin
@@ -167,9 +167,9 @@ Date | Price | Payment (€) | Purchase (ETH)
 - Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Main Targets 
-1. Foster [decentralized digital assets and web3 protocols](https://www.investopedia.com/decentralized-finance-defi-5113835)  
-2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence)   
-3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp)  
+1. Foster [decentralized digital assets and web3 protocols](https://www.investopedia.com/decentralized-finance-defi-5113835).  
+2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence).   
+3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp).  
 
 ## Transparency
 ### Disclosure 
