@@ -42,10 +42,10 @@ and
 - is also independent from any centralized entity like a regulatory body, a local authority or a government agency. 
 
 This fund owns and manages digital assets that are:
-- easily accessible on the Internet,  
-- known for practical and technical implementations,  
+- accessible on the Internet by using a computing device,  
+- known for practical implementations and widespread adoption,  
 - on-track for an increase in value overtime,  
-- not redeemable or convertible into physical assets,     
+- available only in digital or electronic form,     
 - held onto over a long-term horizon (min. 10 years).  
 
 ## Portfolio  
@@ -139,27 +139,28 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ## Holdings  
 ### Accounting
 
-Crypto/Tokens | Amount | Function | Whitepaper 
----------------- | ---- | ---- | ------
-Bitcoin _BTC_ | 0.00334807 | Store of Value/Blockchain | [https://daqhris.com/docs/bitcoin.pdf](https://daqhris.com/docs/bitcoin.pdf)
-Ethereum _ETH_ | 0.02208311 | Apps/Blockchain | [https://ethereum.org/en/whitepaper/](https://ethereum.org/en/whitepaper/) 
-Uniswap _UNI_ | 2.13426917 | Exchange/Trading | [https://uniswap.org/whitepaper-v3.pdf](https://uniswap.org/whitepaper-v3.pdf) 
-Chainlink _LINK_ | 0.77483313 | Data Processing/Oracle | [https://chain.link/whitepaper](https://chain.link/whitepaper) 
-Compound _COMP_ | 0.03160238 | Lending/Borrowing | [https://compound.finance/documents/Compound.Whitepaper.pdf](https://compound.finance/documents/Compound.Whitepaper.pdf)
-Decentraland _MANA_ | 82.50219037 | Gaming/Metaverse | [https://decentraland.org/whitepaper.pdf](https://decentraland.org/whitepaper.pdf) 
-Basic Attention Token _BAT_ | 132.51201006 | Advertising/Marketing | [https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) 
+| Crypto/Token | Amount | Function | Whitepaper | 
+| ------------- | ----: | ---- | ------ |
+| Bitcoin | 0.00334807 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf) |
+| Ethereum | 0.02208311 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/) |
+| Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper-v3](https://uniswap.org/whitepaper-v3.pdf) |
+| Chainlink | 0.77483313 LINK| Data Processing/Oracle | [chain.link/whitepaper](https://chain.link/whitepaper) |
+| Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf) |
+| Decentraland | 82.50219037 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf) |
+| Basic Attention Token | 132.51201006 BAT | Advertising/Marketing | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) |
 
 ### Investment History  
 #### Bitcoin
-| Date | Price | Payment (€) | Purchase (BTC) |
-| ------ | ------ | ------ | ------ |
-| 21.07.2021 | 29503 | 90 | 0.00237262 |
-| 22.07.2021 | 30051 | 200 | 0.00598965 |  
+| Date (d/m/y) | Unit Rate | Payment (€) | Purchase (BTC) |
+| :------ | :------: | ------: | ------: |
+| 21/07/2021 | 29503 | 90 | 0.00237262 |
+| 22/07/2021 | 30051 | 200 | 0.00598965 |  
 #### Ether    
-| Date | Price | Payment (€) | Purchase (ETH) |
-| ------ | ------ | ------ | ------ |
-| 21.07.2021 | 1779 | 100 | 0.04775345 |
-| 22.07.2021 | 1877 | 100 | 0.04526517 | 
+| Date (d/m/y) | Unit Rate | Payment (€) | Purchase (ETH) |
+| :------ | :------: | ------: | ------: |
+| 21/07/2021 | 1779 | 100 | 0.04775345 |
+| 22/07/2021 | 1877 | 100 | 0.04526517 | 
+| 26/10/2021 | 3955 | 100 | 0.02022691 |
 
 ## Goals  
 ### Inception  
@@ -173,7 +174,8 @@ Basic Attention Token _BAT_ | 132.51201006 | Advertising/Marketing | [https://ba
 
 ## Transparency
 ### Disclosure 
-The transactions related to this fund are recorded on the relevant public **blockchains**.   
+The transactions related to this fund are recorded on public **blockchains**.  
+Feel free to browse, audit and double-check all the transactions or get in touch with the manager.
 ### Source of Income  
 Hard work that may or may not be done with human body parts but without insurance, contract or legal rights.  
 Otherwise, it might consist of monetary gifts. 
