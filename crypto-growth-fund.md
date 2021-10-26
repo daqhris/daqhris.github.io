@@ -139,15 +139,15 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ## Holdings  
 ### Accounting
 
-Crypto/Tokens | Amount | Category | Whitepaper 
+Crypto/Tokens | Amount | Function | Whitepaper 
 ---------------- | ---- | ---- | ------
-Bitcoin _BTC_ | 0.00334807 |  | [https://daqhris.com/docs/bitcoin.pdf](https://daqhris.com/docs/bitcoin.pdf)
-Ethereum _ETH_ | 0.02208311 |  | [https://ethereum.org/en/whitepaper/](https://ethereum.org/en/whitepaper/) 
+Bitcoin _BTC_ | 0.00334807 | Store of Value/Blockchain | [https://daqhris.com/docs/bitcoin.pdf](https://daqhris.com/docs/bitcoin.pdf)
+Ethereum _ETH_ | 0.02208311 | Apps/Blockchain | [https://ethereum.org/en/whitepaper/](https://ethereum.org/en/whitepaper/) 
 Uniswap _UNI_ | 2.13426917 | Exchange/Trading | [https://uniswap.org/whitepaper-v3.pdf](https://uniswap.org/whitepaper-v3.pdf) 
 Chainlink _LINK_ | 0.77483313 | Data/Oracle | [https://chain.link/whitepaper](https://chain.link/whitepaper) 
 Compound _COMP_ | 0.03160238 | Lending/Borrowing | [https://compound.finance/documents/Compound.Whitepaper.pdf](https://compound.finance/documents/Compound.Whitepaper.pdf)
 Decentraland _MANA_ | 82.50219037 | Gaming/Metaverse | [https://decentraland.org/whitepaper.pdf](https://decentraland.org/whitepaper.pdf) 
-Basic Attention Token _BAT_ | 132.51201006 | Marketing/Ads | [https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) 
+Basic Attention Token _BAT_ | 132.51201006 | Advertisement | [https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) 
 
 ### Investment History  
 #### Bitcoin
