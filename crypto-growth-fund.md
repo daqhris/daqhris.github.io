@@ -46,7 +46,7 @@ This fund owns and manages digital assets that are:
 - known for practical implementations and widespread adoption,  
 - on-track for an increase in value overtime,  
 - available only in digital or electronic form,     
-- held onto over a long-term horizon (min. 10 years).  
+- held onto over a long-term horizon (minimum of 10 years).  
 
 ## Portfolio  
 
@@ -68,7 +68,7 @@ Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/col
 The **daqhris.eth Crypto Growth Fund** is operated by [Chris-Armel](https://daqhris.com).  
 This fund manager does not handle other people's wealth.  
 
-[Chris-Armel](https://daqhris.com/about) has a strong background in computer-related fields going back to his teenage years.  
+[Chris-Armel](https://daqhris.com/about) has a strong background in computer-related fields going back to his teenage years and is very passionate about FinTech innovation.  
 
 #### Contact 
 E-mail: `media at daqhris dot com` 
@@ -139,38 +139,39 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ## Holdings  
 ### Accounting
 
-| Crypto/Token | Amount | Function | Whitepaper | 
-| ------------- | ----: | ---- | ------ |
-| Bitcoin | 0.00334807 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf) |
-| Ethereum | 0.02208311 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/) |
-| Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper-v3](https://uniswap.org/whitepaper-v3.pdf) |
-| Chainlink | 0.77483313 LINK| Data Processing/Oracle | [chain.link/whitepaper](https://chain.link/whitepaper) |
-| Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf) |
-| Decentraland | 82.50219037 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf) |
-| Basic Attention Token | 132.51201006 BAT | Advertising/Marketing | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) |
+Crypto/Token | Amount | Function | Whitepaper 
+------------- | ----: | ---- | ------
+Bitcoin | 0.00334807 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
+Ethereum | 0.02208311 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
+Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper-v3](https://uniswap.org/whitepaper-v3.pdf)
+Chainlink | 0.77483313 LINK| Data Processing | [chain.link/whitepaper](https://chain.link/whitepaper)
+Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
+Decentraland | 82.50219037 MANA | Gaming | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
+Basic Attention Token | 132.51201006 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)
 
 ### Investment History  
 #### Bitcoin
-| Date (d/m/y) | Unit Rate | Payment (€) | Purchase (BTC) |
-| :------ | :------: | ------: | ------: |
-| 21/07/2021 | 29503 | 90 | 0.00237262 |
-| 22/07/2021 | 30051 | 200 | 0.00598965 |  
+Date (d/m/y) | Unit Rate | Payment (€) | Purchase (BTC)
+:------ | :------: | ------: | ------:
+21/07/2021 | 29503 | 90 | 0.00237262
+22/07/2021 | 30051 | 200 | 0.00598965  
+
 #### Ether    
-| Date (d/m/y) | Unit Rate | Payment (€) | Purchase (ETH) |
-| :------ | :------: | ------: | ------: |
-| 21/07/2021 | 1779 | 100 | 0.04775345 |
-| 22/07/2021 | 1877 | 100 | 0.04526517 | 
-| 26/10/2021 | 3955 | 100 | 0.02022691 |
+Date (d/m/y) | Unit Rate | Payment (€) | Purchase (ETH)
+:------ | :------: | ------: | ------:
+21/07/2021 | 1779 | 100 | 0.04775345
+22/07/2021 | 1877 | 100 | 0.04526517 
+26/10/2021 | 3955 | 100 | 0.02022691
 
 ## Goals  
 ### Inception  
-- [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) was the first influence after hearing his song: [*The Story of O.J.*](https://www.youtube.com/watch?v=RM7lw0Ovzq0)  
+- [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) was the first influence after hearing his song: [*The Story of OJ*](https://www.youtube.com/watch?v=RM7lw0Ovzq0). 
 - Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Main Targets 
-1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835).  
-2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence).   
-3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp).  
+1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835)  
+2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence)   
+3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp)  
 
 ## Transparency
 ### Disclosure 
