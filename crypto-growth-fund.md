@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-October-26](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-October-27](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -17,8 +17,7 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
 
 ### What is a *growth fund*?  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
-> with little or no dividend payouts. 
->
+> with little or no dividend payouts.   
 > Most growth funds offer higher potential capital appreciation but usually at above-average risk.   
   
 *Source*: [Investopedia.com](https://www.investopedia.com/terms/g/growthfund.asp)  
@@ -26,8 +25,7 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
 ### What is the meaning of *crypto*?  
 > A **cryptocurrency** (or crypto) is a digital asset designed to work as a medium of exchange 
 > wherein individual coin ownership records are stored in a ledger existing in a form of a computerized database using strong cryptography to secure transaction records, 
-> to control the creation of additional coins, and to verify the transfer of coin ownership.
->
+> to control the creation of additional coins, and to verify the transfer of coin ownership.    
 > Cryptocurrency does not exist in physical form (like paper money) and is typically not issued by a central authority.  
 
 *Source*: [Wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
@@ -37,9 +35,8 @@ A **crypto growth fund** is a fully digitized version of a growth fund that is d
 
 It is an online-native investment portfolio that: 
 - has operations uniquely in the cyberspace,
-- openly shares transactions records and holdings 
-and 
-- is also independent from any centralized entity like a regulatory body, a local authority or a government agency. 
+- openly shares transactions records and holdings,  
+- is independent from any centralized entity like a regulatory body, a local authority or a government agency. 
 
 This fund owns and manages digital assets that are:
 - accessible on the Internet by using a computing device,  
@@ -50,7 +47,7 @@ This fund owns and manages digital assets that are:
 
 ## Portfolio  
 
-### Digital Wallet Addresses 
+### Digital Wallets 
 BTC : `bc1q3249nfvyel8wsry8mlr6ykkmu3mlmal6p4vgsq`  
 View the most recent transaction on a [Bitcoin blockchain explorer](https://www.blockchain.com/btc/address/bc1q3249nfvyel8wsry8mlr6ykkmu3mlmal6p4vgsq).
 
@@ -65,10 +62,10 @@ Verify the digital wallet records on [ENS Domains](https://app.ens.domains/name/
 Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/collection/awalkaday).  
 
 ## Manager  
-The **daqhris.eth Crypto Growth Fund** is operated by [Chris-Armel](https://daqhris.com).  
+The **daqhris.eth Crypto Growth Fund** is operated by [Chris A. Iradukunda (@daqhris)](https://daqhris.com).  
 This fund manager does not handle other people's wealth.  
 
-[Chris-Armel](https://daqhris.com/about) has a strong background in computer-related fields going back to his teenage years and is very passionate about FinTech innovation.  
+[Chris-Armel](https://daqhris.com/about) has a background in computer engineering and is passionate about fintech innovation.  
 
 #### Contact 
 E-mail: `media at daqhris dot com` 
@@ -144,24 +141,23 @@ Crypto/Token | Amount | Function | Whitepaper
 Bitcoin | 0.00334807 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
 Ethereum | 0.02208311 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper-v3](https://uniswap.org/whitepaper-v3.pdf)
-Chainlink | 0.77483313 LINK| Data Processing | [chain.link/whitepaper](https://chain.link/whitepaper)
+Chainlink | 0.77483313 LINK| Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
 Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
-Decentraland | 82.50219037 MANA | Gaming | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
+Decentraland | 82.50219037 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
 Basic Attention Token | 132.51201006 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)
 
 ### Investment History  
-#### Bitcoin
+
 Date (d/m/y) | Unit Rate | Payment (€) | Purchase (BTC)
 :------ | :------: | ------: | ------:
 21/07/2021 | 29503 | 90 | 0.00237262
 22/07/2021 | 30051 | 200 | 0.00598965  
 
-#### Ether  
 Date (d/m/y) | Unit Rate | Payment (€) | Purchase (ETH)
-:----- | :-----: | -----: | -----:
-21/07/2021 | 1779 | 100 | 0.04775345
-22/07/2021 | 1877 | 100 | 0.04526517
-26/10/2021 | 3955 | 100 | 0.02022691
+:----- | :-----: | -----: | -----: 
+21/07/2021 | 1779 | 100 | 0.04775345 
+22/07/2021 | 1877 | 100 | 0.04526517 
+26/10/2021 | 3955 | 100 | 0.02022691  
 
 ## Goals  
 ### Inception  
@@ -175,8 +171,7 @@ Date (d/m/y) | Unit Rate | Payment (€) | Purchase (ETH)
 
 ## Transparency
 ### Disclosure 
-The transactions related to this fund are recorded on public **blockchains**.  
-Feel free to browse, audit and double-check all the transactions or get in touch with the manager.
+The transactions related to this fund are recorded on public **blockchains**. 
 ### Source of Income  
 Hard work that may or may not be done with human body parts but without insurance, contract or legal rights.  
 Otherwise, it might consist of monetary gifts. 
