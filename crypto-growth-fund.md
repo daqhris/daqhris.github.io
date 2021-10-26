@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-October-21](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-October-26](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -15,7 +15,7 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
 
 ## Introduction 
 
-### What is a *"growth fund"*?  
+### What is a *growth fund*?  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
 > with little or no dividend payouts. 
 >
@@ -23,7 +23,7 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
   
 *Source*: [Investopedia.com](https://www.investopedia.com/terms/g/growthfund.asp)  
 
-### What is the meaning of *"crypto"*?  
+### What is the meaning of *crypto*?  
 > A **cryptocurrency** (or crypto) is a digital asset designed to work as a medium of exchange 
 > wherein individual coin ownership records are stored in a ledger existing in a form of a computerized database using strong cryptography to secure transaction records, 
 > to control the creation of additional coins, and to verify the transfer of coin ownership.
@@ -139,32 +139,32 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ## Holdings  
 ### Accounting
 
-Crypto/Tokens | Amount | Whitepaper 
----------------- | ---- | ---- 
-Bitcoin _BTC_ | 0.00334807 | [https://daqhris.com/docs/bitcoin.pdf](https://daqhris.com/docs/bitcoin.pdf)
-Ethereum _ETH_ | 0.02208311 | [https://ethereum.org/en/whitepaper/](https://ethereum.org/en/whitepaper/) 
-Uniswap _UNI_ | 2.13426917 | [https://uniswap.org/whitepaper-v3.pdf](https://uniswap.org/whitepaper-v3.pdf) 
-Chainlink _LINK_ | 0.77483313 | [https://chain.link/whitepaper](https://chain.link/whitepaper) 
-Compound _COMP_ | 0.03160238 |  [https://compound.finance/documents/Compound.Whitepaper.pdf](https://compound.finance/documents/Compound.Whitepaper.pdf)
-Decentraland _MANA_ | 82.50219037 | [https://decentraland.org/whitepaper.pdf](https://decentraland.org/whitepaper.pdf) 
-Basic Attention Token _BAT_ | 132.51201006 | [https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) 
+Crypto/Tokens | Amount | Category | Whitepaper 
+---------------- | ---- | ---- | ------
+Bitcoin _BTC_ | 0.00334807 |  | [https://daqhris.com/docs/bitcoin.pdf](https://daqhris.com/docs/bitcoin.pdf)
+Ethereum _ETH_ | 0.02208311 |  | [https://ethereum.org/en/whitepaper/](https://ethereum.org/en/whitepaper/) 
+Uniswap _UNI_ | 2.13426917 | Exchange/Trading | [https://uniswap.org/whitepaper-v3.pdf](https://uniswap.org/whitepaper-v3.pdf) 
+Chainlink _LINK_ | 0.77483313 | Data/Oracle | [https://chain.link/whitepaper](https://chain.link/whitepaper) 
+Compound _COMP_ | 0.03160238 | Lending/Borrowing | [https://compound.finance/documents/Compound.Whitepaper.pdf](https://compound.finance/documents/Compound.Whitepaper.pdf)
+Decentraland _MANA_ | 82.50219037 | Gaming/Metaverse | [https://decentraland.org/whitepaper.pdf](https://decentraland.org/whitepaper.pdf) 
+Basic Attention Token _BAT_ | 132.51201006 | Marketing/Ads | [https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) 
 
 ### Investment History  
 #### Bitcoin
 Date | Price | Payment (€) | Purchase (BTC)
-:------ | :------ | ------: | ------:
+------ | ------ | ------ | ------
 21.07.2021 | 29503 | 90 | 0.00237262
 22.07.2021 | 30051 | 200 | 0.00598965  
 #### Ether    
-Date | Price | Payment (€) | Purchase (BTC)
-:------ | :------ | ------: | ------: 
+Date | Price | Payment (€) | Purchase (ETH)
+------ | ------ | ------ | ------ 
 21.07.2021 | 1779 | 100 | 0.04775345
 22.07.2021 | 1877 | 100 | 0.04526517  
 
 ## Goals  
 ### Inception  
 - [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) was the first influence after hearing his song: [*The Story of O.J.*](https://www.youtube.com/watch?v=RM7lw0Ovzq0)  
-- Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/)  
+- Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Main Targets 
 1. Foster [decentralized digital assets and web3 protocols](https://www.investopedia.com/decentralized-finance-defi-5113835)  
@@ -173,8 +173,8 @@ Date | Price | Payment (€) | Purchase (BTC)
 
 ## Transparency
 ### Disclosure 
-The transactions related to this fund are recorded on the relevant public **blockchains**.   
+The transactions related to this fund are recorded on relevant public **blockchains**.   
 ### Source of Income  
-Hard work that may be done with human body parts but without insurance, contract or legal rights.  
+Hard work that may or may not be done with human body parts but without insurance, contract or legal rights.  
 It may also consist of monetary gifts. 
 _ _ _ 
