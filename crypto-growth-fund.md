@@ -71,7 +71,7 @@ This fund manager does not handle other people's wealth.
 [Chris-Armel](https://daqhris.com/about) has a strong background in computer-related fields going back to his teenage years.  
 
 #### Contact 
-E-mail (*only business enquiries*): `media at daqhris dot com` 
+E-mail: `media at daqhris dot com` 
 
 ## Founding Story  
 ```
@@ -137,23 +137,36 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ```
 
 ## Holdings  
+### Accounting
 
-Crypto or Tokens | Symbol | Size 
----------------- | ------ | ---- 
-[Bitcoin](https://daqhris.com/docs/bitcoin.pdf) | BTC | 0.0015165 
-[Ethereum](https://ethereum.org/en/whitepaper/) | ETH | 0.02208311 
-[Uniswap](https://uniswap.org/whitepaper-v3.pdf) | UNI | 2.13426917 
-[Chainlink](https://chain.link/whitepaper) | LINK | 0.77483313 
-[Compound](https://compound.finance/documents/Compound.Whitepaper.pdf) | COMP | 0.03160238 
-[Decentraland](https://decentraland.org/whitepaper.pdf) | MANA | 82.50219037 
-[Basic Attention Token](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) | BAT | 132.51201006 
+Crypto/Tokens | Amount | Whitepaper 
+---------------- | ---- | ---- 
+Bitcoin _BTC_ | 0.00334807 | [https://daqhris.com/docs/bitcoin.pdf](https://daqhris.com/docs/bitcoin.pdf)
+Ethereum _ETH_ | 0.02208311 | [https://ethereum.org/en/whitepaper/](https://ethereum.org/en/whitepaper/) 
+Uniswap _UNI_ | 2.13426917 | [https://uniswap.org/whitepaper-v3.pdf](https://uniswap.org/whitepaper-v3.pdf) 
+Chainlink _LINK_ | 0.77483313 | [https://chain.link/whitepaper](https://chain.link/whitepaper) 
+Compound _COMP_ | 0.03160238 |  [https://compound.finance/documents/Compound.Whitepaper.pdf](https://compound.finance/documents/Compound.Whitepaper.pdf)
+Decentraland _MANA_ | 82.50219037 | [https://decentraland.org/whitepaper.pdf](https://decentraland.org/whitepaper.pdf) 
+Basic Attention Token _BAT_ | 132.51201006 | [https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf) 
+
+### Investment History  
+#### Bitcoin
+Date | Price | Payment (€) | Purchase (BTC)
+:------ | :------ | ------: | ------:
+21.07.2021 | 29503 | 90 | 0.00237262
+22.07.2021 | 30051 | 200 | 0.00598965  
+#### Ether    
+Date | Price | Payment (€) | Purchase (BTC)
+:------ | :------ | ------: | ------: 
+21.07.2021 | 1779 | 100 | 0.04775345
+22.07.2021 | 1877 | 100 | 0.04526517  
 
 ## Goals  
-**Inception**:  
+### Inception  
 - [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) was the first influence after hearing his song: [*The Story of O.J.*](https://www.youtube.com/watch?v=RM7lw0Ovzq0)  
 - Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/)  
 
-**Main Targets**: 
+### Main Targets 
 1. Foster [decentralized digital assets and web3 protocols](https://www.investopedia.com/decentralized-finance-defi-5113835)  
 2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence)   
 3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp)  
@@ -164,5 +177,4 @@ The transactions related to this fund are recorded on the relevant public **bloc
 ### Source of Income  
 Hard work that may be done with human body parts but without insurance, contract or legal rights.  
 It may also consist of monetary gifts. 
-
 _ _ _ 
