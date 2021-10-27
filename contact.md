@@ -1,8 +1,8 @@
-# How to get in touch? 
+# How to get in touch?  
 ## E-Mail
 Only __encrypted e-mails__ are received, read and replied to by `Chris A. Iradukunda`.  
 Regular e-mails are either ignored or blocked or considered read-only, like _public advertisements_.  
-You are strongly advised to send your electronic message by using his [GPG public key](https://www.gnupg.org/gph/en/manual/c14.html).   
+You are strongly advised to send your electronic message by using his GPG public key.   
 #### Problems?
 - If you didn't understand a word, click 
 [HERE](https://emailselfdefense.fsf.org/en/) 
@@ -13,17 +13,14 @@ to view his e-mail adress (uploaded to a public __OpenPGP Keyserver__).
 - If you don't get a reply as fast as you wish, click [HERE](https://matrix.to/#/@daqhris:matrix.org) to say hello directly on his __Matrix__ account.
 
 ## Public Key cryptography
-This is [Chris-Armel (@daqhris)](https://github.com/daqhris)'s GPG key.  
-Most of his secure communications require to use of such basic cryptographic method.  
+This is [Chris A. Iradukunda (@daqhris)](https://github.com/daqhris)'s PGP key.  
+Most of his secure communications require the use of such basic cryptographic method.  
 The same key is used to digitally sign and encrypt some of his messages, documents or Git commits.   
 
-__PGP fingerprint__ : `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
-
-Alternatively, you may __Copy & Paste__ the following code block _or_ directly 
-__Download__ his pubkey ASC file from this 
-[LINK](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).  
-For improved safety, you can __View__ the same key on a dedicated page of his site's server [HERE](https://raw.githubusercontent.com/daqhris/daqhris.github.io/master/keys/Chris-A-Iradukunda_0x9A2B12E5.asc).
-
+#### PGP fingerprint `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
+- Key **ID**: `0x9A2B12E5` 
+- **Download** his pubkey ASC file: [daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc)  
+- **Copy** the code block below:   
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
