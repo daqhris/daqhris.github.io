@@ -18,7 +18,7 @@ Most of his secure communications require the use of such basic cryptographic me
 The same key is used to digitally sign and encrypt some of his messages, documents or Git commits.   
 
 #### PGP fingerprint: `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
-- Key **ID**: `0x9A2B12E5` 
+- Key **ID**: `E65F 53A3 9A2B 12E5` 
 - **Download** his pubkey .asc file: [daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc)  
 - **Copy** the code block below:  
 
