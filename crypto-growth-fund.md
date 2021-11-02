@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-October-27](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-November-2](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -48,24 +48,26 @@ This fund owns and manages digital assets that are:
 ## Portfolio  
 
 ### Digital Wallets 
-BTC : `bc1q3249nfvyel8wsry8mlr6ykkmu3mlmal6p4vgsq`  
-View the most recent transaction on a [Bitcoin blockchain explorer](https://www.blockchain.com/btc/address/bc1q3249nfvyel8wsry8mlr6ykkmu3mlmal6p4vgsq).
+BTC : `bc1qfq74fz2wtg6z4lcjeddadqn2vre378dgtax953`  
+View the most recent transaction on a [Bitcoin blockchain explorer](https://www.blockchain.com/btc/address/bc1qfq74fz2wtg6z4lcjeddadqn2vre378dgtax953).
 
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View token holdings on an [Ethereum blockchain explorer](https://etherscan.io/tokenholdings?a=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
 
-### ERC-20 Token Assets
-Decentraland (MANA)  
-Basic Attention Token (BAT)  
-Uniswap (UNI)  
-Chainlink (LINK)  
-Compound (COMP)  
+### ERC-20 Tokens
+Name | Symbol | Contract
+:----- | :-----: | -----: 
+Decentraland | MANA | `0x0f5d2fb29fb7d3cfee444a200298f468908cc942`  
+Basic Attention Token | BAT | `0x0d8775f648430679a709e98d2b0cb6250d2887ef`  
+Uniswap | UNI | `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984`  
+Chainlink | LINK | `0x514910771af9ca656af840dff83e8264ecf986ca`  
+Compound | COMP | `0xc00e94cb662c3520282e6f5717214004a7f26888`  
+The Sandbox | SAND | `0x3845badAde8e6dFF049820680d1F14bD3903a5d0`  
 
-### ERC-721 Token Assets  
+### ERC-721 Tokens  
 Ethereum Name Service (web3 domain): `daqhris.eth`  
 Verify the digital wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.eth).  
 
-### NFT Assets
 `awalkaday.art` Non-Fungible Tokens Collection (43 items).  
 Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/collection/awalkaday).  
 
@@ -75,8 +77,8 @@ This fund manager does not handle other people's wealth.
 
 [Chris-Armel](https://daqhris.com/about) has a background in computer engineering and is passionate about fintech innovation.  
 
-#### Contact 
-E-mail: `media at daqhris dot com` 
+### Contact 
+E-mail: `media(at)daqhris(dot)com` 
 
 ## Founding Story  
 ```
@@ -146,13 +148,14 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 Crypto/Token | Amount | Function | Whitepaper 
 ------------- | ----: | ---- | ------
-Bitcoin | 0.00334807 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
+Bitcoin | 0.00015587 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
 Ethereum | 0.02208311 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper-v3](https://uniswap.org/whitepaper-v3.pdf)
 Chainlink | 0.77483313 LINK| Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
 Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
 Decentraland | 82.50219037 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
-Basic Attention Token | 132.51201006 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)
+Basic Attention Token | 132.51201006 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)  
+The Sandbox | 52.77144809 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper_2020](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)
 
 ### Investment History  
 
