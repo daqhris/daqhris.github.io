@@ -54,10 +54,18 @@ View the most recent transaction on a [Bitcoin blockchain explorer](https://www.
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View token holdings on an [Ethereum blockchain explorer](https://etherscan.io/tokenholdings?a=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
 
-### ERC-20 Token Assets  
+### ERC-20 Token Assets
+Decentraland (MANA)  
+Basic Attention Token (BAT)  
+Uniswap (UNI)  
+Chainlink (LINK)  
+Compound (COMP)  
+
+### ERC-721 Token Assets  
 Ethereum Name Service (web3 domain): `daqhris.eth`  
 Verify the digital wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.eth).  
 
+### NFT Assets
 `awalkaday.art` Non-Fungible Tokens Collection (43 items).  
 Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/collection/awalkaday).  
 
