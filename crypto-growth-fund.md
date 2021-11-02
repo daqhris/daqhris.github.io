@@ -54,7 +54,8 @@ View the most recent transaction on a [Bitcoin blockchain explorer](https://www.
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View token holdings on an [Ethereum blockchain explorer](https://etherscan.io/tokenholdings?a=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
 
-### ERC-20 Tokens
+### ERC-20 Tokens  
+
 Name | Symbol | Contract
 :----- | :-----: | -----: 
 Decentraland | MANA | `0x0f5d2fb29fb7d3cfee444a200298f468908cc942`  
