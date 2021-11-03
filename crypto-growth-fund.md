@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-November-2](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-November-03](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -47,12 +47,15 @@ This fund owns and manages digital assets that are:
 
 ## Portfolio  
 
-### Digital Wallets 
+### Blockchain Wallets 
 BTC : `bc1qfq74fz2wtg6z4lcjeddadqn2vre378dgtax953`  
-View the most recent transaction on a [Bitcoin blockchain explorer](https://www.blockchain.com/btc/address/bc1qfq74fz2wtg6z4lcjeddadqn2vre378dgtax953).
+View the most recent transaction on a [Bitcoin block explorer](https://www.blockchain.com/btc/address/bc1qfq74fz2wtg6z4lcjeddadqn2vre378dgtax953).
 
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
-View token holdings on an [Ethereum blockchain explorer](https://etherscan.io/tokenholdings?a=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
+View token holdings on an [Ethereum block explorer](https://etherscan.io/tokenholdings?a=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
+
+SOL: `DAUcthcGctQ9yYv3xD95sacrCt9b7hFojnYj2TnjJgBq`  
+Verify this account transactions on a [Solana block explorer](https://solanabeach.io/address/DAUcthcGctQ9yYv3xD95sacrCt9b7hFojnYj2TnjJgBq/).  
 
 ### ERC-20 Tokens  
 
@@ -151,6 +154,7 @@ Crypto/Token | Amount | Function | Whitepaper
 ------------- | ----: | ---- | ------
 Bitcoin | 0.00015587 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
 Ethereum | 0.02208311 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
+Solana | 1.068986 SOL | Scalable Network | [solana.com/solana-whitepaper](https://solana.com/solana-whitepaper.pdf)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper-v3](https://uniswap.org/whitepaper-v3.pdf)
 Chainlink | 0.77483313 LINK| Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
 Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
@@ -160,16 +164,16 @@ The Sandbox | 52.77144809 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Wh
 
 ### Investment History  
 
-Date (d/m/y) | Unit Rate | Payment (€) | Purchase (BTC)
+Date (d/m/y) | Exchange Rate | Payment | Purchase
 :------ | :------: | ------: | ------:
-21/07/2021 | 29503 | 90 | 0.00237262
-22/07/2021 | 30051 | 200 | 0.00598965  
-
-Date (d/m/y) | Unit Rate | Payment (€) | Purchase (ETH)
-:----- | :-----: | -----: | -----: 
-21/07/2021 | 1779 | 100 | 0.04775345 
-22/07/2021 | 1877 | 100 | 0.04526517 
-26/10/2021 | 3955 | 100 | 0.02022691  
+21/07/2021 | 29503 | 90 € | 0.00237262 BTC
+21/07/2021 | 1779 | 100 € | 0.04775345 ETH
+22/07/2021 | 30051 | 200 € | 0.00598965 BTC  
+22/07/2021 | 1877 | 100 € | 0.04526517 ETH
+13/10/2021 | 15.75426065 | 0.0015 BTC | 0.0199065 ETH
+26/10/2021 | 3955 | 100 € | 0.02022691 ETH
+02/11/2021 | 22,778.15073656 | 0.0031815 BTC | 52.77144809 SAND
+03/11/2021 | 267.246615 | 0.004 BTC | 1.068986 SOL  
 
 ## Goals  
 ### Inception  
