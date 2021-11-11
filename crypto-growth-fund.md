@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-November-03](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-November-11](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -61,6 +61,7 @@ Verify this account transactions on a [Solana block explorer](https://solanabeac
 
 Name | Symbol | Contract
 :----- | :-----: | -----: 
+Ethereum Name Service | ENS | `0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72`
 Decentraland | MANA | `0x0f5d2fb29fb7d3cfee444a200298f468908cc942`  
 Basic Attention Token | BAT | `0x0d8775f648430679a709e98d2b0cb6250d2887ef`  
 Uniswap | UNI | `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984`  
@@ -153,14 +154,15 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 Crypto/Token | Amount | Function | Whitepaper 
 ------------- | ----: | ---- | ------
 Bitcoin | 0.00015587 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
-Ethereum | 0.02208311 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
+Ethereum | 0.02349746 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
 Solana | 1.068986 SOL | Scalable Network | [solana.com/solana-whitepaper](https://solana.com/solana-whitepaper.pdf)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper-v3](https://uniswap.org/whitepaper-v3.pdf)
 Chainlink | 0.77483313 LINK| Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
 Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
 Decentraland | 82.50219037 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
 Basic Attention Token | 132.51201006 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)  
-The Sandbox | 52.77144809 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper_2020](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)
+The Sandbox | 52.77144809 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper_2020](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
+Ethereum Name Service | 133.58929885 ENS | Identity/DNS | [docs.ens.domains/](https://docs.ens.domains/)
 
 ### Investment History  
 
@@ -190,4 +192,4 @@ Date (d/m/y) | Exchange Rate | Payment | Purchase
 The transactions related to this fund are recorded on public **blockchains**. 
 ### Source of Income  
 Hard work that may or may not be done with human body parts but without insurance, contract or legal rights.  
-Otherwise, it might consist of monetary gifts. 
+Otherwise, it might consist of monetary gifts or crypto airdrops.  
