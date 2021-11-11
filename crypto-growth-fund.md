@@ -71,7 +71,7 @@ The Sandbox | SAND | `0x3845badAde8e6dFF049820680d1F14bD3903a5d0`
 
 ### ERC-721 Tokens  
 Ethereum Name Service (web3 domain): `daqhris.eth`  
-Verify the digital wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.eth).  
+Verify the wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.eth) and its [DAO Delegate Application](https://discuss.ens.domains/t/ens-dao-delegate-applications/815/1110).  
 
 `awalkaday.art` Non-Fungible Tokens Collection (43 items).  
 Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/collection/awalkaday).  
