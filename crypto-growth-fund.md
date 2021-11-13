@@ -39,10 +39,10 @@ It is an online-native investment portfolio that:
 - is independent from any centralized entity like a regulatory body, a local authority or a government agency. 
 
 This fund owns and manages digital assets that are:
-- accessible on the Internet by using a computing device,  
+- accessible on the Internet by using a computer,  
 - known for practical implementations and widespread adoption,  
 - on-track for an increase in value overtime,  
-- available only in digital or electronic form,     
+- available only in electronic form,     
 - held onto over a long-term horizon (minimum of 10 years).  
 
 ## Portfolio  
@@ -153,15 +153,15 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 Crypto/Token | Amount | Function | Whitepaper 
 ------------- | ----: | ---- | ------
-Bitcoin | 0.03046881 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
+Bitcoin | 0.02178983 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
 Ethereum | 0.12218969 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
 Solana | 1.068986 SOL | Scalable Network | [solana.com/solana-whitepaper](https://solana.com/solana-whitepaper.pdf)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper-v3](https://uniswap.org/whitepaper-v3.pdf)
 Chainlink | 0.77483313 LINK| Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
 Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
-Decentraland | 199.60206036 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
+Decentraland | 282.69823985 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
 Basic Attention Token | 381.5018304 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)  
-The Sandbox | 113.00559971 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper_2020](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
+The Sandbox | 174.70305058 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper_2020](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
 Ethereum Name Service | 33.58929885 ENS | Identity/DNS | [docs.ens.domains/](https://docs.ens.domains/)
 
 ### Investment History  
@@ -183,9 +183,9 @@ Date (d/m/y) | Exchange Rate | Payment | Purchase
 - Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Main Targets 
-1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835)  
-2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence)   
-3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp)  
+1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) running on top of the Web3 Internet.  
+2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the fund owner/manager. 
+3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) as a crypto growth fund with assets on BTC, ETH and SOL blockchains.  
 
 ## Transparency
 ### Disclosure 
