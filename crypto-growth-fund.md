@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-November-11](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-November-13](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -48,8 +48,8 @@ This fund owns and manages digital assets that are:
 ## Portfolio  
 
 ### Blockchain Wallets 
-BTC : `bc1qfq74fz2wtg6z4lcjeddadqn2vre378dgtax953`  
-View the most recent transaction on a [Bitcoin block explorer](https://www.blockchain.com/btc/address/bc1qfq74fz2wtg6z4lcjeddadqn2vre378dgtax953).
+BTC : `bc1qcgyrf46prq5a0g85x7s8g4knfjl5ladwepfmus`  
+View the most recent transaction on a [Bitcoin block explorer](https://www.blockchain.com/btc/address/bc1qcgyrf46prq5a0g85x7s8g4knfjl5ladwepfmus).
 
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View token holdings on an [Ethereum block explorer](https://etherscan.io/tokenholdings?a=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
@@ -71,7 +71,7 @@ The Sandbox | SAND | `0x3845badAde8e6dFF049820680d1F14bD3903a5d0`
 
 ### ERC-721 Tokens  
 Ethereum Name Service (web3 domain): `daqhris.eth`  
-Verify the wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.eth) and its [DAO Delegate Application](https://discuss.ens.domains/t/ens-dao-delegate-applications/815/1110).  
+Verify the wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.eth) and look at a [DAO Delegate Application](https://discuss.ens.domains/t/ens-dao-delegate-applications/815/1110).  
 
 `awalkaday.art` Non-Fungible Tokens Collection (43 items).  
 Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/collection/awalkaday).  
@@ -153,16 +153,16 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 Crypto/Token | Amount | Function | Whitepaper 
 ------------- | ----: | ---- | ------
-Bitcoin | 0.00015587 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
-Ethereum | 0.02349746 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
+Bitcoin | 0.03046881 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
+Ethereum | 0.12218969 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
 Solana | 1.068986 SOL | Scalable Network | [solana.com/solana-whitepaper](https://solana.com/solana-whitepaper.pdf)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper-v3](https://uniswap.org/whitepaper-v3.pdf)
 Chainlink | 0.77483313 LINK| Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
 Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
-Decentraland | 82.50219037 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
-Basic Attention Token | 132.51201006 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)  
-The Sandbox | 52.77144809 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper_2020](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
-Ethereum Name Service | 133.58929885 ENS | Identity/DNS | [docs.ens.domains/](https://docs.ens.domains/)
+Decentraland | 199.60206036 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
+Basic Attention Token | 381.5018304 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)  
+The Sandbox | 113.00559971 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper_2020](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
+Ethereum Name Service | 33.58929885 ENS | Identity/DNS | [docs.ens.domains/](https://docs.ens.domains/)
 
 ### Investment History  
 
@@ -189,7 +189,7 @@ Date (d/m/y) | Exchange Rate | Payment | Purchase
 
 ## Transparency
 ### Disclosure 
-The transactions related to this fund are recorded on public **blockchains**. 
+The transactions related to this fund are recorded on public blockchains. 
 ### Source of Income  
 Hard work that may or may not be done with human body parts but without insurance, contract or legal rights.  
 Otherwise, it might consist of monetary gifts or crypto airdrops.  
