@@ -133,7 +133,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
 /*code for dark mode*/
 @media (prefers-color-scheme: dark) {
     html{background-color: #212121;color:#FFFFFF}
-    .text-link{color:#007fff}
+    .text-link{color:#1e90ff}
     hr{border-top-color:#F2F2F2}
     code{background-color: #333;}
     .siteHeader{border:solid #F2F2F2;background-color:#181a1b}

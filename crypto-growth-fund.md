@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-November-16](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-November-19](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -49,7 +49,7 @@ This fund owns and manages digital assets that are:
 
 ### Blockchain Wallets 
 BTC : `bc1q9wdxlgc4tn4k57h6kx8390thr08e482fy74qhf`  
-See the up-to-date recipient wallet address on a [Bitcoin block explorer](https://blockchair.com/bitcoin/address/bc1q9wdxlgc4tn4k57h6kx8390thr08e482fy74qhf).
+Here is an up-to-date recipient wallet address on a [Bitcoin block explorer](https://blockchair.com/bitcoin/address/bc1q9wdxlgc4tn4k57h6kx8390thr08e482fy74qhf).
 
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View token holdings on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
@@ -166,7 +166,7 @@ Ethereum Name Service | 33.58929885 ENS | Identity/DNS | [docs.ens.domains/](htt
 
 ### Investment History  
 
-Date (d/m/y) | Exchange Rate | Payment | Purchase
+Date (_d/m/y_) | Exchange Rate | Payment | Purchase
 :------ | :------: | ------: | ------:
 21/07/2021 | 29503 | 90 € | 0.00237262 BTC
 21/07/2021 | 1779 | 100 € | 0.04775345 ETH

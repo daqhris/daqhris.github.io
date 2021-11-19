@@ -34,6 +34,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - LICENSE
+  - LICENSE.md
   - README.md
   - CNAME
