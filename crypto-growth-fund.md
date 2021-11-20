@@ -154,7 +154,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 Crypto/Token | Amount | Function | Whitepaper 
 ------------- | ----: | ---- | ------
 Bitcoin | 0.00826 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
-Ethereum |  0.08631 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
+Ethereum |  0.06643 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
 Solana | 2.83779 SOL | Scalable Network | [solana.com/solana-whitepaper](https://solana.com/solana-whitepaper.pdf)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper](https://uniswap.org/whitepaper-v3.pdf)
 Chainlink | 0.77483313 LINK| Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
