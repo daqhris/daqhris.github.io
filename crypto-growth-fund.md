@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-November-19](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-November-21](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -67,7 +67,8 @@ Basic Attention Token | BAT | `0x0d8775f648430679a709e98d2b0cb6250d2887ef`
 Uniswap | UNI | `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984`  
 Chainlink | LINK | `0x514910771af9ca656af840dff83e8264ecf986ca`  
 Compound | COMP | `0xc00e94cb662c3520282e6f5717214004a7f26888`  
-The Sandbox | SAND | `0x3845badAde8e6dFF049820680d1F14bD3903a5d0`  
+The Sandbox | SAND | `0x3845badAde8e6dFF049820680d1F14bD3903a5d0`   
+Gala | GALA | `0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA`   
 
 ### ERC-721 Tokens  
 Ethereum Name Service (web3 domain): `daqhris.eth`  
@@ -153,7 +154,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 Crypto/Token | Amount | Function | Whitepaper 
 ------------- | ----: | ---- | ------
-Bitcoin | 0.00826 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
+Bitcoin | 0.00349 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
 Ethereum |  0.06643 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
 Solana | 2.83779 SOL | Scalable Network | [solana.com/solana-whitepaper](https://solana.com/solana-whitepaper.pdf)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper](https://uniswap.org/whitepaper-v3.pdf)
@@ -162,7 +163,8 @@ Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Com
 Decentraland | 388.33955 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
 Basic Attention Token | 650.99306 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)  
 The Sandbox | 300.78828 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
-Ethereum Name Service | 33.58929885 ENS | Identity/DNS | [docs.ens.domains/](https://docs.ens.domains/)
+Ethereum Name Service | 33.58929 ENS | Identity/DNS | [docs.ens.domains/](https://docs.ens.domains/)  
+Gala | 570.53187 GALA | Gaming/Play-To-Earn | [gala.games/about](https://app.gala.games/about)
 
 ### Investment History  
 
