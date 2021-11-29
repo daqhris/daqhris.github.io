@@ -197,8 +197,10 @@ Date (_d/m/y_) | Exchange Rate | Payment | Purchase
 - All transactions related to this fund are recorded on public, decentralized and open-source blockchains (Bitcoin, Ethereum and Solana).  
 - High volatility on cryptocurrency markets should always be expected and accounted for the unstable value of assets.  
 - Less than 10% of the fund's total value in Euros (€) will be withdrawn and rewarded to the manager every 6 months (upcoming due date: December 31). 
+
 ### Source of Income  
 Underpaid hard labor that may be done with human body parts but without life insurance, work contract or legal rights.  
 Otherwise, income might originate from monetary gifts or crypto airdrops.  
+
 ### Disclaimer  
 Nothing on this website constitutes investment, accounting or legal advice or is a recommendation that you purchase, sell or hold any cryptocurrency or other investment or that you pursue any investment style or strategy.  
