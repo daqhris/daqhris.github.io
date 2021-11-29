@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-November-29](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-November-30](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -55,21 +55,21 @@ ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`
 View token holdings on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
 
 SOL: `DAUcthcGctQ9yYv3xD95sacrCt9b7hFojnYj2TnjJgBq`  
-Verify the wallet's transactions on a [Solana block explorer](https://beta.sonar.watch/dashboard/DAUcthcGctQ9yYv3xD95sacrCt9b7hFojnYj2TnjJgBq/).  
+Verify the wallet's transactions on a [Solana block explorer](https://sonar.watch/dashboard/DAUcthcGctQ9yYv3xD95sacrCt9b7hFojnYj2TnjJgBq/).  
 
 ### ERC-20 Tokens  
 
 Name | Symbol | Contract
 :----- | :-----: | -----: 
-Ethereum Name Service | ENS | `0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72`
-Decentraland | MANA | `0x0f5d2fb29fb7d3cfee444a200298f468908cc942`  
-Basic Attention Token | BAT | `0x0d8775f648430679a709e98d2b0cb6250d2887ef`  
-Uniswap | UNI | `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984`  
-Chainlink | LINK | `0x514910771af9ca656af840dff83e8264ecf986ca`  
-Compound | COMP | `0xc00e94cb662c3520282e6f5717214004a7f26888`  
-The Sandbox | SAND | `0x3845badAde8e6dFF049820680d1F14bD3903a5d0`   
-Gala | GALA | `0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA`   
-StakeWise Staked ETH2 | SETH2 | `0xfe2e637202056d30016725477c5da089ab0a043a`  
+Ethereum Name Service | ENS | [`0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72`](https://etherscan.io/address/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72)
+Decentraland | MANA | [`0x0f5d2fb29fb7d3cfee444a200298f468908cc942`](https://etherscan.io/address/0x0f5d2fb29fb7d3cfee444a200298f468908cc942)  
+Basic Attention Token | BAT | [`0x0d8775f648430679a709e98d2b0cb6250d2887ef`](https://etherscan.io/address/0x0d8775f648430679a709e98d2b0cb6250d2887ef)  
+Uniswap | UNI | [`0x1f9840a85d5af5bf1d1762f925bdaddc4201f984`](https://etherscan.io/address/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984)  
+Chainlink | LINK | [`0x514910771af9ca656af840dff83e8264ecf986ca`](https://etherscan.io/address/0x514910771af9ca656af840dff83e8264ecf986ca)  
+Compound | COMP | [`0xc00e94cb662c3520282e6f5717214004a7f26888`](https://etherscan.io/address/0xc00e94cb662c3520282e6f5717214004a7f26888)  
+Sand | SAND | [`0x3845badAde8e6dFF049820680d1F14bD3903a5d0`](https://etherscan.io/address/0x3845badade8e6dff049820680d1f14bd3903a5d0)   
+Gala | GALA | [`0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA`](https://etherscan.io/address/0x15d4c048f83bd7e37d49ea4c83a07267ec4203da)   
+StakeWise Staked ETH2 | SETH2 | [`0xfe2e637202056d30016725477c5da089ab0a043a`](https://etherscan.io/address/0xfe2e637202056d30016725477c5da089ab0a043a)  
 
 ### ERC-721 Tokens  
 Ethereum Name Service (web3 domain): `daqhris.eth`  
@@ -153,7 +153,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ## Holdings  
 ### Accounting
 
-Crypto/Token | Amount | Function | Documentation 
+Assets | Amount | Function | Documentation 
 ------------- | ----: | ---- | ------
 Bitcoin | 0.00349 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
 Ethereum |  0.01652 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
@@ -163,7 +163,7 @@ Chainlink | 0.77483313 LINK| Data Aggregation | [chain.link/whitepaper](https://
 Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
 Decentraland | 388.33955 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
 Basic Attention Token | 650.99306 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)  
-The Sandbox | 300.78828 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
+Sand | 300.78828 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
 Ethereum Name Service | 18.58929 ENS | Identity/DNS | [docs.ens.domains/](https://docs.ens.domains/)  
 Gala | 1138.45417 GALA | Gaming/Play-To-Earn | [gala.games/about](https://app.gala.games/about)  
 StakeWise Staked ETH2 | 0.035 SETH2 | Staking | [stakewise.io/stakewise-pool](https://docs.stakewise.io/stakewise-pool)  
@@ -189,14 +189,16 @@ Date (_d/m/y_) | Exchange Rate | Payment | Purchase
 
 ### Main Targets 
 1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) on the the Web3 Internet.  
-2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the fund's founder. 
-3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of assets under management.  
+2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the founder. 
+3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of crypto assets.  
 
 ## Transparency
 ### Disclosure 
-All transactions related to this fund are recorded on public blockchains. 
+- All transactions related to this fund are recorded on public, decentralized and open-source blockchains (Bitcoin, Ethereum and Solana).  
+- High volatility on cryptocurrency markets should always be expected and accounted for the unstable value of assets.  
+- Less than 10% of the fund's total value in Euros (€) will be withdrawn and rewarded to the manager every 6 months (upcoming due date: December 31). 
 ### Source of Income  
-Hard work that may or may not be done with human body parts but without life insurance, work contract or legal rights.  
-Otherwise, it might consist of monetary gifts or crypto airdrops.  
+Underpaid hard labor that may be done with human body parts but without life insurance, work contract or legal rights.  
+Otherwise, income might originate from monetary gifts or crypto airdrops.  
 ### Disclaimer  
 Nothing on this website constitutes investment, accounting or legal advice or is a recommendation that you purchase, sell or hold any cryptocurrency or other investment or that you pursue any investment style or strategy.  
