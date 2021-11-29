@@ -23,7 +23,7 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
 *Source*: [Investopedia.com](https://www.investopedia.com/terms/g/growthfund.asp)  
 
 ### What is the meaning of *crypto*?  
-> A **cryptocurrency** (or *crypto*) is a digital asset designed to work as a medium of exchange 
+> A **cryptocurrency** (abbr. *crypto*) is a digital asset designed to work as a medium of exchange 
 > wherein individual coin ownership records are stored in a ledger existing in a form of a computerized database using strong cryptography to secure transaction records, 
 > to control the creation of additional coins, and to verify the transfer of coin ownership.    
 > **Cryptocurrency** does not exist in physical form (like paper money) and is typically not issued by a central authority.  
@@ -69,6 +69,7 @@ Chainlink | LINK | `0x514910771af9ca656af840dff83e8264ecf986ca`
 Compound | COMP | `0xc00e94cb662c3520282e6f5717214004a7f26888`  
 The Sandbox | SAND | `0x3845badAde8e6dFF049820680d1F14bD3903a5d0`   
 Gala | GALA | `0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA`   
+StakeWise Staked ETH2 | SETH2 | `0xfe2e637202056d30016725477c5da089ab0a043a`  
 
 ### ERC-721 Tokens  
 Ethereum Name Service (web3 domain): `daqhris.eth`  
@@ -152,7 +153,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ## Holdings  
 ### Accounting
 
-Crypto/Token | Amount | Function | Whitepaper 
+Crypto/Token | Amount | Function | Documentation 
 ------------- | ----: | ---- | ------
 Bitcoin | 0.00349 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
 Ethereum |  0.01652 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
@@ -164,7 +165,8 @@ Decentraland | 388.33955 MANA | Gaming/Metaverse | [decentraland.org/whitepaper]
 Basic Attention Token | 650.99306 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)  
 The Sandbox | 300.78828 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
 Ethereum Name Service | 18.58929 ENS | Identity/DNS | [docs.ens.domains/](https://docs.ens.domains/)  
-Gala | 1138.45417 GALA | Gaming/Play-To-Earn | [gala.games/about](https://app.gala.games/about) StakeWise Staked ETH2 | 0.035 SETH2 | DeFi |  -- 
+Gala | 1138.45417 GALA | Gaming/Play-To-Earn | [gala.games/about](https://app.gala.games/about)  
+StakeWise Staked ETH2 | 0.035 SETH2 | Staking | [stakewise.io/stakewise-pool](https://docs.stakewise.io/stakewise-pool)  
 
 ### Investment History  
 
