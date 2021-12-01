@@ -187,7 +187,7 @@ Date (_d/m/y_) | Exchange Rate | Payment | Purchase
 - Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Main Targets 
-1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) on the the Web3 Internet.  
+1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) on the Web3 Internet.  
 2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the founder. 
 3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of crypto assets.  
 
