@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-November-30](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-December-01](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -41,8 +41,7 @@ It is an online-native investment portfolio that:
 This fund owns and manages digital assets that are:
 - accessible on the Internet by using a computer,  
 - known for practical implementations and widespread adoption,  
-- on-track for an increase in value overtime,  
-- available only in electronic form,     
+- on-track for an increase in value overtime,      
 - held onto over a long-term horizon (minimum of 10 years).  
 
 ## Portfolio  
@@ -193,12 +192,12 @@ Date (_d/m/y_) | Exchange Rate | Payment | Purchase
 3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of crypto assets.  
 
 ## Transparency
-### Disclosure 
+### Disclosures 
 - All transactions related to this fund are recorded on public, decentralized and open-source blockchains (Bitcoin, Ethereum and Solana).  
 - High volatility on cryptocurrency markets should always be expected and accounted for the unstable value of assets.  
 - Less than 10% of the fund's total value in Euros (€) will be withdrawn and rewarded to the manager every 6 months (upcoming due date: December 31). 
 
-### Source of Income  
+### Source(s) of Income  
 Underpaid hard labor that may be done with human body parts but without life insurance, work contract or legal rights.  
 Otherwise, income might originate from monetary gifts or crypto airdrops.  
 
