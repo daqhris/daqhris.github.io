@@ -138,6 +138,6 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
     .siteHeader-title{background-color:#444444}
     .siteProjects a{color:#FFFFFF}
     .underline{color:#FFFFFF}
-    .siteNav-pages>li{color:#FFFFFF}
-    .siteNav-icons{color:#FFFFFF}
+    .siteNav-pages>li>a{color:#FFFFFF}
+    .siteNav-icons>ul>li>a{color:#FFFFFF}
 }
