@@ -147,5 +147,5 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
     .siteProjects a{color:#FFFFFF}
     .underline{color:#FFFFFF}
     .siteNav-pages>li{color:#FFFFFF}
-    .siteNav-social>li{color:#FFFFFF}
+    .siteNav-social>li>a{color:#FFFFFF}
 }
