@@ -1,15 +1,4 @@
 @font-face{
-    font-family: "FontAwesome";
-    font-weight:normal;
-    src:local("FontAwesome");
-    src:local("font-awesome");
-    src:url("/style/css/font-awesome.min.css");
-    src:url(https://daqhris.com/style/font/fontawesome-webfont.ttf)  format("truetype"); /* Safari, Android, iOS */
-    src:url(https://daqhris.com/style/font/fontawesome-webfont.woff) format("woff"); /* Pretty Modern Browsers */
-    src:url(https://daqhris.com/style/font/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
-    font-display: swap;
-}
-@font-face{
     font-family: "MerriweatherSans-Light";
     font-weight:normal;
     src:url(https://daqhris.com/style/font/MerriweatherSans-Light.ttf) format("truetype"); /* Safari, Android, iOS */
