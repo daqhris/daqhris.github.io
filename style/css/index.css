@@ -63,6 +63,9 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
 .fa-video-camera:before{content:"\f03d"}
 .fa-twitter:before{content:"\f099"}
 .fa-free-code-camp:before{content:"\f2c5"}
+.fa-soundcloud:before{content:"\f1be"}
+.fa-key:before{content:"\f084"}
+   
 /*Custom CSS*/
 .button {border: none;background-color:#F5F5F5;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em;}
 .text-link{color:#0057af} /*Colored links*/
@@ -144,4 +147,5 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
     .siteProjects a{color:#FFFFFF}
     .underline{color:#FFFFFF}
     .siteNav-pages>li{color:#FFFFFF}
+    .siteNav-social>li{color:#FFFFFF}
 }
