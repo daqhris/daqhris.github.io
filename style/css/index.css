@@ -55,6 +55,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
 .siteFooter{text-align:center;font-size:.875em;margin:1em 2em;}
 /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
 .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
+.fa-lg {font-size:1.33333333em;line-height:.75em;vertical-align:-15%}
 .fa-3x{font-size:2.5em}
 .fa-envelope-o:before{content:"\f003"}
 .fa-code:before{content:"\f121"}
