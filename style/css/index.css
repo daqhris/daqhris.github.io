@@ -3,9 +3,9 @@
     font-weight:normal;
     src:local("FontAwesome"),
         local("font-awesome");
-    src:url(https://daqhris.com/style/font/fontawesome-webfont.ttf) format("truetype"), /* Safari, Android, iOS */
-        url(https://daqhris.com/style/font/fontawesome-webfont.woff) format("woff"), /* Pretty Modern Browsers */
-        url(https://daqhris.com/style/font/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
+    src:url(https://daqhris.com/style/font/fontawesome-webfont.ttf)  format("truetype"); /* Safari, Android, iOS */
+    src:url(https://daqhris.com/style/font/fontawesome-webfont.woff) format("woff"); /* Pretty Modern Browsers */
+    src:url(https://daqhris.com/style/font/fontawesome-webfont.eot) format("eot"); /* IE6+ Compat Modes */
     font-display: swap;
 }
 @font-face{
@@ -52,7 +52,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
 .siteNav-pages>li{display:block;margin:.05em;padding:.05em}
 .siteNav-social{list-style:none;margin:1em 0;padding:0;}
 .siteNav-social>li{display:inline-block;margin:.25em;padding:.25em;color:#3D3D3D;font-family: "MillerTextRoman", serif;}
-.siteNav-icons>li{list-style:none;display:inline-block;text-align:center;margin:1em 0;padding:0;color:#3D3D3D;font-family: "MillerTextRoman", serif;}
+.siteNav-icons{list-style:none;display:inline-block;text-align:center;color:#3D3D3D;margin:0;}
 .siteFooter{text-align:center;font-size:.875em;margin:1em 2em;}
 /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
 .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
