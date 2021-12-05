@@ -43,7 +43,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
 .siteNav-social{list-style:none;margin:1em 0;padding:0;}
 .siteNav-social>li{display:inline-block;margin:.25em;padding:.25em;color:#3D3D3D;font-family: "MillerTextRoman", serif;}
 .siteNav-icons{text-align:center;color:#3D3D3D;}
-.siteNav-icons>ul>li{list-style:none;display:inline-block;margin:0 1em;}
+.siteNav-icons>ul>li{list-style:none;display:inline-block;margin:0 .75em;}
 .siteFooter{text-align:center;font-size:.875em;margin:1em 2em;}
 /*Font Awesome 4.7.0 by @davegandy. Below are font codes extracted from "font-awesome.min.css"*/
 .fa{display:inline-block;font:normal normal normal .875em/1 "FontAwesome";font-size:inherit}
@@ -57,6 +57,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
 .fa-free-code-camp:before{content:"\f2c5"}
 .fa-soundcloud:before{content:"\f1be"}
 .fa-key:before{content:"\f084"}
+.fa-book:before{content:"\f02d"}
    
 /*Custom CSS*/
 .button {border: none;background-color:#F5F5F5;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em;}
