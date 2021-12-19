@@ -69,6 +69,7 @@ Compound | COMP | [`0xc00e94cb662c3520282e6f5717214004a7f26888`](https://ethersc
 Sand | SAND | [`0x3845badAde8e6dFF049820680d1F14bD3903a5d0`](https://etherscan.io/address/0x3845badade8e6dff049820680d1f14bd3903a5d0)   
 Gala | GALA | [`0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA`](https://etherscan.io/address/0x15d4c048f83bd7e37d49ea4c83a07267ec4203da)   
 StakeWise Staked ETH2 | SETH2 | [`0xfe2e637202056d30016725477c5da089ab0a043a`](https://etherscan.io/address/0xfe2e637202056d30016725477c5da089ab0a043a)  
+Polygon | MATIC | [`0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0`](https://etherscan.io/address/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0) 
 
 ### ERC-721 Tokens  
 Ethereum Name Service (web3 domain): `daqhris.eth`  
@@ -154,32 +155,19 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 Assets | Amount | Function | Documentation 
 ------------- | ----: | ---- | ------
-Bitcoin | 0.00349 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
-Ethereum |  0.01652 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
+Bitcoin | 0.00112 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
+Ethereum |  0.01150 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
 Solana | 2.83779 SOL | Scalable Network | [solana.com/solana-whitepaper](https://solana.com/solana-whitepaper.pdf)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper](https://uniswap.org/whitepaper-v3.pdf)
 Chainlink | 0.77483313 LINK| Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
 Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
 Decentraland | 388.33955 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
 Basic Attention Token | 650.99306 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)  
-Sand | 300.78828 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
+Sand | 246.52428 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
 Ethereum Name Service | 18.58929 ENS | Identity/DNS | [docs.ens.domains/](https://docs.ens.domains/)  
 Gala | 1138.45417 GALA | Gaming/Play-To-Earn | [gala.games/about](https://app.gala.games/about)  
 StakeWise Staked ETH2 | 0.035 SETH2 | Staking | [stakewise.io/stakewise-pool](https://docs.stakewise.io/stakewise-pool)  
-
-### Investment History  
-
-Date (_d/m/y_) | Exchange Rate | Payment | Purchase
-:------ | :------: | ------: | ------:
-21/07/2021 | 29503 | 90 € | 0.00237262 BTC
-21/07/2021 | 1779 | 100 € | 0.04775345 ETH
-22/07/2021 | 30051 | 200 € | 0.00598965 BTC  
-22/07/2021 | 1877 | 100 € | 0.04526517 ETH
-13/10/2021 | 15.75426065 | 0.0015 BTC | 0.0199065 ETH
-26/10/2021 | 3955 | 100 € | 0.02022691 ETH
-02/11/2021 | 22,778.15073656 | 0.0031815 BTC | 52.77144809 SAND
-03/11/2021 | 267.246615 | 0.004 BTC | 1.068986 SOL  
-11/11/2021 |  -  |  -  |  133.589298 ENS  
+Polygon | 118.96270 MATIC | Scalability | [github.com/maticnetwork/whitepaper](https://github.com/maticnetwork/whitepaper)
 
 ## Goals  
 ### Inception  
@@ -195,7 +183,7 @@ Date (_d/m/y_) | Exchange Rate | Payment | Purchase
 ### Disclosures 
 - All transactions related to this fund are recorded on public, decentralized and open-source blockchains (Bitcoin, Ethereum and Solana).  
 - High volatility on cryptocurrency markets should always be expected and accounted for the unstable value of assets.  
-- Less than 10% of the fund's total value in Euros (€) will be withdrawn and rewarded to the manager every 6 months (upcoming due date: December 31). 
+- Less than 10% of the fund's total value in Euros (€) is withdrawn and rewarded to the manager every 6 months (December 31 or June 30). 
 
 ### Source(s) of Income  
 Underpaid hard labor that may be done with human body parts but without life insurance, work contract or legal rights.  
