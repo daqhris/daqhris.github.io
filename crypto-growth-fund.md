@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-December-01](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-December-21](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -187,7 +187,7 @@ Polygon | 118.96270 MATIC | Scalability | [github.com/maticnetwork/whitepaper](h
 
 ### Source(s) of Income  
 Underpaid hard labor that may be done with human body parts but without life insurance, work contract or legal rights.  
-Otherwise, income might originate from monetary gifts or crypto airdrops.  
+Otherwise, the income might originate from monetary gifts or crypto airdrops.  
 
 ### Disclaimer  
 Nothing on this website constitutes investment, accounting or legal advice or is a recommendation that you purchase, sell or hold any cryptocurrency or other investment or that you pursue any investment style or strategy.  
