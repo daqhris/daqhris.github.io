@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-December-21](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-December-27](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -69,13 +69,14 @@ Compound | COMP | [`0xc00e94cb662c3520282e6f5717214004a7f26888`](https://ethersc
 Sand | SAND | [`0x3845badAde8e6dFF049820680d1F14bD3903a5d0`](https://etherscan.io/address/0x3845badade8e6dff049820680d1f14bd3903a5d0)   
 Gala | GALA | [`0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA`](https://etherscan.io/address/0x15d4c048f83bd7e37d49ea4c83a07267ec4203da)   
 StakeWise Staked ETH2 | SETH2 | [`0xfe2e637202056d30016725477c5da089ab0a043a`](https://etherscan.io/address/0xfe2e637202056d30016725477c5da089ab0a043a)  
-Polygon | MATIC | [`0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0`](https://etherscan.io/address/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0) 
+Polygon | MATIC | [`0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0`](https://etherscan.io/address/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0)  
+OpenDAO | SOS | [`0x3b484b82567a09e2588A13D54D032153f0c0aEe0`](https://etherscan.io/address/0x3b484b82567a09e2588a13d54d032153f0c0aee0)  
 
 ### ERC-721 Tokens  
 Ethereum Name Service (web3 domain): `daqhris.eth`  
 Verify the wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.eth) and look at a [DAO Delegate Application](https://discuss.ens.domains/t/ens-dao-delegate-applications/815/1110).  
 
-`awalkaday.art` Non-Fungible Tokens Collection (43 items).  
+`awalkaday.art` Non-Fungible Tokens Collection.  
 Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/collection/awalkaday).  
 
 ## Manager  
@@ -167,7 +168,8 @@ Sand | 246.52428 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper]
 Ethereum Name Service | 18.58929 ENS | Identity/DNS | [docs.ens.domains/](https://docs.ens.domains/)  
 Gala | 1138.45417 GALA | Gaming/Play-To-Earn | [gala.games/about](https://app.gala.games/about)  
 StakeWise Staked ETH2 | 0.035 SETH2 | Staking | [stakewise.io/stakewise-pool](https://docs.stakewise.io/stakewise-pool)  
-Polygon | 118.96270 MATIC | Scalability | [github.com/maticnetwork/whitepaper](https://github.com/maticnetwork/whitepaper)
+Polygon | 118.96270 MATIC | Scalability | [github.com/maticnetwork/whitepaper](https://github.com/maticnetwork/whitepaper)  
+OpenDAO | 1000000 SOS | NFT Community | [twitter.com/The_OpenDAO](https://twitter.com/The_OpenDAO)  
 
 ## Goals  
 ### Inception  
