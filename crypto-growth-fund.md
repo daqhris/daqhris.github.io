@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2021-December-27](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2021-December-29](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -47,8 +47,8 @@ This fund owns and manages digital assets that are:
 ## Portfolio  
 
 ### Blockchain Wallets 
-BTC : `bc1q9wdxlgc4tn4k57h6kx8390thr08e482fy74qhf`  
-Here is an up-to-date recipient wallet address on a [Bitcoin block explorer](https://blockchair.com/bitcoin/address/bc1q9wdxlgc4tn4k57h6kx8390thr08e482fy74qhf).
+BTC : `bc1q8hwhwdc4na65z8wgknnr3ny4z9e0mdmtchcqdy`  
+Here is an up-to-date recipient wallet address on a [Bitcoin block explorer](https://blockchair.com/bitcoin/address/bc1q8hwhwdc4na65z8wgknnr3ny4z9e0mdmtchcqdy).
 
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View token holdings on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
@@ -154,11 +154,11 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ## Holdings  
 ### Accounting
 
-Assets | Amount | Function | Documentation 
+Assets | Amount | Category | Documentation 
 ------------- | ----: | ---- | ------
 Bitcoin | 0.00076 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
 Ethereum |  0.01150 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
-Solana | 2.83779 SOL | Scalable Network | [solana.com/solana-whitepaper](https://solana.com/solana-whitepaper.pdf)
+Solana | 0.09999 SOL | Scalable Network | [solana.com/solana-whitepaper](https://solana.com/solana-whitepaper.pdf)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper](https://uniswap.org/whitepaper-v3.pdf)
 Chainlink | 0.77483313 LINK| Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
 Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
@@ -185,7 +185,7 @@ OpenDAO | 1000000 SOS | NFT Community | [twitter.com/The_OpenDAO](https://twitte
 ### Disclosures 
 - All transactions related to this fund are recorded on public, decentralized and open-source blockchains (Bitcoin, Ethereum and Solana).  
 - High volatility on cryptocurrency markets should always be expected and accounted for the unstable value of assets.  
-- Less than 10% of the fund's total value in Euros (€) is withdrawn and rewarded to the manager every 6 months (December 31 or June 30). 
+- Less than 10% of the fund's total value in Euros (€) is withdrawn and rewarded to the manager every 6 months. 
 
 ### Source(s) of Income  
 Underpaid hard labor that may be done with human body parts but without life insurance, work contract or legal rights.  
