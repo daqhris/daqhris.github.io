@@ -72,6 +72,7 @@ Aragon | ANT | [`0xa117000000f279d81a1d3cc75430faa017fa5a2e`](https://etherscan.
 Ethereum Name Service (web3 domain): `daqhris.eth`  
 Verify the wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.eth) and look at a [DAO Delegate Application](https://discuss.ens.domains/t/ens-dao-delegate-applications/815/1110).  
 
+### ERC-1155 Tokens  
 `awalkaday.art` Non-Fungible Tokens Collection.  
 Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/collection/awalkaday).  
 
