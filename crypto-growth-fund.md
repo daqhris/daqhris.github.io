@@ -47,8 +47,8 @@ This fund owns and manages digital assets that are:
 ## Portfolio  
 
 ### Blockchain Wallets 
-BTC : `bc1q8hwhwdc4na65z8wgknnr3ny4z9e0mdmtchcqdy`  
-Here is an up-to-date recipient wallet address on a [Bitcoin block explorer](https://blockchair.com/bitcoin/address/bc1q8hwhwdc4na65z8wgknnr3ny4z9e0mdmtchcqdy).
+BTC : `bc1qc4y5g6c7kzwql06apsje2qpux6tag7tjvd4ae0`  
+Here is an up-to-date recipient wallet address on a [Bitcoin block explorer](https://blockchair.com/bitcoin/address/bc1qc4y5g6c7kzwql06apsje2qpux6tag7tjvd4ae0).
 
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View token holdings on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
