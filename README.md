@@ -14,4 +14,4 @@ Web Design inspiration: [Written Theme](https://www.tumblr.com/theme/38737).
 
 Previous web hosting providers: [Tumblr](https://www.tumblr.com) and [Alibaba Cloud 阿里云](https://cn.aliyun.com).
 
-`Copyleft © 2010-2021 daqhris`
+`Copyleft © 2010-2022 daqhris`
