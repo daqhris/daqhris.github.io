@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2022-January-07](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2022-January-12](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -31,15 +31,15 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
 *Source*: [Wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
 
 ### What do you mean by *crypto growth fund*? 
-A **crypto growth fund** is a fully digitized version of a growth fund that is dedicated to investing and trading cryptos and tokens on public blockchains.  
+This **crypto growth fund** is a digital version of a growth fund dedicated to investments in cryptocurrencies and other assets on public blockchains.  
 
-It is an online-native investment portfolio that: 
+It is an online investment portfolio that: 
 - has operations uniquely in the cyberspace,
 - openly shares transactions records and holdings,  
-- is independent from any centralized entity like a regulatory body, a local authority or a government agency. 
+- is independent from any centralized entity (e.g.: a regulatory body, a local authority or a government agency). 
 
 This fund owns and manages digital assets that are:
-- accessible on the Internet by using a computer,  
+- accessible on the Internet by using a computing device,  
 - known for practical implementations and widespread adoption,  
 - on-track for an increase in value overtime,      
 - held onto over a long-term horizon (minimum of 10 years).  
@@ -47,11 +47,17 @@ This fund owns and manages digital assets that are:
 ## Portfolio  
 
 ### Blockchain Wallets 
-BTC : `bc1qc4y5g6c7kzwql06apsje2qpux6tag7tjvd4ae0`  
-Here is an up-to-date recipient wallet address on a [Bitcoin block explorer](https://blockchair.com/bitcoin/address/bc1qc4y5g6c7kzwql06apsje2qpux6tag7tjvd4ae0).
+BTC : `bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf`  
+Here is an up-to-date wallet address on a [Bitcoin block explorer](https://blockchair.com/bitcoin/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).
 
 ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
-View token holdings on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
+View token holdings on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
+
+ATOM : `cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa`  
+Take a look at this wallet on a [Cosmos blockchain explorer](https://atom.tokenview.com/en/address/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa)  
+
+DOT: `1kfYfzWJhmhpNjsCH7sbjqvd5XgjNZX2ejEWY2vWETF4s6o`  
+Check out the address on a [Polkadot blockchain explorer](https://polkadot.subscan.io/account/1kfYfzWJhmhpNjsCH7sbjqvd5XgjNZX2ejEWY2vWETF4s6o).  
 
 ### ERC-20 Tokens  
 
@@ -153,35 +159,37 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ### Accounting
 
 Assets | Amount | Category | Documentation 
-------------- | ----: | ---- | ------
-Bitcoin | 0.01845 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
-Ether |  0.04572 ETH | Apps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
+------ | -----: | :---- | ------
+Bitcoin | 0.00654 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
+Ether |  0.04572 ETH | dApps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper](https://uniswap.org/whitepaper-v3.pdf)
-Chainlink | 0.77483313 LINK| Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
+Chainlink | 0.77483313 LINK| Cross-chain Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
 Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
 Decentraland | 388.33955 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
 Basic Attention Token | 650.99306 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)  
 The Sandbox | 262.06426 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
-StakeWise Staked ETH2 | 0.035 sETH2 | Staking | [stakewise.io/stakewise-pool](https://docs.stakewise.io/stakewise-pool)  
+StakeWise Staked ETH2 | 0.035 sETH2 | Ether Staking | [stakewise.io/stakewise-pool](https://docs.stakewise.io/stakewise-pool)  
 Polygon | 118.96270 MATIC | Scalable Network | [github.com/maticnetwork/whitepaper](https://github.com/maticnetwork/whitepaper)  
 OpenDAO | 1,000,000 SOS | NFT Community | [twitter.com/The_OpenDAO](https://twitter.com/The_OpenDAO)  
 Aragon Network Token | 13.69348 ANT | DAO Platform | [aragon.org/manifesto](https://aragon.org/manifesto)  
-Lido Staked ETH2 | 0.03499 stETH | Staking | [lido.fi/static/Lido:Ethereum-Liquid-Staking](https://lido.fi/static/Lido:Ethereum-Liquid-Staking.pdf)
+Lido Staked ETH2 | 0.03499 stETH | Ether Staking | [lido.fi/static/Lido:Ethereum-Liquid-Staking](https://lido.fi/static/Lido:Ethereum-Liquid-Staking.pdf)  
+Cosmos | 7.44859 ATOM | Interconnected Blockchains | [cosmos.network/resources/whitepaper](https://v1.cosmos.network/resources/whitepaper)
+Polkadot | 8.53266 DOT | Multi-chain Protocol | [polkadot.network/PolkaDotPaper](https://polkadot.network/PolkaDotPaper.pdf)
 
 ## Goals  
 ### Inception  
-- [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) was one of the first influencer after hearing his song: [*The Story of OJ*](https://www.youtube.com/watch?v=RM7lw0Ovzq0). 
+- [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) was an initial influencer after hearing his song: [*The Story of OJ*](https://www.youtube.com/watch?v=RM7lw0Ovzq0). 
 - Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Targets 
-1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) on the Web3 Internet.  
+1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) on the Internet.  
 2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the founder. 
 3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of crypto assets.  
 
 ## Transparency
 ### Disclosures 
-- All transactions related to this fund are recorded on public, decentralized and open-source blockchains (Bitcoin and Ethereum).  
-- High volatility on cryptocurrency markets should always be expected and accounted for the unstable value of assets.  
+- All transactions related to this fund are recorded on public, decentralized and open-source blockchains.  
+- High volatility on cryptocurrency markets should always be expected and accounted for the variable value of assets.  
 - Less than 10% of the fund's total value in Euros (€) is withdrawn and rewarded to the manager every 6 months. 
 
 ### Source(s) of Income  
