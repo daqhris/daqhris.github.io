@@ -59,6 +59,9 @@ Take a look at this wallet on a [Cosmos blockchain explorer](https://atom.tokenv
 DOT: `1kfYfzWJhmhpNjsCH7sbjqvd5XgjNZX2ejEWY2vWETF4s6o`  
 Check out the address on a [Polkadot blockchain explorer](https://polkadot.subscan.io/account/1kfYfzWJhmhpNjsCH7sbjqvd5XgjNZX2ejEWY2vWETF4s6o).  
 
+ADA: `addr1qxn49lchl9jdz6tvx9t8xg6alj6j94p2akrfta8h5mz7cs982tl307ty695kcv2kwv34ml94yt2z4mvxjh600fk9a3qqvwnxa6`  
+Verify this wallet address on a [Cardano blockchain explorer](https://explorer.cardano.org/en/address?address=addr1qxn49lchl9jdz6tvx9t8xg6alj6j94p2akrfta8h5mz7cs982tl307ty695kcv2kwv34ml94yt2z4mvxjh600fk9a3qqvwnxa6)  
+
 ### ERC-20 Tokens  
 
 Name | Symbol | Contract
@@ -84,7 +87,7 @@ Verify the wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.
 Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/collection/awalkaday).  
 
 ## Manager  
-The **daqhris.eth Crypto Growth Fund** is operated by [Chris A. Iradukunda (@daqhris)](https://daqhris.com).  
+The **daqhris.eth Crypto Growth Fund** is operated by [Chris A. Iradukunda](https://daqhris.com).  
 This fund manager does not handle other people's wealth.  
 
 [Chris-Armel](https://daqhris.com/about) has a background in computer engineering and is passionate about fintech innovation.  
@@ -160,7 +163,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 Assets | Amount | Category | Documentation 
 ------ | -----: | :---- | ------
-Bitcoin | 0.00654 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
+Bitcoin | 0.00128 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
 Ether |  0.04572 ETH | dApps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper](https://uniswap.org/whitepaper-v3.pdf)
 Chainlink | 0.77483313 LINK| Cross-chain Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
@@ -174,7 +177,8 @@ OpenDAO | 1,000,000 SOS | NFT Community | [twitter.com/The_OpenDAO](https://twit
 Aragon Network Token | 13.69348 ANT | DAO Platform | [aragon.org/manifesto](https://aragon.org/manifesto)  
 Lido Staked ETH2 | 0.03499 stETH | Ether Staking | [lido.fi/static/Lido:Ethereum-Liquid-Staking](https://lido.fi/static/Lido:Ethereum-Liquid-Staking.pdf)  
 Cosmos | 7.44859 ATOM | Interconnected Blockchains | [cosmos.network/resources/whitepaper](https://v1.cosmos.network/resources/whitepaper)
-Polkadot | 8.53266 DOT | Multi-chain Protocol | [polkadot.network/PolkaDotPaper](https://polkadot.network/PolkaDotPaper.pdf)
+Polkadot | 8.53266 DOT | Multi-chain Protocol | [polkadot.network/PolkaDotPaper](https://polkadot.network/PolkaDotPaper.pdf)  
+Cardano | 170.80789 ADA | Proof-of-stake Platform | [docs.cardano.org/](https://docs.cardano.org/)  
 
 ## Goals  
 ### Inception  
@@ -192,9 +196,9 @@ Polkadot | 8.53266 DOT | Multi-chain Protocol | [polkadot.network/PolkaDotPaper]
 - High volatility on cryptocurrency markets should always be expected and accounted for the variable value of assets.  
 - Less than 10% of the fund's total value in Euros (€) is withdrawn and rewarded to the manager every 6 months. 
 
-### Source(s) of Income  
-Underpaid hard labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
-Otherwise, the income might originate from monetary gifts or crypto airdrops.  
+### Source(s) of Investment  
+Income from underpaid hard labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
+Otherwise, it might originate from monetary gifts or crypto airdrops.  
 
 ### Disclaimer  
 Nothing on this website constitutes investment, accounting or legal advice or is a recommendation that you purchase, sell or hold any cryptocurrency or other investment or that you pursue any investment style or strategy.  
