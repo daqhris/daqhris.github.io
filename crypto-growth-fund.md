@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2022-January-12](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2022-January-16](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -75,7 +75,6 @@ The Sandbox | SAND | [`0x3845badAde8e6dFF049820680d1F14bD3903a5d0`](https://ethe
 StakeWise Staked Ether | sETH2 | [`0xfe2e637202056d30016725477c5da089ab0a043a`](https://etherscan.io/address/0xfe2e637202056d30016725477c5da089ab0a043a)  
 Polygon | MATIC | [`0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0`](https://etherscan.io/address/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0)  
 OpenDAO | SOS | [`0x3b484b82567a09e2588A13D54D032153f0c0aEe0`](https://etherscan.io/address/0x3b484b82567a09e2588a13d54d032153f0c0aee0)  
-Aragon | ANT | [`0xa117000000f279d81a1d3cc75430faa017fa5a2e`](https://etherscan.io/address/0xa117000000f279d81a1d3cc75430faa017fa5a2e)  
 Lido Staked Ether| stETH | [`0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84`](https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84)  
 
 ### ERC-721 Tokens  
@@ -163,7 +162,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 Assets | Amount | Category | Documentation 
 ------ | -----: | :---- | ------
-Bitcoin | 0.00128 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
+Bitcoin | 0.00335 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
 Ether |  0.04572 ETH | dApps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
 Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper](https://uniswap.org/whitepaper-v3.pdf)
 Chainlink | 0.77483313 LINK| Cross-chain Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
@@ -174,7 +173,6 @@ The Sandbox | 262.06426 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whit
 StakeWise Staked ETH2 | 0.035 sETH2 | Ether Staking | [stakewise.io/stakewise-pool](https://docs.stakewise.io/stakewise-pool)  
 Polygon | 118.96270 MATIC | Scalable Network | [github.com/maticnetwork/whitepaper](https://github.com/maticnetwork/whitepaper)  
 OpenDAO | 1,000,000 SOS | NFT Community | [twitter.com/The_OpenDAO](https://twitter.com/The_OpenDAO)  
-Aragon Network Token | 13.69348 ANT | DAO Platform | [aragon.org/manifesto](https://aragon.org/manifesto)  
 Lido Staked ETH2 | 0.03499 stETH | Ether Staking | [lido.fi/static/Lido:Ethereum-Liquid-Staking](https://lido.fi/static/Lido:Ethereum-Liquid-Staking.pdf)  
 Cosmos | 7.44859 ATOM | Interconnected Blockchains | [cosmos.network/resources/whitepaper](https://v1.cosmos.network/resources/whitepaper)
 Polkadot | 8.53266 DOT | Multi-chain Protocol | [polkadot.network/PolkaDotPaper](https://polkadot.network/PolkaDotPaper.pdf)  
