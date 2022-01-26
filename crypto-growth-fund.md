@@ -1,19 +1,17 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2022-January-16](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2022-January-26](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
 
-- [Introduction](https://daqhris.com/crypto-growth-fund/#introduction)  
-- [Portfolio](https://daqhris.com/crypto-growth-fund/#portfolio)  
-- [Manager](https://daqhris.com/crypto-growth-fund/#manager)  
+- [Definition](https://daqhris.com/crypto-growth-fund/#definition)  
+- [Portfolio](https://daqhris.com/crypto-growth-fund/#portfolio)   
 - [Founding Story](https://daqhris.com/crypto-growth-fund/#founding-story)  
-- [Holdings](https://daqhris.com/crypto-growth-fund/#holdings)  
 - [Goals](https://daqhris.com/crypto-growth-fund/#goals)  
 - [Transparency](https://daqhris.com/crypto-growth-fund/#transparency)
 
-## Introduction 
+## Definition 
 
 ### What is a *growth fund*?  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
@@ -62,36 +60,12 @@ Check out the address on a [Polkadot blockchain explorer](https://polkadot.subsc
 ADA: `addr1qxn49lchl9jdz6tvx9t8xg6alj6j94p2akrfta8h5mz7cs982tl307ty695kcv2kwv34ml94yt2z4mvxjh600fk9a3qqvwnxa6`  
 Verify this wallet address on a [Cardano blockchain explorer](https://explorer.cardano.org/en/address?address=addr1qxn49lchl9jdz6tvx9t8xg6alj6j94p2akrfta8h5mz7cs982tl307ty695kcv2kwv34ml94yt2z4mvxjh600fk9a3qqvwnxa6)  
 
-### ERC-20 Tokens  
-
-Name | Symbol | Contract
-:----- | :-----: | -----: 
-Decentraland | MANA | [`0x0f5d2fb29fb7d3cfee444a200298f468908cc942`](https://etherscan.io/address/0x0f5d2fb29fb7d3cfee444a200298f468908cc942)  
-Basic Attention Token | BAT | [`0x0d8775f648430679a709e98d2b0cb6250d2887ef`](https://etherscan.io/address/0x0d8775f648430679a709e98d2b0cb6250d2887ef)  
-Uniswap | UNI | [`0x1f9840a85d5af5bf1d1762f925bdaddc4201f984`](https://etherscan.io/address/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984)  
-Chainlink | LINK | [`0x514910771af9ca656af840dff83e8264ecf986ca`](https://etherscan.io/address/0x514910771af9ca656af840dff83e8264ecf986ca)  
-Compound | COMP | [`0xc00e94cb662c3520282e6f5717214004a7f26888`](https://etherscan.io/address/0xc00e94cb662c3520282e6f5717214004a7f26888)  
-The Sandbox | SAND | [`0x3845badAde8e6dFF049820680d1F14bD3903a5d0`](https://etherscan.io/address/0x3845badade8e6dff049820680d1f14bd3903a5d0)   
-StakeWise Staked Ether | sETH2 | [`0xfe2e637202056d30016725477c5da089ab0a043a`](https://etherscan.io/address/0xfe2e637202056d30016725477c5da089ab0a043a)  
-Polygon | MATIC | [`0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0`](https://etherscan.io/address/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0)  
-OpenDAO | SOS | [`0x3b484b82567a09e2588A13D54D032153f0c0aEe0`](https://etherscan.io/address/0x3b484b82567a09e2588a13d54d032153f0c0aee0)  
-Lido Staked Ether| stETH | [`0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84`](https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84)  
-
-### ERC-721 Tokens  
-Ethereum Name Service (web3 domain): `daqhris.eth`  
-Verify the wallet records on [ENS Domains](https://app.ens.domains/name/daqhris.eth) and look at a [DAO Delegate Application](https://discuss.ens.domains/t/ens-dao-delegate-applications/815/1110).  
-
-### ERC-1155 Tokens  
-`awalkaday.art` Non-Fungible Tokens Collection.  
-Visit the artworks store on the NFT marketplace [OpenSea](https://opensea.io/collection/awalkaday).  
-
-## Manager  
+### Manager  
 The **daqhris.eth Crypto Growth Fund** is operated by [Chris A. Iradukunda](https://daqhris.com).  
 This fund manager does not handle other people's wealth.  
 
 [Chris-Armel](https://daqhris.com/about) has a background in computer engineering and is passionate about fintech innovation.  
 
-### Contact 
 E-mail: `media(at)daqhris(dot)com` 
 
 ## Founding Story  
@@ -156,27 +130,6 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 =BUBH
 -----END PGP SIGNATURE-----
 ```
-
-## Holdings  
-### Accounting
-
-Assets | Amount | Category | Documentation 
------- | -----: | :---- | ------
-Bitcoin | 0.00335 BTC | Store Of Value | [daqhris.com/docs/bitcoin](https://daqhris.com/docs/bitcoin.pdf)
-Ether |  0.04572 ETH | dApps Platform | [ethereum.org/en/whitepaper](https://ethereum.org/en/whitepaper/)
-Uniswap | 2.13426917 UNI | Exchange/Trading | [uniswap.org/whitepaper](https://uniswap.org/whitepaper-v3.pdf)
-Chainlink | 0.77483313 LINK| Cross-chain Data Aggregation | [chain.link/whitepaper](https://chain.link/whitepaper)
-Compound | 0.03160238 COMP | Lending/Borrowing | [compound.finance/documents/Compound.Whitepaper](https://compound.finance/documents/Compound.Whitepaper.pdf)
-Decentraland | 388.33955 MANA | Gaming/Metaverse | [decentraland.org/whitepaper](https://decentraland.org/whitepaper.pdf)
-Basic Attention Token | 650.99306 BAT | Advertising | [basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper](https://basicattentiontoken.org/static-assets/documents/BasicAttentionTokenWhitePaper-4.pdf)  
-The Sandbox | 262.06426 SAND | Gaming/Metaverse | [sandbox.game/The_Sandbox_Whitepaper](https://installers.sandbox.game/The_Sandbox_Whitepaper_2020.pdf)  
-StakeWise Staked ETH2 | 0.035 sETH2 | Ether Staking | [stakewise.io/stakewise-pool](https://docs.stakewise.io/stakewise-pool)  
-Polygon | 118.96270 MATIC | Scalable Network | [github.com/maticnetwork/whitepaper](https://github.com/maticnetwork/whitepaper)  
-OpenDAO | 1,000,000 SOS | NFT Community | [twitter.com/The_OpenDAO](https://twitter.com/The_OpenDAO)  
-Lido Staked ETH2 | 0.03499 stETH | Ether Staking | [lido.fi/static/Lido:Ethereum-Liquid-Staking](https://lido.fi/static/Lido:Ethereum-Liquid-Staking.pdf)  
-Cosmos | 7.44859 ATOM | Interconnected Blockchains | [cosmos.network/resources/whitepaper](https://v1.cosmos.network/resources/whitepaper)
-Polkadot | 8.53266 DOT | Multi-chain Protocol | [polkadot.network/PolkaDotPaper](https://polkadot.network/PolkaDotPaper.pdf)  
-Cardano | 170.80789 ADA | Proof-of-stake Platform | [docs.cardano.org/](https://docs.cardano.org/)  
 
 ## Goals  
 ### Inception  
