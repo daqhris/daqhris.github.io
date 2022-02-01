@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2022-January-26](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2022-February-01](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -39,8 +39,7 @@ It is an online investment portfolio that:
 This fund owns and manages digital assets that are:
 - accessible on the Internet by using a computing device,  
 - known for practical implementations and widespread adoption,  
-- on-track for an increase in value overtime,      
-- held onto over a long-term horizon (minimum of 10 years).  
+- on-track for an increase in value over a long-term horizon (minimum of 10 years).        
 
 ## Portfolio  
 
@@ -54,11 +53,10 @@ View token holdings on an [Ethereum block explorer](https://etherscan.io/address
 ATOM : `cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa`  
 Take a look at this wallet on a [Cosmos blockchain explorer](https://atom.tokenview.com/en/address/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa)  
 
-DOT: `1kfYfzWJhmhpNjsCH7sbjqvd5XgjNZX2ejEWY2vWETF4s6o`  
-Check out the address on a [Polkadot blockchain explorer](https://polkadot.subscan.io/account/1kfYfzWJhmhpNjsCH7sbjqvd5XgjNZX2ejEWY2vWETF4s6o).  
-
 ADA: `addr1qxn49lchl9jdz6tvx9t8xg6alj6j94p2akrfta8h5mz7cs982tl307ty695kcv2kwv34ml94yt2z4mvxjh600fk9a3qqvwnxa6`  
 Verify this wallet address on a [Cardano blockchain explorer](https://explorer.cardano.org/en/address?address=addr1qxn49lchl9jdz6tvx9t8xg6alj6j94p2akrfta8h5mz7cs982tl307ty695kcv2kwv34ml94yt2z4mvxjh600fk9a3qqvwnxa6)  
+
+You can watch this crypto fund's holdings, asset prices and other charts on [CoinMarketCap](https://coinmarketcap.com/watchlist/61f172a5a00b565b2f8daba6/).
 
 ### Manager  
 The **daqhris.eth Crypto Growth Fund** is operated by [Chris A. Iradukunda](https://daqhris.com).  
