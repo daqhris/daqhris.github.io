@@ -1,6 +1,6 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2022-February-01](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2022-March-14](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 ## Menu  
@@ -51,10 +51,7 @@ ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`
 View token holdings on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
 ATOM : `cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa`  
-Take a look at this wallet on a [Cosmos blockchain explorer](https://atom.tokenview.com/en/address/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa)  
-
-ADA: `addr1qxn49lchl9jdz6tvx9t8xg6alj6j94p2akrfta8h5mz7cs982tl307ty695kcv2kwv34ml94yt2z4mvxjh600fk9a3qqvwnxa6`  
-Verify this wallet address on a [Cardano blockchain explorer](https://explorer.cardano.org/en/address?address=addr1qxn49lchl9jdz6tvx9t8xg6alj6j94p2akrfta8h5mz7cs982tl307ty695kcv2kwv34ml94yt2z4mvxjh600fk9a3qqvwnxa6)  
+Take a look at this wallet on a [Cosmos blockchain explorer](https://atom.tokenview.com/en/address/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa)   
 
 You can watch this crypto fund's holdings, asset prices and other charts on [CoinMarketCap](https://coinmarketcap.com/watchlist/61f172a5a00b565b2f8daba6/).
 
@@ -143,7 +140,6 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ### Disclosures 
 - All transactions related to this fund are recorded on public, decentralized and open-source blockchains.  
 - High volatility on cryptocurrency markets should always be expected and accounted for the variable value of assets.  
-- Less than 10% of the fund's total value in Euros (€) is withdrawn and rewarded to the manager every 6 months. 
 
 ### Source(s) of Investment  
 Income from underpaid hard labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
