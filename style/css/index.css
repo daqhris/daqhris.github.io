@@ -62,7 +62,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
 .fa-y-combinator-square:before,
 .fa-yc-square:before,
 .fa-hacker-news:before {content: "\f1d4";}
-.fa-pencil-square:before {content: "\f14b";}
+.fa-pencil-square-o:before{content: "\f044";}  
    
 /*Custom CSS*/
 .button {border: none;background-color:#F5F5F5;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em;}
