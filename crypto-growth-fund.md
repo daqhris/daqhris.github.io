@@ -1,17 +1,27 @@
 # daqhris.eth Crypto Growth Fund  
 
-_Latest changes : [2022-March-14](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2022-May-02](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
-## Menu  
+## Table of Contents  
 
-- [Definition](https://daqhris.com/crypto-growth-fund/#definition)  
+- [Definitions](https://daqhris.com/crypto-growth-fund/#definitions)  
+    - [What is a growth fund?](https://daqhris.com/crypto-growth-fund/#what-is-a-growth-fund)
+    - [What is the meaning of crypto?](https://daqhris.com/crypto-growth-fund/#what-is-the-meaning-of-crypto)
+    - [What do you mean by crypto growth fund?](https://daqhris.com/crypto-growth-fund/#what-do-you-mean-by-crypto-growth-fund)
 - [Portfolio](https://daqhris.com/crypto-growth-fund/#portfolio)   
+    - [Blockchain Wallets](https://daqhris.com/crypto-growth-fund/#blockchain-wallets)
+    - [Manager](https://daqhris.com/crypto-growth-fund/#manager)
 - [Founding Story](https://daqhris.com/crypto-growth-fund/#founding-story)  
 - [Goals](https://daqhris.com/crypto-growth-fund/#goals)  
-- [Transparency](https://daqhris.com/crypto-growth-fund/#transparency)
+    - [Inception](https://daqhris.com/crypto-growth-fund/#inception)
+    - [Targets](https://daqhris.com/crypto-growth-fund/#targets) 
+- [Transparency](https://daqhris.com/crypto-growth-fund/#transparency) 
+    - [Disclosures](https://daqhris.com/crypto-growth-fund/#disclosures) 
+    - [Source(s) of Investment](https://daqhris.com/crypto-growth-fund/#sources-of-investment)
+    - [Disclaimer](https://daqhris.com/crypto-growth-fund/#disclaimer) 
 
-## Definition 
+## Definitions 
 
 ### What is a *growth fund*?  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
@@ -33,33 +43,33 @@ This **crypto growth fund** is a digital version of a growth fund dedicated to i
 
 It is an online investment portfolio that: 
 - has operations uniquely in the cyberspace,
-- openly shares transactions records and holdings,  
-- is independent from any centralized entity (e.g.: a regulatory body, a local authority or a government agency). 
+- openly shares all transactions records and holdings,  
+- is independent from any centralized entity (e.g.: regulatory body, local authority or government agency). 
 
 This fund owns and manages digital assets that are:
 - accessible on the Internet by using a computing device,  
 - known for practical implementations and widespread adoption,  
-- on-track for an increase in value over a long-term horizon (minimum of 10 years).        
+- on-track for an increase in value over a long-term horizon (minimum of 5 years).        
 
 ## Portfolio  
 
 ### Blockchain Wallets 
-BTC : `bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf`  
-Here is an up-to-date wallet address on a [Bitcoin block explorer](https://blockchair.com/bitcoin/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).
+**BTC** : `bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf`  
+Here is an up-to-date wallet address on a [Bitcoin block explorer](https://blockchair.com/bitcoin/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).  
 
-ETH : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
+**ETH** : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View token holdings on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
-ATOM : `cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa`  
-Take a look at this wallet on a [Cosmos blockchain explorer](https://atom.tokenview.com/en/address/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa)   
+**ATOM** : `cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa`  
+Take a look at the wallet on a [Cosmos blockchain explorer](https://atom.tokenview.com/en/address/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa)   
 
-You can watch this crypto fund's holdings, asset prices and other charts on [CoinMarketCap](https://coinmarketcap.com/watchlist/61f172a5a00b565b2f8daba6/).
+You can watch this crypto fund's holdings and their live prices on [CoinMarketCap](https://coinmarketcap.com/watchlist/61f172a5a00b565b2f8daba6/).  
 
 ### Manager  
-The **daqhris.eth Crypto Growth Fund** is operated by [Chris A. Iradukunda](https://daqhris.com).  
-This fund manager does not handle other people's wealth.  
+The **daqhris.eth Crypto Growth Fund** is managed by [Chris A. Iradukunda](https://daqhris.com).  
+He does not handle other people's wealth. All gains/losses/risks are personal.  
 
-[Chris-Armel](https://daqhris.com/about) has a background in computer engineering and is passionate about fintech innovation.  
+[Chris-Armel](https://daqhris.com/about) has a technical background in computer engineering and is passionate about financial innovation.  
 
 E-mail: `media(at)daqhris(dot)com` 
 
@@ -128,7 +138,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 ## Goals  
 ### Inception  
-- [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) was an initial influencer after hearing his song: [*The Story of OJ*](https://www.youtube.com/watch?v=RM7lw0Ovzq0). 
+- [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) was an initial influencer after hearing his song: [*The Story of OJ*](https://www.youtube.com/watch?v=RM7lw0Ovzq0).  
 - Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Targets 
@@ -138,12 +148,14 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 ## Transparency
 ### Disclosures 
-- All transactions related to this fund are recorded on public, decentralized and open-source blockchains.  
-- High volatility on cryptocurrency markets should always be expected and accounted for the variable value of assets.  
+- All financial transactions related to this fund are recorded on public, decentralized and open-source blockchains.  
+- High volatility on cryptocurrencies markets should be expected and always accounted for when estimating the value of assets under management.  
 
 ### Source(s) of Investment  
 Income from underpaid hard labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
-Otherwise, it might originate from monetary gifts or crypto airdrops.  
+Otherwise, the invested capital might originate from monetary gifts or crypto airdrops.  
 
 ### Disclaimer  
-Nothing on this website constitutes investment, accounting or legal advice or is a recommendation that you purchase, sell or hold any cryptocurrency or other investment or that you pursue any investment style or strategy.  
+Nothing published on this website constitutes investment, accounting or legal advice.  
+This crypto fund and its manager do not recommend that you purchase, sell or hold any cryptocurrency or other crypto assets.  
+There is no intent to influence anyone in order to pursue a particular investment style or strategy.  
