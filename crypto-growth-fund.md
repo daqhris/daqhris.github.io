@@ -3,6 +3,8 @@
 _Latest changes : [2022-June-07](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
+_Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
+
 ## Table of Contents  
 
 - [Definitions](https://daqhris.com/crypto-growth-fund/#definitions)  
@@ -23,7 +25,7 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
     - [Disclaimers](https://daqhris.com/crypto-growth-fund/#disclaimers) 
 
 ## Definitions 
-Hello,👋🏾! Let's start off by getting a common understanding and a clear definition of this fund.   
+Hello! Let's start off by getting a common understanding what is this fund.   
 You will find below detailed explanations for: `growth fund`, `crypto` and `crypto growth fund`.  
 
 ### What is a growth fund?  
