@@ -23,14 +23,14 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
 
 ## Definitions 
 
-### What is a *growth fund*?  
+### What is a growth fund?  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
 > with little or no dividend payouts.   
 > Most **growth funds** offer higher potential capital appreciation but usually at above-average risk.   
   
 *Source*: [Investopedia.com](https://www.investopedia.com/terms/g/growthfund.asp)  
 
-### What is the meaning of *crypto*?  
+### What is the meaning of crypto?  
 > A **cryptocurrency** (abbr. *crypto*) is a digital asset designed to work as a medium of exchange 
 > wherein individual coin ownership records are stored in a ledger existing in a form of a computerized database using strong cryptography to secure transaction records, 
 > to control the creation of additional coins, and to verify the transfer of coin ownership.    
@@ -38,7 +38,7 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
 
 *Source*: [Wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
 
-### What do you mean by *crypto growth fund*? 
+### What do you mean by crypto growth fund? 
 This **crypto growth fund** is a digital version of a growth fund dedicated to investments in cryptocurrencies and other assets on public blockchains.  
 
 It is an online investment portfolio that: 
@@ -70,7 +70,7 @@ You can look at the list of all token holdings and their live prices on [CoinMar
 Check the public transactions related to these ERC-721 tokens on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82#tokentxnsErc721). 
 
 ### Manager  
-The **daqhris.eth Crypto Growth Fund** is managed by [Chris A. Iradukunda](https://daqhris.com).  
+The *daqhris.eth Crypto Growth Fund* is managed by [Chris A. Iradukunda](https://daqhris.com).  
 He does not handle other people's wealth. All gains/losses/risks are personal.  
 
 [Chris-Armel](https://daqhris.com/about) has a technical background in computer engineering and is passionate about financial innovation.  
@@ -159,7 +159,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 Income from underpaid manual labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
 Otherwise, the invested capital might originate from monetary gifts or crypto airdrops.  
 
-### Disclaimer  
-Nothing published on this website constitutes investment, accounting or legal advice.  
-This crypto fund and its manager do not recommend that you purchase, sell or hold any cryptocurrency or other crypto assets.  
-There is no intent to influence anyone in order to pursue a particular investment style or strategy.  
+### Disclaimers  
+- Nothing published on this website constitutes investment, accounting or legal advice.  
+- This crypto fund and its manager do not recommend that you purchase, sell or hold any cryptocurrency or other crypto assets.  
+- There is no intent to influence anyone in order to pursue a particular investment style or strategy.  
