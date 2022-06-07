@@ -142,7 +142,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 ## Goals  
 ### Inception  
-- [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) was an initial influencer after hearing his song: [*The Story of OJ*](https://www.youtube.com/watch?v=RM7lw0Ovzq0).  
+- [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) had an initial influencer after hearing his song: [*The Story of OJ*](https://genius.com/Jay-z-the-story-of-oj-lyrics).  
 - Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Targets 
@@ -156,7 +156,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 - High volatility on cryptocurrencies markets should be expected and always accounted for when estimating the value of assets under management.  
 
 ### Source(s) of Investment  
-Income from underpaid hard labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
+Income from underpaid manual labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
 Otherwise, the invested capital might originate from monetary gifts or crypto airdrops.  
 
 ### Disclaimer  
