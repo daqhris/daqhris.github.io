@@ -66,7 +66,7 @@ Take a look at the wallet on a [Cosmos blockchain explorer](https://atom.tokenvi
 You can look at the list of all token holdings and their live prices on [CoinMarketCap](https://coinmarketcap.com/watchlist/61f172a5a00b565b2f8daba6/).  
 
 ### Other Digital Assets 
-**ENS Domains**: `arlon.eth`, `bastogne.eth` and `wiltz.eth`   
+**ENS Domains**: [`arlon.eth`](https://etherscan.io/nft/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/37175990371506618343630317182748641005516084791779894876591226077331592385030), [`bastogne.eth`](https://etherscan.io/nft/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/47981481869610083995936073997732283750222809913612277762499411613608388596160) and [`wiltz.eth`](https://etherscan.io/nft/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/71924468692199580305970361705571463096441564349242283904592910560662735696446)   
 Check the public transactions related to these ERC-721 tokens on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82#tokentxnsErc721). 
 
 ### Manager  
@@ -142,8 +142,8 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 ## Goals  
 ### Inception  
-- [Shawn Carter](https://twitter.com/sc) (JAY-Z) was an initial influencer after understanding his song: [*The Story of OJ*](https://genius.com/Jay-z-the-story-of-oj-lyrics).  
-- Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the tech founder and investor [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
+- [Shawn Carter](https://twitter.com/sc) (JAY-Z) was an initial inspiration after understanding his song: [*The Story of OJ*](https://genius.com/Jay-z-the-story-of-oj-lyrics).  
+- Another inspiration came from the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the tech founder and investor [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Targets 
 1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) on the Internet.  
