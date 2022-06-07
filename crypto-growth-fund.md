@@ -18,8 +18,8 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
     - [Targets](https://daqhris.com/crypto-growth-fund/#targets) 
 - [Transparency](https://daqhris.com/crypto-growth-fund/#transparency) 
     - [Disclosures](https://daqhris.com/crypto-growth-fund/#disclosures) 
-    - [Source(s) of Investment](https://daqhris.com/crypto-growth-fund/#sources-of-investment)
-    - [Disclaimer](https://daqhris.com/crypto-growth-fund/#disclaimer) 
+    - [Sources of Investment](https://daqhris.com/crypto-growth-fund/#sources-of-investment)
+    - [Disclaimers](https://daqhris.com/crypto-growth-fund/#disclaimers) 
 
 ## Definitions 
 
@@ -61,12 +61,12 @@ Here is an up-to-date wallet address on a [Bitcoin block explorer](https://block
 View token holdings and transactions on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
 **ATOM** : `cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa`  
-Take a look at the wallet on a [Cosmos blockchain explorer](https://atom.tokenview.com/en/address/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa)   
+Take a look at the wallet on a [Cosmos blockchain explorer](https://atom.tokenview.com/en/address/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa).   
 
 You can look at the list of all token holdings and their live prices on [CoinMarketCap](https://coinmarketcap.com/watchlist/61f172a5a00b565b2f8daba6/).  
 
 ### Other Digital Assets 
-**ENS Domain names**: `arlon.eth`, `bastogne.eth` and `wiltz.eth`   
+**ENS Domains**: `arlon.eth`, `bastogne.eth` and `wiltz.eth`   
 Check the public transactions related to these ERC-721 tokens on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82#tokentxnsErc721). 
 
 ### Manager  
@@ -142,7 +142,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 ## Goals  
 ### Inception  
-- [Shawn Carter](https://twitter.com/sc) (JAY-Z) had an initial influence after understanding his song: [*The Story of OJ*](https://genius.com/Jay-z-the-story-of-oj-lyrics).  
+- [Shawn Carter](https://twitter.com/sc) (JAY-Z) was an initial influencer after understanding his song: [*The Story of OJ*](https://genius.com/Jay-z-the-story-of-oj-lyrics).  
 - Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the tech founder and investor [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Targets 
@@ -155,7 +155,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 - All financial transactions related to this fund are recorded on public, decentralized and open-source blockchains.  
 - High volatility on cryptocurrencies markets should be expected and always accounted for when estimating the value of assets under management.  
 
-### Source(s) of Investment  
+### Sources of Investment  
 Income from underpaid manual labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
 Otherwise, the invested capital might originate from monetary gifts or crypto airdrops.  
 
