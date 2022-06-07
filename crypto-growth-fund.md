@@ -142,8 +142,8 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 ## Goals  
 ### Inception  
-- [Shawn Carter](https://twitter.com/sc) (aka JAY-Z) had an initial influencer after hearing his song: [*The Story of OJ*](https://genius.com/Jay-z-the-story-of-oj-lyrics).  
-- Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the venture capitalist [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
+- [Shawn Carter](https://twitter.com/sc) (JAY-Z) had an initial influence after understanding his song: [*The Story of OJ*](https://genius.com/Jay-z-the-story-of-oj-lyrics).  
+- Another inspiration is the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the tech founder and investor [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Targets 
 1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) on the Internet.  
