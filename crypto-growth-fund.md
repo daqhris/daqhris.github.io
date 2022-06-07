@@ -11,6 +11,7 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
     - [What do you mean by crypto growth fund?](https://daqhris.com/crypto-growth-fund/#what-do-you-mean-by-crypto-growth-fund)
 - [Portfolio](https://daqhris.com/crypto-growth-fund/#portfolio)   
     - [Blockchain Wallets](https://daqhris.com/crypto-growth-fund/#blockchain-wallets)
+    - [Digital Assets](https://daqhris.com/crypto-growth-fund/#digital-assets)
     - [Manager](https://daqhris.com/crypto-growth-fund/#manager)
 - [Founding Story](https://daqhris.com/crypto-growth-fund/#founding-story)  
 - [Goals](https://daqhris.com/crypto-growth-fund/#goals)  
@@ -22,9 +23,8 @@ _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/com
     - [Disclaimers](https://daqhris.com/crypto-growth-fund/#disclaimers) 
 
 ## Definitions 
-Hello! Let's start off by getting a common understanding and a clear definition of this fund.   
-You may find below standard explanations of what's: `growth fund`, `crypto` and `crypto growth fund`.  
-Feel free to read the announcement [blog post](https://mirror.xyz/daqhris.eth/AtjQAcmNt5Fvi2wSxxbOngQLl8978E-hWOub2RGKh3M).
+Hello,👋🏾! Let's start off by getting a common understanding and a clear definition of this fund.   
+You will find below detailed explanations for: `growth fund`, `crypto` and `crypto growth fund`.  
 
 ### What is a growth fund?  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
