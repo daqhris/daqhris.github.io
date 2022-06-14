@@ -78,6 +78,9 @@ Check the public transactions related to these ERC-721 tokens on an [Ethereum bl
 The #awalkaday artworks are currently on-sale at the *OpenSea NFT Marketplace*.  
 Visit the gallery's [storefront](https://opensea.io/collection/awalkaday?search[sortAscending]=false&search[sortBy]=LISTING_DATE) and collect some ERC-1155 tokens to decorate your virtual spaces.  
 
+### Donations  
+A portion of the capital is donated to coders and projects in the crypto open-source software ecosystem.   
+View the grants allocated to public goods initiative on [GitCoin.com](https://gitcoin.co/daqhris/grants).   
 
 ### Manager  
 The *daqhris.eth Crypto Growth Fund* is managed by [Chris A. Iradukunda](https://daqhris.com).  
