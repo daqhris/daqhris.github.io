@@ -88,6 +88,7 @@ The *daqhris.eth Crypto Growth Fund* is managed by [Chris A. Iradukunda](https:/
 He does not handle other people's wealth. All gains/losses/risks are personal.  
 
 [Chris-Armel](https://daqhris.com/about) has a technical background in computer engineering and is passionate about financial innovation.  
+Public announcements and writings are published on his [blog](https://mirror.xyz/daqhris.eth).  
 
 E-mail: `media(at)daqhris(dot)com` 
 
