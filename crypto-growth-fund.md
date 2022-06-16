@@ -69,7 +69,7 @@ View all logs of transactions on an [Ethereum block explorer](https://blockscan.
 **ATOM** : `cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa`  
 Take a look at the wallet on a [Cosmos blockchain explorer](https://atom.tokenview.com/en/address/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa).   
 
-You can look at the exhaustive list of owned cryptocurrencies and their live prices on [CoinMarketCap.com](https://coinmarketcap.com/watchlist/61f172a5a00b565b2f8daba6/).  
+You can look at the total amount of assets on the Layer-1 and Layer-2 of the ETH blockchain by browsing to [Zapper.fi](https://zapper.fi/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
 ### Digital Assets 
 **ENS Domains**: [`arlon.eth`](https://etherscan.io/nft/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/37175990371506618343630317182748641005516084791779894876591226077331592385030), [`bastogne.eth`](https://etherscan.io/nft/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/47981481869610083995936073997732283750222809913612277762499411613608388596160) and [`wiltz.eth`](https://etherscan.io/nft/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/71924468692199580305970361705571463096441564349242283904592910560662735696446)   
@@ -77,7 +77,7 @@ Check the public transactions related to these ERC-721 tokens on an [Ethereum bl
 
 **awalkaday.art NFT Collection** which contains artworks published online within the *WALK≡DAY Visual Arts Gallery*.  
 The #awalkaday artworks are currently on-sale at the *OpenSea NFT Marketplace*.  
-Visit the gallery's [storefront](https://opensea.io/collection/awalkaday?search[sortAscending]=false&search[sortBy]=LISTING_DATE) and collect some ERC-1155 tokens to decorate your virtual spaces.  
+Visit the gallery's [storefront](https://opensea.io/collection/awalkaday?search[sortAscending]=false&search[sortBy]=LISTING_DATE) and collect some ERC-1155 tokens.  
 
 ### Grants  
 A portion of the capital is donated to coders and projects in the open-source software ecosystem.   
