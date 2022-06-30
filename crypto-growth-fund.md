@@ -72,7 +72,7 @@ Take a look at the wallet on a [Cosmos blockchain explorer](https://atom.tokenvi
 You can look at the total amount of assets on the Layer-1 and Layer-2 of the ETH blockchain by browsing to [Zapper.fi](https://zapper.fi/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
 ### Digital Assets 
-**ENS Domains**: `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland` and `diekirch`.      
+**ENS Domains**: `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck` and `clervaux`.      
 Check the transactions related to these ERC-721 tokens on an [Ethereum block explorer](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82#tokentxnsErc721).  
 
 **awalkaday.art NFT Collection** which contains artworks published online within the *WALK≡DAY Visual Arts Gallery*.  
