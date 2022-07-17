@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/daqhris
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://daqhris.com
+  * I am daqhris (https://keybase.io/daqhris) on keybase.
+  * I have a public key ASA_sgjMHntZ23eaILCe3SiKrj7DMjP8YXX2HWJhKL8tSQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208f923afeb071c2c3555ee7eeaff3ac6650a1fde2332108c9dff07b95252cff9e0a",
+      "host": "keybase.io",
+      "kid": "01203fb208cc1e7b59db779a20b09edd288aae3ec33233fc6175f61d626128bf2d490a",
+      "uid": "4985b8f7afc2e7ab204a4f5cfc973e19",
+      "username": "daqhris"
+    },
+    "merkle_root": {
+      "ctime": 1658064593,
+      "hash": "630b166a9bea7680e8570273bb6526dc8ccb0cf6a46d9bd26f6a3cf951f4d1f20bbb8f20b21b23660499743ad5cba2c7de9dca05e5c6b834c8b33288a136a649",
+      "hash_meta": "04137ca6a49cb5c3da5935f4536578b8f8508979b167e8480b0af8215201a03a",
+      "seqno": 22863193
+    },
+    "service": {
+      "entropy": "uOLBgX0dithUECX4kV+plVp2",
+      "hostname": "daqhris.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1658064666,
+  "expire_in": 504576000,
+  "prev": "36b2df24f1359e86183cc475e4b4704ee00ab01cf35eb7a16f59a936ab9f3ef9",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgP7IIzB57Wdt3miCwnt0oiq4+wzIz/GF19h1iYSi/LUkKp3BheWxvYWTESpcCEMQgNrLfJPE1noYYPMR15LRwTuAKsBzzXrehb1mpNqufPvnEIPzQfKg8xrTyZA1gB4l/tigYQvDsg+fGu7+fW01CLqzhAgHCo3NpZ8RACsweR2oxZiyGuoSyQwGFhFrK7R628RqnrpeBR+hHLS5+6QPOrb85LoIRBk/FITbQR1OSJtX6wvQP58uOevy8AqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDA6nj92q1FI/C6Dcw3+sC7IqK1HUm3IkkztRoEaiecto3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/daqhris
+
+==================================================================
