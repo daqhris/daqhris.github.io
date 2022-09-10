@@ -68,7 +68,7 @@ code{font-family:'Inconsolata', monospace;background-color: #F5F5F5;border-radiu
 .button {border: none;background-color:#F5F5F5;display: inline-block;cursor: pointer;box-shadow: 0 .125em .3125em 0 #ccc;padding: .625em;border-radius: .125em;}
 .text-link{color:#0057af} /*Colored links*/
 .underline{border-bottom-width:.1em;border-bottom-style: solid} /*Underlined links at the bottom*/
-.lang-button{line-height: 1em;font-family: "MillerTextRoman", serif;}
+.lang-button{line-height: 1em;font-family: "Inconsolata", monospace;}
 /*Different screen sizes, different appearance rules*/
 /*Tiny screen*/
 @media (min-width: 320px) {
