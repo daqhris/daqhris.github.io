@@ -1,6 +1,6 @@
-# daqhris.eth Crypto Growth Fund  
+# daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2022-Aug-29](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2022-Sept-21](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -44,15 +44,15 @@ You will find below detailed explanations for: `growth fund`, `crypto` and `cryp
 
 *Source*: [Wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
 
-### What do you mean by crypto growth fund? 
-This **crypto growth fund** is a digital version of a growth fund dedicated to investments in cryptocurrencies and other assets on public blockchains.  
+### What do you mean by cryptoassets growth fund? 
+This is a growth fund dedicated to long-term investments in cryptocurrency markets and other digital assets on public blockchains.  
 
-It is an online investment portfolio that: 
+In other words, it is an online investment portfolio that: 
 - has operations uniquely in the cyberspace,
 - openly shares all transactions records and holdings,  
 - is independent from any centralized entity (e.g.: regulatory body, local authority or government agency). 
 
-This fund owns and manages digital assets that are:
+More precisely, this fund owns and manages digital assets that are:
 - accessible on the Internet by using a computing device,  
 - known for practical implementations and widespread adoption,  
 - on-track for an increase in value over a long-term time horizon (minimum of 5 years).        
@@ -69,22 +69,22 @@ View all logs of transactions on an [Ethereum block explorer](https://blockscan.
 **ATOM** : `cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa`  
 Take a look at the wallet on a [Cosmos blockchain explorer](https://atom.tokenview.com/en/address/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa).   
 
-You can look at the total amount of assets on the Layer-1 and Layer-2 of the ETH blockchain by browsing to [Zapper.fi](https://zapper.fi/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
+You may look at the total amount of assets on the Layer-1 and Layer-2 of the ETH blockchain by browsing to [Zapper.fi](https://zapper.fi/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
 ### Digital Assets (NFTs)
-**ENS Domains**: `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren` and `hainaut`.      
-Check the transactions related to these ERC-721 tokens on [Etherscan.io](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82#tokentxnsErc721) (or on [Citrus.app](https://citrus.app/daqhris/ens-domains)).  
+**ENS Domains**: `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.      
+Check the transactions related to these ERC-721 tokens on [Etherscan.io](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82#tokentxnsErc721) (or see them well-displayed on [Citrus.app](https://citrus.app/daqhris/ens-domains)).  
 
 **awalkaday.art NFT Collection** which contains artworks published online within the *WALK≡DAY Visual Arts Gallery*.  
-The #awalkaday artworks are currently on-sale at the OpenSea NFT Marketplace.  
-Visit the [gallery's store](https://opensea.io/collection/awalkaday?search[sortAscending]=false&search[sortBy]=LISTING_DATE) and collect some ERC-1155 tokens.  
+The #awalkaday artworks are currently ready to be collected at the OpenSea NFT Marketplace.  
+Visit the [WALK≡DAY Visual Arts Gallery's Store](https://opensea.io/collection/awalkaday?search[sortAscending]=false&search[sortBy]=LISTING_DATE) and collect some ERC-1155 tokens.  
 
 ### Grants  
-A portion of the capital is donated to coders and projects in the open-source software ecosystem.   
+A portion of the capital is constantly donated to developers and their projects in the open-source software ecosystem.   
 View the grants allocated to public goods initiatives on [Gitcoin.co](https://gitcoin.co/daqhris/grants).   
 
 ### Manager  
-The *daqhris.eth Crypto Growth Fund* is managed by [Chris A. Iradukunda](https://daqhris.com).  
+The *daqhris.eth Cryptoassets Growth Fund* is managed by [Chris A. Iradukunda](https://daqhris.com).  
 He does not handle other people's wealth. All gains/losses/risks are personal.  
 
 [Chris-Armel](https://daqhris.com/about) has a technical background in computer engineering and is passionate about financial innovation.  
