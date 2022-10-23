@@ -1,8 +1,8 @@
 # How to get in touch?  
 ## E-Mail
-Only __encrypted e-mails__ are received, read and replied to by `Chris A. Iradukunda`.  
-Regular e-mails are either ignored or blocked or considered read-only, like _public advertisements_.  
-You are strongly advised to send your electronic message by using his GPG public key.   
+Encrypted e-mails are given a higher priority.  
+Regular e-mails are either slowly replied to or are considered read-only.  
+You are advised to send your electronic message by using his GPG public key.   
 #### Problems?
 - If you didn't understand a word, click 
 [HERE](https://emailselfdefense.fsf.org/en/) 
@@ -11,11 +11,12 @@ to learn how to send and receive secure messages.
 [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) 
 to view his e-mail adress (uploaded to a public __OpenPGP Keyserver__).  
 - If you don't get a reply as fast as you wish, click [HERE](https://matrix.to/#/@daqhris:matrix.org) to say hello directly on his __Matrix__ account.
+- If the above 3 options don't make you happy, wait until we meet up face-to-face at an event. 
 
 ## Public Key cryptography
 This is [Chris A. Iradukunda (@daqhris)](https://github.com/daqhris)'s PGP key.  
-Most of his secure communications require the use of such basic cryptographic method.  
-The same key is used to digitally sign and encrypt some of his messages, documents or Git commits.   
+Some of his online communications require the use of such cryptographic method.  
+The same key is used to digitally sign his GitHub commits.   
 
 #### PGP fingerprint: `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
 - Key **ID**: `E65F 53A3 9A2B 12E5` 
