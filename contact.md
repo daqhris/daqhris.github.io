@@ -1,26 +1,26 @@
 # How to get in touch?  
 ## E-Mail
-Encrypted e-mails are given a higher priority.  
+Encrypted e-mails are the preferred method of contact and are given a higher priority.  
 Regular e-mails are either slowly replied to or are considered read-only.  
-You are advised to send your electronic message by using his GPG public key.   
+You are advised to send your electronic message by using a GPG public key.   
 #### Problems?
 - If you didn't understand a word, click 
 [HERE](https://emailselfdefense.fsf.org/en/) 
-to learn how to send and receive secure messages.  
+to learn how to send and receive secure messages on the Internet.  
 - If you feel too lazy to learn, click 
 [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) 
 to view his e-mail adress (uploaded to a public __OpenPGP Keyserver__).  
-- If you don't get a reply as fast as you wish, click [HERE](https://matrix.to/#/@daqhris:matrix.org) to say hello directly on his __Matrix__ account.
-- If the above 3 options don't make you happy, wait until we meet up face-to-face at an event. 
+- If you don't get a reply as fast as you wish, click [HERE](https://matrix.to/#/@daqhris:matrix.org) to say hello on  __Matrix__.
+- If the above options don't satisy you, wait until a face-to-face meeting. 
 
 ## Public Key cryptography
 This is [Chris A. Iradukunda (@daqhris)](https://github.com/daqhris)'s PGP key.  
-Some of his online communications require the use of such cryptographic method.  
-The same key is used to digitally sign his GitHub commits.   
+Some of my online communications require the use of such cryptographic method.  
+The same key is used to digitally sign my GitHub commits.   
 
 #### PGP fingerprint: `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
 - Key **ID**: `E65F 53A3 9A2B 12E5` 
-- **Download** his pubkey .asc file: [daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc)  
+- **Download** the pubkey .asc file here: [daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc)  
 - **Copy** the code block below:  
 
 ```
