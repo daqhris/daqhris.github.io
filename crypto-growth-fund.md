@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2022-Oct-24](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2022-Nov-4](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -69,23 +69,23 @@ View all logs of transactions on an [Ethereum block explorer](https://blockscan.
 **ATOM** : `cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa`  
 Take a look at the wallet on a [Cosmos blockchain explorer](https://www.mintscan.io/cosmos/account/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa).   
 
-You may look at the total amount of assets on the Layer-1 and Layer-2 of the ETH blockchain by browsing to [Zapper.fi](https://zapper.fi/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
+You may look at the total amount of owned assets on the Layer-1 and Layer-2 of the Ethereum blockchain by browsing to [Zapper.fi](https://zapper.fi/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
-### Digital Assets (NFTs)
+### Digital Assets 
 **Ethereum Name Service (ENS) Domains**: `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.      
 Check the transactions related to these ERC-721 tokens on [Etherscan.io](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82#tokentxnsErc721) (or see them well-displayed on [Citrus.app](https://citrus.app/daqhris/ens-domains)).  
 
-**awalkaday.art Photography NFTs Collection** which contains artworks published online within the *WALK≡DAY Visual Arts Gallery*.  
+**awalkaday.art Photography NFTs Collection** which contains artworks published online within the [WALK≡DAY Visual Arts Gallery](https://awalkaday.art).  
 The *#awalkaday* artworks are currently ready to be collected on the OpenSea NFT Marketplace.  
-Visit the [WALK≡DAY Visual Arts Gallery's Store](https://opensea.io/collection/awalkaday?search[sortAscending]=false&search[sortBy]=LISTING_DATE) and collect some ERC-1155 tokens.  
+Visit the [WALK≡DAY's store](https://opensea.io/collection/awalkaday?search[sortAscending]=false&search[sortBy]=LISTING_DATE) and purchase some digital collectibles.  
 
 ### Grants  
 A portion of the capital is constantly donated to developers and their projects in the open-source software ecosystem.   
 View the grants allocated to public goods initiatives on [Gitcoin.co](https://gitcoin.co/daqhris/grants).   
 
 ### Manager  
-The *daqhris.eth Cryptoassets Growth Fund* is managed by [Chris A. Iradukunda](https://daqhris.com).  
-He does not handle other people's wealth. All gains/losses/risks are personal.  
+The [daqhris.eth Cryptoassets Growth Fund](https://daqhris.com/crypto-growth-fund/) is managed by [Chris A. Iradukunda](https://daqhris.com).  
+He does not handle other people's wealth. All gains, losses and risks are personal.  
 
 [Chris-Armel](https://daqhris.com/about) has a technical background in computer engineering and is passionate about financial innovation.  
 Announcements and writings are published on his [blog](https://mirror.xyz/daqhris.eth).  
@@ -163,7 +163,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ### Targets 
 1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) on the Internet.  
 2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the founder. 
-3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of crypto assets.  
+3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of cryptoassets.  
 
 ## Transparency
 ### Disclosures 
@@ -172,7 +172,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 ### Sources of Investment  
 Income from underpaid manual labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
-Otherwise, the invested capital might originate from monetary gifts or crypto airdrops.  
+Otherwise, the invested capital might originate from monetary gifts or cryptocurrency airdrops.  
 
 ### Disclaimers  
 - Nothing published on this website constitutes investment, accounting or legal advice.  
