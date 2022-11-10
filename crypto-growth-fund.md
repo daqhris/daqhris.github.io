@@ -61,7 +61,7 @@ More precisely, this fund owns and manages digital assets that are:
 
 ### Blockchain Wallets 
 **BTC** : `bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf`  
-Here is an up-to-date wallet address on a [Bitcoin block explorer](https://blockchair.com/bitcoin/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).  
+Here is an up-to-date wallet address on a [Bitcoin block explorer](https://mempool.space/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).  
 
 **ETH** : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View all logs of transactions on an [Ethereum block explorer](https://blockscan.com/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
