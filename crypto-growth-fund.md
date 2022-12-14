@@ -64,7 +64,7 @@ More precisely, this fund owns and manages digital assets that are:
 Here is an up-to-date wallet address on a [Bitcoin block explorer](https://mempool.space/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).  
 
 **ETH** : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
-View all logs of transactions on an [Ethereum block explorer](https://blockscan.com/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).   
+View all logs of transactions on an [Ethereum block explorer](https://blockscan.com/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82?t=tx).   
 
 **ATOM** : `cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa`  
 Take a look at the wallet on a [Cosmos blockchain explorer](https://www.mintscan.io/cosmos/account/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa).   
