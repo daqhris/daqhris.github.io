@@ -72,7 +72,7 @@ Take a look at the wallet on a [Cosmos blockchain explorer](https://www.mintscan
 View the total amount of owned assets on the Layer-1 and Layer-2 of the Ethereum blockchain by browsing to [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) or [Zapper.fi](https://zapper.fi/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
 ### Digital Assets 
-#### Non-Fungible Tokens (NFTs)
+
 **Ethereum Name Service (ENS) Domains** (26 items) : `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.      
 Have a look at the domains showcased on [Citrus.app](https://citrus.app/daqhris/ens-domains).  
 
@@ -82,7 +82,7 @@ Have a look at the domains showcased on [Citrus.app](https://citrus.app/daqhris/
 **Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
 Read the written pieces, collected on the [Optimism blockchain](https://qx.app/daqhris), by checking out the [collector's page](https://mirror.xyz/daqhris.eth/collection).
 
-#### Liquid Staking 
+**Liquid Staking**    
 Equal amounts of ETH are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi). *APR = 5.2%*.  
 All ATOM on the Cosmos blockchain are preferably locked away while earning interests via [Everstake.one](https://everstake.one). *APR = 20.7%*.
 
