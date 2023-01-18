@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2022-Nov-10](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2022-Jan-18](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -69,15 +69,22 @@ View all logs of transactions on an [Ethereum block explorer](https://blockscan.
 **ATOM** : `cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa`  
 Take a look at the wallet on a [Cosmos blockchain explorer](https://www.mintscan.io/cosmos/account/cosmos1smyve3a69z6fgcuzszqsn5jucqrdg5jnq5kdpa).   
 
-You may look at the total amount of owned assets on the Layer-1 and Layer-2 of the Ethereum blockchain by browsing to [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) or [Zapper.fi](https://zapper.fi/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
+View the total amount of owned assets on the Layer-1 and Layer-2 of the Ethereum blockchain by browsing to [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) or [Zapper.fi](https://zapper.fi/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
 ### Digital Assets 
-**Ethereum Name Service (ENS) Domains**: `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.      
-Check the transactions related to these ERC-721 tokens on [Etherscan.io](https://etherscan.io/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82#tokentxnsErc721) (or see them well-displayed on [Citrus.app](https://citrus.app/daqhris/ens-domains)).  
+#### Non-Fungible Tokens (NFTs)
+**Ethereum Name Service (ENS) Domains** (26 items) : `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.      
+Have a look at the domains showcased on [Citrus.app](https://citrus.app/daqhris/ens-domains).  
 
-**awalkaday.art Photography NFTs Collection** which contains artworks published online within the [WALK≡DAY Visual Arts Gallery](https://awalkaday.art).  
-The *#awalkaday* artworks are currently ready to be collected on the OpenSea NFT Marketplace.  
-Visit the [WALK≡DAY's store](https://opensea.io/collection/awalkaday?search[sortAscending]=false&search[sortBy]=LISTING_DATE) and purchase some digital collectibles.  
+**awalkaday.art NFT Collection** which contains photographs minted on Ethereum, captured by [Chris-Armel (daqhris)](https://opensea.io/daqhris) and displayed online at the [WALK≡DAY Visual Arts Gallery](https://awalkaday.art).  
+235 artworks are currently collectable on the [OpenSea NFT Marketplace](https://opensea.io/collection/awalkaday).  
+
+**Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
+Read the written pieces, collected on the [Optimism blockchain](https://qx.app/daqhris), by checking out the [collector's page](https://mirror.xyz/daqhris.eth/collection).
+
+#### Liquid Staking 
+Equal amounts of Ether are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi). *APR = 5.2%*.  
+All capital on the Cosmos blockhain is preferably locked away while earning interests via [Everstake.one](https://everstake.one). *APR = 20.7%*.
 
 ### Grants  
 A portion of the capital is constantly donated to developers and their projects in the open-source software ecosystem.   
@@ -168,7 +175,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ## Transparency
 ### Disclosures 
 - All financial transactions related to this fund are recorded on public, decentralized and open-source blockchains.  
-- High volatility on cryptocurrencies markets should be expected and always accounted for when estimating the value of assets under management.  
+- High volatility in cryptocurrency markets should be expected and always accounted for when estimating the value of assets under management.  
 
 ### Sources of Investment  
 Income from underpaid manual labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
@@ -176,5 +183,5 @@ Otherwise, the invested capital might originate from monetary gifts or cryptocur
 
 ### Disclaimers  
 - Nothing published on this website constitutes investment, accounting or legal advice.  
-- This crypto fund and its manager do not recommend that you purchase, sell or hold any cryptocurrency or other crypto assets.  
+- This fund and its manager do not recommend that you purchase, sell or hold any cryptocurrency or other cryptoassets.  
 - There is no intent to influence anyone in order to pursue a particular investment style or strategy.  
