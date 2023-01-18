@@ -27,7 +27,7 @@ _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-f
 
 ## Definitions 
 Hello! Let's start off by getting a common understanding of what is this fund.   
-You will find below detailed explanations for: `growth fund`, `crypto` and `crypto growth fund`.  
+You will find, below, detailed explanations for: `growth fund`, `crypto` and `crypto growth fund`.  
 
 ### What is a growth fund?  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
@@ -83,8 +83,8 @@ Have a look at the domains showcased on [Citrus.app](https://citrus.app/daqhris/
 Read the written pieces, collected on the [Optimism blockchain](https://qx.app/daqhris), by checking out the [collector's page](https://mirror.xyz/daqhris.eth/collection).
 
 #### Liquid Staking 
-Equal amounts of Ether are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi). *APR = 5.2%*.  
-All capital on the Cosmos blockhain is preferably locked away while earning interests via [Everstake.one](https://everstake.one). *APR = 20.7%*.
+Equal amounts of ETH are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi). *APR = 5.2%*.  
+All ATOM on the Cosmos blockchain are preferably locked away while earning interests via [Everstake.one](https://everstake.one). *APR = 20.7%*.
 
 ### Grants  
 A portion of the capital is constantly donated to developers and their projects in the open-source software ecosystem.   
@@ -174,7 +174,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 ## Transparency
 ### Disclosures 
-- All financial transactions related to this fund are recorded on public, decentralized and open-source blockchains.  
+- All transactions related to this fund are recorded on public, decentralized and open-source blockchains.  
 - High volatility in cryptocurrency markets should be expected and always accounted for when estimating the value of assets under management.  
 
 ### Sources of Investment  
