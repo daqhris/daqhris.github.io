@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2022-Jan-27](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2022-Feb-03](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -82,8 +82,8 @@ Have a look at the domains showcased on [Citrus.app](https://citrus.app/daqhris/
 Read the written pieces, collected on the [Optimism blockchain](https://qx.app/daqhris), by checking out the [collector's page](https://mirror.xyz/daqhris.eth/collection).
 
 **Liquid Staking**    
-Equal amounts of ETH are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi). *APR = 5.2%*.  
-All ATOM on the Cosmos blockchain are preferably locked away while earning interests via [Everstake.one](https://everstake.one). *APR = 20.7%*.
+Equal amounts of ETH are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi) (*APR = 5.2%*).  
+All ATOM on the Cosmos blockchain are preferably locked away while earning interests via [Everstake.one](https://everstake.one) (*APR = 20.7%*).
 
 ### Grants  
 A portion of the capital is constantly donated to developers and their projects in the open-source software ecosystem.   
