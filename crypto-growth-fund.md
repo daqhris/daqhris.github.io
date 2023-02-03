@@ -77,7 +77,6 @@ View the total amount of owned assets on the Layer-1 and Layer-2 of the Ethereum
 Have a look at the domains showcased on [Citrus.app](https://citrus.app/daqhris/ens-domains).  
 
 **awalkaday.art NFT Collection** which contains photographs minted on Ethereum, captured by [Chris-Armel (daqhris)](https://opensea.io/daqhris) and displayed online at the [WALK≡DAY Visual Arts Gallery](https://awalkaday.art).  
-235 artworks are currently collectable on the [OpenSea NFT Marketplace](https://opensea.io/collection/awalkaday).  
 
 **Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
 Read the written pieces, collected on the [Optimism blockchain](https://qx.app/daqhris), by checking out the [collector's page](https://mirror.xyz/daqhris.eth/collection).
