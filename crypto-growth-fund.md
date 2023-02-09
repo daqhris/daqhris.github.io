@@ -83,7 +83,6 @@ Read the written pieces, collected on the [Optimism blockchain](https://qx.app/d
 
 **Liquid Staking**    
 Equal amounts of ETH are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi) (*APR = 5.2%*).  
-All ATOM on the Cosmos blockchain are preferably locked away while earning interests via [Everstake.one](https://everstake.one) (*APR = 20.7%*).
 
 ### Grants  
 A portion of the capital is constantly donated to developers and their projects in the open-source software ecosystem.   
