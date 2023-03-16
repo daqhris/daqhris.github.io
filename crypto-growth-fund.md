@@ -82,6 +82,9 @@ Read the written pieces, collected on the [Optimism blockchain](https://qx.app/d
 **Liquid Staking**    
 Equal amounts of ETH are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi).  
 
+**DAO Delegate**   
+Active participation, as a delegate, in the voting mechanisms set up by Decentralized Autonomous Organizations for the [ENS](https://www.tally.xyz/gov/ens) and [Optimism](https://www.tally.xyz/gov/optimism) communities. See the full profile via [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth).
+
 ### Grants  
 A portion of the capital is constantly donated to developers and their projects in the open-source software ecosystem.   
 View the grants allocated to public goods initiatives on [Gitcoin.co](https://gitcoin.co/daqhris/grants).   
