@@ -83,7 +83,7 @@ Read the written pieces, collected on the [Optimism blockchain](https://qx.app/d
 Equal amounts of ETH are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi).  
 
 **DAO Delegate**   
-Active participation, as a delegate, in the voting mechanisms set up by Decentralized Autonomous Organizations for the [ENS](https://www.tally.xyz/gov/ens), [Optimism](https://www.tally.xyz/gov/optimism),   [Arbitrum](https://www.tally.xyz/gov/arbitrum),  [Uniswap](https://www.tally.xyz/gov/uniswap) and   [Aave](https://www.tally.xyz/gov/aave) on-chain communities. See the complete profile and a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth).
+Active participation, as a delegate, in the voting mechanisms set up by Decentralized Autonomous Organizations for the [ENS](https://www.tally.xyz/gov/ens), [Optimism](https://www.tally.xyz/gov/optimism), [Arbitrum](https://www.tally.xyz/gov/arbitrum), [Uniswap](https://www.tally.xyz/gov/uniswap) and [Aave](https://www.tally.xyz/gov/aave) on-chain communities. See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth).
 
 ### Grants  
 A portion of the capital is constantly donated to developers and their projects in the open-source software ecosystem.   
