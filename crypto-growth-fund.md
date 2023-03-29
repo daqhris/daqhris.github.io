@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2023-Mar-16](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2023-Mar-29](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -83,7 +83,7 @@ Read the written pieces, collected on the [Optimism blockchain](https://qx.app/d
 Equal amounts of ETH are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi).  
 
 **DAO Delegate**   
-Active participation, as a delegate, in the voting mechanisms set up by Decentralized Autonomous Organizations for the [ENS](https://www.tally.xyz/gov/ens) and [Optimism](https://www.tally.xyz/gov/optimism) communities. See the full profile via [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth).
+Active participation, as a delegate, in the voting mechanisms set up by Decentralized Autonomous Organizations for the [ENS](https://www.tally.xyz/gov/ens), [Optimism](https://www.tally.xyz/gov/optimism),   [Arbitrum](https://www.tally.xyz/gov/arbitrum),  [Uniswap](https://www.tally.xyz/gov/uniswap) and   [Aave](https://www.tally.xyz/gov/aave) on-chain communities. See the complete profile and a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth).
 
 ### Grants  
 A portion of the capital is constantly donated to developers and their projects in the open-source software ecosystem.   
