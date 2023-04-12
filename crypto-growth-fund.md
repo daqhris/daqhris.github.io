@@ -65,25 +65,27 @@ Here is an up-to-date wallet address on a [Bitcoin block explorer](https://mempo
 **ETH** : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View all logs of transactions on an [Ethereum block explorer](https://blockscan.com/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82?t=tx).   
 
-To view the overall value of owned assets on the Ethereum blockchain, stored either on Mainnet (Layer-1) or on Rollups (Layer-2), head over to [Zerion.io](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview) or [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
+To know the overall value of owned assets on the Ethereum blockchain, stored either on mainnet (Layer-1) or on rollups (Layer-2), head over to [Zerion.io](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview) and [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
 ### Digital Assets 
 
 **Ethereum Name Service (ENS) Domains** (26 items) : `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.      
 Have a look at the domains showcased on [Citrus.app](https://citrus.app/daqhris/ens-domains).  
 
-**awalkaday.art Photography Collection** which contains photographs minted on Ethereum, captured by [Chris-Armel (daqhris)](https://opensea.io/daqhris) and displayed online at the [WALK≡DAY Visual Arts Gallery](https://awalkaday.art).    
+**awalkaday.art Photography Collection**   
+An onchain photo collection smart contract that contains photographs published on Ethereum, captured by [Chris-Armel (daqhris)](https://opensea.io/daqhris) and exhibited online at the [WALK≡DAY Visual Arts Gallery](https://awalkaday.art).    
 Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://etherscan.io/address/0xe31801c2e58b151c3ded2cb29da56147b7f27eb1).  
 
 **Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
-Read the written pieces by checking out the [collector's page](https://mirror.xyz/daqhris.eth/collection).
+Read the written pieces by checking out the [collector's profile](https://mirror.xyz/daqhris.eth/collection).
 
 **Liquid Staking**    
-Equal amounts of ETH are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi).   
-A similar amount is set aside for the long term as [Rocket Pool ETH](https://docs.rocketpool.net/guides/staking/via-l2.html#setting-up-metamask-on-mainnet) on the Arbitrum network.
+Equal amounts of [stETH](https://app.zerion.io/tokens/stETH-0xae7ab96520de3a18e5e111b5eaab095312d7fe84) and [sETH2](https://app.zerion.io/tokens/sETH2-0xfe2e637202056d30016725477c5da089ab0a043a) tokens are staked on the Ethereum blockchain via [Stakewise.io](https:///stakewise.io) and [Lido.fi](https://lido.fi).   
+A similar amount in [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393) is held for the long haul as [Rocket Pool ETH](https://docs.rocketpool.net/guides/staking/via-l2.html#setting-up-metamask-on-mainnet) on the Arbitrum network.
 
-**Onchain Voting**   
-Active participation, as a delegate, in the voting mechanisms set up by Decentralized Autonomous Organizations of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop and Safe onchain communities. See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth) and on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).
+**Onchain Governance**   
+Active participation, as a delegate, in the voting mechanisms set up by Decentralized Autonomous Organizations of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop and Safe.     
+See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth) and on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).
 
 ### Grants  
 A portion of the capital is regularly donated to developers and their projects in the open-source software ecosystem.   
@@ -182,5 +184,5 @@ Otherwise, the invested capital might originate from monetary gifts or cryptocur
 
 ### Disclaimers  
 - Nothing published on this website constitutes investment, accounting or legal advice.  
-- This fund and its manager do not recommend that you purchase, sell or hold any digital tokens or other cryptoassets.  
+- This fund and its manager do not recommend that you purchase, sell or hold any digital token or other cryptoassets.  
 - There is no intent to influence anyone in order to pursue a particular investment style or strategy.  
