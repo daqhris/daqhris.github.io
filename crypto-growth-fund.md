@@ -44,23 +44,23 @@ You will find, below, detailed explanations for: `growth fund`, `crypto` and `cr
 *Source*: [Wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
 
 ### What do you mean by cryptoassets growth fund? 
-This is a growth fund dedicated to long-term investments in crypto markets and other digital assets on public blockchains.  
+This is a growth fund dedicated to long-term investments in crypto markets and other assets on public blockchains.  
 
 In other words, it is an online investment portfolio that: 
 - has operations uniquely in the cyberspace,
 - openly shares all transactions records and holdings,  
-- is independent from any centralized entity (e.g.: regulatory body, local authority or government agency). 
+- is independent from any institution or centralized entity. 
 
-More precisely, this fund owns and manages digital assets that are:
+More precisely, this fund holds and manages digital assets that are:
 - accessible on the Internet by using a computing device,  
 - known for practical implementations and widespread adoption,  
-- on-track for an increase in value over a long-term time horizon (minimum of 5 years).        
+- on-track for an increase in value over a long-term time horizon (more than 5 years).        
 
 ## Portfolio  
 
 ### Blockchain Wallets 
 **BTC** : `bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf`  
-Here is an up-to-date wallet address on a [Bitcoin block explorer](https://mempool.space/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).  
+Here is the wallet address on a [Bitcoin block explorer](https://mempool.space/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).  
 
 **ETH** : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View all logs of transactions on an [Ethereum block explorer](https://blockscan.com/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82?t=tx).   
@@ -73,7 +73,7 @@ To know the overall value of owned assets on the Ethereum blockchain, stored eit
 Have a look at the domains showcased on [Citrus.app](https://citrus.app/daqhris/ens-domains).  
 
 **awalkaday.art Photography Collection**   
-An onchain photo collection smart contract that contains photographs published on Ethereum, captured by [Chris-Armel (daqhris)](https://opensea.io/daqhris) and exhibited online at the [WALK≡DAY Visual Arts Gallery](https://awalkaday.art).    
+An onchain photo collection smart contract that contains photographs published on Ethereum, shot by [Chris-Armel (daqhris)](https://daqhris.com) and exhibited online at the [WALK≡DAY Visual Arts Gallery](https://awalkaday.art).    
 Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://etherscan.io/address/0xe31801c2e58b151c3ded2cb29da56147b7f27eb1).  
 
 **Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
@@ -84,12 +84,12 @@ Equal amounts of [stETH](https://app.zerion.io/tokens/stETH-0xae7ab96520de3a18e5
 A similar amount in [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393) is held for the long haul as [Rocket Pool ETH](https://docs.rocketpool.net/guides/staking/via-l2.html#setting-up-metamask-on-mainnet) on the Arbitrum network.
 
 **Onchain Governance**   
-Active participation, as a delegate, in the voting mechanisms set up by Decentralized Autonomous Organizations of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop and Safe.     
-See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth) and on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).
+Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the onchain communities of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop and Safe protocols.      
+See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth) and on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).   
 
 ### Grants  
-A portion of the capital is regularly donated to developers and their projects in the open-source software ecosystem.   
-View the grants allocated to public goods initiatives on [Gitcoin.co](https://gitcoin.co/daqhris/grants).   
+A portion of the tokens is regularly donated to developers and their projects in the open-source software ecosystem.   
+View all the grants allocated to public goods initiatives on [Gitcoin.co](https://gitcoin.co/daqhris/grants).     
 
 ### Manager  
 The [daqhris.eth Cryptoassets Growth Fund](https://daqhris.com/crypto-growth-fund/) is managed by [Chris A. Iradukunda](https://daqhris.com).  
