@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2023-Apr-05](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2023-Apr-12](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -9,8 +9,8 @@ _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-f
 
 - [Definitions](https://daqhris.com/crypto-growth-fund/#definitions)  
     - [What is a growth fund?](https://daqhris.com/crypto-growth-fund/#what-is-a-growth-fund)
-    - [What is the meaning of crypto?](https://daqhris.com/crypto-growth-fund/#what-is-the-meaning-of-crypto)
-    - [What do you mean by crypto growth fund?](https://daqhris.com/crypto-growth-fund/#what-do-you-mean-by-crypto-growth-fund)
+    - [What is the meaning of cryptoasset?](https://daqhris.com/crypto-growth-fund/#what-is-the-meaning-of-cryptoasset)
+    - [What do you mean by cryptoasset growth fund?](https://daqhris.com/crypto-growth-fund/#what-do-you-mean-by-crypto-growth-fund)
 - [Portfolio](https://daqhris.com/crypto-growth-fund/#portfolio)   
     - [Blockchain Wallets](https://daqhris.com/crypto-growth-fund/#blockchain-wallets)
     - [Digital Assets](https://daqhris.com/crypto-growth-fund/#digital-assets)
@@ -31,21 +31,20 @@ You will find, below, detailed explanations for: `growth fund`, `crypto` and `cr
 
 ### What is a growth fund?  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
-> with little or no dividend payouts.   
-> Most **growth funds** offer higher potential capital appreciation but usually at above-average risk.   
+> with little or no dividend payouts. Most of them offer higher potential capital appreciation but usually at above-average risk.       
   
 *Source*: [Investopedia.com](https://www.investopedia.com/terms/g/growthfund.asp)  
 
-### What is the meaning of crypto?  
-> A **cryptocurrency** (abbr. *crypto*) is a digital asset designed to work as a medium of exchange 
-> wherein individual coin ownership records are stored in a ledger existing in a form of a computerized database using strong cryptography to secure transaction records, 
+### What is the meaning of cryptoasset?  
+> A **cryptoasset** is a digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger
+> existing in a form of a computerized database using strong cryptography to secure transaction records, 
 > to control the creation of additional coins, and to verify the transfer of coin ownership.    
-> **Cryptocurrency** does not exist in physical form (like paper money) and is typically not issued by a central authority.  
+> It does not exist in physical form (like paper money) and is typically not issued by a central authority.  
 
 *Source*: [Wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
 
 ### What do you mean by cryptoassets growth fund? 
-This is a growth fund dedicated to long-term investments in cryptocurrency markets and other digital assets on public blockchains.  
+This is a growth fund dedicated to long-term investments in crypto markets and other digital assets on public blockchains.  
 
 In other words, it is an online investment portfolio that: 
 - has operations uniquely in the cyberspace,
@@ -66,7 +65,7 @@ Here is an up-to-date wallet address on a [Bitcoin block explorer](https://mempo
 **ETH** : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 View all logs of transactions on an [Ethereum block explorer](https://blockscan.com/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82?t=tx).   
 
-To view the overall value of owned assets on the Ethereum blockchain, stored either on Layer 1 (Mainnet) or on Layer 2 (Rollups), head over to [Zerion.io](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview) or [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
+To view the overall value of owned assets on the Ethereum blockchain, stored either on Mainnet (Layer-1) or on Rollups (Layer-2), head over to [Zerion.io](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview) or [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
 ### Digital Assets 
 
@@ -77,17 +76,17 @@ Have a look at the domains showcased on [Citrus.app](https://citrus.app/daqhris/
 Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://etherscan.io/address/0xe31801c2e58b151c3ded2cb29da56147b7f27eb1).  
 
 **Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
-Read the written pieces, collected on the [Optimism blockchain](https://qx.app/daqhris), by checking out the [collector's page](https://mirror.xyz/daqhris.eth/collection).
+Read the written pieces by checking out the [collector's page](https://mirror.xyz/daqhris.eth/collection).
 
 **Liquid Staking**    
 Equal amounts of ETH are staked on the Ethereum blockchain via [Stakewise.io](https://stakewise.io) and [Lido.fi](https://lido.fi).   
 A similar amount is set aside for the long term as [Rocket Pool ETH](https://docs.rocketpool.net/guides/staking/via-l2.html#setting-up-metamask-on-mainnet) on the Arbitrum network.
 
-**DAO Delegate**   
+**Onchain Voting**   
 Active participation, as a delegate, in the voting mechanisms set up by Decentralized Autonomous Organizations of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop and Safe onchain communities. See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth) and on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).
 
 ### Grants  
-A portion of the capital is recurrently donated to developers and their projects in the open-source software ecosystem.   
+A portion of the capital is regularly donated to developers and their projects in the open-source software ecosystem.   
 View the grants allocated to public goods initiatives on [Gitcoin.co](https://gitcoin.co/daqhris/grants).   
 
 ### Manager  
@@ -168,14 +167,14 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 - Another spark of inspiration came from the motto [*"software is eating the world"*](https://a16z.com/2011/08/20/why-software-is-eating-the-world/) coined by the tech founder and investor [Marc Andreessen](https://a16z.com/author/marc-andreessen/).  
 
 ### Targets 
-1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) on the Internet.  
+1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) accessible over the Internet.  
 2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the founder. 
-3. Seek [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of cryptoassets.  
+3. Seek long-term [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of cryptoassets.  
 
 ## Transparency
 ### Disclosures 
-- All transactions related to this fund are recorded on public, decentralized and open-source blockchains.  
-- High volatility in cryptocurrency markets should be expected and always accounted for when estimating the value of assets under management.  
+- All transactions from this fund's wallets are recorded on public, decentralized, permissionless and open-source blockchains.  
+- High volatility in crypto markets should be expected and always accounted for when estimating the value of assets under management.  
 
 ### Sources of Investment  
 Income from underpaid manual labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
@@ -183,5 +182,5 @@ Otherwise, the invested capital might originate from monetary gifts or cryptocur
 
 ### Disclaimers  
 - Nothing published on this website constitutes investment, accounting or legal advice.  
-- This fund and its manager do not recommend that you purchase, sell or hold any cryptocurrency or other cryptoassets.  
+- This fund and its manager do not recommend that you purchase, sell or hold any digital tokens or other cryptoassets.  
 - There is no intent to influence anyone in order to pursue a particular investment style or strategy.  
