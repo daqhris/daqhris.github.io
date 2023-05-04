@@ -85,7 +85,7 @@ A similar amount in [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d
 
 **Onchain Governance**   
 Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the onchain communities of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop and Safe protocols.      
-See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth) and on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).   
+See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth), on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82) and on [Boardroom.io](https://boardroom.io/voter/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).   
 
 ### Grants  
 A portion of the tokens is regularly donated to developers and their projects in the open-source software ecosystem.   
