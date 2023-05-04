@@ -81,7 +81,7 @@ Read the written pieces by checking out the [collector's profile](https://mirror
 
 **Liquid Staking**    
 Equal amounts of [stETH](https://app.zerion.io/tokens/stETH-0xae7ab96520de3a18e5e111b5eaab095312d7fe84) and [sETH2](https://app.zerion.io/tokens/sETH2-0xfe2e637202056d30016725477c5da089ab0a043a) tokens are staked on the Ethereum blockchain via [Stakewise.io](https:///stakewise.io) and [Lido.fi](https://lido.fi).   
-A similar amount in [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393) is held for the long haul as [Rocket Pool ETH](https://docs.rocketpool.net/guides/staking/via-l2.html#setting-up-metamask-on-mainnet) on the Arbitrum network.
+A similar amount in [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393) is held for the long haul as [Rocket Pool ETH](https://docs.rocketpool.net/guides/staking/via-l2.html#swapping-eth-for-reth-with-uniswap) on the Arbitrum network.
 
 **Onchain Governance**   
 Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the onchain communities of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop and Safe protocols.      
