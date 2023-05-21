@@ -73,8 +73,7 @@ To know the overall value of assets under management on the Ethereum blockchain,
 
 ### Digital Assets 
 
-**Ethereum Name Service (ENS) Domains** (26 items) : `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.      
-Have a look at the domains showcased on [Citrus.app](https://citrus.app/daqhris/ens-domains).  
+**Ethereum Name Service (ENS) Domains** (26 items) : `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.       
 
 **awalkaday.art Photography Collection**   
 A smart contract that contains photographs published on Ethereum, shot by [Chris-Armel (daqhris)](https://daqhris.com) and exhibited online at the [WALK≡DAY Visual Arts Gallery](https://awalkaday.art).    
