@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2023-May-13](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2023-May-21](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -33,7 +33,7 @@ You will find, below, detailed explanations for: `growth fund`, `crypto` and `cr
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
 > with little or no dividend payouts. Most of them offer higher potential capital appreciation but usually at above-average risk.       
   
-*Source*: [Investopedia.com](https://www.investopedia.com/terms/g/growthfund.asp)  
+*Source*: [investopedia.com](https://www.investopedia.com/terms/g/growthfund.asp)  
 
 ### What is the meaning of cryptoasset?  
 > A **cryptoasset** is a digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger
@@ -41,7 +41,7 @@ You will find, below, detailed explanations for: `growth fund`, `crypto` and `cr
 > to control the creation of additional coins, and to verify the transfer of coin ownership.    
 > It does not exist in physical form (like paper money) and is typically not issued by a central authority.  
 
-*Source*: [Wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
+*Source*: [wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
 
 ### What do you mean by cryptoassets growth fund? 
 This is a growth fund dedicated to long-term investments in crypto markets and other assets on public blockchains.  
@@ -63,6 +63,8 @@ More precisely, this fund holds and manages digital assets that are:
 Here is the wallet address on a [Bitcoin block explorer](https://mempool.space/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).  
 
 **ETH** : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
+>Ethereum is an open source blockchain that was officially launched in 2015. Built by developers for developers, Ethereum is often considered the most programmable >blockchain for creating smart contracts and decentralized applications, also known as dapps. In recent years, Ethereum has also emerged as the default platform for >enterprise deployments. It is currently the most actively developed blockchain in the world, with the highest daily value transfer of any blockchain network.   
+Source: [consensys.net](https://consensys.net/knowledge-base/)
 View all logs of transactions on an [Ethereum block explorer](https://blockscan.com/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82?t=tx).   
 
 To know the overall value of owned assets on the Ethereum blockchain, stored either on mainnet (Layer-1) or on rollups (Layer-2), head over to [Zerion.io](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview), [Zapper.xyz](https://zapper.xyz/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) or [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
