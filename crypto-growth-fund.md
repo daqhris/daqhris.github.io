@@ -63,7 +63,7 @@ More precisely, this fund holds and manages digital assets that are:
 Here is the wallet address on a [Bitcoin block explorer](https://mempool.space/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).  
 
 **ETH** : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
->Ethereum is an open source blockchain that was officially launched in 2015. Built by developers for developers, Ethereum is often considered the most programmable >blockchain for creating smart contracts and decentralized applications, also known as dapps. In recent years, Ethereum has also emerged as the default platform for >enterprise deployments. It is currently the most actively developed blockchain in the world, with the highest daily value transfer of any blockchain network.   
+>Ethereum is an open source blockchain that was officially launched in 2015. Built by developers for developers, Ethereum is often considered the most programmable blockchain for creating smart contracts and decentralized applications, also known as dapps. In recent years, Ethereum has also emerged as the default platform for enterprise deployments. It is currently the most actively developed blockchain in the world, with the highest daily value transfer of any blockchain network.   
 
 *Source*: [consensys.net](https://consensys.net/knowledge-base/)   
 
