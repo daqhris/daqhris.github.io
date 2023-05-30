@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2023-May-23](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2023-May-30](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -83,8 +83,8 @@ Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://e
 Read the written pieces by checking out the [collector's profile](https://mirror.xyz/daqhris.eth/collection).
 
 **Liquid Staking**    
-Equal amounts of [stETH](https://app.zerion.io/tokens/stETH-0xae7ab96520de3a18e5e111b5eaab095312d7fe84?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) and [sETH2](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview/stakewise) tokens are staked on the Ethereum blockchain via [Lido.fi](https://lido.fi) and [Stakewise.io](https:///stakewise.io).   
-A similar amount in [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) is held for the long haul as [Rocket Pool ETH](https://docs.rocketpool.net/guides/staking/via-l2.html#swapping-eth-for-reth-with-uniswap) on the Arbitrum network.
+Almost equal amounts of [stETH](https://app.zerion.io/tokens/stETH-0xae7ab96520de3a18e5e111b5eaab095312d7fe84?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) and [sETH2](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview/stakewise) tokens are staked on the Ethereum blockchain via [Lido.fi](https://lido.fi) and [Stakewise.io](https:///stakewise.io).   
+A similar amount in [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) is held for the long haul as [Rocket Pool ETH](https://docs.rocketpool.net/guides/staking/via-l2.html#swapping-eth-for-reth-with-uniswap) on the Arbitrum blockchain and in [cbETH](https://app.zerion.io/tokens/cbETH-0xbe9895146f7af43049ca1c1ae358b0541ea49704?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) on the Optimism blockchain.
 
 **Onchain Governance**   
 Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the onchain communities of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop and Safe protocols.      
