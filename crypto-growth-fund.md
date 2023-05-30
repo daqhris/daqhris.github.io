@@ -84,15 +84,14 @@ Read the written pieces by checking out the [collector's profile](https://mirror
 
 **Liquid Staking**    
 Almost equal amounts of [stETH](https://app.zerion.io/tokens/stETH-0xae7ab96520de3a18e5e111b5eaab095312d7fe84?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) and [sETH2](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview/stakewise) tokens are staked on the Ethereum blockchain via [Lido.fi](https://lido.fi) and [Stakewise.io](https:///stakewise.io).   
-A similar amount in [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) is held for the long haul as [Rocket Pool ETH](https://docs.rocketpool.net/guides/staking/via-l2.html#swapping-eth-for-reth-with-uniswap) on the Arbitrum blockchain and in [cbETH](https://app.zerion.io/tokens/cbETH-0xbe9895146f7af43049ca1c1ae358b0541ea49704?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) on the Optimism blockchain.
+A similar amount in [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) is held for the long haul on the Arbitrum blockchain and in [cbETH](https://app.zerion.io/tokens/cbETH-0xbe9895146f7af43049ca1c1ae358b0541ea49704?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) on the Optimism blockchain.
 
 **Onchain Governance**   
 Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the onchain communities of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop and Safe protocols.      
 See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth), on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82) or on [Boardroom.io](https://boardroom.io/voter/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).   
 
 ### Grants  
-A portion of the tokens is regularly donated to developers and their projects in the open-source software ecosystem.   
-View all the grants allocated to public goods initiatives on [Gitcoin.co](https://gitcoin.co/daqhris/grants).     
+A portion of the tokenized assets is regularly donated to developers and their projects in the open-source software ecosystem via grants allocated to public goods initiatives on [Gitcoin.co](https://gitcoin.co).     
 
 ### Manager  
 The [daqhris.eth Cryptoassets Growth Fund](https://daqhris.com/crypto-growth-fund/) is managed by [Chris A. Iradukunda](https://daqhris.com).  
