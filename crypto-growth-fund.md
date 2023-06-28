@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2023-June-11](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2023-June-28](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -76,7 +76,7 @@ To know the overall value of assets under management on the Ethereum blockchain,
 **Ethereum Name Service (ENS) Domains** (26 items) : `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.       
 
 **awalkaday.art Photography Collection**   
-A smart contract that contains photographs published on Ethereum, shot by [Chris-Armel (daqhris)](https://daqhris.com) and exhibited at his online gallery [https://awalkaday.art](https://awalkaday.art).    
+A smart contract that contains digital photographs published on Ethereum and exhibited at the online gallery [https://awalkaday.art](https://awalkaday.art).    
 Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://etherscan.io/address/0xe31801c2e58b151c3ded2cb29da56147b7f27eb1).  
 
 **Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
@@ -172,7 +172,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 ### Targets 
 1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) accessible over the Internet.  
-2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the founder. 
+2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the portfolio manager/owner. 
 3. Seek long-term [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of cryptoassets.  
 
 ## Transparency
