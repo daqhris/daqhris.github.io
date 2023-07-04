@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2023-June-28](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2023-July-04](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -8,9 +8,9 @@ _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-f
 ## Table of Contents  
 
 - [Definitions](https://daqhris.com/crypto-growth-fund/#definitions)  
-    - [What is a growth fund?](https://daqhris.com/crypto-growth-fund/#what-is-a-growth-fund)
-    - [What is the meaning of cryptoasset?](https://daqhris.com/crypto-growth-fund/#what-is-the-meaning-of-cryptoasset)
-    - [What do you mean by cryptoasset growth fund?](https://daqhris.com/crypto-growth-fund/#what-do-you-mean-by-crypto-growth-fund)
+    - [Growth fund](https://daqhris.com/crypto-growth-fund/#growth-fund)
+    - [Cryptoasset](https://daqhris.com/crypto-growth-fund/#cryptoasset)
+    - [Cryptoasset growth fund](https://daqhris.com/crypto-growth-fund/#cryptoasset-growth-fund)
 - [Portfolio](https://daqhris.com/crypto-growth-fund/#portfolio)   
     - [Blockchain Wallets](https://daqhris.com/crypto-growth-fund/#blockchain-wallets)
     - [Digital Assets](https://daqhris.com/crypto-growth-fund/#digital-assets)
@@ -29,13 +29,13 @@ _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-f
 Hello! Let's start off by getting a common understanding of what is this fund.   
 You will find, below, detailed explanations for: `growth fund`, `crypto` and `crypto growth fund`.  
 
-### What is a growth fund?  
+### Growth fund  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
 > with little or no dividend payouts. Most of them offer higher potential capital appreciation but usually at above-average risk.       
   
 *Source*: [investopedia.com](https://www.investopedia.com/terms/g/growthfund.asp)  
 
-### What is the meaning of cryptoasset?  
+### Cryptoasset  
 > A **cryptoasset** is a digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger
 > existing in a form of a computerized database using strong cryptography to secure transaction records, 
 > to control the creation of additional coins, and to verify the transfer of coin ownership.    
@@ -43,7 +43,7 @@ You will find, below, detailed explanations for: `growth fund`, `crypto` and `cr
 
 *Source*: [wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
 
-### What do you mean by cryptoassets growth fund? 
+### Cryptoassets growth fund 
 This is a growth fund dedicated to long-term investments in crypto markets and other assets on public blockchains.  
 
 In other words, it is an online investment portfolio that: 
