@@ -76,7 +76,7 @@ To know the overall value of assets under management on the Ethereum blockchain,
 **Ethereum Name Service (ENS) Domains** (26 items) : `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.       
 
 **awalkaday.art Photography Collection**   
-A smart contract that holds a collection of 263 photographs, published on Ethereum, and exhibited at the online gallery [https://awalkaday.art](https://awalkaday.art).    
+A smart contract that holds a collection of 263 photographs, published on Ethereum, and exhibited online at [https://awalkaday.art](https://awalkaday.art).    
 Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://etherscan.io/token/0xe31801c2e58b151c3ded2cb29da56147b7f27eb1#inventory).  
 
 **Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
