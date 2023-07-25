@@ -82,9 +82,6 @@ Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://e
 **Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
 Read the written pieces by checking out the [collector's profile](https://mirror.xyz/daqhris.eth/collection).
 
-**Liquid Staking**    
-An equal amount of [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82, is held on the Arbitrum blockchain, and of [cbETH](https://app.zerion.io/tokens/cbETH-0xbe9895146f7af43049ca1c1ae358b0541ea49704?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82), on the Optimism blockchain.
-
 **Onchain Governance**   
 Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the on-chain communities of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop, and Safe protocols.      
 See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth), on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82) or on [Boardroom.io](https://boardroom.io/voter/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).   
