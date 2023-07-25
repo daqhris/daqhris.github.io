@@ -13,7 +13,7 @@ _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-f
     - [Cryptoasset growth fund](https://daqhris.com/crypto-growth-fund/#cryptoasset-growth-fund)
 - [Portfolio](https://daqhris.com/crypto-growth-fund/#portfolio)   
     - [Blockchain Wallets](https://daqhris.com/crypto-growth-fund/#blockchain-wallets)
-    - [Digital Assets](https://daqhris.com/crypto-growth-fund/#digital-assets)
+    - [Noteworthy Assets](https://daqhris.com/crypto-growth-fund/#noteworthy-assets)
     - [Grants](https://daqhris.com/crypto-growth-fund/#grants) 
     - [Manager](https://daqhris.com/crypto-growth-fund/#manager)
 - [Founding Story](https://daqhris.com/crypto-growth-fund/#founding-story)  
@@ -71,33 +71,32 @@ View all logs of transactions on an [Ethereum block explorer](https://blockscan.
 
 To know the overall value of assets under management on the Ethereum blockchain, stored either on Mainnet (Layer-1) or on rollups (Layer-2), head over to [Zerion.io](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview), [Zapper.xyz](https://zapper.xyz/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82), [DeBank.com](https://debank.com/profile/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) or [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
-### Digital Assets 
+### Noteworthy Assets 
 
 **Ethereum Name Service (ENS) Domains** (26 items) : `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.       
 
 **awalkaday.art Photography Collection**   
-A smart contract that contains digital photographs published on Ethereum and exhibited at the online gallery [https://awalkaday.art](https://awalkaday.art).    
-Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://etherscan.io/address/0xe31801c2e58b151c3ded2cb29da56147b7f27eb1).  
+A smart contract that holds a collection of 263 photographs, published on Ethereum, and exhibited at the online gallery [https://awalkaday.art](https://awalkaday.art).    
+Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://etherscan.io/token/0xe31801c2e58b151c3ded2cb29da56147b7f27eb1#inventory).  
 
 **Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
 Read the written pieces by checking out the [collector's profile](https://mirror.xyz/daqhris.eth/collection).
 
 **Liquid Staking**    
-Almost equal amounts of [stETH](https://app.zerion.io/tokens/stETH-0xae7ab96520de3a18e5e111b5eaab095312d7fe84?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) and [sETH2](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview/stakewise) tokens are staked on the Ethereum blockchain via [Lido.fi](https://lido.fi) and [Stakewise.io](https:///stakewise.io).   
-A similar amount in [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) is held for the long haul on the Arbitrum blockchain and in [cbETH](https://app.zerion.io/tokens/cbETH-0xbe9895146f7af43049ca1c1ae358b0541ea49704?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) on the Optimism blockchain.
+An equal amount of [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82, is held on the Arbitrum blockchain, and of [cbETH](https://app.zerion.io/tokens/cbETH-0xbe9895146f7af43049ca1c1ae358b0541ea49704?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82), on the Optimism blockchain.
 
 **Onchain Governance**   
 Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the on-chain communities of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop, and Safe protocols.      
 See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth), on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82) or on [Boardroom.io](https://boardroom.io/voter/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).   
 
 ### Grants  
-A portion of the tokenized assets is regularly donated to developers and their projects in the open-source software ecosystem via grants allocated to public goods initiatives on [Gitcoin.co](https://gitcoin.co).     
+A portion of the tokenized assets is occasionally donated to developers in the open-source software ecosystem via grants allocated to public goods on [Gitcoin.co](https://gitcoin.co).  
 
 ### Manager  
 The [daqhris.eth Cryptoassets Growth Fund](https://daqhris.com/crypto-growth-fund/) is managed by [Chris A. Iradukunda](https://daqhris.com).  
 He does not handle other people's wealth. All gains, losses, and risks are personal.  
 
-[Chris-Armel](https://daqhris.com/about) has a technical background in computer engineering and is passionate about financial innovation.  
+[Chris-Armel](https://daqhris.com/about) has a technical background in computer science and engineering and is passionate about digital finance innovation.  
 Announcements and writings are published on his [blog](https://mirror.xyz/daqhris.eth).  
 
 E-mail: `media(at)daqhris(dot)com` 
@@ -118,10 +117,10 @@ I have experienced events that forced me to stay on the move
 due to safety, poverty, or weather reasons.
 
 At least once a year, an event has occurred that led me to lose access 
-to banking services or university facilities or health care systems.
-I have given up on owning large or heavy items after life-altering experiences 
-as in detention centers, refugee camps, homelessness, seasonal lodging, 
-couchsurfing and lately as an undocumented immigrant.
+to banking services or university facilities, or health care systems.
+I have given up on owning large or heavy items after life-altering experiences
+in detention centers, refugee camps, homelessness, seasonal lodging,
+couch-surfing, and lately as an undocumented immigrant.
 
 After repeatedly going through the loss of personal properties, reputation, 
 material possessions, human connections, and at the end, 
@@ -132,8 +131,8 @@ namely Bitcoin and Ether purchased in the Autumn of 2017.
 I managed to recover the BTC holdings in the Summer of 2019 and ETH in the Summer of 2021.
 How? Well, by regaining access to digital wallet backups!
 
-Although, I was not actively managing the crypto wallets, 
-they remained intact and had gained much value afterward.
+Although I was not actively managing the crypto wallets, 
+they remained intact and gained much value afterward.
 For a long time, I thought of them as lost property. 
 But later on, after the recovery of their secret keys, 
 I understood the high value of global decentralized blockchains 
