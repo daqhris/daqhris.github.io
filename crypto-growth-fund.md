@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2023-July-04](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2023-July-25](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -9,7 +9,7 @@ _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-f
 
 - [Definitions](https://daqhris.com/crypto-growth-fund/#definitions)  
     - [Growth fund](https://daqhris.com/crypto-growth-fund/#growth-fund)
-    - [Cryptoasset](https://daqhris.com/crypto-growth-fund/#cryptoasset)
+    - [Crypto-asset](https://daqhris.com/crypto-growth-fund/#crypto-asset)
     - [Cryptoasset growth fund](https://daqhris.com/crypto-growth-fund/#cryptoasset-growth-fund)
 - [Portfolio](https://daqhris.com/crypto-growth-fund/#portfolio)   
     - [Blockchain Wallets](https://daqhris.com/crypto-growth-fund/#blockchain-wallets)
@@ -27,7 +27,7 @@ _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-f
 
 ## Definitions 
 Hello! Let's start off by getting a common understanding of what is this fund.   
-You will find, below, detailed explanations for: `growth fund`, `crypto` and `crypto growth fund`.  
+You will find, below, detailed explanations for: `growth fund`, `crypto`, and `crypto growth fund`.  
 
 ### Growth fund  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
@@ -35,8 +35,8 @@ You will find, below, detailed explanations for: `growth fund`, `crypto` and `cr
   
 *Source*: [investopedia.com](https://www.investopedia.com/terms/g/growthfund.asp)  
 
-### Cryptoasset  
-> A **cryptoasset** is a digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger
+### Crypto-asset  
+> A **crypto-asset** is a digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger
 > existing in a form of a computerized database using strong cryptography to secure transaction records, 
 > to control the creation of additional coins, and to verify the transfer of coin ownership.    
 > It does not exist in physical form (like paper money) and is typically not issued by a central authority.  
@@ -47,14 +47,14 @@ You will find, below, detailed explanations for: `growth fund`, `crypto` and `cr
 This is a growth fund dedicated to long-term investments in crypto markets and other assets on public blockchains.  
 
 In other words, it is an online investment portfolio that: 
-- has operations uniquely in the cyberspace,
+- has operations uniquely in cyberspace,
 - openly shares all transactions records and holdings,  
-- is independent from any institution or centralized entity. 
+- is independent of any institution or centralized entity. 
 
 More precisely, this fund holds and manages digital assets that are:
 - accessible on the Internet by using a computing device,  
 - known for practical implementations and widespread adoption,  
-- on-track for an increase in value over a long-term time horizon (more than 5 years).        
+- on track for an increase in value over a long-term time horizon (more than 5 years).        
 
 ## Portfolio  
 
@@ -63,13 +63,13 @@ More precisely, this fund holds and manages digital assets that are:
 Here is the wallet address on a [Bitcoin block explorer](https://mempool.space/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).  
 
 **ETH** : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
->Ethereum is an open source blockchain that was officially launched in 2015. Built by developers for developers, Ethereum is often considered the most programmable blockchain for creating smart contracts and decentralized applications, also known as dapps. In recent years, Ethereum has also emerged as the default platform for enterprise deployments. It is currently the most actively developed blockchain in the world, with the highest daily value transfer of any blockchain network.   
+>Ethereum is an open-source blockchain that was officially launched in 2015. Built by developers for developers, Ethereum is often considered the most programmable blockchain for creating smart contracts and decentralized applications, also known as dApps. In recent years, Ethereum has also emerged as the default platform for enterprise deployments. It is currently the most actively developed blockchain in the world, with the highest daily value transfer of any blockchain network.   
 
 *Source*: [consensys.net](https://consensys.net/knowledge-base/)   
 
 View all logs of transactions on an [Ethereum block explorer](https://blockscan.com/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82?t=tx).   
 
-To know the overall value of assets under management on the Ethereum blockchain, stored either on mainnet (Layer-1) or on rollups (Layer-2), head over to [Zerion.io](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview), [Zapper.xyz](https://zapper.xyz/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82), [DeBank.com](https://debank.com/profile/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) or [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
+To know the overall value of assets under management on the Ethereum blockchain, stored either on Mainnet (Layer-1) or on rollups (Layer-2), head over to [Zerion.io](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview), [Zapper.xyz](https://zapper.xyz/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82), [DeBank.com](https://debank.com/profile/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) or [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
 ### Digital Assets 
 
@@ -87,7 +87,7 @@ Almost equal amounts of [stETH](https://app.zerion.io/tokens/stETH-0xae7ab96520d
 A similar amount in [rETH](https://app.zerion.io/tokens/rETH-0xae78736cd615f374d3085123a210448e74fc6393?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) is held for the long haul on the Arbitrum blockchain and in [cbETH](https://app.zerion.io/tokens/cbETH-0xbe9895146f7af43049ca1c1ae358b0541ea49704?address=0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) on the Optimism blockchain.
 
 **Onchain Governance**   
-Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the onchain communities of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop and Safe protocols.      
+Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the on-chain communities of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop, and Safe protocols.      
 See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth), on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82) or on [Boardroom.io](https://boardroom.io/voter/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).   
 
 ### Grants  
@@ -95,7 +95,7 @@ A portion of the tokenized assets is regularly donated to developers and their p
 
 ### Manager  
 The [daqhris.eth Cryptoassets Growth Fund](https://daqhris.com/crypto-growth-fund/) is managed by [Chris A. Iradukunda](https://daqhris.com).  
-He does not handle other people's wealth. All gains, losses and risks are personal.  
+He does not handle other people's wealth. All gains, losses, and risks are personal.  
 
 [Chris-Armel](https://daqhris.com/about) has a technical background in computer engineering and is passionate about financial innovation.  
 Announcements and writings are published on his [blog](https://mirror.xyz/daqhris.eth).  
@@ -115,35 +115,35 @@ a group of persons or a larger entity like a government.
 Since the summer of 2015 until now, 
 I live more or less with few personal belongings.
 I have experienced events that forced me to stay on the move 
-due to safety, poverty or weather reasons.
+due to safety, poverty, or weather reasons.
 
-At least once a year, an event has occured that led me to losing access 
+At least once a year, an event has occurred that led me to lose access 
 to banking services or university facilities or health care systems.
 I have given up on owning large or heavy items after life-altering experiences 
 as in detention centers, refugee camps, homelessness, seasonal lodging, 
 couchsurfing and lately as an undocumented immigrant.
 
 After repeatedly going through the loss of personal properties, reputation, 
-material possessions, human connections and at the end, 
+material possessions, human connections, and at the end, 
 stumbling into a slow but steady recovery, 
-I have only been able to regain few valuable assets.
+I have only been able to regain a few valuable assets.
 Chief among them are some digital assets, 
-namely Bitcoin and Ether purchased in Autumn 2017.
-I managed to recover the BTC holdings in Summer 2019 and ETH in Summer 2021.
+namely Bitcoin and Ether purchased in the Autumn of 2017.
+I managed to recover the BTC holdings in the Summer of 2019 and ETH in the Summer of 2021.
 How? Well, by regaining access to digital wallet backups!
 
 Although, I was not actively managing the crypto wallets, 
-they remained intact and had gained much value afterwards.
+they remained intact and had gained much value afterward.
 For a long time, I thought of them as lost property. 
-But later on, after the recovery of their secrets keys, 
-I understood the high-value of global decentralized blockchains 
+But later on, after the recovery of their secret keys, 
+I understood the high value of global decentralized blockchains 
 and the related digital currencies.
 
 Thus, I decided to entirely play the long game 
 and set up a personal crypto growth fund 
 with the intent of holding long-term investments in digital assets.
 In case I earn or receive more paper money than the amount 
-that is necessary for basic needs (i.e: food, transport, accomodation), 
+that is necessary for basic needs (i.e: food, transport, accommodation), 
 then I will purchase some cryptocurrencies and add them to 
 the self-custodial wallets of the fund.
 
@@ -173,18 +173,18 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 ### Targets 
 1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) accessible over the Internet.  
 2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the portfolio manager/owner. 
-3. Seek long-term [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of cryptoassets.  
+3. Seek long-term [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of crypto assets.  
 
 ## Transparency
 ### Disclosures 
-- All transactions from this fund's wallets are recorded on public, decentralized, permissionless and open-source blockchains.  
+- All transactions from this fund's wallets are recorded on public, decentralized, permissionless, and open-source blockchains.  
 - High volatility in crypto markets should be expected and always accounted for when estimating the value of assets under management.  
 
 ### Sources of Investment  
-Income from underpaid manual labor that may be done with human body parts but without life insurance, work contract nor legal rights.  
+Income from underpaid manual labor that may be done with human body parts but without life insurance, work contract, or legal rights.  
 Otherwise, the invested capital might originate from monetary gifts or cryptocurrency airdrops.  
 
 ### Disclaimers  
-- Nothing published on this website constitutes investment, accounting or legal advice.  
-- This fund and its manager do not recommend that you purchase, sell or hold any digital token or other cryptoassets.  
+- Nothing published on this website constitutes investment, accounting, or legal advice.  
+- This fund and its manager do not recommend that you purchase, sell, or hold any digital token or other crypto assets.  
 - There is no intent to influence anyone in order to pursue a particular investment style or strategy.  
