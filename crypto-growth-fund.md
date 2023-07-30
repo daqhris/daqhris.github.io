@@ -73,7 +73,8 @@ To know the overall value of assets under management on the Ethereum blockchain,
 
 ### Noteworthy Assets 
 
-**Ethereum Name Service (ENS) Domains** (26 items) : `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`. Have a look at them on [Gallery.so](https://gallery.so/daqhris/galleries/2HbUOrYCPoTD6HB6YHhP8ckXgKf).      
+**Ethereum Name Service (ENS) Domains** (26 items) : `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.   
+Have a look at them on [Gallery.so](https://gallery.so/daqhris/galleries/2HbUOrYCPoTD6HB6YHhP8ckXgKf).      
 
 **awalkaday.art Photography Collection**   
 A smart contract that holds a collection of 263 photographs, published on Ethereum, and exhibited online at [https://awalkaday.art](https://awalkaday.art).    
@@ -82,7 +83,7 @@ Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://e
 **Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
 Read the written pieces by checking out the [collector's profile](https://mirror.xyz/daqhris.eth/collection).
 
-**Onchain Governance**   
+**On-chain Governance**   
 Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the on-chain communities of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop, and Safe protocols.      
 See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth), on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82) or on [Boardroom.io](https://boardroom.io/voter/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).   
 
