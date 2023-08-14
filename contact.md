@@ -1,27 +1,24 @@
 # How to get in touch?  
-## E-Mail
-Encrypted e-mails are the preferred method of contact and are given a higher priority.  
-Regular e-mails are either slowly replied to or are considered read-only.  
-You are advised to send your electronic message by using a GPG public key.   
-#### Problems?
-- If you didn't understand a word, click 
-[HERE](https://emailselfdefense.fsf.org/en/) 
-to learn how to send and receive secure messages on the Internet.  
-- If you feel too lazy to learn, click 
-[HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) 
-to view his e-mail adress (uploaded to a public __OpenPGP Keyserver__).  
-- If you don't get a reply as fast as you wish, click [HERE](https://matrix.to/#/@daqhris:matrix.org) to say hello on  __Matrix__.
-- If the above options don't satisy you, wait until a face-to-face meeting. 
+## Email
+I prioritize encrypted emails as the preferred method of contact.  
+Standard emails may receive a slow response or be viewed as read-only.  
+It is recommended to send electronic messages using a GPG public key.  
 
-## Public Key cryptography
-This is [Chris A. Iradukunda (@daqhris)](https://github.com/daqhris)'s PGP key.  
-Some of my online communications require the use of such cryptographic method.  
-The same key is used to digitally sign my GitHub commits.   
+#### Problems?
+- In case of any confusion, please click the link [HERE](https://emailselfdefense.fsf.org/en/) to learn the process of secure messaging on the Internet.   
+- If you require assistance, please click on the link [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) to access the email address uploaded to a public OpenPGP Keyserver.  
+- If you do not receive a response as quickly as you desire, please click [HERE](https://matrix.to/#/@daqhris:matrix.org) to initiate a conversation on Matrix.
+- If the above options do not satisfy you, please wait to discuss any topic in a face-to-face meeting. 
+
+## Public key cryptography
+This is [Chris A. Iradukunda (@daqhris)](https://github.com/daqhris)'s PGP key.   
+Certain online communications require the use of cryptographic methods.  
+I utilize the same key to digitally sign my GitHub commits.  
 
 #### PGP fingerprint: `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
-- Key **ID**: `E65F 53A3 9A2B 12E5` 
-- **Download** the pubkey .asc file here: [daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc)  
-- **Copy** the code block below:  
+- Key ID: `E65F 53A3 9A2B 12E5` 
+- Please download the public key .asc file from this location: [daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc)  
+- You may also copy the code block below:  
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
