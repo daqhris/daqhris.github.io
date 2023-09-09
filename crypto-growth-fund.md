@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2023-July-30](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2023-Sept-09](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -37,7 +37,7 @@ You will find, below, detailed explanations for: `growth fund`, `crypto`, and `c
 
 ### Crypto-asset  
 > A **crypto-asset** is a digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger
-> existing in a form of a computerized database using strong cryptography to secure transaction records, 
+> existing in the form of a computerized database using strong cryptography to secure transaction records, 
 > to control the creation of additional coins, and to verify the transfer of coin ownership.    
 > It does not exist in physical form (like paper money) and is typically not issued by a central authority.  
 
@@ -48,7 +48,7 @@ This is a growth fund dedicated to long-term investments in crypto markets and o
 
 In other words, it is an online investment portfolio that: 
 - has operations uniquely in cyberspace,
-- openly shares all transactions records and holdings,  
+- openly shares all transaction records and holdings,  
 - is independent of any institution or centralized entity. 
 
 More precisely, this fund holds and manages digital assets that are:
@@ -84,7 +84,7 @@ Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://e
 Read the written pieces by checking out the [collector's profile](https://mirror.xyz/daqhris.eth/collection).
 
 **On-chain Governance**   
-Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the on-chain communities of ENS, Optimism, Arbitrum, Uniswap, Aave, Gitcoin, Hop, and Safe protocols.      
+Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the on-chain communities of ENS, [Optimism](https://vote.optimism.io/delegate/daqhris.eth), Arbitrum, Uniswap, Gitcoin, Hop, and Safe protocols.      
 See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth), on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82) or on [Boardroom.io](https://boardroom.io/voter/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).   
 
 ### Grants  
@@ -178,7 +178,7 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 - High volatility in crypto markets should be expected and always accounted for when estimating the value of assets under management.  
 
 ### Sources of Investment  
-Income from underpaid manual labor that may be done with human body parts but without life insurance, work contract, or legal rights.  
+Income from underpaid manual labor that may be done with human body parts but without life insurance, work contracts, or legal rights.  
 Otherwise, the invested capital might originate from monetary gifts or cryptocurrency airdrops.  
 
 ### Disclaimers  
