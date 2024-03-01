@@ -1,6 +1,6 @@
 # daqhris.eth Cryptoassets Growth Fund  
 
-_Latest changes : [2023-Sept-09](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
+_Latest changes : [2024-Mar-01](https://github.com/daqhris/daqhris.github.io/commits/master/crypto-growth-fund.md)_  
 _Creation date : [2021-July-31](https://github.com/daqhris/daqhris.github.io/commit/1500eba90d803c694f8c067916e4760c134f42a3)_  
 
 _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp) — [Nederlands](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=en-US&_x_tr_pto=wapp) — [中文](https://daqhris-com.translate.goog/crypto-growth-fund/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)_
@@ -13,8 +13,7 @@ _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-f
     - [Cryptoasset growth fund](https://daqhris.com/crypto-growth-fund/#cryptoasset-growth-fund)
 - [Portfolio](https://daqhris.com/crypto-growth-fund/#portfolio)   
     - [Blockchain Wallets](https://daqhris.com/crypto-growth-fund/#blockchain-wallets)
-    - [Noteworthy Assets](https://daqhris.com/crypto-growth-fund/#noteworthy-assets)
-    - [Grants](https://daqhris.com/crypto-growth-fund/#grants) 
+    - [Donations](https://daqhris.com/crypto-growth-fund/#donations) 
     - [Manager](https://daqhris.com/crypto-growth-fund/#manager)
 - [Founding Story](https://daqhris.com/crypto-growth-fund/#founding-story)  
 - [Goals](https://daqhris.com/crypto-growth-fund/#goals)  
@@ -26,10 +25,10 @@ _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-f
     - [Disclaimers](https://daqhris.com/crypto-growth-fund/#disclaimers) 
 
 ## Definitions 
-Hello! Let's start off by getting a common understanding of what is this fund.   
+Let's start off by getting a common understanding of what is this fund.   
 You will find, below, detailed explanations for: `growth fund`, `crypto`, and `crypto growth fund`.  
 
-### Growth fund  
+### Growth Fund  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
 > with little or no dividend payouts. Most of them offer higher potential capital appreciation but usually at above-average risk.       
   
@@ -43,24 +42,22 @@ You will find, below, detailed explanations for: `growth fund`, `crypto`, and `c
 
 *Source*: [wikipedia.org](https://en.wikipedia.org/wiki/Cryptocurrency)  
 
-### Cryptoassets growth fund 
-This is a growth fund dedicated to long-term investments in crypto markets and other assets on public blockchains.  
+### Cryptoassets Growth Fund 
+This is a digital growth fund dedicated to long-term investments in crypto markets and other assets on public blockchains.  
 
 In other words, it is an online investment portfolio that: 
-- has operations uniquely in cyberspace,
+- has operations uniquely in the cyberspace,
 - openly shares all transaction records and holdings,  
-- is independent of any institution or centralized entity. 
+- is independent of any institutional body or centralized entity. 
 
 More precisely, this fund holds and manages digital assets that are:
 - accessible on the Internet by using a computing device,  
 - known for practical implementations and widespread adoption,  
-- on track for an increase in value over a long-term time horizon (more than 5 years).        
+- on track for an increase in value over a long-term time horizon of more than 5 years.        
 
 ## Portfolio  
 
-### Blockchain Wallets 
-**BTC** : `bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf`  
-Here is the wallet address on a [Bitcoin block explorer](https://mempool.space/address/bc1qu9dprgy69afaw3vzmlgnw5cs0uckqm9dscmdmf).  
+### Blockchain Wallet 
 
 **ETH** : `0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82`  
 >Ethereum is an open-source blockchain that was officially launched in 2015. Built by developers for developers, Ethereum is often considered the most programmable blockchain for creating smart contracts and decentralized applications, also known as dApps. In recent years, Ethereum has also emerged as the default platform for enterprise deployments. It is currently the most actively developed blockchain in the world, with the highest daily value transfer of any blockchain network.   
@@ -69,33 +66,16 @@ Here is the wallet address on a [Bitcoin block explorer](https://mempool.space/a
 
 View all logs of transactions on an [Ethereum block explorer](https://blockscan.com/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82?t=tx).   
 
-To know the overall value of assets under management on the Ethereum blockchain, stored either on Mainnet (Layer-1) or on rollups (Layer-2), head over to [Zerion.io](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview), [Zapper.xyz](https://zapper.xyz/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82), [DeBank.com](https://debank.com/profile/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) or [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
+To estimate the overall value of assets under management on the Ethereum blockchain, stored either on Mainnet (Layer-1) or on rollups (Layer-2), head over to [Zerion.io](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview), [Zapper.xyz](https://zapper.xyz/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82), [DeBank.com](https://debank.com/profile/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) or [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
 
-### Noteworthy Assets 
-
-**Ethereum Name Service (ENS) Domains** (26 items) : `arlon`, `bastogne`, `wiltz`, `schaerbeek`, `evere`, `wavre`, `verviers`, `etterbeek`, `vilvoorde`, `tienen`, `waasland`, `diekirch`, `waremme`, `ettelbruck`, `clervaux`, `willebroek`, `meuse`, `eupen`, `schelde`, `escaut`, `sambre`, `titeuf`, `awalkaday`, `tongeren`, `hainaut` and `awalkaday.art`.   
-Have a look at them on [Gallery.so](https://gallery.so/daqhris/galleries/2HbUOrYCPoTD6HB6YHhP8ckXgKf).      
-
-**awalkaday.art Photography Collection**   
-A smart contract that holds a collection of 263 photographs, published on Ethereum, and exhibited online at [https://awalkaday.art](https://awalkaday.art).    
-Smart contract address: [`0xE31801C2E58b151C3deD2cB29dA56147b7f27eB1`](https://etherscan.io/token/0xe31801c2e58b151c3ded2cb29da56147b7f27eb1#inventory).  
-
-**Essays and publications on [Mirror.xyz](https://mirror.xyz)** from leading thinkers and influential brands.  
-Read the written pieces by checking out the [collector's profile](https://mirror.xyz/daqhris.eth/collection).
-
-**On-chain Governance**   
-Active participation, as a delegate, in the voting mechanisms set up by decentralized autonomous organizations (DAOs) that govern the on-chain communities of ENS, [Optimism](https://vote.optimism.io/delegate/daqhris.eth), Arbitrum, Uniswap, Gitcoin, Hop, and Safe protocols.      
-See a public record of votes on [Tally.xyz](https://www.tally.xyz/profile/daqhris.eth), on [Snapshot.org](https://snapshot.org/#/profile/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82) or on [Boardroom.io](https://boardroom.io/voter/0xb5ee030c71e76C3E03B2A8d425dBb9B395037C82).   
-
-### Grants  
-A portion of the tokenized assets is occasionally donated to developers in the open-source software ecosystem via grants allocated to public goods on [Gitcoin.co](https://gitcoin.co).  
+### Donations  
+A portion of the tokenized assets is occasionally donated to developers in the open-source software ecosystem via grants allocated to public goods (eg: [Gitcoin.co](https://gitcoin.co)).  
 
 ### Manager  
 The [daqhris.eth Cryptoassets Growth Fund](https://daqhris.com/crypto-growth-fund/) is managed by [Chris A. Iradukunda](https://daqhris.com).  
 He does not handle other people's wealth. All gains, losses, and risks are personal.  
 
-[Chris-Armel](https://daqhris.com/about) has a technical background in computer science and engineering and is passionate about digital finance innovation.  
-Announcements and writings are published on his [blog](https://mirror.xyz/daqhris.eth).  
+[Chris-Armel](https://daqhris.com/about) has a technical background in computer science and engineering and is passionate about digital finance innovation.   
 
 E-mail: `media(at)daqhris(dot)com` 
 
@@ -169,8 +149,8 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 ### Targets 
 1. Foster [decentralized digital assets and protocols](https://www.investopedia.com/decentralized-finance-defi-5113835) accessible over the Internet.  
-2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the portfolio manager/owner. 
-3. Seek long-term [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of crypto assets.  
+2. Guarantee [financial independence](https://en.wikipedia.org/wiki/Financial_independence) to the portfolio manager. 
+3. Seek long-term [capital appreciation](https://www.investopedia.com/terms/c/capitalappreciation.asp) of cryptoassets.  
 
 ## Transparency
 ### Disclosures 
@@ -183,5 +163,5 @@ Otherwise, the invested capital might originate from monetary gifts or cryptocur
 
 ### Disclaimers  
 - Nothing published on this website constitutes investment, accounting, or legal advice.  
-- This fund and its manager do not recommend that you purchase, sell, or hold any digital token or other crypto assets.  
+- This blockchain-based fund and its manager do not recommend that you purchase, sell, or hold any digital token or other crypto assets.  
 - There is no intent to influence anyone in order to pursue a particular investment style or strategy.  
