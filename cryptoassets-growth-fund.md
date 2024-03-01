@@ -25,8 +25,8 @@ _Other languages: [Français](https://daqhris-com.translate.goog/crypto-growth-f
     - [Disclaimers](https://daqhris.com/crypto-growth-fund/#disclaimers) 
 
 ## Definitions 
-Let's start off by getting a common understanding of what is this fund.   
-You will find, below, detailed explanations for: `growth fund`, `crypto`, and `crypto growth fund`.  
+Let's start with a common understanding of what this fund is.     
+Below you will find, below, detailed explanations for: `growth fund`, `crypto`, and `crypto growth fund`.  
 
 ### Growth Fund  
 > A **growth fund** is a diversified portfolio of stocks that has capital appreciation as its primary goal, 
@@ -64,18 +64,16 @@ More precisely, this fund holds and manages digital assets that are:
 
 *Source*: [consensys.net](https://consensys.net/knowledge-base/)   
 
-View all logs of transactions on an [Ethereum block explorer](https://blockscan.com/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82?t=tx).   
-
-To estimate the overall value of assets under management on the Ethereum blockchain, stored either on Mainnet (Layer-1) or on rollups (Layer-2), head over to [Zerion.io](https://app.zerion.io/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82/overview), [Zapper.xyz](https://zapper.xyz/account/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82), [DeBank.com](https://debank.com/profile/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82) or [Nansen.ai](https://portfolio.nansen.ai/dashboard/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82).  
+View logs of transactions on an [Ethereum block explorer](https://blockscan.com/address/0xb5ee030c71e76c3e03b2a8d425dbb9b395037c82?t=tx).   
 
 ### Donations  
-A portion of the tokenized assets is occasionally donated to developers in the open-source software ecosystem via grants allocated to public goods (eg: [Gitcoin.co](https://gitcoin.co)).  
+A tiny fraction of the tokenised assets is occasionally donated to software developers in the open source ecosystem (via public good grants).  
 
 ### Manager  
 The [daqhris.eth Cryptoassets Growth Fund](https://daqhris.com/crypto-growth-fund/) is managed by [Chris A. Iradukunda](https://daqhris.com).  
-He does not handle other people's wealth. All gains, losses, and risks are personal.  
+He does not manage other people's money. All profits, losses and risks are personal.  
 
-[Chris-Armel](https://daqhris.com/about) has a technical background in computer science and engineering and is passionate about digital finance innovation.   
+[Chris-Armel](https://daqhris.com/about) has a technical background in computer science and engineering and is passionate about digital finance. 
 
 E-mail: `media(at)daqhris(dot)com` 
 
@@ -154,14 +152,14 @@ LwOBA8voYVOfUXAI7bHuxEcuP2SOgMQBAXz0OHeUQVKMnUkDaqo=
 
 ## Transparency
 ### Disclosures 
-- All transactions from this fund's wallets are recorded on public, decentralized, permissionless, and open-source blockchains.  
-- High volatility in crypto markets should be expected and always accounted for when estimating the value of assets under management.  
-
+- All transactions from this fund's wallets are recorded on public, decentralised, permissionless, and open source blockchains.  
+- High volatility in crypto markets is to be expected and should always be taken into account when estimating the value of assets under management.
+ 
 ### Sources of Investment  
-Income from underpaid manual labor that may be done with human body parts but without life insurance, work contracts, or legal rights.  
-Otherwise, the invested capital might originate from monetary gifts or cryptocurrency airdrops.  
+Income from underpaid manual labour, which may involve human body parts, but without life insurance, employment contracts or legal rights. 
+Otherwise, the invested capital may come from monetary gifts or cryptocurrency airdrops.
 
 ### Disclaimers  
 - Nothing published on this website constitutes investment, accounting, or legal advice.  
-- This blockchain-based fund and its manager do not recommend that you purchase, sell, or hold any digital token or other crypto assets.  
-- There is no intent to influence anyone in order to pursue a particular investment style or strategy.  
+- This blockchain-based fund and its manager do not recommend buying, selling or holding digital tokens or other crypto assets.
+- There is no intention to influence anyone to pursue a particular investment style or strategy.  
