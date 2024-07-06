@@ -7,7 +7,7 @@ It is recommended to send electronic messages using a GPG public key.
 ###### IMPORTANT: NOT FOR HIRE. NO REPLY GUARANTEED. BUSY UNTIL SUMMER 2024.
 
 #### Problems?
-- In case of any confusion, please click the link [HERE](https://emailselfdefense.fsf.org/en/) to learn the process of secure messaging on the Internet.   
+- In case of confusion, please click the link [HERE](https://emailselfdefense.fsf.org/en/) to learn the process of secure messaging on the Internet.   
 - If you require assistance, please click on the link [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) to access the email address uploaded to a public OpenPGP Keyserver.  
 - If you do not receive a response as quickly as you desire, please click [HERE](https://matrix.to/#/@daqhris:matrix.org) to initiate a conversation on Matrix.
 - If the above options do not satisfy you, please wait to discuss any topic in a face-to-face meeting. 
