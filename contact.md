@@ -20,7 +20,7 @@ The same key is used to digitally sign **daqhris** GitHub commits.
 #### PGP fingerprint: `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
 - Key ID: `E65F 53A3 9A2B 12E5` 
 - Download the public key .asc file from: [daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc)  
-- You may also copy the code block below:  
+- Alternatively, copy the code block below:  
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
