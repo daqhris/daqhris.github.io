@@ -1,10 +1,10 @@
 # How to get in touch?  
 ## Email
-I prioritize encrypted emails as the preferred method of contact.  
+Priority is given to encrypted emails as the preferred method of contact.  
 Standard emails may receive a slow response or be viewed as read-only.  
 It is recommended to send electronic messages using a GPG public key.  
 
-###### IMPORTANT: NOT FOR HIRE. NO REPLY GUARANTEED. BUSY UNTIL SPRING 2024.
+###### IMPORTANT: NOT FOR HIRE. NO REPLY GUARANTEED. BUSY UNTIL SUMMER 2024.
 
 #### Problems?
 - In case of any confusion, please click the link [HERE](https://emailselfdefense.fsf.org/en/) to learn the process of secure messaging on the Internet.   
@@ -15,7 +15,7 @@ It is recommended to send electronic messages using a GPG public key.
 ## Public key cryptography
 This is [Chris A. Iradukunda (@daqhris)](https://github.com/daqhris)'s PGP key.   
 Certain online communications require the use of cryptographic methods.  
-I utilize the same key to digitally sign my GitHub commits.  
+The same key is used to digitally sign **daqhris** GitHub commits.  
 
 #### PGP fingerprint: `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
 - Key ID: `E65F 53A3 9A2B 12E5` 
