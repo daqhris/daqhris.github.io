@@ -14,12 +14,12 @@ It is recommended to send electronic messages using a GPG public key.
 
 ## Public key cryptography
 This is [Chris A. Iradukunda (@daqhris)](https://github.com/daqhris)'s PGP key.   
-Certain online communications require the use of cryptographic methods.  
+Certain online communications require the use of such a cryptographic method.  
 The same key is used to digitally sign **daqhris** GitHub commits.  
 
 #### PGP fingerprint: `16DD 366B F67A 9485 4577 BA68 E65F 53A3 9A2B 12E5`  
 - Key ID: `E65F 53A3 9A2B 12E5` 
-- Please download the public key .asc file from this location: [daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc)  
+- Download the public key .asc file from: [daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc](https://daqhris.com/keys/Chris-A-Iradukunda_0x9A2B12E5.asc)  
 - You may also copy the code block below:  
 
 ```
