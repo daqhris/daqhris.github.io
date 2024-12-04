@@ -4,7 +4,7 @@ Priority is given to encrypted emails as the preferred method of contact.
 Standard emails may receive a slow response or be viewed as read-only.  
 It is recommended to send electronic messages using a GPG public key.  
 
-###### IMPORTANT: NOT FOR HIRE. NO REPLY GUARANTEED. BUSY UNTIL SUMMER 2024.
+###### IMPORTANT: NOT FOR HIRE. NO REPLY GUARANTEED. BUSY RIGHT NOW.
 
 #### Problems?
 - In case of confusion, please click the link [HERE](https://emailselfdefense.fsf.org/en/) to learn the process of secure messaging on the Internet.   
