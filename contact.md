@@ -1,7 +1,7 @@
 # How to get in touch?  
-_Last modified: [December 24, 2024](https://github.com/daqhris/daqhris.github.io/commits/master/contact.md)_
+_Last modified: [December 27, 2024](https://github.com/daqhris/daqhris.github.io/commits/master/contact.md)_
 ## Email
-~Priority is given to encrypted emails as the preferred method of contact.~  
+~~Priority is given to encrypted emails as the preferred method of contact.~~  
 Standard emails may receive a slow response or be viewed as read-only.  
 It is recommended to send electronic messages using a GPG public key.  
 
