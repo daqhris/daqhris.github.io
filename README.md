@@ -14,4 +14,4 @@ User Interface design inspiration: [Written Theme](https://www.tumblr.com/theme/
 
 Previous server hosting providers: [Tumblr](https://www.tumblr.com) and [Alibaba Cloud 阿里云](https://cn.aliyun.com).
 
-`Copyright © 2017-2024 daqhris`
+`Copyright © 2017-2025 daqhris`
