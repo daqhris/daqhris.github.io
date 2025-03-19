@@ -1,17 +1,17 @@
 # How to get in touch?  
-_Last modified: [December 27, 2024](https://github.com/daqhris/daqhris.github.io/commits/master/contact.md)_
+_Last modified: [March 19, 2025](https://github.com/daqhris/daqhris.github.io/commits/master/contact.md)_
 ## Email
 ~~Priority is given to encrypted emails as the preferred method of contact.~~  
 Standard emails may receive a slow response or be viewed as read-only.  
-It is recommended to send electronic messages using a GPG public key.  
+~~It is recommended to send electronic messages using a GPG public key.~~  
 
 ###### IMPORTANT: NOT FOR HIRE. NO REPLY GUARANTEED. BUSY RIGHT NOW.
 
 #### Problems?
-- In case of confusion, please click the link [HERE](https://emailselfdefense.fsf.org/en/) to learn the process of secure messaging on the Internet.   
-- If you require assistance, please click on the link [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) to access the email address uploaded to a public OpenPGP Keyserver.  
+~~- In case of confusion, please click the link [HERE](https://emailselfdefense.fsf.org/en/) to learn the process of secure messaging on the Internet.~~   
+~~- If you require assistance, please click on the link [HERE](https://keyserver.ubuntu.com/pks/lookup?search=0x9A2B12E5&options=mr&op=index) to access the email address uploaded to a public OpenPGP Keyserver.~~  
 - If you do not receive a response as quickly as you desire, please click [HERE](https://matrix.to/#/@daqhris:matrix.org) to initiate a conversation on Matrix.
-- If the above options do not satisfy you, please wait to discuss any topic in a face-to-face meeting. 
+- If the above option~~s~~ do not satisfy you, please wait to discuss any topic in a face-to-face meeting. 
 
 ## Public key cryptography
 This is [Chris A. Iradukunda (@daqhris)](https://github.com/daqhris)'s PGP key.   
