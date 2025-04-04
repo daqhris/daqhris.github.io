@@ -25,6 +25,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://mission-enrollment.daqhris.com/</loc>
+      <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://daqhris.com/contact/</loc>
       <changefreq>monthly</changefreq>
   <priority>0.64</priority>
