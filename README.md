@@ -1,6 +1,6 @@
 # `daqhris.com` Source Code
 
-This is [Chris A. IRADUKUNDA](https://daqhris.com)'s personal website [code repository](https://github.com/daqhris/daqhris.github.io).
+This is [Chris-Armel IRADUKUNDA](https://daqhris.com)'s personal website [code repository](https://github.com/daqhris/daqhris.github.io).
 
 This website's code is open-sourced under the [European Union Public Licence](https://raw.githubusercontent.com/daqhris/daqhris.github.io/master/LICENSE.md).
 
