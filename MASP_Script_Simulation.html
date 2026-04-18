@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MASP — Script de Simulation Théâtrale</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;700;800&family=DM+Sans:wght@400;500&display=swap');
+
+  :root {
+    --red: #D85A30;
+    --red-light: #FAECE7;
+    --red-dark: #4A1B0C;
+    --teal: #1D9E75;
+    --teal-light: #E1F5EE;
+    --teal-dark: #04342C;
+    --amber: #BA7517;
+    --amber-light: #FAEEDA;
+    --amber-dark: #412402;
+    --purple: #534AB7;
+    --purple-light: #EEEDFE;
+    --purple-dark: #26215C;
+    --blue: #185FA5;
+    --blue-light: #E6F1FB;
+    --blue-dark: #042C53;
+    --gray: #5F5E5A;
+    --gray-light: #F1EFE8;
+    --gray-dark: #2C2C2A;
+    --bg: #FAFAF8;
+    --ink: #1a1917;
+    --border: rgba(30,28,26,0.12);
+    --font-head: 'Syne', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+    --font-mono: 'DM Mono', monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--ink);
+    color: #fff;
+    padding: 2.5rem 2rem 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    top: -40px; right: -40px;
+    width: 220px; height: 220px;
+    border-radius: 50%;
+    border: 40px solid var(--red);
+    opacity: 0.25;
+  }
+  header::after {
+    content: '';
+    position: absolute;
+    bottom: -60px; left: 60px;
+    width: 160px; height: 160px;
+    border-radius: 50%;
+    border: 30px solid var(--teal);
+    opacity: 0.18;
+  }
+  .header-tag {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 0.6rem;
+    display: block;
+  }
+  header h1 {
+    font-family: var(--font-head);
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+  }
+  header p {
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    max-width: 560px;
+  }
+
+  /* ── NAV ── */
+  nav {
+    background: #fff;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    overflow-x: auto;
+    gap: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    scrollbar-width: none;
+  }
+  nav::-webkit-scrollbar { display: none; }
+  .nav-btn {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.85rem 1.1rem;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--gray);
+    white-space: nowrap;
+    border-bottom: 2.5px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .nav-btn:hover { color: var(--ink); }
+  .nav-btn.active { color: var(--ink); border-bottom-color: var(--red); }
+
+  /* ── SECTIONS ── */
+  .section { display: none; padding: 2rem; max-width: 860px; margin: 0 auto; }
+  .section.active { display: block; }
+
+  h2 {
+    font-family: var(--font-head);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1.2rem;
+    color: var(--ink);
+  }
+  h3 {
+    font-family: var(--font-head);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    color: var(--ink);
+  }
+  p { margin-bottom: 0.9rem; }
+
+  .intro-box {
+    background: var(--teal-light);
+    border-left: 4px solid var(--teal);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+    color: var(--teal-dark);
+  }
+  .intro-box strong { color: var(--teal-dark); }
+
+  .amend-box {
+    background: var(--amber-light);
+    border-left: 4px solid var(--amber);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin-top: 1rem;
+    font-size: 13.5px;
+    color: var(--amber-dark);
+  }
+  .amend-box strong { color: var(--amber-dark); }
+  .amend-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--amber);
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+
+  /* ── ROLE CARDS ── */
+  .role-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .role-card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .role-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+  }
+  .role-card.rouge::before { background: var(--red); }
+  .role-card.vert::before { background: var(--teal); }
+  .role-card.bleu::before { background: var(--blue); }
+  .role-card.violet::before { background: var(--purple); }
+  .role-card.amber::before { background: var(--amber); }
+  .role-card.gris::before { background: var(--gray); }
+
+  .role-badge {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+  }
+  .rouge .role-badge { background: var(--red-light); color: var(--red-dark); }
+  .vert .role-badge { background: var(--teal-light); color: var(--teal-dark); }
+  .bleu .role-badge { background: var(--blue-light); color: var(--blue-dark); }
+  .violet .role-badge { background: var(--purple-light); color: var(--purple-dark); }
+  .amber .role-badge { background: var(--amber-light); color: var(--amber-dark); }
+  .gris .role-badge { background: var(--gray-light); color: var(--gray-dark); }
+
+  .role-name {
+    font-family: var(--font-head);
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin-bottom: 0.2rem;
+  }
+  .role-title {
+    font-size: 13px;
+    color: var(--gray);
+    margin-bottom: 0.8rem;
+  }
+  .role-tasks {
+    list-style: none;
+    font-size: 13px;
+  }
+  .role-tasks li {
+    padding: 3px 0;
+    padding-left: 1.1rem;
+    position: relative;
+  }
+  .role-tasks li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--gray);
+    font-size: 11px;
+  }
+
+  /* ── SCENE CARDS ── */
+  .scene {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: #fff;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+  }
+  .scene-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.2rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--gray-light);
+  }
+  .scene-num {
+    font-family: var(--font-head);
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 1;
+    color: rgba(0,0,0,0.12);
+    min-width: 2.8rem;
+  }
+  .scene-meta { flex: 1; }
+  .scene-time {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--gray);
+    letter-spacing: 0.06em;
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+  .scene-title {
+    font-family: var(--font-head);
+    font-size: 1.1rem;
+    font-weight: 800;
+  }
+  .scene-who {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 0.5rem;
+  }
+  .who-tag {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.07em;
+    padding: 2px 8px;
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid var(--border);
+    color: var(--gray);
+  }
+  .scene-body { padding: 1.2rem 1.5rem; }
+
+  .dialogue {
+    margin-bottom: 1rem;
+  }
+  .dialogue-who {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 0.25rem;
+  }
+  .dialogue-line {
+    background: var(--gray-light);
+    border-radius: 8px;
+    padding: 0.65rem 1rem;
+    font-size: 14px;
+    line-height: 1.55;
+    border-left: 3px solid transparent;
+    white-space: pre-wrap;
+  }
+  .dialogue-line.alex { border-left-color: var(--red); }
+  .dialogue-line.sam { border-left-color: var(--teal); }
+  .dialogue-line.fatou { border-left-color: var(--purple); }
+  .dialogue-line.mohamed { border-left-color: var(--blue); }
+  .dialogue-line.claire { border-left-color: var(--amber); }
+  .dialogue-line.rania { border-left-color: #E24B4A; }
+  .dialogue-line.narrateur {
+    background: var(--ink);
+    color: #fff;
+    border-left-color: #fff;
+    font-style: italic;
+    font-size: 13px;
+  }
+
+  .action-note {
+    font-size: 13px;
+    color: var(--gray);
+    font-style: italic;
+    padding: 0.4rem 0;
+    border-top: 1px dashed var(--border);
+    margin-top: 0.8rem;
+    padding-top: 0.8rem;
+  }
+  .action-note::before { content: '[ '; }
+  .action-note::after { content: ' ]'; }
+
+  .checklist {
+    list-style: none;
+    margin: 0.8rem 0;
+  }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 0.35rem 0;
+    font-size: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .checklist li:last-child { border-bottom: none; }
+  .check-box {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--border);
+    border-radius: 4px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background: #fff;
+  }
+
+  /* ── EVENT CARDS ── */
+  .event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .event-card {
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    font-size: 14px;
+  }
+  .event-card.rouge { background: var(--red-light); border: 1px solid rgba(216,90,48,0.25); }
+  .event-card.amber { background: var(--amber-light); border: 1px solid rgba(186,117,23,0.25); }
+  .event-card.bleu { background: var(--blue-light); border: 1px solid rgba(24,95,165,0.25); }
+  .event-card.vert { background: var(--teal-light); border: 1px solid rgba(29,158,117,0.25); }
+  .event-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  .rouge .event-label { color: var(--red); }
+  .amber .event-label { color: var(--amber); }
+  .bleu .event-label { color: var(--blue); }
+  .vert .event-label { color: var(--teal); }
+  .event-card h4 {
+    font-family: var(--font-head);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .rouge .event-card h4, .rouge h4 { color: var(--red-dark); }
+  .amber .event-card h4, .amber h4 { color: var(--amber-dark); }
+  .bleu .event-card h4, .bleu h4 { color: var(--blue-dark); }
+  .vert .event-card h4, .vert h4 { color: var(--teal-dark); }
+  .event-card p { margin-bottom: 0; font-size: 13.5px; }
+
+  /* ── AMENDMENTS ── */
+  .amend-list { list-style: none; margin: 0; }
+  .amend-item {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: #fff;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  .amend-item-head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .amend-num {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: rgba(0,0,0,0.1);
+    min-width: 2rem;
+  }
+  .amend-type {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 20px;
+    background: var(--amber-light);
+    color: var(--amber-dark);
+    margin-right: auto;
+  }
+  .amend-type.nouveau { background: var(--teal-light); color: var(--teal-dark); }
+  .amend-type.clarif { background: var(--blue-light); color: var(--blue-dark); }
+  .amend-item h4 {
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .amend-item-body {
+    padding: 1rem 1.25rem;
+    font-size: 14px;
+  }
+  .amend-item-body p { margin-bottom: 0.6rem; }
+  .amend-item-body p:last-child { margin-bottom: 0; }
+  .charter-quote {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--gray);
+    background: var(--gray-light);
+    border-radius: 6px;
+    padding: 0.5rem 0.8rem;
+    margin: 0.5rem 0;
+  }
+  .proposed-text {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    background: var(--teal-light);
+    color: var(--teal-dark);
+    border-radius: 6px;
+    padding: 0.5rem 0.8rem;
+    margin: 0.5rem 0;
+  }
+
+  /* ── TIMELINE ── */
+  .timeline { position: relative; padding-left: 2rem; margin-bottom: 1.5rem; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0.55rem;
+    top: 0.4rem;
+    bottom: 0.4rem;
+    width: 2px;
+    background: var(--border);
+  }
+  .tl-item {
+    position: relative;
+    margin-bottom: 1.1rem;
+    padding-left: 0.5rem;
+  }
+  .tl-dot {
+    position: absolute;
+    left: -1.85rem;
+    top: 0.35rem;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid var(--border);
+  }
+  .tl-dot.active { background: var(--red); border-color: var(--red); }
+  .tl-time {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--gray);
+    letter-spacing: 0.06em;
+    display: block;
+    margin-bottom: 0.1rem;
+  }
+  .tl-title { font-weight: 500; font-size: 14px; }
+  .tl-note { font-size: 13px; color: var(--gray); }
+
+  /* ── DECOR (space setup) ── */
+  .space-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  .space-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+    background: #fff;
+    font-size: 13.5px;
+  }
+  .space-card .space-icon {
+    font-size: 20px;
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+  .space-card h4 {
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+  }
+  .space-card p { margin: 0; color: var(--gray); font-size: 13px; }
+
+  /* ── DEBRIEF ── */
+  .debrief-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (max-width: 600px) { .debrief-grid { grid-template-columns: 1fr; } }
+  .debrief-col {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    background: #fff;
+  }
+  .debrief-col h4 {
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .dot-vert { width: 10px; height: 10px; border-radius: 50%; background: var(--teal); display: inline-block; }
+  .dot-rouge { width: 10px; height: 10px; border-radius: 50%; background: var(--red); display: inline-block; }
+  .debrief-col ul {
+    list-style: none;
+    font-size: 13.5px;
+  }
+  .debrief-col ul li {
+    padding: 0.3rem 0;
+    border-bottom: 1px solid var(--border);
+    padding-left: 1rem;
+    position: relative;
+  }
+  .debrief-col ul li:last-child { border-bottom: none; }
+  .debrief-col ul li::before { content: '—'; position: absolute; left: 0; color: var(--gray); }
+
+  .big-note {
+    background: var(--ink);
+    color: #fff;
+    border-radius: 12px;
+    padding: 1.5rem 1.75rem;
+    margin-bottom: 1.5rem;
+    font-size: 15px;
+  }
+  .big-note h3 { color: var(--red); margin-bottom: 0.6rem; font-size: 1rem; letter-spacing: 0.05em; }
+
+  footer {
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--gray);
+    padding: 2rem;
+    border-top: 1px solid var(--border);
+    letter-spacing: 0.05em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="header-tag">Script de simulation théâtrale · Version 1.0</span>
+  <h1>Une permanence<br>de la MASP</h1>
+  <p>Mutuelle Autogérée des Sans Papiers — Bruxelles. Document de jeu de rôle participatif pour former les membres et tester le fonctionnement collectif. Premier vendredi du mois, 18h–21h.</p>
+</header>
+
+<nav id="nav">
+  <button class="nav-btn active" onclick="show('intro')">Préambule</button>
+  <button class="nav-btn" onclick="show('personnages')">Personnages</button>
+  <button class="nav-btn" onclick="show('decor')">Mise en scène</button>
+  <button class="nav-btn" onclick="show('deroulement')">Déroulement</button>
+  <button class="nav-btn" onclick="show('scenes')">Les scènes</button>
+  <button class="nav-btn" onclick="show('evenements')">Cartes-événement</button>
+  <button class="nav-btn" onclick="show('cloture')">Clôture</button>
+  <button class="nav-btn" onclick="show('amendements')">Amendements</button>
+</nav>
+
+<!-- ──────────────────────────────────────────── PRÉAMBULE -->
+<section class="section active" id="intro">
+  <h2>Préambule — Comment utiliser ce script</h2>
+
+  <div class="intro-box">
+    <strong>Ce document est un outil vivant.</strong> Il simule une vraie permanence de la MASP de 18h à 21h, avec des personnages joués par des membres réels. Le but n'est pas de faire du théâtre parfait, mais de <em>rendre visibles les forces et les fragilités</em> du système avant d'en avoir besoin pour de vrai.
+  </div>
+
+  <h3>Principes de la simulation</h3>
+  <p>Ce script emprunte des techniques du <strong>jeu de rôle en direct (LARP)</strong>, du <strong>théâtre forum</strong> (Augusto Boal) et des <strong>exercices de prospective coopérative</strong>. Chaque participant joue un personnage fictif, mais les règles, l'argent et les décisions simulées suivent <em>exactement la charte réelle</em> de la MASP.</p>
+
+  <ul class="checklist">
+    <li><span class="check-box"></span>Lire la charte avant la simulation</li>
+    <li><span class="check-box"></span>Distribuer les fiches-personnage (section Personnages)</li>
+    <li><span class="check-box"></span>Préparer le décor (section Mise en scène)</li>
+    <li><span class="check-box"></span>Désigner un·e Narrateur·rice hors-jeu, qui guide et observe</li>
+    <li><span class="check-box"></span>Avoir les Cartes-événement en pile face cachée</li>
+    <li><span class="check-box"></span>Filmer si possible (guide vidéo pour les futures permanences)</li>
+  </ul>
+
+  <h3 style="margin-top:1.5rem;">Le rôle du Narrateur·rice</h3>
+  <p>Une personne reste hors-jeu pendant toute la simulation. Elle porte un signe distinctif (brassard, casquette…). Elle peut <strong>mettre la simulation sur pause</strong> à tout moment pour discuter d'une situation confuse, corriger une erreur de règle, ou tirer une Carte-événement. Elle n'a pas de répliques : elle facilite.</p>
+
+  <h3 style="margin-top:1.5rem;">Conventions de langage</h3>
+  <p>Quand le Narrateur·rice dit <strong>"En jeu"</strong> : la simulation reprend.<br>
+  Quand il·elle dit <strong>"Hors-jeu"</strong> : on sort du personnage pour discuter librement.<br>
+  Quand un·e joueur·euse est bloqué·e, il·elle lève la main et dit <strong>"Pause"</strong>.</p>
+
+  <div class="amend-box">
+    <span class="amend-label">Note de mise en scène</span>
+    <strong>Langage simple, indices visuels.</strong> Toutes les répliques sont écrites en français courant, sans jargon administratif. Pour la vidéo : filmer en plan rapproché les gestes concrets (montrer une preuve de paiement, pointer le fichier Excel, signer une inscription). Ces gestes sont aussi importants que les mots.
+  </div>
+</section>
+
+<!-- ──────────────────────────────────────────── PERSONNAGES -->
+<section class="section" id="personnages">
+  <h2>Les personnages</h2>
+
+  <div class="intro-box">
+    Chaque personnage dispose d'une <strong>fiche-rôle</strong> à imprimer ou à afficher sur téléphone. Les prénoms sont fictifs et peuvent être changés. Les rôles reflètent des situations réelles que la MASP rencontrera.
+  </div>
+
+  <div class="role-grid">
+
+    <div class="role-card rouge">
+      <span class="role-badge">Permanence</span>
+      <div class="role-name">Alex</div>
+      <div class="role-title">Animateur·rice A — Accueil &amp; remboursements</div>
+      <ul class="role-tasks">
+        <li>Accueille les personnes à l'entrée</li>
+        <li>Vérifie les cotisations dans le fichier Excel</li>
+        <li>Traite les demandes de remboursement</li>
+        <li>Effectue ou enregistre les paiements</li>
+        <li>Signale les situations difficiles à Rania</li>
+      </ul>
+    </div>
+
+    <div class="role-card vert">
+      <span class="role-badge">Permanence</span>
+      <div class="role-name">Sam</div>
+      <div class="role-title">Animateur·rice B — Inscriptions &amp; information</div>
+      <ul class="role-tasks">
+        <li>Prend en charge les nouvelles personnes</li>
+        <li>Explique la MASP et l'AMU</li>
+        <li>Inscrit les nouveaux membres dans le fichier</li>
+        <li>Oriente vers Medimmigrant si besoin</li>
+        <li>Prend les notes de la permanence</li>
+      </ul>
+    </div>
+
+    <div class="role-card violet">
+      <span class="role-badge">Bénéficiaire</span>
+      <div class="role-name">Fatou</div>
+      <div class="role-title">Membre établi·e — Demande de remboursement</div>
+      <ul class="role-tasks">
+        <li>Membre depuis 4 mois, cotisations à jour</li>
+        <li>Apporte une ordonnance et le reçu de pharmacie</li>
+        <li>Médicaments non remboursés par l'AMU : 22€</li>
+        <li>Stage d'attente écoulé (1 mois)</li>
+        <li>Parle peu français, à l'aise si on parle lentement</li>
+      </ul>
+    </div>
+
+    <div class="role-card bleu">
+      <span class="role-badge">Bénéficiaire</span>
+      <div class="role-name">Mohamed</div>
+      <div class="role-title">Nouveau·elle venu·e — Première visite</div>
+      <ul class="role-tasks">
+        <li>Sans papiers, vient pour la première fois</li>
+        <li>A entendu parler de la MASP par un ami</li>
+        <li>Ne connaît pas l'AMU</li>
+        <li>A un enfant de 8 ans à charge</li>
+        <li>Veut s'inscrire et comprendre ses droits</li>
+      </ul>
+    </div>
+
+    <div class="role-card amber">
+      <span class="role-badge">Soutien</span>
+      <div class="role-name">Claire</div>
+      <div class="role-title">Alliée solidaire — Cotisation &amp; don</div>
+      <ul class="role-tasks">
+        <li>Cotise 15€/mois, ne bénéficie pas des remboursements</li>
+        <li>Vient faire un don ponctuel de 50€</li>
+        <li>Pose des questions sur l'état des finances</li>
+        <li>Voudrait aider à tenir une prochaine permanence</li>
+      </ul>
+    </div>
+
+    <div class="role-card rouge">
+      <span class="role-badge">Comité de gestion</span>
+      <div class="role-name">Rania</div>
+      <div class="role-title">Membre du comité — Cas exceptionnels</div>
+      <ul class="role-tasks">
+        <li>Présente ce soir pour un cas urgent</li>
+        <li>Étudie les situations particulières</li>
+        <li>Peut autoriser un remboursement exceptionnel</li>
+        <li>Prépare l'ordre du jour de la prochaine AG</li>
+        <li>Surveille l'état du fonds</li>
+      </ul>
+    </div>
+
+    <div class="role-card gris">
+      <span class="role-badge">Cas difficile</span>
+      <div class="role-name">Karim</div>
+      <div class="role-title">Bénéficiaire en difficulté — Cotisation en retard</div>
+      <ul class="role-tasks">
+        <li>Membre depuis 6 mois, mais n'a pas cotisé depuis 2 mois</li>
+        <li>Situation financière très précaire</li>
+        <li>Besoin urgent de médicaments (75€)</li>
+        <li>Veut savoir s'il peut quand même être remboursé</li>
+      </ul>
+    </div>
+
+    <div class="role-card gris">
+      <span class="role-badge">Optionnel</span>
+      <div class="role-name">Dr. Keita</div>
+      <div class="role-title">Professionnel·le de santé — Collaborateur·rice potentiel·le</div>
+      <ul class="role-tasks">
+        <li>Médecin conventionné·e, veut collaborer avec la MASP</li>
+        <li>Propose de venir aux permanences un soir par mois</li>
+        <li>Questions sur la confidentialité et l'anonymat</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="amend-box">
+    <span class="amend-label">Amendement suggéré A1</span>
+    <strong>La charte ne définit pas les responsabilités précises des animateur·rices de permanence.</strong> Une fiche de poste courte (comme ces fiches-rôle) devrait être ajoutée en annexe de la charte, pour que chaque rotation de permanence soit autonome dès le premier jour.
+  </div>
+</section>
+
+<!-- ──────────────────────────────────────────── DÉCOR -->
+<section class="section" id="decor">
+  <h2>Mise en scène — Préparer l'espace</h2>
+
+  <div class="intro-box">
+    La permanence se tient chaque premier vendredi du mois de 18h à 21h. L'espace peut être une occupation, une maison médicale, un local collectif. Voici comment l'organiser pour que tout le monde s'y retrouve facilement.
+  </div>
+
+  <div class="space-grid">
+    <div class="space-card">
+      <span class="space-icon">🚪</span>
+      <h4>Zone Accueil</h4>
+      <p>Une table près de l'entrée. Alex y est assis·e. Affiche de bienvenue visible. Liste d'émargement.</p>
+    </div>
+    <div class="space-card">
+      <span class="space-icon">💻</span>
+      <h4>Zone Remboursements</h4>
+      <p>Ordinateur ou tablette avec le fichier Excel partagé (anonymisé). Calculatrice. Bordereau de reçus.</p>
+    </div>
+    <div class="space-card">
+      <span class="space-icon">📋</span>
+      <h4>Zone Inscriptions</h4>
+      <p>Sam y accueille les nouveau·elles. Formulaire d'inscription papier. Brochure AMU (Medimmigrant).</p>
+    </div>
+    <div class="space-card">
+      <span class="space-icon">🪑</span>
+      <h4>Zone Attente/Discussion</h4>
+      <p>Quelques chaises en cercle. Espace informel pour échanger, se soutenir, s'informer.</p>
+    </div>
+    <div class="space-card">
+      <span class="space-icon">📌</span>
+      <h4>Affichage mural</h4>
+      <p>Charte simplifiée. Liste de ce qui est remboursé. Contacts utiles (AMU, Medimmigrant). QR code vers informations.</p>
+    </div>
+    <div class="space-card">
+      <span class="space-icon">🃏</span>
+      <h4>Cartes-événement</h4>
+      <p>Pile face cachée sur une table annexe. Le Narrateur·rice les tire à intervalles pendant la simulation.</p>
+    </div>
+  </div>
+
+  <h3>Ce qu'Alex prépare avant 18h</h3>
+  <ul class="checklist">
+    <li><span class="check-box"></span>Ouvrir le fichier Excel partagé et vérifier qu'il est à jour</li>
+    <li><span class="check-box"></span>Vérifier le solde du compte bancaire</li>
+    <li><span class="check-box"></span>Préparer la petite caisse si des remboursements cash sont prévus</li>
+    <li><span class="check-box"></span>Apposer les affichages dans la salle</li>
+    <li><span class="check-box"></span>Contacter Rania pour signaler les cas connus à l'avance</li>
+  </ul>
+
+  <h3 style="margin-top:1.5rem;">Ce que Sam prépare avant 18h</h3>
+  <ul class="checklist">
+    <li><span class="check-box"></span>Imprimer ou télécharger les formulaires d'inscription</li>
+    <li><span class="check-box"></span>Avoir la brochure ou le lien Medimmigrant à portée</li>
+    <li><span class="check-box"></span>Préparer le cahier de notes de permanence</li>
+    <li><span class="check-box"></span>Vérifier qui est attendu ce soir (liste prévisionnelle)</li>
+  </ul>
+
+  <div class="amend-box">
+    <span class="amend-label">Amendement suggéré A2</span>
+    <strong>Ajouter à la charte une "checklist d'ouverture de permanence"</strong> — une liste courte et visuelle que les animateur·rices consultent 30 minutes avant l'ouverture. Cela réduit la dépendance à la mémoire individuelle et permet à n'importe quel·le nouveau·elle animateur·rice de tenir une permanence sans formation longue.
+  </div>
+</section>
+
+<!-- ──────────────────────────────────────────── DÉROULEMENT -->
+<section class="section" id="deroulement">
+  <h2>Déroulement — Vue d'ensemble</h2>
+
+  <div class="intro-box">
+    Une permanence dure 3 heures. Voici le fil conducteur de la soirée. Les scènes détaillées sont dans la section suivante.
+  </div>
+
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot active"></div>
+      <span class="tl-time">17h30 — 18h00</span>
+      <div class="tl-title">Préparation de l'espace</div>
+      <div class="tl-note">Alex et Sam installent la salle, vérifient le fichier, comptent la caisse.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot active"></div>
+      <span class="tl-time">18h00 — 18h15</span>
+      <div class="tl-title">Scène 0 · Ouverture — Accueil des premières personnes</div>
+      <div class="tl-note">Présentation du déroulement, règles de la permanence, tour de table.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot active"></div>
+      <span class="tl-time">18h15 — 18h45</span>
+      <div class="tl-title">Scène 1 · Remboursement standard (Fatou)</div>
+      <div class="tl-note">Vérification des cotisations, contrôle du stage, remboursement de médicaments.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot active"></div>
+      <span class="tl-time">18h45 — 19h15</span>
+      <div class="tl-title">Scène 2 · Nouvelle inscription (Mohamed)</div>
+      <div class="tl-note">Présentation de la MASP, explication de l'AMU, inscription, cotisation.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot active"></div>
+      <span class="tl-time">19h15 — 19h45</span>
+      <div class="tl-title">Scène 3 · Cas difficile (Karim — cotisation en retard)</div>
+      <div class="tl-note">Discussion, consultation du comité, décision exceptionnelle ou report.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot active"></div>
+      <span class="tl-time">19h45 — 20h15</span>
+      <div class="tl-title">Scène 4 · Soutien et don (Claire)</div>
+      <div class="tl-note">Don ponctuel, point financier partagé, Claire veut s'impliquer davantage.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <span class="tl-time">20h15 — 20h45</span>
+      <div class="tl-title">Scène 5 · Professionnel·le de santé (Dr. Keita) — optionnel</div>
+      <div class="tl-note">Discussion sur une collaboration future, questions pratiques.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <span class="tl-time">20h45 — 21h00</span>
+      <div class="tl-title">Clôture — Bilan et annonces</div>
+      <div class="tl-note">Résumé de la soirée, prochaine permanence, prochaine AG, notes dans le fichier.</div>
+    </div>
+  </div>
+
+  <p><strong>Pour la simulation :</strong> le Narrateur·rice peut choisir de jouer les scènes dans l'ordre, ou de tirer une Carte-événement entre chaque scène pour ajouter de l'imprévu. Il·elle peut aussi décider de rejouer une scène si elle s'est mal passée — c'est l'avantage de la simulation.</p>
+</section>
+
+<!-- ──────────────────────────────────────────── SCÈNES -->
+<section class="section" id="scenes">
+  <h2>Les scènes</h2>
+
+  <!-- SCÈNE 0 -->
+  <div class="scene">
+    <div class="scene-header">
+      <div class="scene-num">0</div>
+      <div class="scene-meta">
+        <span class="scene-time">18h00 · Ouverture</span>
+        <div class="scene-title">Accueil et présentation de la soirée</div>
+        <div class="scene-who">
+          <span class="who-tag">Alex</span>
+          <span class="who-tag">Sam</span>
+          <span class="who-tag">Personnes présentes</span>
+        </div>
+      </div>
+    </div>
+    <div class="scene-body">
+
+      <div class="dialogue">
+        <div class="dialogue-who">Narrateur·rice (hors-jeu, au groupe)</div>
+        <div class="dialogue-line narrateur">La simulation commence. Nous sommes le premier vendredi du mois. Il est 18h. Alex et Sam ouvrent la porte. En jeu !</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Alex</div>
+        <div class="dialogue-line alex">Bienvenue à la permanence de la MASP ! Entrez, installez-vous. Ce soir on est là jusqu'à 21h. Si vous venez pour un remboursement, approchez-vous de cette table. Si vous venez pour la première fois ou si vous avez des questions, Sam peut vous aider là-bas.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Sam (en aparté à Alex, montrant la liste)</div>
+        <div class="dialogue-line sam">J'ai vérifié le fichier ce matin. On a 14 membres actifs, 11 à jour de cotisation. Karim et deux autres ont du retard. Le solde est à 1 840€.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Alex (à voix basse)</div>
+        <div class="dialogue-line alex">Ok. Si Karim vient, on le traite avec bienveillance mais on ne peut pas rembourser sans cotisation à jour. On verra avec Rania si c'est urgent.</div>
+      </div>
+
+      <div class="action-note">Alex et Sam prennent leurs postes. La salle s'anime doucement.</div>
+    </div>
+  </div>
+
+  <!-- SCÈNE 1 -->
+  <div class="scene">
+    <div class="scene-header">
+      <div class="scene-num">1</div>
+      <div class="scene-meta">
+        <span class="scene-time">18h15 · Remboursement standard</span>
+        <div class="scene-title">Fatou — médicaments non remboursés par l'AMU</div>
+        <div class="scene-who">
+          <span class="who-tag">Alex</span>
+          <span class="who-tag">Fatou</span>
+        </div>
+      </div>
+    </div>
+    <div class="scene-body">
+
+      <div class="dialogue">
+        <div class="dialogue-who">Fatou (s'approche de la table d'Alex avec une enveloppe)</div>
+        <div class="dialogue-line fatou">Bonsoir. Je viens pour… les médicaments. J'ai le papier.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Alex (souriant·e)</div>
+        <div class="dialogue-line alex">Bonsoir Fatou ! Bienvenue. Vous pouvez me montrer votre preuve de paiement ? L'ordonnance et le reçu de la pharmacie, si vous les avez.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Fatou (sort les documents)</div>
+        <div class="dialogue-line fatou">Voilà. La pharmacienne m'a dit que l'AMU ne rembourse pas ça. J'ai payé 22 euros.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Alex (vérifie le fichier Excel)</div>
+        <div class="dialogue-line alex">Parfait. Je vérifie vos cotisations… Vous êtes membre depuis 4 mois, vos cotisations sont bien à jour. Le médicament est sur ordonnance et n'est pas remboursé par l'AMU — donc la MASP peut rembourser. Je vous prépare ça.
+
+[Alex note le remboursement dans le fichier : date, montant, type de soin — sans inscrire le nom, seulement un identifiant anonyme]</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Fatou</div>
+        <div class="dialogue-line fatou">Merci. Est-ce que je peux avoir l'argent ce soir ou par virement ?</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Alex</div>
+        <div class="dialogue-line alex">On préfère les virements — c'est plus sûr et plus transparent. Vous avez un compte Nickel ou un autre compte ? Je peux faire le virement maintenant si vous me donnez votre IBAN, ou bien vous l'envoyez par message après la permanence.</div>
+      </div>
+
+      <div class="action-note">Remboursement enregistré. Alex confirme la transaction à Fatou par écrit (petit bordereau simple). Durée idéale de la scène : 8 à 12 minutes.</div>
+
+      <div class="amend-box">
+        <span class="amend-label">Point de vigilance charte</span>
+        <strong>La charte dit "les remboursements se font sur présentation d'une preuve de paiement"</strong> mais ne précise pas si une photo de reçu suffit ou si l'original est obligatoire. Suggestion : accepter la photo si elle est lisible, noter la recommandation dans la charte.
+      </div>
+    </div>
+  </div>
+
+  <!-- SCÈNE 2 -->
+  <div class="scene">
+    <div class="scene-header">
+      <div class="scene-num">2</div>
+      <div class="scene-meta">
+        <span class="scene-time">18h45 · Nouvelle inscription</span>
+        <div class="scene-title">Mohamed — première visite, avec un enfant à charge</div>
+        <div class="scene-who">
+          <span class="who-tag">Sam</span>
+          <span class="who-tag">Mohamed</span>
+        </div>
+      </div>
+    </div>
+    <div class="scene-body">
+
+      <div class="dialogue">
+        <div class="dialogue-who">Mohamed (entre, un peu hésitant)</div>
+        <div class="dialogue-line mohamed">Bonjour… Un ami m'a dit que je pouvais venir ici. Pour la santé. Je ne suis pas sûr si c'est pour moi.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Sam (se lève, tend la main)</div>
+        <div class="dialogue-line sam">Bienvenue ! Vous êtes au bon endroit. Installez-vous, je vais tout vous expliquer. La MASP, c'est une caisse solidaire pour les personnes sans papiers à Bruxelles. Vous avez des papiers européens ?</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Mohamed</div>
+        <div class="dialogue-line mohamed">Non. Je suis ici depuis deux ans. J'ai un fils, il a 8 ans.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Sam</div>
+        <div class="dialogue-line sam">Alors la MASP peut vous aider. Voilà comment ça marche simplement :
+
+Premièrement — l'État belge a une aide médicale pour les sans-papiers. Ça s'appelle l'AMU — l'Aide Médicale Urgente. Vous devez la demander à votre CPAS. La MASP vous aide en plus de l'AMU, pour ce que l'AMU ne rembourse pas.
+
+Deuxièmement — pour être membre, vous cotisez 5€ par mois. Comme vous avez un enfant à charge, c'est toujours 5€ pour vous et votre fils. Pas plus.
+
+Troisièmement — après 1 mois de cotisation, vous pouvez demander vos premiers remboursements.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Mohamed</div>
+        <div class="dialogue-line mohamed">Et si je n'ai pas encore l'AMU ? Je ne l'ai pas encore demandée.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Sam (sort la brochure Medimmigrant)</div>
+        <div class="dialogue-line sam">Pas de problème. Voici un document qui explique comment demander l'AMU à votre CPAS. C'est votre droit. Si le CPAS refuse ou vous dit que vous n'y avez pas droit, vous pouvez appeler Medimmigrant — le numéro est là. Vous voulez qu'on vous inscrive à la MASP ce soir ?</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Mohamed</div>
+        <div class="dialogue-line mohamed">Oui. Comment je fais pour la cotisation ?</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Sam</div>
+        <div class="dialogue-line sam">Vous faites un virement de 5€ par mois sur ce numéro de compte. [montre le RIB de la MASP] Vous pouvez utiliser un compte Nickel si vous n'avez pas de compte bancaire classique. Je vous inscris dans notre liste — votre prénom seulement, anonymisé ensuite. C'est parti !</div>
+      </div>
+
+      <div class="action-note">Sam remplit le formulaire d'inscription avec Mohamed. La scène se termine par une poignée de main et Mohamed qui repart avec la brochure AMU. Durée idéale : 15 minutes.</div>
+
+      <div class="amend-box">
+        <span class="amend-label">Amendement suggéré A3</span>
+        <strong>La charte ne prévoit pas de système de parrainage.</strong> Suggérer : chaque nouveau membre peut être accompagné par un membre existant ("référent·e") pendant les 3 premiers mois, pour l'aider à comprendre la MASP, à faire sa première demande de remboursement, à naviguer avec l'AMU. Cela réduit la charge sur les animateur·rices de permanence.
+      </div>
+    </div>
+  </div>
+
+  <!-- SCÈNE 3 -->
+  <div class="scene">
+    <div class="scene-header">
+      <div class="scene-num">3</div>
+      <div class="scene-meta">
+        <span class="scene-time">19h15 · Cas difficile</span>
+        <div class="scene-title">Karim — membre en retard de cotisation, besoin urgent</div>
+        <div class="scene-who">
+          <span class="who-tag">Alex</span>
+          <span class="who-tag">Karim</span>
+          <span class="who-tag">Rania</span>
+        </div>
+      </div>
+    </div>
+    <div class="scene-body">
+
+      <div class="dialogue">
+        <div class="dialogue-who">Karim (entre, l'air fatigué)</div>
+        <div class="dialogue-line alex">Bonsoir. Je suis là… j'ai des médicaments à payer, c'est urgent. 75 euros. Je sais que j'ai du retard dans mes cotisations, mais je ne pouvais pas payer ces deux derniers mois. J'avais rien.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Alex (vérifie le fichier, avec bienveillance)</div>
+        <div class="dialogue-line alex">Karim, je vous entends. Je vois dans le fichier que vous n'avez pas cotisé en mars et en avril. La règle de la MASP est qu'il faut être à jour pour être remboursé — c'est pour que la caisse reste viable pour tout le monde.
+
+Mais je ne veux pas décider seul·e ici. Je vais appeler Rania, elle est du comité de gestion. C'est elle qui peut étudier les situations exceptionnelles.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Rania (s'approche de la table)</div>
+        <div class="dialogue-line rania">Bonsoir Karim. Racontez-moi votre situation.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Karim</div>
+        <div class="dialogue-line fatou">J'ai perdu mon travail au noir en février. Depuis je n'ai presque rien. Les 75 euros de médicaments, c'est pour mon traitement chronique. Si je n'ai pas les médicaments, je ne peux pas travailler quand j'aurai du travail.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Rania (réfléchit à voix haute)</div>
+        <div class="dialogue-line rania">Le comité peut décider d'un remboursement partiel ou total dans les situations urgentes. C'est dans notre rôle. Voilà ma proposition : on rembourse vos médicaments ce soir, à hauteur de ce que la MASP peut — disons 50% soit 37,50€. Et on met en place un plan de rattrapage pour vos cotisations : 5€ le mois prochain, et vous régularisez au rythme que vous pouvez sur 4 mois. Est-ce que ça vous convient ?</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Karim (soulagé)</div>
+        <div class="dialogue-line alex">Oui. Merci. Je ferai mon possible.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Rania (à Alex)</div>
+        <div class="dialogue-line rania">Note-le dans le fichier comme "remboursement exceptionnel partiel, décision comité". Je mettrai ça à l'ordre du jour de la prochaine AG pour information.</div>
+      </div>
+
+      <div class="action-note">La scène illustre à la fois la limite de la règle (cotisation à jour) et la flexibilité humaine du comité. Moment clé pour la vidéo : montrer comment on consulte la bonne personne plutôt que de décider seul·e. Durée idéale : 15 à 20 minutes.</div>
+
+      <div class="amend-box">
+        <span class="amend-label">Amendement suggéré A4</span>
+        <strong>La charte ne définit pas ce qui se passe quand un membre ne peut plus payer.</strong> Ajouter une procédure claire : après 2 mois sans cotisation, l'animateur·rice de permanence contacte le membre (via WhatsApp ou Signal) pour comprendre la situation et le signaler au comité. Le comité peut proposer un plan de rattrapage, une suspension temporaire ou un remboursement exceptionnel, selon le cas.
+      </div>
+    </div>
+  </div>
+
+  <!-- SCÈNE 4 -->
+  <div class="scene">
+    <div class="scene-header">
+      <div class="scene-num">4</div>
+      <div class="scene-meta">
+        <span class="scene-time">19h45 · Soutien et finances</span>
+        <div class="scene-title">Claire — don ponctuel et bilan financier</div>
+        <div class="scene-who">
+          <span class="who-tag">Sam</span>
+          <span class="who-tag">Claire</span>
+        </div>
+      </div>
+    </div>
+    <div class="scene-body">
+
+      <div class="dialogue">
+        <div class="dialogue-who">Claire (arrive avec entrain)</div>
+        <div class="dialogue-line claire">Bonsoir ! Je voulais faire un don ce soir — 50 euros pour le fonds de réserve. Et je voulais aussi vous dire que je suis disponible pour tenir une permanence le mois prochain si vous avez besoin.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Sam</div>
+        <div class="dialogue-line sam">Super, merci ! Pour le don, c'est un virement sur le même compte ? [Claire confirme] Parfait, note-le comme "don ponctuel Claire — fonds réserve". Pour la permanence, je transmets ton contact à Rania qui coordonne les rotations. Tu as bien lu les règles de fonctionnement ?</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Claire</div>
+        <div class="dialogue-line claire">J'ai lu la charte, oui. Je voulais juste vous demander : est-ce qu'on peut voir l'état des finances ce soir ? La charte dit que tout le monde peut consulter le compte.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Sam (ouvre le fichier Excel partagé)</div>
+        <div class="dialogue-line sam">Bien sûr. Voilà — les colonnes montrent les montants des cotisations et des remboursements, sans les noms. Ce soir le solde est de 1 840€ avant votre don. On a 14 membres actifs. La prochaine AG dans 6 semaines fera un bilan complet.</div>
+      </div>
+
+      <div class="action-note">Claire note la date de la prochaine AG. Sam la contacte dans le groupe Signal pour la rotation de permanence. Durée idéale : 10 minutes.</div>
+    </div>
+  </div>
+
+  <!-- SCÈNE 5 -->
+  <div class="scene">
+    <div class="scene-header">
+      <div class="scene-num">5</div>
+      <div class="scene-meta">
+        <span class="scene-time">20h15 · Collaboration externe — optionnel</span>
+        <div class="scene-title">Dr. Keita — professionnel·le de santé souhaitant collaborer</div>
+        <div class="scene-who">
+          <span class="who-tag">Rania</span>
+          <span class="who-tag">Dr. Keita</span>
+        </div>
+      </div>
+    </div>
+    <div class="scene-body">
+
+      <div class="dialogue">
+        <div class="dialogue-who">Dr. Keita</div>
+        <div class="dialogue-line rania">Je suis médecin généraliste conventionné·e à Molenbeek. J'ai entendu parler de la MASP. J'aimerais venir un soir par mois, offrir des consultations gratuites ici. Mais je voulais d'abord comprendre comment vous fonctionnez et ce que vous attendez d'une collaboration.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Rania</div>
+        <div class="dialogue-line rania">Merci d'être venu·e. La MASP est autogérée — les décisions se prennent en assemblée générale, pas ce soir par moi seul·e. Mais je peux vous expliquer les bases et soumettre votre proposition à la prochaine AG.
+
+Les points importants pour nous : la confidentialité totale des membres, pas de collecte de données personnelles par votre cabinet, et une articulation claire avec l'AMU. Vous êtes conventionné·e, donc l'AMU peut rembourser vos consultations — c'est ce qu'on recommande à nos membres.</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Dr. Keita</div>
+        <div class="dialogue-line alex">Bien sûr. Je respecte tout ça. Je peux vous laisser mes coordonnées et vous me contactez après votre assemblée ?</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Rania</div>
+        <div class="dialogue-line rania">Exactement. On ne dit jamais non d'emblée, mais on décide ensemble.</div>
+      </div>
+
+      <div class="action-note">Rania note les coordonnées du Dr. Keita et inscrit la proposition à l'ordre du jour de la prochaine AG. La scène illustre le principe d'autogestion : aucun·e individu·e ne s'engage seul·e au nom de la MASP.</div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ──────────────────────────────────────────── ÉVÉNEMENTS -->
+<section class="section" id="evenements">
+  <h2>Cartes-événement</h2>
+
+  <div class="intro-box">
+    Le Narrateur·rice tire une carte au hasard entre deux scènes (ou à un moment de son choix). Les joueur·euses doivent gérer l'imprévu <strong>en restant dans leur personnage</strong> et en suivant au mieux la charte. Si personne ne sait quoi faire : c'est une information précieuse. On note le problème et on en discute hors-jeu.
+  </div>
+
+  <div class="event-grid">
+    <div class="event-card rouge">
+      <span class="event-label">Urgence financière</span>
+      <h4>Le fonds est en dessous de 500€</h4>
+      <p>En consultant le fichier, Alex réalise que le solde disponible est très bas. Que fait-on ? Continue-t-on les remboursements ? Qui convoque une AG extraordinaire ?</p>
+    </div>
+
+    <div class="event-card rouge">
+      <span class="event-label">Urgence médicale</span>
+      <h4>Une personne arrive très malade</h4>
+      <p>Quelqu'un entre dans la salle, visiblement en détresse physique (fièvre, douleurs fortes). La MASP n'est pas un cabinet médical. Que fait-on immédiatement ? Qui appelle qui ?</p>
+    </div>
+
+    <div class="event-card amber">
+      <span class="event-label">Désorganisation</span>
+      <h4>Le fichier Excel n'est pas à jour</h4>
+      <p>Les données de cotisation du mois précédent n'ont pas été saisies. Impossible de vérifier qui est en ordre. Comment gérer les demandes de remboursement ce soir ? Que note-t-on pour l'avenir ?</p>
+    </div>
+
+    <div class="event-card amber">
+      <span class="event-label">Ressources humaines</span>
+      <h4>Personne n'est disponible pour la prochaine permanence</h4>
+      <p>Alex et Sam ne seront pas disponibles le mois prochain. La liste de rotation est vide. La permanence doit-elle être annulée ? Comment prévenir les membres ? Qui prend l'initiative ?</p>
+    </div>
+
+    <div class="event-card amber">
+      <span class="event-label">Pratique</span>
+      <h4>Pas de monnaie pour les remboursements cash</h4>
+      <p>Deux personnes ont besoin d'un remboursement cash urgent et n'ont pas de compte pour recevoir un virement. La petite caisse est vide. Que propose-t-on ?</p>
+    </div>
+
+    <div class="event-card bleu">
+      <span class="event-label">Conflit interne</span>
+      <h4>Un·e bénéficiaire conteste un refus</h4>
+      <p>Une personne estime qu'elle mérite un remboursement que la MASP a refusé. Elle est en colère et le dit fort. Comment gérer calmement ? Qui a le dernier mot ? Y a-t-il une procédure de recours ?</p>
+    </div>
+
+    <div class="event-card bleu">
+      <span class="event-label">Règle floue</span>
+      <h4>Une personne a perdu ses preuves de paiement</h4>
+      <p>Un·e bénéficiaire a payé ses médicaments mais n'a pas gardé le reçu. Elle a juste un relevé SMS de sa banque. Est-ce suffisant ? La charte ne le précise pas.</p>
+    </div>
+
+    <div class="event-card vert">
+      <span class="event-label">Bonne surprise</span>
+      <h4>Un grand don inattendu arrive</h4>
+      <p>Un·e allié·e envoie un virement de 500€ sans prévenir. Qui décide comment l'utiliser ? Doit-on l'annoncer à l'AG ? La charte prévoit-elle les dons importants ?</p>
+    </div>
+
+    <div class="event-card vert">
+      <span class="event-label">Question inattendue</span>
+      <h4>Un·e journaliste veut interviewer des membres</h4>
+      <p>Quelqu'un se présente comme journaliste et veut documenter la MASP. Les membres sont anonymes et vulnérables. Comment réagit-on ? Qui décide d'accepter ou refuser ?</p>
+    </div>
+  </div>
+
+  <div class="amend-box">
+    <span class="amend-label">Ce que les cartes-événement révèlent</span>
+    <strong>La simulation avec ces cartes permet d'identifier les "angles morts" de la charte :</strong> situations non prévues, décisions qui reviennent toujours aux mêmes personnes, règles trop vagues. Après la simulation, le Narrateur·rice liste les situations où les joueur·euses ont été bloqué·es : ce sont les priorités à clarifier dans la charte.
+  </div>
+</section>
+
+<!-- ──────────────────────────────────────────── CLÔTURE -->
+<section class="section" id="cloture">
+  <h2>Clôture — Bilan et débriefing</h2>
+
+  <div class="scene">
+    <div class="scene-header">
+      <div class="scene-num">✓</div>
+      <div class="scene-meta">
+        <span class="scene-time">20h45 — En jeu · Fermeture de la permanence</span>
+        <div class="scene-title">Bilan collectif de la soirée</div>
+        <div class="scene-who">
+          <span class="who-tag">Alex</span>
+          <span class="who-tag">Sam</span>
+          <span class="who-tag">Toutes les personnes présentes</span>
+        </div>
+      </div>
+    </div>
+    <div class="scene-body">
+
+      <div class="dialogue">
+        <div class="dialogue-who">Alex (s'adresse à toute la salle)</div>
+        <div class="dialogue-line alex">On va fermer dans quelques minutes. Voici le bilan de ce soir : on a traité [X] remboursements, inscrit [X] nouvelles personnes. Le solde du compte après cette permanence est de [X]€. Toutes les transactions sont dans le fichier partagé — vous pouvez le consulter.
+
+La prochaine permanence : premier vendredi du mois prochain. Même heure, même lieu — sauf changement communiqué sur WhatsApp.
+
+La prochaine AG : dans [X] semaines. On y parlera de [résumé des sujets identifiés ce soir].</div>
+      </div>
+
+      <div class="dialogue">
+        <div class="dialogue-who">Sam</div>
+        <div class="dialogue-line sam">Si vous avez des questions entre les permanences, écrivez sur Signal. On répond dans la journée si on peut. Prenez soin de vous, bonsoir à toutes et tous.</div>
+      </div>
+
+      <div class="action-note">Alex et Sam rangent la salle ensemble, mettent à jour le fichier de notes de permanence, envoient un message récapitulatif dans le groupe Signal.</div>
+    </div>
+  </div>
+
+  <h3 style="margin-top:1.5rem;">Hors-jeu — Débriefing de la simulation</h3>
+
+  <div class="debrief-grid">
+    <div class="debrief-col">
+      <h4><span class="dot-vert"></span> Forces observées</h4>
+      <ul>
+        <li>Le principe "consulter avant de décider seul·e" a bien fonctionné</li>
+        <li>La distinction AMU / MASP était claire dans les explications</li>
+        <li>Le ton bienveillant sans être condescendant</li>
+        <li>La transparence du fichier a rassuré Claire</li>
+        <li>Le comité a pu gérer le cas Karim avec souplesse</li>
+      </ul>
+    </div>
+    <div class="debrief-col">
+      <h4><span class="dot-rouge"></span> Fragilités identifiées</h4>
+      <ul>
+        <li>Sans le fichier à jour, toute la permanence est bloquée</li>
+        <li>Le rôle de "personne chargée du compte" n'est pas assez défini</li>
+        <li>Pas de protocole si le comité n'est pas disponible</li>
+        <li>La gestion cash reste floue</li>
+        <li>L'anonymisation du fichier : comment exactement ?</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Questions pour le débriefing collectif</h3>
+  <ul class="checklist">
+    <li><span class="check-box"></span>Quelle scène vous a semblé la plus difficile ? Pourquoi ?</li>
+    <li><span class="check-box"></span>Y a-t-il une situation où vous n'avez pas su quoi faire ?</li>
+    <li><span class="check-box"></span>Qu'est-ce qui manquait dans la charte pour vous aider ?</li>
+    <li><span class="check-box"></span>Quel geste ou quelle phrase a particulièrement bien fonctionné ?</li>
+    <li><span class="check-box"></span>Quels rôles ont été les plus lourds ? Les plus faciles ?</li>
+    <li><span class="check-box"></span>Si vous étiez vraiment Karim ce soir, comment vous seriez-vous senti·e ?</li>
+  </ul>
+
+  <div class="big-note" style="margin-top:1.5rem;">
+    <h3>Pour la vidéo</h3>
+    Filmer en priorité les <strong>gestes concrets</strong> : pointer l'écran du fichier, montrer une preuve de paiement, inscrire un montant dans le tableau. Éviter les plans larges flous. Chaque scène peut être rejouée et re-filmée séparément. Le montage final peut être organisé comme un guide pratique : "Comment traiter un remboursement en 5 étapes", "Comment inscrire un nouveau membre", etc.
+  </div>
+</section>
+
+<!-- ──────────────────────────────────────────── AMENDEMENTS -->
+<section class="section" id="amendements">
+  <h2>Propositions d'amendements à la charte</h2>
+
+  <div class="intro-box">
+    Ces suggestions sont issues de l'analyse de la charte et des situations simulées. Elles ne remplacent pas la décision collective en AG — c'est à la communauté de les adopter, modifier ou rejeter. Chaque proposition indique si elle est un <strong>ajout</strong> (quelque chose de manquant), une <strong>clarification</strong> (quelque chose d'ambigu) ou une <strong>modification</strong> de ce qui existe déjà.
+  </div>
+
+  <ul class="amend-list">
+
+    <li class="amend-item">
+      <div class="amend-item-head">
+        <div class="amend-num">1</div>
+        <span class="amend-type nouveau">Ajout</span>
+        <h4>Fiche de poste des animateur·rices de permanence</h4>
+      </div>
+      <div class="amend-item-body">
+        <p>La charte précise qu'une permanence est tenue par "au minimum 2 personnes" et qu'un "système de rotation" est prévu, mais ne définit pas ce que ces personnes doivent faire concrètement.</p>
+        <div class="charter-quote">Texte actuel : "Une permanence est tenue par au minimum 2 personnes pour partager les responsabilités."</div>
+        <p>Ajouter en annexe une fiche courte précisant les tâches de chaque animateur·rice : accueil, vérification des cotisations, traitement des remboursements, inscriptions, tenue du fichier, communication post-permanence.</p>
+        <div class="proposed-text">Ajout proposé en annexe : "Fiche de poste — Animateur·rice de permanence" avec liste de tâches en deux colonnes (Animateur A / Animateur B) et checklist d'ouverture/fermeture.</div>
+      </div>
+    </li>
+
+    <li class="amend-item">
+      <div class="amend-item-head">
+        <div class="amend-num">2</div>
+        <span class="amend-type nouveau">Ajout</span>
+        <h4>Procédure pour les cotisations en retard</h4>
+      </div>
+      <div class="amend-item-body">
+        <p>La charte indique que "les membres doivent être en ordre de cotisation pour pouvoir être remboursés", mais ne prévoit rien pour les membres qui ne peuvent temporairement plus payer.</p>
+        <div class="charter-quote">Texte actuel : "Les membres doivent être en ordre de cotisation pour pouvoir être remboursés."</div>
+        <p>Ajouter une procédure en 3 temps : (1) après 1 mois sans cotisation, un message bienveillant via Signal ; (2) après 2 mois, signalement au comité de gestion ; (3) le comité peut proposer un plan de rattrapage, une suspension temporaire sans perte des droits futurs, ou un remboursement exceptionnel partiel en cas d'urgence médicale.</p>
+        <div class="proposed-text">Principe ajouté : "L'absence temporaire de cotisation n'entraîne pas l'exclusion automatique. Le comité de gestion est l'organe compétent pour étudier les situations difficiles et proposer des solutions à l'AG."</div>
+      </div>
+    </li>
+
+    <li class="amend-item">
+      <div class="amend-item-head">
+        <div class="amend-num">3</div>
+        <span class="amend-type clarif">Clarification</span>
+        <h4>Seuil d'alerte du fonds — AG extraordinaire</h4>
+      </div>
+      <div class="amend-item-body">
+        <p>La charte prévoit qu'en cas de "dépassement du plafond annuel, une réunion de coordination propose une solution approuvée par l'AG." Mais elle ne prévoit pas de seuil bas qui déclencherait une alerte.</p>
+        <div class="charter-quote">Texte actuel : la charte mentionne "une réserve de 250€/pers/an" comme condition d'accueil de nouveau membre, mais pas de seuil d'alerte général.</div>
+        <div class="proposed-text">Ajout proposé : "Si le fonds tombe en dessous de 500€ de réserve, le comité de gestion convoque une AG extraordinaire dans les 15 jours. En attendant, les nouveaux remboursements non urgents sont suspendus."</div>
+      </div>
+    </li>
+
+    <li class="amend-item">
+      <div class="amend-item-head">
+        <div class="amend-num">4</div>
+        <span class="amend-type nouveau">Ajout</span>
+        <h4>Protocole en cas d'urgence médicale pendant une permanence</h4>
+      </div>
+      <div class="amend-item-body">
+        <p>La charte ne prévoit pas ce qu'il faut faire si une personne se présente dans un état médical urgent (malaise, douleur grave, détresse). Ce silence est un angle mort opérationnel.</p>
+        <div class="proposed-text">Ajout proposé : "La MASP n'est pas un cabinet médical. En cas d'urgence médicale pendant une permanence : appeler le 112. Ne pas tenter de soigner. Rester avec la personne jusqu'à l'arrivée des secours. L'anonymat de la personne doit être protégé autant que possible."</div>
+      </div>
+    </li>
+
+    <li class="amend-item">
+      <div class="amend-item-head">
+        <div class="amend-num">5</div>
+        <span class="amend-type clarif">Clarification</span>
+        <h4>Preuves de paiement — formats acceptés</h4>
+      </div>
+      <div class="amend-item-body">
+        <p>La charte mentionne une "preuve de paiement" pour les remboursements mais n'en définit pas les formes acceptées. En pratique, un reçu papier, une photo de reçu ou un relevé SMS bancaire peuvent tous servir.</p>
+        <div class="proposed-text">Clarification proposée : "Sont acceptées comme preuves de paiement : le reçu original, une photo lisible du reçu, ou un relevé bancaire identifiant clairement le montant et le type de dépense. En cas de doute, la décision revient à l'animateur·rice de permanence, en lien avec le comité."</div>
+      </div>
+    </li>
+
+    <li class="amend-item">
+      <div class="amend-item-head">
+        <div class="amend-num">6</div>
+        <span class="amend-type nouveau">Ajout</span>
+        <h4>Système de parrainage pour les nouveaux membres</h4>
+      </div>
+      <div class="amend-item-body">
+        <p>Les nouveaux membres arrivent souvent sans connaître les processus (AMU, preuves de paiement, fichier anonymisé). Un système de parrainage réduit la charge sur les animateur·rices et renforce les liens au sein de la communauté.</p>
+        <div class="proposed-text">Suggestion : "Tout nouveau membre peut se voir proposer un·e référent·e — un membre existant qui l'accompagne pendant ses 3 premiers mois, l'aide pour sa première demande de remboursement et répond à ses questions pratiques. Le rôle de référent·e est volontaire et non rémunéré."</div>
+      </div>
+    </li>
+
+    <li class="amend-item">
+      <div class="amend-item-head">
+        <div class="amend-num">7</div>
+        <span class="amend-type clarif">Clarification</span>
+        <h4>Anonymisation du fichier Excel — mode opératoire précis</h4>
+      </div>
+      <div class="amend-item-body">
+        <p>La charte mentionne "un outil informatique d'anonymisation des identifiants personnels est à mettre en place" — mais cela reste une intention, pas un mode opératoire.</p>
+        <div class="charter-quote">Texte actuel : "L'anonymat des membres sera maintenu, seuls les montants apparaîtront."</div>
+        <div class="proposed-text">Proposition : définir en annexe un système de codes uniques (ex. : les 3 premières lettres du prénom + année d'inscription : FAT-2024). Le lien entre code et identité réelle n'est connu que de la personne chargée du compte, sous responsabilité collective. Ce lien est stocké séparément du fichier partagé.</div>
+      </div>
+    </li>
+
+    <li class="amend-item">
+      <div class="amend-item-head">
+        <div class="amend-num">8</div>
+        <span class="amend-type nouveau">Ajout</span>
+        <h4>Procédure de médiation pour les conflits entre membres</h4>
+      </div>
+      <div class="amend-item-body">
+        <p>La charte ne prévoit aucune procédure si deux membres sont en conflit, ou si un membre conteste une décision de l'animateur·rice de permanence.</p>
+        <div class="proposed-text">Ajout proposé : "En cas de désaccord ou de conflit, la première étape est la discussion directe lors de la permanence ou en AG. Si le désaccord persiste, le comité de gestion peut désigner deux membres volontaires comme médiateur·rices. Toute décision non résolue est soumise au vote de l'AG."</div>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+<footer>
+  MASP — Mutuelle Autogérée des Sans Papiers · Script de simulation v1.0 · masp-bxl@bruxxel.org · Document vivant, amendable en AG
+</footer>
+
+<script>
+function show(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  const idx = ['intro','personnages','decor','deroulement','scenes','evenements','cloture','amendements'].indexOf(id);
+  document.querySelectorAll('.nav-btn')[idx].classList.add('active');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+</body>
+</html>
