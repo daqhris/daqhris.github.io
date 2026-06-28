@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solidarity Burundi Pavilion — 61st Venice Biennale Arte 2026</title>
+<meta name="description" content="Three framed works on alienation. Solidarity Burundi Pavilion, guest room of Bosnia and Herzegovina Pavilion. Palazzo Malipiero, Venice.">
+<meta property="og:title" content="Solidarity Burundi Pavilion — Venice Biennale Arte 2026">
+<meta property="og:description" content="Three framed works on alienation. Palazzo Malipiero, San Marco 3198, Venice. 9 May – 22 Nov 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,500;1,400&family=Google+Sans+Display:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --black: #0a0a0a;
+  --white: #ffffff;
+  --grey-light: #e0e0e0;
+  --grey-mid: #999999;
+  --grey-faint: #cccccc;
+  --grey-dark: #333333;
+}
+
+html {
+  font-family: 'Google Sans', system-ui, sans-serif;
+  background: var(--white);
+  color: var(--black);
+  font-size: 14px;
+  line-height: 1.55;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── TOP BAR ──────────────────────────────────── */
+.top-bar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 clamp(1rem, 3vw, 3rem);
+  height: 40px;
+  border-bottom: 0.5px solid var(--grey-light);
+}
+
+.top-bar-title {
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--grey-mid);
+}
+
+/* ── MAIN GRID: wall left, info right ─────────── */
+.main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr clamp(200px, 28vw, 320px);
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── WALL COLUMN ──────────────────────────────── */
+.wall-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(0.8rem, 2.5vh, 2.5rem) clamp(1rem, 3vw, 3rem);
+  min-height: 0;
+}
+
+/* ── THE WALL ─────────────────────────────────── */
+.wall {
+  position: relative;
+  background: var(--white);
+  border: 0.5px solid var(--grey-light);
+  /* Vertical rectangle */
+  width: min(42vw, 360px);
+  aspect-ratio: 3 / 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Corner register marks */
+.mark {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-color: var(--grey-faint);
+  border-style: solid;
+}
+.mark.tl { top: 9px;    left: 9px;   border-width: 0.5px 0 0 0.5px; }
+.mark.tr { top: 9px;    right: 9px;  border-width: 0.5px 0.5px 0 0; }
+.mark.bl { bottom: 9px; left: 9px;   border-width: 0 0 0.5px 0.5px; }
+.mark.br { bottom: 9px; right: 9px;  border-width: 0 0.5px 0.5px 0; }
+
+/* ── STAR TRIANGLE ────────────────────────────── */
+/*
+  ⁂ shape: top frame centered, two bottom frames flanking closely.
+  Vertical gap between top and bottom row is halved — frames
+  nearly touch, clustering like the asterism symbol.
+*/
+.stars {
+  position: relative;
+  width: 72%;
+  /* Halved vertical height so top and bottom rows are very close */
+  height: 36%;
+}
+
+.frame {
+  position: absolute;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--white);
+  border: 1px solid var(--black);
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  /* 3:2 ratio, each frame is ~46% of the stars container wide */
+  width: 46%;
+  aspect-ratio: 3 / 2;
+  box-shadow:
+    inset 0 0 0 4px var(--white),
+    inset 0 0 0 5px var(--grey-faint);
+  transition: box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.frame:hover, .frame:focus-visible {
+  box-shadow:
+    inset 0 0 0 4px var(--white),
+    inset 0 0 0 5px var(--grey-mid);
+  z-index: 2;
+}
+
+/* Top-center: frame I */
+.frame-top {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.frame-top:hover, .frame-top:focus-visible {
+  transform: translateX(-50%) scale(1.04);
+}
+
+/* Bottom-left: frame II */
+.frame-bl {
+  bottom: 0;
+  left: 0;
+}
+.frame-bl:hover, .frame-bl:focus-visible {
+  transform: scale(1.04);
+}
+
+/* Bottom-right: frame III */
+.frame-br {
+  bottom: 0;
+  right: 0;
+}
+.frame-br:hover, .frame-br:focus-visible {
+  transform: scale(1.04);
+}
+
+.frame-inner {
+  position: absolute;
+  inset: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Frame I — awalkaday */
+.frame-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(100%);
+}
+
+/* Frame II — Bulletin: black bg, white text */
+.frame-bulletin {
+  width: 100%;
+  height: 100%;
+  background: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 7px;
+  gap: 2px;
+}
+.bulletin-title {
+  font-size: clamp(5px, 0.9vw, 8px);
+  font-weight: 500;
+  color: var(--white);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+.bulletin-rule {
+  width: 14px;
+  height: 0.5px;
+  background: rgba(255,255,255,0.25);
+  margin: 2px 0;
+}
+.bulletin-sub {
+  font-size: clamp(4px, 0.7vw, 6.5px);
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Frame III — Gemini typographic */
+.frame-gemini {
+  width: 100%;
+  height: 100%;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 7px;
+  gap: 2px;
+}
+.gemini-title {
+  font-family: 'Google Sans Display', sans-serif;
+  font-weight: 700;
+  font-size: clamp(5px, 0.9vw, 8px);
+  letter-spacing: 0.01em;
+  color: var(--black);
+  line-height: 1.25;
+}
+.gemini-rule {
+  width: 14px;
+  height: 0.5px;
+  background: var(--grey-mid);
+  margin: 2px 0;
+}
+.gemini-sub {
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: clamp(4px, 0.7vw, 6.5px);
+  color: var(--grey-mid);
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+}
+
+/* ── INFO COLUMN ──────────────────────────────── */
+.info-col {
+  border-left: 0.5px solid var(--grey-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: clamp(1rem, 2.5vh, 2rem) clamp(1rem, 1.8vw, 1.8rem);
+  overflow: hidden;
+  gap: 0;
+}
+
+/* Poster thumbnail at top of info column */
+.info-poster {
+  flex-shrink: 0;
+  margin-bottom: clamp(0.8rem, 1.5vh, 1.4rem);
+  padding-bottom: clamp(0.8rem, 1.5vh, 1.4rem);
+  border-bottom: 0.5px solid var(--grey-light);
+}
+.info-poster img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(100%);
+  max-height: 80px;
+  object-fit: contain;
+  object-position: left center;
+}
+.info-poster img.img-hidden { display: none; }
+.poster-fallback {
+  display: none;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--grey-mid);
+  line-height: 1.8;
+}
+
+.info-block {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.info-label {
+  font-size: 9px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--grey-mid);
+}
+
+.info-bio {
+  font-size: clamp(11px, 1.1vw, 13px);
+  line-height: 1.6;
+  color: var(--black);
+}
+.info-bio em {
+  font-style: normal;
+  color: var(--grey-mid);
+}
+
+.info-divider {
+  flex-shrink: 0;
+  width: 100%;
+  height: 0.5px;
+  background: var(--grey-light);
+  margin: clamp(0.6rem, 1.2vh, 1.2rem) 0;
+}
+
+.info-context {
+  font-size: clamp(10px, 0.95vw, 11.5px);
+  line-height: 1.7;
+  color: var(--grey-dark);
+}
+.info-context + .info-context {
+  margin-top: 0.5rem;
+}
+
+.info-venue {
+  font-size: clamp(10px, 0.9vw, 11px);
+  color: var(--grey-mid);
+  line-height: 1.75;
+}
+.info-venue a {
+  color: var(--grey-dark);
+  text-decoration: none;
+  border-bottom: 0.5px solid var(--grey-light);
+  transition: border-color 0.15s, color 0.15s;
+}
+.info-venue a:hover { color: var(--black); border-color: var(--grey-mid); }
+
+/* ── BOTTOM BAR ───────────────────────────────── */
+.bottom-bar {
+  flex-shrink: 0;
+  height: 36px;
+  border-top: 0.5px solid var(--grey-light);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 clamp(1rem, 3vw, 3rem);
+}
+.bottom-right {
+  font-size: 10px;
+  color: var(--grey-mid);
+  letter-spacing: 0.03em;
+}
+.bottom-right a {
+  color: var(--grey-mid);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.bottom-right a:hover { color: var(--black); }
+
+/* ── MOBILE ───────────────────────────────────── */
+@media (max-width: 600px) {
+  .main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .info-col { display: none; }
+  .wall { width: min(68vw, 240px); }
+  /* Match the tightened desktop triangle — same 36% height */
+  .stars { width: 74%; height: 36%; }
+  .top-bar-title { font-size: 10px; }
+}
+
+/* ── LARGE ────────────────────────────────────── */
+@media (min-width: 1400px) {
+  .wall { width: 400px; }
+  .main { grid-template-columns: 1fr 340px; }
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<header class="top-bar">
+  <span class="top-bar-title">Solidarity Burundi Pavilion &nbsp;<span aria-hidden="true" style="font-size:13px; color:var(--grey-faint); vertical-align:middle;">⁂</span>&nbsp; Venice Biennale Arte 2026</span>
+</header>
+
+<!-- MAIN -->
+<main class="main">
+
+  <!-- WALL -->
+  <section class="wall-col" aria-label="Installation — Solidarity Burundi Pavilion">
+    <div
+      class="wall"
+      role="img"
+      aria-label="Three framed works arranged in a tight triangle on a white wall, mirroring the three-star formation of the Burundian flag"
+    >
+      <div class="mark tl" aria-hidden="true"></div>
+      <div class="mark tr" aria-hidden="true"></div>
+      <div class="mark bl" aria-hidden="true"></div>
+      <div class="mark br" aria-hidden="true"></div>
+
+      <div class="stars">
+
+        <!-- I · Top-center — AI Self-Portrait (Gemini) -->
+        <a
+          class="frame frame-top"
+          href="https://daqhris.com/god-bless-usa/pavilion.html#self-portrait"
+          aria-label="AI Self-Portrait Tablet — Gemini's Handheld Autoportrait"
+        >
+          <div class="frame-inner">
+            <div class="frame-gemini">
+              <div class="gemini-title">GEMINI'S HANDHELD<br>AUTOPORTRAIT</div>
+              <div class="gemini-rule"></div>
+              <div class="gemini-sub">THIS IS NOT<br>A GOOGLE TABLET.</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- II · Bottom-left — Liturgical Bulletin -->
+        <a
+          class="frame frame-bl"
+          href="https://daqhris.com/god-bless-usa/"
+          aria-label="God Bless The United States Of Aliens — Liturgical Bulletin"
+        >
+          <div class="frame-inner">
+            <div class="frame-bulletin">
+              <div class="bulletin-title">God Bless<br>The United States<br>Of Aliens</div>
+              <div class="bulletin-rule"></div>
+              <div class="bulletin-sub">Liturgical Bulletin</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- III · Bottom-right — awalkaday 91-2022 -->
+        <a
+          class="frame frame-br"
+          href="https://daqhris.com/god-bless-usa/pavilion.html#photograph"
+          aria-label="awalkaday 91-2022 — black-and-white photograph"
+        >
+          <div class="frame-inner">
+            <img
+              src="https://raw.githubusercontent.com/awalkaday/awalkaday-art/master/assets/icons/awalkaday-logo-3x2.png"
+              alt="awalkaday.art placeholder"
+              loading="lazy"
+            >
+          </div>
+        </a>
+
+      </div><!-- /stars -->
+    </div><!-- /wall -->
+  </section>
+
+  <!-- INFO COLUMN -->
+  <aside class="info-col">
+
+    <!-- Biennale poster, small, at top -->
+    <div class="info-poster" aria-label="In Minor Keys — 61st Venice Biennale Arte 2026">
+      <img
+        src="https://static.labiennale.org/files/styles/full_screen_slide/public/arte/2026/750x500/in-minor-keys-logo-26.jpg?itok=zwqItmVG"
+        alt="In Minor Keys — 61st Venice Biennale Arte 2026 official poster"
+        onerror="this.classList.add('img-hidden'); this.nextElementSibling.style.display='block';"
+      >
+      <div class="poster-fallback">In Minor Keys · 61st Biennale Arte · 2026</div>
+    </div>
+
+    <!-- Artist bio -->
+    <div class="info-block">
+      <p class="info-label">Artist</p>
+      <p class="info-bio">
+        Chris-Armel Iradukunda<br>
+        <em>Born in Bujumbura, Burundi<br>Lives in Brussels, Belgium</em>
+      </p>
+    </div>
+
+    <div class="info-divider"></div>
+
+    <!-- Installation context -->
+    <div class="info-block">
+      <p class="info-label">Installation</p>
+      <p class="info-context">
+        Burundi has no official pavilion at the Venice Biennale.
+        This installation exists as a solidarity act: three works on
+        <strong>alienation</strong> — legal, technological, cosmic —
+        nested as a guest within <em>Domus Diasporica</em>, the Bosnia
+        and Herzegovina Pavilion invited by artist Mladen Bundalo.
+      </p>
+      <p class="info-context">
+        Undocumented and unable to travel, the artist contributes
+        from exile in Brussels. The three frames hang on a white wall
+        whose green and red have been painted over — the colors of
+        the Burundian flag dissolved, its three stars replaced by a
+        trio of alien artworks made in a land of political refuge.
+      </p>
+    </div>
+
+    <div class="info-divider"></div>
+
+    <!-- Venue -->
+    <div class="info-block">
+      <p class="info-label">Venue</p>
+      <p class="info-venue">
+        <a href="https://www.labiennale.org/en/art/2026/bosnia-and-herzegovina" target="_blank" rel="noopener">
+          Bosnia and Herzegovina Pavilion ↗
+        </a><br>
+        Palazzo Malipiero, San Marco 3198<br>
+        Venice · 9 May – 22 Nov 2026<br>
+        Tue–Sun · Free entrance
+      </p>
+    </div>
+
+  </aside>
+
+</main>
+
+<!-- BOTTOM BAR -->
+<footer class="bottom-bar">
+  <span class="bottom-right">
+    <a href="https://github.com/daqhris/god-bless-usa" target="_blank" rel="noopener">GitHub ↗</a>
+    &nbsp;·&nbsp;
+    <a href="https://daqhris.com" target="_blank" rel="noopener">daqhris.com ↗</a>
+  </span>
+</footer>
+
+</body>
+</html>
