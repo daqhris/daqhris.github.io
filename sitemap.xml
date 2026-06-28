@@ -45,6 +45,31 @@
   <priority>1</priority>
 </url>
 <url>
+  <loc>https://daqhris.com/god-bless-usa/submission.html</loc>
+      <changefreq>hourly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://daqhris.com/god-bless-usa/preview.html</loc>
+      <changefreq>hourly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://daqhris.com/god-bless-usa/story</loc>
+      <changefreq>hourly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://daqhris.com/god-bless-usa/</loc>
+      <changefreq>hourly</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://daqhris.com/MASP_Script_Simulation</loc>
+      <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://daqhris.com/contact/</loc>
       <changefreq>monthly</changefreq>
   <priority>0.64</priority>
