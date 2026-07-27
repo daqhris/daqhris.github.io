@@ -69,7 +69,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --black: #0a0a0a;
+  --black: #1c1c1c; /* matches the ink tone sampled from the In Minor Keys poster, not pure black */
   --white: #ffffff;
   --grey-light: #e0e0e0;
   --grey-mid: #999999;
@@ -79,7 +79,9 @@
 
 html {
   font-family: 'Google Sans', system-ui, sans-serif;
-  background: var(--white);
+  /* A faint echo of the poster's ink-blot wash — sampled tones, kept
+     far too subtle to touch text contrast anywhere on the page. */
+  background: radial-gradient(120% 100% at 78% 8%, #f2f2f2 0%, var(--white) 55%);
   color: var(--black);
   font-size: 14px;
   line-height: 1.55;
@@ -318,8 +320,11 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   padding: clamp(1rem, 2.5vh, 2rem) clamp(1rem, 1.8vw, 1.8rem);
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   gap: 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--grey-mid) transparent;
 }
 
 /* Poster thumbnail at top of info column */
@@ -587,7 +592,7 @@ body {
     <div class="info-divider"></div>
 
     <!-- Installation context -->
-    <details class="info-details" open>
+    <details class="info-details">
       <summary>Installation</summary>
       <p class="info-context">
         Burundi has no official pavilion at the Venice Biennale.
@@ -608,7 +613,7 @@ body {
     <div class="info-divider"></div>
 
     <!-- Venue -->
-    <details class="info-details" open>
+    <details class="info-details">
       <summary>Venue</summary>
       <p class="info-venue">
         <a href="https://www.labiennale.org/en/art/2026/bosnia-and-herzegovina" target="_blank" rel="noopener">
@@ -623,7 +628,7 @@ body {
     <div class="info-divider"></div>
 
     <!-- Credits -->
-    <details class="info-details" open>
+    <details class="info-details">
       <summary>Credits</summary>
       <p class="info-context">
         <em>awalkaday 91-2022</em> — Chris-Armel Iradukunda (daqhris).<br>
