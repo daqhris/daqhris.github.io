@@ -65,6 +65,11 @@
   <priority>1</priority>
 </url>
 <url>
+  <loc>https://daqhris.com/venice-biennale</loc>
+      <changefreq>hourly</changefreq>
+  <priority>1</priority>
+</url>
+<url>
   <loc>https://daqhris.com/MASP_Script_Simulation</loc>
       <changefreq>hourly</changefreq>
   <priority>0.80</priority>

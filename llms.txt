@@ -1,0 +1,40 @@
+# Chris-Armel Iradukunda (daqhris)
+
+> Personal site of Chris-Armel Iradukunda (@daqhris), a Burundi-born,
+> Brussels-based artist working across blockchain-published fiction,
+> AI-voiced performance, textile, and photography. Undocumented status
+> and exile inform both the work's recurring theme — alienhood, read as
+> legal, technological, and cosmic at once — and its methods: pieces
+> built to travel by smartphone and QR code, co-directed with AI models,
+> and notarized on-chain, because the artist himself often cannot travel
+> to where they are shown.
+
+## Currently on view
+
+- [Solidarity Burundi Pavilion — Venice Biennale 2026](https://daqhris.com/venice-biennale): landing page for three works shown as a guest within *Domus Diasporica*, the Bosnia and Herzegovina Pavilion, 61st International Art Exhibition — La Biennale di Venezia. Palazzo Malipiero, San Marco 3198, Venice. 9 May – 22 November 2026.
+- [God Bless The United States Of Aliens](https://daqhris.com/god-bless-usa/): an 18-minute, non-looping, AI-voiced performance for one visitor in headphones, co-directed by Chris-Armel Iradukunda and Claude Opus 4.7 (Anthropic).
+- [Scene by scene](https://daqhris.com/god-bless-usa/preview.html): the same performance broken into 15 scenes, readable alongside the audio — the accessible, JavaScript-independent alternative to the single-flow player.
+- [Pavilion catalogue](https://daqhris.com/god-bless-usa/pavilion.html): the three framed works as installed — *awalkaday 91-2022* (photograph), *Gemini's Handheld Autoportrait* (embroidered textile, generated with Gemini 2.5 Pro), and the liturgical bulletin.
+- [Press kit / introduction](https://daqhris.com/god-bless-usa/submission.html): production background, credits, and hackathon context.
+- [Performance script, full text](https://github.com/daqhris/god-bless-usa/blob/main/god-bless-usa_performance-script.md): the complete director's score, co-directed by Chris-Armel Iradukunda and Claude Opus 4.7.
+- [Web app source code](https://github.com/daqhris/god-bless-usa): code under EUPL-1.2; performance and text under CC BY-NC-ND 4.0.
+
+## Source text and long-term archive
+
+- [Original 2024 story, text only](https://daqhris.com/god-bless-usa/story/): "God Bless The United States Of Aliens — An All-Seeing Eyewitness Report," minted on the Base blockchain, December 2024. Token: USALIEN.
+- [Walking Memories](https://book.awalkaday.art): a long-term photographic project, walks on foot across 2017–2018 and 2021–2022, black-and-white images archived redundantly on Arweave and Ethereum.
+
+## Licensing
+
+Code is under EUPL-1.2. Performance text and photography are under
+CC BY-NC-ND 4.0, governed by Belgian law. Full statement:
+https://github.com/daqhris/god-bless-usa/blob/main/LICENSE
+
+## About
+
+- [About](https://daqhris.com/about.html): artist biography.
+- [Contact](https://daqhris.com/contact.md): the artist is not currently available for hire.
+
+## Optional
+
+- [Legal](https://daqhris.com/legal.html)

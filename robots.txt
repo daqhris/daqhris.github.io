@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /*.html$
-Disallow: /about.html
 Disallow: /*/homepage/*
 
 Sitemap: https://daqhris.com/sitemap.xml
