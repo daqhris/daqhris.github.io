@@ -424,13 +424,58 @@ body {
 }
 .bottom-right a:hover { color: var(--black); }
 
+/* ── COLLAPSIBLE INFO SECTIONS ────────────────── */
+/* Native <details>/<summary> — no JS. Open by default everywhere,
+   so nothing is ever hidden unless the visitor chooses to close it. */
+.info-details { flex-shrink: 0; }
+.info-details > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 9px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--grey-mid);
+}
+.info-details > summary::-webkit-details-marker { display: none; }
+.info-details > summary::after {
+  content: "\2212"; /* − */
+  font-size: 12px;
+  color: var(--grey-mid);
+  flex-shrink: 0;
+}
+.info-details:not([open]) > summary::after { content: "+"; }
+.info-details > summary:hover,
+.info-details > summary:focus-visible { color: var(--black); }
+.info-details > summary:hover::after,
+.info-details > summary:focus-visible::after { color: var(--black); }
+.info-details[open] > summary { margin-bottom: 0.4rem; }
+
 /* ── MOBILE ───────────────────────────────────── */
 @media (max-width: 600px) {
+  html, body { overflow-y: auto; height: auto; min-height: 100%; }
+
   .main {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto auto;
+    overflow: visible;
   }
-  .info-col { display: none; }
+  .wall-col { flex-shrink: 0; }
+
+  /* Was `display: none` — the entire info column, including the
+     curatorial statement, dates, and credits, was disappearing on
+     every phone-width screen. Now it stacks below the wall instead,
+     and each section can be collapsed individually rather than the
+     whole column vanishing at once. */
+  .info-col {
+    border-left: none;
+    border-top: 0.5px solid var(--grey-light);
+    overflow: visible;
+  }
+
   .wall { width: min(68vw, 240px); }
   /* Match the tightened desktop triangle — same 36% height */
   .stars { width: 74%; height: 36%; }
@@ -542,8 +587,8 @@ body {
     <div class="info-divider"></div>
 
     <!-- Installation context -->
-    <div class="info-block">
-      <p class="info-label">Installation</p>
+    <details class="info-details" open>
+      <summary>Installation</summary>
       <p class="info-context">
         Burundi has no official pavilion at the Venice Biennale.
         This installation exists as a solidarity act: three works on
@@ -558,13 +603,13 @@ body {
         the Burundian flag dissolved, its three stars replaced by a
         trio of alien artworks made in a land of political refuge.
       </p>
-    </div>
+    </details>
 
     <div class="info-divider"></div>
 
     <!-- Venue -->
-    <div class="info-block">
-      <p class="info-label">Venue</p>
+    <details class="info-details" open>
+      <summary>Venue</summary>
       <p class="info-venue">
         <a href="https://www.labiennale.org/en/art/2026/bosnia-and-herzegovina" target="_blank" rel="noopener">
           Bosnia and Herzegovina Pavilion ↗
@@ -573,13 +618,13 @@ body {
         Venice · 9 May – 22 Nov 2026<br>
         Tue–Sun · Free entrance
       </p>
-    </div>
+    </details>
 
     <div class="info-divider"></div>
 
     <!-- Credits -->
-    <div class="info-block">
-      <p class="info-label">Credits</p>
+    <details class="info-details" open>
+      <summary>Credits</summary>
       <p class="info-context">
         <em>awalkaday 91-2022</em> — Chris-Armel Iradukunda (daqhris).<br>
         <em>Gemini's Handheld Autoportrait</em> — Chris-Armel Iradukunda
@@ -587,7 +632,7 @@ body {
         <em>God Bless The United States Of Aliens</em> — co-directed by
         Chris-Armel Iradukunda and Claude Opus 4.7 (Anthropic).
       </p>
-    </div>
+    </details>
 
   </aside>
 
