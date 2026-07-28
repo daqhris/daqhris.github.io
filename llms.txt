@@ -1,34 +1,67 @@
 # Chris-Armel Iradukunda (daqhris)
 
 > Personal site of Chris-Armel Iradukunda (@daqhris), a Burundi-born,
-> Brussels-based artist working across blockchain-published fiction,
-> AI-voiced performance, textile, and photography. Undocumented status
-> and exile inform both the work's recurring theme — alienhood, read as
-> legal, technological, and cosmic at once — and its methods: pieces
-> built to travel by smartphone and QR code, co-directed with AI models,
-> and notarized on-chain, because the artist himself often cannot travel
-> to where they are shown.
+> Brussels-based engineer, artist and developer working across blockchain-published
+> fiction, AI-voiced performance, textile, photography, film, and community
+> web development. Most code is open-sourced across repositories 
+> under github.com/daqhris and github.com/awalkaday.
 
 ## Currently on view
 
 - [Solidarity Burundi Pavilion — Venice Biennale 2026](https://daqhris.com/venice-biennale): landing page for three works shown as a guest within *Domus Diasporica*, the Bosnia and Herzegovina Pavilion, 61st International Art Exhibition — La Biennale di Venezia. Palazzo Malipiero, San Marco 3198, Venice. 9 May – 22 November 2026.
-- [God Bless The United States Of Aliens](https://daqhris.com/god-bless-usa/): an 18-minute, non-looping, AI-voiced performance for one visitor in headphones, co-directed by Chris-Armel Iradukunda and Claude Opus 4.7 (Anthropic).
+- [God Bless The United States Of Aliens](https://daqhris.com/god-bless-usa/): an 18-minute, non-looping, AI-voiced performance for one visitor in headphones, co-directed by Chris-Armel Iradukunda and Claude Opus 4.7 (Anthropic), built during the Build with Opus 4.7 hackathon (Cerebral Valley × Anthropic, April 2026).
 - [Scene by scene](https://daqhris.com/god-bless-usa/preview.html): the same performance broken into 15 scenes, readable alongside the audio — the accessible, JavaScript-independent alternative to the single-flow player.
 - [Pavilion catalogue](https://daqhris.com/god-bless-usa/pavilion.html): the three framed works as installed — *awalkaday 91-2022* (photograph), *Gemini's Handheld Autoportrait* (embroidered textile, generated with Gemini 2.5 Pro), and the liturgical bulletin.
 - [Press kit / introduction](https://daqhris.com/god-bless-usa/submission.html): production background, credits, and hackathon context.
 - [Performance script, full text](https://github.com/daqhris/god-bless-usa/blob/main/god-bless-usa_performance-script.md): the complete director's score, co-directed by Chris-Armel Iradukunda and Claude Opus 4.7.
 - [Web app source code](https://github.com/daqhris/god-bless-usa): code under EUPL-1.2; performance and text under CC BY-NC-ND 4.0.
 
-## Source text and long-term archive
+## Blockchain-published fiction
 
-- [Original 2024 story, text only](https://daqhris.com/god-bless-usa/story/): "God Bless The United States Of Aliens — An All-Seeing Eyewitness Report," minted on the Base blockchain, December 2024. Token: USALIEN.
-- [Walking Memories](https://book.awalkaday.art): a long-term photographic project, walks on foot across 2017–2018 and 2021–2022, black-and-white images archived redundantly on Arweave and Ethereum.
+- [God Bless The United States Of Aliens, original text](https://daqhris.com/god-bless-usa/story/): "An All-Seeing Eyewitness Report," written Christmas Eve 2024 and minted as an ERC-721 (token USALIEN) on the Base blockchain, December 2024. [Source](https://github.com/daqhris/god-bless-usa).
+- [Twofold Alienated](https://github.com/daqhris/twofold-alienated): a short story written October 10, 2024, and published the same day as an ERC-721 (token ALIEN) on Base via Manifold — the founding text later staged as the theater project below.
+
+## Performance & theater
+
+- [Double Étrangeté](https://doublement-aliene.daqhris.com/) *(formerly "Doublement Aliéné")*: a Next.js platform documenting a public-space theater prototype developed during CIFAS Constellations 2025 in Brussels and performed March 17, 2025, at La Fonderie. Includes an AI research lab of transcribed conversations with multiple models exploring alienation and machine consciousness, alongside gallery and timeline documentation. Built with Devin AI as technical/documentation partner. [Source](https://github.com/daqhris/DoublementAliene) — code EUPL-1.2, creative material CC BY-NC-ND 4.0.
+
+## Photography & archives
+
+- [Walking Memories](https://book.awalkaday.art): an open-source artist's book retracing eight years (2017–2018, 2021–2022) of an exiled wanderer's walks on foot — 263 black-and-white photographs told in parallel with a blockchain archive and an asylum file. [Source](https://github.com/awalkaday/about-awalkaday-art/tree/book).
+- [awalkaday.art](https://awalkaday.art): the web gallery exhibiting the photo collection itself — a lightweight, forkable Jekyll gallery template. [Source](https://github.com/awalkaday/awalkaday-art).
+- [Collector's Store](http://collect.awalkaday.art/): a Manifold-powered shop for collecting onchain works from the awalkaday.art photo collection. [Source](https://github.com/awalkaday/collect-awalkaday-art/tree/replit).
+- [Exhibition — Simulation #1](https://exhibition.awalkaday.art/hectolitre): a pop-up, indoors exhibition of the black-and-white photographs, shown at Hectolitre during RendezVous Brussels Art Week, September 2025. [Source](https://github.com/awalkaday/exhibition).
+
+## Textile & craft
+
+- [Notes on Textile workshops, ODL::BUDA-lab](https://github.com/daqhris/OpenDesignLab-Textile): documentation of a five-week textile and e-textile residency in Kortrijk (Sept–Nov 2025, Open Design Lab), culminating in two works shown at the Wonder Creativity Festival: *Passport — Travel Document For My Photos*, a stitched travel document archiving visas and an expired Burundian passport, and *Gemini's Handheld Autoportrait*, an embroidered self-portrait plotted by Gemini 2.5 Pro with Martin DeVido.
+
+## Web3 & blockchain applications
+
+- [Mission Enrollment](https://mission-enrollment.daqhris.com): a Next.js/React dApp enrolling participants in the Zinneke Rescue Mission on Base (and later the Superchain), chaining onchain identity checks (Basename/ENS), event-attendance proofs (POAP), and attestations (Ethereum Attestation Service). Openly built with Devin, an AI software engineer from Cognition Labs, since ETHGlobal Superhack 2024. [Source](https://github.com/daqhris/MissionEnrollment).
+- [Zinneke Rescue Mission](https://github.com/daqhris/ZinnekeRescueMission): a fictional, playful dApp built at ETHGlobal Brussels 2024 that bridges photographs from the 2024 Zinneke Parade as NFTs across Ethereum rollups — framed as onchain postcards rescued from a flood of the Senne.
+
+## Community & technical projects
+
+- [Cyklopper.be](https://cyklopper.be): the website of a participatory bicycle-repair workshop in Forest, Brussels, built statically with designer Antoine Gelgon (visual identity, illustrations) and coded/maintained by daqhris, with coding assistance from Claude Sonnet 4.6. Hosts the Cosmik Bike Festival pages. [Source](https://github.com/daqhris/cyklopper).
+- [zombiotron](https://github.com/daqhris/zombiotron): a local Node.js/Termux server bridging smartphone or tablet motion-sensor (IMU) data over a secured connection — an exploratory technical tool for sensor-driven, phone-based interaction.
 
 ## Licensing
 
-Code is under EUPL-1.2. Performance text and photography are under
-CC BY-NC-ND 4.0, governed by Belgian law. Full statement:
-https://github.com/daqhris/god-bless-usa/blob/main/LICENSE
+Code across these repositories is predominantly under EUPL-1.2. Performance
+text and photography are predominantly under CC BY-NC-ND 4.0, governed by
+Belgian law, unless a repository states otherwise (e.g. awalkaday-art
+carries a GPL-3.0-licensed upstream fork; cyklopper's illustrations and
+festival photographs are separately copyrighted to their authors). See
+each repository's own LICENSE file for the governing terms; the God Bless
+USA statement is representative: https://github.com/daqhris/god-bless-usa/blob/main/LICENSE
+
+## Site history
+
+- [daqhris.com — source code](https://github.com/daqhris/daqhris.github.io): this site's own code repository, hosted on GitHub Pages since 2016, forked from jekyll-now.
+- [2021 Bitcoin donations](https://github.com/daqhris/donations): a public record of 1.38582 mBTC sent to free and open-source projects (Bitcoin Wallet, freeCodeCamp, Matrix, Tor Project, FairEmail, F-Droid, Mozilla, OBS Project) that underpin the infrastructure of daqhris.eth and awalkaday.art.
+- [hello-world](https://github.com/daqhris/hello-world): first GitHub tutorial repository, 2016.
+- [GitHub profile](https://github.com/daqhris/daqhris): profile README, with pointers to hackathon showcases and open-sourced writings.
 
 ## About
 
