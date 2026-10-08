@@ -132,16 +132,16 @@ body {
 }
 
 /* ── THE WALL ─────────────────────────────────── */
+/* The Burundian flag with its green and red washed to white: a blank
+   3:2 field (the flag's own proportions). The saltire is white on
+   white and disappears; the three stars are replaced by the frames. */
 .wall {
   position: relative;
   background: var(--white);
   border: 0.5px solid var(--grey-light);
-  /* Vertical rectangle */
-  width: min(42vw, 360px);
-  aspect-ratio: 3 / 5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: min(100%, 560px, calc((100vh - 160px) * 1.5));
+  width: min(100%, 560px, calc((100dvh - 160px) * 1.5));
+  aspect-ratio: 3 / 2;
 }
 
 /* Corner register marks */
@@ -159,158 +159,48 @@ body {
 
 /* ── STAR TRIANGLE ────────────────────────────── */
 /*
-  ⁂ shape: top frame centered, two bottom frames flanking closely.
-  Vertical gap between top and bottom row is halved — frames
-  nearly touch, clustering like the asterism symbol.
+  ⁂ shape: one frame on top, two below, as the stars on the flag.
+  Drawn in a 600 × 400 viewBox so the whole composition scales
+  with the wall at any screen size.
 */
-.stars {
-  position: relative;
-  width: 72%;
-  /* Halved vertical height so top and bottom rows are very close */
-  height: 36%;
+.wall-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
 }
 
 .frame {
-  position: absolute;
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  background: var(--white);
-  border: 1px solid var(--black);
-  outline: none;
   cursor: pointer;
-  overflow: hidden;
-  /* 3:2 ratio, each frame is ~46% of the stars container wide */
-  width: 46%;
-  aspect-ratio: 3 / 2;
-  box-shadow:
-    inset 0 0 0 4px var(--white),
-    inset 0 0 0 5px var(--grey-faint);
-  transition: box-shadow 0.18s ease, transform 0.18s ease;
+  outline: none;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 0.18s ease;
 }
+.frame:hover, .frame:focus-visible { transform: scale(1.04); }
 
-.frame:hover, .frame:focus-visible {
-  box-shadow:
-    inset 0 0 0 4px var(--white),
-    inset 0 0 0 5px var(--grey-mid);
-  z-index: 2;
-}
+.f-shadow { fill: #000; opacity: 0.12; }
+.f-edge   { fill: var(--black); stroke: var(--black); stroke-width: 1; transition: stroke 0.18s ease; }
+.f-mat    { fill: #e9e6df; }
+.frame:hover .f-edge,
+.frame:focus-visible .f-edge { stroke: var(--grey-mid); stroke-width: 2; }
 
-/* Top-center: frame I */
-.frame-top {
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.frame-top:hover, .frame-top:focus-visible {
-  transform: translateX(-50%) scale(1.04);
-}
+/* I: textile, phyllotaxis embroidery on khaki */
+.f-khaki  { fill: #8f8a5e; }
+.f-thread { fill: #efe6c4; }
+/* II: bulletin, dark ground with a QR portal */
+.f-bulletin { fill: #1d1c24; }
+.f-rule   { fill: #d8d3c4; }
+.f-qr     { fill: #f4f1e8; }
+/* III: photograph, three dots in a night sky */
+.f-night  { fill: #0b0b0d; }
+.f-star   { fill: #f2f2f2; }
 
-/* Bottom-left: frame II */
-.frame-bl {
-  bottom: 0;
-  left: 0;
-}
-.frame-bl:hover, .frame-bl:focus-visible {
-  transform: scale(1.04);
-}
-
-/* Bottom-right: frame III */
-.frame-br {
-  bottom: 0;
-  right: 0;
-}
-.frame-br:hover, .frame-br:focus-visible {
-  transform: scale(1.04);
-}
-
-.frame-inner {
-  position: absolute;
-  inset: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-/* Frame I — awalkaday */
-.frame-inner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  filter: grayscale(100%);
-}
-
-/* Frame II — Bulletin: black bg, white text */
-.frame-bulletin {
-  width: 100%;
-  height: 100%;
-  background: var(--black);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 5px 7px;
-  gap: 2px;
-}
-.bulletin-title {
-  font-size: clamp(5px, 0.9vw, 8px);
-  font-weight: 500;
-  color: var(--white);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  line-height: 1.4;
-}
-.bulletin-rule {
-  width: 14px;
-  height: 0.5px;
-  background: rgba(255,255,255,0.25);
-  margin: 2px 0;
-}
-.bulletin-sub {
-  font-size: clamp(4px, 0.7vw, 6.5px);
-  color: rgba(255,255,255,0.4);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-/* Frame III — Gemini typographic */
-.frame-gemini {
-  width: 100%;
-  height: 100%;
-  background: var(--white);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 5px 7px;
-  gap: 2px;
-}
-.gemini-title {
-  font-family: 'Google Sans Display', sans-serif;
-  font-weight: 700;
-  font-size: clamp(5px, 0.9vw, 8px);
-  letter-spacing: 0.01em;
-  color: var(--black);
-  line-height: 1.25;
-}
-.gemini-rule {
-  width: 14px;
-  height: 0.5px;
-  background: var(--grey-mid);
-  margin: 2px 0;
-}
-.gemini-sub {
-  font-family: 'Google Sans', sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: clamp(4px, 0.7vw, 6.5px);
-  color: var(--grey-mid);
-  letter-spacing: 0.04em;
-  line-height: 1.3;
+@media (prefers-reduced-motion: reduce) {
+  .frame { transition: none; }
+  .frame:hover, .frame:focus-visible { transform: none; }
 }
 
 /* ── INFO COLUMN ──────────────────────────────── */
@@ -481,15 +371,14 @@ body {
     overflow: visible;
   }
 
-  .wall { width: min(68vw, 240px); }
-  /* Match the tightened desktop triangle — same 36% height */
-  .stars { width: 74%; height: 36%; }
+  /* Page scrolls on phones, so the wall is sized by width alone */
+  .wall { width: min(92vw, 420px); }
   .top-bar-title { font-size: 10px; }
 }
 
 /* ── LARGE ────────────────────────────────────── */
 @media (min-width: 1400px) {
-  .wall { width: 400px; }
+  .wall { width: min(100%, 640px, calc((100vh - 160px) * 1.5)); }
   .main { grid-template-columns: 1fr 340px; }
 }
 </style>
@@ -508,62 +397,20 @@ body {
   <section class="wall-col" aria-label="Installation — Solidarity Burundi Pavilion">
     <div
       class="wall"
-      role="img"
-      aria-label="Three framed works arranged in a tight triangle on a white wall, mirroring the three-star formation of the Burundian flag"
     >
       <div class="mark tl" aria-hidden="true"></div>
       <div class="mark tr" aria-hidden="true"></div>
       <div class="mark bl" aria-hidden="true"></div>
       <div class="mark br" aria-hidden="true"></div>
 
-      <div class="stars">
-
+      <svg class="wall-svg" viewBox="0 0 600 400" role="group" aria-label="Three framed works arranged in a tight triangle on a white wall, mirroring the three-star formation of the Burundian flag">
         <!-- I · Top-center — AI Self-Portrait (Gemini) -->
-        <a
-          class="frame frame-top"
-          href="https://daqhris.com/god-bless-usa/pavilion.html"
-          aria-label="AI Self-Portrait Tablet — Gemini's Handheld Autoportrait"
-        >
-          <div class="frame-inner">
-            <div class="frame-gemini">
-              <div class="gemini-title">GEMINI'S HANDHELD<br>AUTOPORTRAIT</div>
-              <div class="gemini-rule"></div>
-              <div class="gemini-sub">THIS IS NOT<br>A GOOGLE TABLET.</div>
-            </div>
-          </div>
-        </a>
-
+        <a class="frame" href="https://daqhris.com/god-bless-usa/pavilion.html" aria-label="AI Self-Portrait Tablet — Gemini's Handheld Autoportrait"><title>AI Self-Portrait Tablet — Gemini's Handheld Autoportrait</title><g transform="translate(256 106)"><rect class="f-shadow" x="3" y="5" width="88" height="88"/><rect class="f-edge" width="88" height="88"/><rect class="f-mat" x="5" y="5" width="78" height="78"/><rect class="f-khaki" x="10" y="10" width="68" height="68"/><circle class="f-thread" cx="44.0" cy="44.0" r="1.25"/><circle class="f-thread" cx="41.8" cy="46.0" r="1.25"/><circle class="f-thread" cx="44.4" cy="39.8" r="1.25"/><circle class="f-thread" cx="47.2" cy="48.1" r="1.25"/><circle class="f-thread" cx="38.1" cy="43.0" r="1.25"/><circle class="f-thread" cx="49.7" cy="40.4" r="1.25"/><circle class="f-thread" cx="42.1" cy="51.1" r="1.25"/><circle class="f-thread" cx="40.3" cy="37.0" r="1.25"/><circle class="f-thread" cx="52.0" cy="46.9" r="1.25"/><circle class="f-thread" cx="35.7" cy="47.4" r="1.25"/><circle class="f-thread" cx="48.0" cy="35.4" r="1.25"/><circle class="f-thread" cx="47.0" cy="53.5" r="1.25"/><circle class="f-thread" cx="35.0" cy="38.8" r="1.25"/><circle class="f-thread" cx="54.6" cy="41.7" r="1.25"/><circle class="f-thread" cx="37.5" cy="53.2" r="1.25"/><circle class="f-thread" cx="42.5" cy="32.5" r="1.25"/><circle class="f-thread" cx="53.2" cy="51.7" r="1.25"/><circle class="f-thread" cx="31.6" cy="44.5" r="1.25"/><circle class="f-thread" cx="53.0" cy="35.0" r="1.25"/><circle class="f-thread" cx="43.4" cy="57.1" r="1.25"/><circle class="f-thread" cx="35.4" cy="33.7" r="1.25"/><circle class="f-thread" cx="57.6" cy="45.8" r="1.25"/><circle class="f-thread" cx="32.4" cy="52.0" r="1.25"/><circle class="f-thread" cx="47.2" cy="30.0" r="1.25"/><circle class="f-thread" cx="51.3" cy="56.8" r="1.25"/><circle class="f-thread" cx="29.7" cy="39.4" r="1.25"/><circle class="f-thread" cx="57.9" cy="37.6" r="1.25"/><circle class="f-thread" cx="38.0" cy="58.4" r="1.25"/><circle class="f-thread" cx="38.6" cy="29.1" r="1.25"/><circle class="f-thread" cx="58.3" cy="51.5" r="1.25"/><circle class="f-thread" cx="28.1" cy="48.2" r="1.25"/><circle class="f-thread" cx="53.0" cy="30.0" r="1.25"/><circle class="f-thread" cx="46.9" cy="60.7" r="1.25"/><circle class="f-thread" cx="30.4" cy="33.4" r="1.25"/><circle class="f-thread" cx="61.4" cy="42.6" r="1.25"/><circle class="f-thread" cx="31.9" cy="57.0" r="1.25"/><circle class="f-thread" cx="44.1" cy="26.0" r="1.25"/><circle class="f-thread" cx="56.3" cy="57.5" r="1.25"/><circle class="f-thread" cx="25.6" cy="42.3" r="1.25"/><circle class="f-thread" cx="58.9" cy="32.7" r="1.25"/><circle class="f-thread" cx="40.6" cy="62.7" r="1.25"/><circle class="f-thread" cx="33.8" cy="27.7" r="1.25"/><circle class="f-thread" cx="62.7" cy="49.1" r="1.25"/><circle class="f-thread" cx="26.5" cy="53.0" r="1.25"/><circle class="f-thread" cx="50.9" cy="25.3" r="1.25"/><circle class="f-thread" cx="51.6" cy="62.6" r="1.25"/><circle class="f-thread" cx="25.6" cy="35.3" r="1.25"/><circle class="f-thread" cx="63.7" cy="37.9" r="1.25"/><circle class="f-thread" cx="33.5" cy="61.9" r="1.25"/><circle class="f-thread" cx="39.6" cy="23.5" r="1.25"/><circle class="f-thread" cx="61.3" cy="56.3" r="1.25"/><circle class="f-thread" cx="22.7" cy="46.6" r="1.25"/><circle class="f-thread" cx="58.0" cy="27.5" r="1.25"/><circle class="f-thread" cx="44.8" cy="65.8" r="1.25"/><circle class="f-thread" cx="28.5" cy="28.3" r="1.25"/><circle class="f-thread" cx="66.2" cy="45.1" r="1.25"/><circle class="f-thread" cx="26.7" cy="58.3" r="1.25"/><circle class="f-thread" cx="47.1" cy="21.6" r="1.25"/><circle class="f-thread" cx="57.0" cy="62.8" r="1.25"/><circle class="f-thread" cx="21.5" cy="38.8" r="1.25"/></g></a>
         <!-- II · Bottom-left — Liturgical Bulletin -->
-        <a
-          class="frame frame-bl"
-          href="https://daqhris.com/god-bless-usa/"
-          aria-label="God Bless The United States Of Aliens — Liturgical Bulletin"
-        >
-          <div class="frame-inner">
-            <div class="frame-bulletin">
-              <div class="bulletin-title">God Bless<br>The United States<br>Of Aliens</div>
-              <div class="bulletin-rule"></div>
-              <div class="bulletin-sub">Liturgical Bulletin & Performance App</div>
-            </div>
-          </div>
-        </a>
-
+        <a class="frame" href="https://daqhris.com/god-bless-usa/" aria-label="God Bless The United States Of Aliens — Liturgical Bulletin"><title>God Bless The United States Of Aliens — Liturgical Bulletin</title><g transform="translate(206 206)"><rect class="f-shadow" x="3" y="5" width="88" height="88"/><rect class="f-edge" width="88" height="88"/><rect class="f-mat" x="5" y="5" width="78" height="78"/><rect class="f-bulletin" x="10" y="10" width="68" height="68"/><rect class="f-rule" x="18" y="16" width="52" height="2.5"/><rect class="f-qr" x="20.9" y="24.0" width="12.6" height="12.6"/><rect class="f-bulletin" x="23.0" y="26.1" width="8.4" height="8.4"/><rect class="f-qr" x="25.1" y="28.2" width="4.2" height="4.2"/><rect class="f-qr" x="54.5" y="24.0" width="12.6" height="12.6"/><rect class="f-bulletin" x="56.6" y="26.1" width="8.4" height="8.4"/><rect class="f-qr" x="58.7" y="28.2" width="4.2" height="4.2"/><rect class="f-qr" x="20.9" y="57.6" width="12.6" height="12.6"/><rect class="f-bulletin" x="23.0" y="59.7" width="8.4" height="8.4"/><rect class="f-qr" x="25.1" y="61.8" width="4.2" height="4.2"/><path class="f-qr" d="M20.9 40.8h4.2v4.2h-4.2zM25.1 40.8h4.2v4.2h-4.2zM29.3 40.8h4.2v4.2h-4.2zM33.5 45.0h4.2v4.2h-4.2zM33.5 49.2h4.2v4.2h-4.2zM37.7 24.0h4.2v4.2h-4.2zM37.7 36.6h4.2v4.2h-4.2zM37.7 57.6h4.2v4.2h-4.2zM37.7 61.8h4.2v4.2h-4.2zM41.9 24.0h4.2v4.2h-4.2zM41.9 28.2h4.2v4.2h-4.2zM41.9 32.4h4.2v4.2h-4.2zM41.9 36.6h4.2v4.2h-4.2zM41.9 40.8h4.2v4.2h-4.2zM41.9 45.0h4.2v4.2h-4.2zM41.9 61.8h4.2v4.2h-4.2zM46.1 24.0h4.2v4.2h-4.2zM46.1 28.2h4.2v4.2h-4.2zM46.1 49.2h4.2v4.2h-4.2zM46.1 53.4h4.2v4.2h-4.2zM46.1 57.6h4.2v4.2h-4.2zM46.1 61.8h4.2v4.2h-4.2zM50.3 40.8h4.2v4.2h-4.2zM50.3 49.2h4.2v4.2h-4.2zM50.3 61.8h4.2v4.2h-4.2zM50.3 66.0h4.2v4.2h-4.2zM54.5 45.0h4.2v4.2h-4.2zM54.5 53.4h4.2v4.2h-4.2zM54.5 57.6h4.2v4.2h-4.2zM58.7 40.8h4.2v4.2h-4.2zM58.7 45.0h4.2v4.2h-4.2zM58.7 49.2h4.2v4.2h-4.2zM58.7 61.8h4.2v4.2h-4.2zM58.7 66.0h4.2v4.2h-4.2zM62.9 40.8h4.2v4.2h-4.2zM62.9 45.0h4.2v4.2h-4.2zM62.9 53.4h4.2v4.2h-4.2zM62.9 61.8h4.2v4.2h-4.2zM62.9 66.0h4.2v4.2h-4.2z"/></g></a>
         <!-- III · Bottom-right — awalkaday 91-2022 -->
-        <a
-          class="frame frame-br"
-          href="https://daqhris.com/god-bless-usa/pavilion.html"
-          aria-label="awalkaday 91-2022 — black-and-white photograph"
-        >
-          <div class="frame-inner">
-            <img
-              src="https://raw.githubusercontent.com/awalkaday/awalkaday-art/master/assets/icons/awalkaday-logo-3x2.png"
-              alt="awalkaday.art placeholder"
-              loading="lazy"
-            >
-          </div>
-        </a>
-
-      </div><!-- /stars -->
+        <a class="frame" href="https://daqhris.com/god-bless-usa/pavilion.html" aria-label="awalkaday 91-2022 — black-and-white photograph"><title>awalkaday 91-2022 — black-and-white photograph</title><g transform="translate(306 206)"><rect class="f-shadow" x="3" y="5" width="88" height="88"/><rect class="f-edge" width="88" height="88"/><rect class="f-mat" x="5" y="5" width="78" height="78"/><rect class="f-night" x="14" y="14" width="60" height="60"/><circle class="f-star" cx="25" cy="24" r="1.6"/><circle class="f-star" cx="22" cy="30" r="1.6"/><circle class="f-star" cx="28" cy="30" r="1.6"/></g></a>
+      </svg>
     </div><!-- /wall -->
   </section>
 
@@ -646,7 +493,7 @@ body {
 <!-- BOTTOM BAR -->
 <footer class="bottom-bar">
   <span class="bottom-right">
-    <a href="https://github.com/daqhris" target="_blank" rel="noopener">GitHub ↗</a>
+    <a href="https://github.com/daqhris/daqhris.github.io/blob/master/venice-biennale.html" target="_blank" rel="noopener">GitHub ↗</a>
     &nbsp;·&nbsp;
     <a href="https://daqhris.com" target="_blank" rel="noopener">daqhris.com ↗</a>
   </span>
