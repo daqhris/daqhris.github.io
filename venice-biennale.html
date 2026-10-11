@@ -75,6 +75,11 @@
   --grey-mid: #525252;
   --grey-faint: #969696;
   --grey-dark: #2c2c2c;
+  /* The wall is the Burundian flag washed almost white. These two tints
+     are the only trace left of its green and red; raise them to make
+     the ghost louder, lower them to approach total erasure. */
+  --wash-red: #f7ecec;
+  --wash-green: #ecf6ee;
 }
 
 html {
@@ -132,9 +137,10 @@ body {
 }
 
 /* ── THE WALL ─────────────────────────────────── */
-/* The Burundian flag with its green and red washed to white: a blank
-   3:2 field (the flag's own proportions). The saltire is white on
-   white and disappears; the three stars are replaced by the frames. */
+/* The Burundian flag with its green and red washed almost white: a 3:2
+   field (the flag's own proportions). Only a faint tint of the red and
+   green fields remains, so the white saltire survives as the unwashed
+   remainder; the three stars are replaced by the frames. */
 .wall {
   position: relative;
   background: var(--white);
@@ -180,6 +186,11 @@ body {
   transition: transform 0.18s ease;
 }
 .frame:hover, .frame:focus-visible { transform: scale(1.04); }
+
+/* the ghost of the flag */
+.w-red   { fill: var(--wash-red); }
+.w-green { fill: var(--wash-green); }
+.w-white { fill: #fff; }
 
 .f-shadow { fill: #000; opacity: 0.12; }
 .f-edge   { fill: var(--black); stroke: var(--black); stroke-width: 1; transition: stroke 0.18s ease; }
@@ -349,6 +360,77 @@ body {
 .info-details > summary:focus-visible::after { color: var(--black); }
 .info-details[open] > summary { margin-bottom: 0.4rem; }
 
+
+/* ── POSTCARD (print only) ────────────────────── */
+.postcard { display: none; }
+.bottom-right button {
+  font: inherit;
+  letter-spacing: inherit;
+  color: var(--grey-mid);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.bottom-right button:hover,
+.bottom-right button:focus-visible { color: var(--black); }
+
+@media print {
+  html.printing-postcard, html.printing-postcard body {
+    height: auto; overflow: visible; display: block; background: #fff;
+  }
+  html.printing-postcard body > *:not(.postcard) { display: none !important; }
+  html.printing-postcard .postcard { display: block; }
+  html.printing-postcard * {
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+
+  .pc-page {
+    width: 148mm; height: 105mm; overflow: hidden; position: relative;
+    background: #fff; color: var(--black);
+    break-after: page; page-break-after: always;
+  }
+  .pc-page:last-child { break-after: auto; page-break-after: auto; }
+
+  /* front: the wall, centred on a white sheet (the wall is white too) */
+  .pc-front { display: flex; align-items: center; justify-content: center; }
+  .pc-art {
+    width: 140mm; aspect-ratio: 3 / 2; background: #fff;
+    border: 0.25mm solid #b9b9b9;
+  }
+  .pc-art .wall-svg { position: static; width: 100%; height: 100%; display: block; overflow: hidden; }
+
+  /* back: message left, address and stamp right */
+  .pc-back {
+    display: grid; grid-template-columns: 1fr 1fr; column-gap: 8mm;
+    padding: 8mm 8mm 7mm; font-size: 6.6pt; line-height: 1.45;
+  }
+  .pc-back::before {
+    content: ""; position: absolute; left: 50%; top: 8mm; bottom: 7mm;
+    border-left: 0.2mm solid #b9b9b9;
+  }
+  .pc-msg { display: flex; flex-direction: column; justify-content: space-between; }
+  .pc-lines i, .pc-addr-lines i {
+    display: block; height: 7mm; border-bottom: 0.2mm solid #b9b9b9;
+  }
+  .pc-key { color: var(--grey-dark); margin-top: 3mm; }
+  .pc-venue { color: var(--grey-mid); margin-top: 2.5mm; }
+  .pc-venue strong { color: var(--black); font-weight: 500; }
+  .pc-ast { font-size: 1.1em; color: var(--grey-faint); }
+  .pc-addr { display: flex; flex-direction: column; }
+  .pc-stamp {
+    align-self: flex-end; width: 19mm; height: 23mm; margin-bottom: 7mm;
+    border: 0.25mm dashed #b9b9b9; display: flex; align-items: center;
+    justify-content: center; font-size: 14pt;
+  }
+  .pc-addr-lines i:first-child { height: 7mm; }
+  .pc-foot { margin-top: auto; display: flex; gap: 3mm; align-items: flex-end; color: var(--grey-mid); }
+  .pc-foot p { font-size: 6pt; line-height: 1.4; }
+  .pc-foot b { color: var(--black); font-weight: 500; }
+  .pc-qr { width: 15mm; height: 15mm; padding: 1.5mm; box-sizing: content-box; background: #fff; flex-shrink: 0; fill: var(--black); margin-bottom: -1.5mm; margin-left: -1.5mm; }
+}
+
 /* ── MOBILE ───────────────────────────────────── */
 @media (max-width: 600px) {
   html, body { overflow-y: auto; height: auto; min-height: 100%; }
@@ -403,7 +485,8 @@ body {
       <div class="mark bl" aria-hidden="true"></div>
       <div class="mark br" aria-hidden="true"></div>
 
-      <svg class="wall-svg" viewBox="0 0 600 400" role="group" aria-label="Three framed works arranged in a tight triangle on a white wall, mirroring the three-star formation of the Burundian flag">
+      <svg class="wall-svg" viewBox="0 0 600 400" role="group" aria-label="Three framed works arranged in a tight triangle on a white wall that carries the faint ghost of the Burundian flag, its green and red washed almost white; the frames take the place of the flag\'s three stars">
+        <g class="ghost" aria-hidden="true"><polygon class="w-red" points="0,0 600,0 300,200"/><polygon class="w-red" points="0,400 600,400 300,200"/><polygon class="w-green" points="0,0 0,400 300,200"/><polygon class="w-green" points="600,0 600,400 300,200"/><path class="w-white" d="M600.0 400.0 L600.0 374.8 L37.9 0.0 L0.0 0.0 L0.0 25.2 L562.1 400.0Z M0.0 400.0 L0.0 374.8 L562.1 0.0 L600.0 0.0 L600.0 25.2 L37.9 400.0Z"/><circle class="w-white" cx="300" cy="200" r="95"/></g>
         <!-- I · Top-center — AI Self-Portrait (Gemini) -->
         <a class="frame" href="https://daqhris.com/god-bless-usa/pavilion.html" aria-label="AI Self-Portrait Tablet — Gemini's Handheld Autoportrait"><title>AI Self-Portrait Tablet — Gemini's Handheld Autoportrait</title><g transform="translate(256 106)"><rect class="f-shadow" x="3" y="5" width="88" height="88"/><rect class="f-edge" width="88" height="88"/><rect class="f-mat" x="5" y="5" width="78" height="78"/><rect class="f-khaki" x="10" y="10" width="68" height="68"/><circle class="f-thread" cx="44.0" cy="44.0" r="1.25"/><circle class="f-thread" cx="41.8" cy="46.0" r="1.25"/><circle class="f-thread" cx="44.4" cy="39.8" r="1.25"/><circle class="f-thread" cx="47.2" cy="48.1" r="1.25"/><circle class="f-thread" cx="38.1" cy="43.0" r="1.25"/><circle class="f-thread" cx="49.7" cy="40.4" r="1.25"/><circle class="f-thread" cx="42.1" cy="51.1" r="1.25"/><circle class="f-thread" cx="40.3" cy="37.0" r="1.25"/><circle class="f-thread" cx="52.0" cy="46.9" r="1.25"/><circle class="f-thread" cx="35.7" cy="47.4" r="1.25"/><circle class="f-thread" cx="48.0" cy="35.4" r="1.25"/><circle class="f-thread" cx="47.0" cy="53.5" r="1.25"/><circle class="f-thread" cx="35.0" cy="38.8" r="1.25"/><circle class="f-thread" cx="54.6" cy="41.7" r="1.25"/><circle class="f-thread" cx="37.5" cy="53.2" r="1.25"/><circle class="f-thread" cx="42.5" cy="32.5" r="1.25"/><circle class="f-thread" cx="53.2" cy="51.7" r="1.25"/><circle class="f-thread" cx="31.6" cy="44.5" r="1.25"/><circle class="f-thread" cx="53.0" cy="35.0" r="1.25"/><circle class="f-thread" cx="43.4" cy="57.1" r="1.25"/><circle class="f-thread" cx="35.4" cy="33.7" r="1.25"/><circle class="f-thread" cx="57.6" cy="45.8" r="1.25"/><circle class="f-thread" cx="32.4" cy="52.0" r="1.25"/><circle class="f-thread" cx="47.2" cy="30.0" r="1.25"/><circle class="f-thread" cx="51.3" cy="56.8" r="1.25"/><circle class="f-thread" cx="29.7" cy="39.4" r="1.25"/><circle class="f-thread" cx="57.9" cy="37.6" r="1.25"/><circle class="f-thread" cx="38.0" cy="58.4" r="1.25"/><circle class="f-thread" cx="38.6" cy="29.1" r="1.25"/><circle class="f-thread" cx="58.3" cy="51.5" r="1.25"/><circle class="f-thread" cx="28.1" cy="48.2" r="1.25"/><circle class="f-thread" cx="53.0" cy="30.0" r="1.25"/><circle class="f-thread" cx="46.9" cy="60.7" r="1.25"/><circle class="f-thread" cx="30.4" cy="33.4" r="1.25"/><circle class="f-thread" cx="61.4" cy="42.6" r="1.25"/><circle class="f-thread" cx="31.9" cy="57.0" r="1.25"/><circle class="f-thread" cx="44.1" cy="26.0" r="1.25"/><circle class="f-thread" cx="56.3" cy="57.5" r="1.25"/><circle class="f-thread" cx="25.6" cy="42.3" r="1.25"/><circle class="f-thread" cx="58.9" cy="32.7" r="1.25"/><circle class="f-thread" cx="40.6" cy="62.7" r="1.25"/><circle class="f-thread" cx="33.8" cy="27.7" r="1.25"/><circle class="f-thread" cx="62.7" cy="49.1" r="1.25"/><circle class="f-thread" cx="26.5" cy="53.0" r="1.25"/><circle class="f-thread" cx="50.9" cy="25.3" r="1.25"/><circle class="f-thread" cx="51.6" cy="62.6" r="1.25"/><circle class="f-thread" cx="25.6" cy="35.3" r="1.25"/><circle class="f-thread" cx="63.7" cy="37.9" r="1.25"/><circle class="f-thread" cx="33.5" cy="61.9" r="1.25"/><circle class="f-thread" cx="39.6" cy="23.5" r="1.25"/><circle class="f-thread" cx="61.3" cy="56.3" r="1.25"/><circle class="f-thread" cx="22.7" cy="46.6" r="1.25"/><circle class="f-thread" cx="58.0" cy="27.5" r="1.25"/><circle class="f-thread" cx="44.8" cy="65.8" r="1.25"/><circle class="f-thread" cx="28.5" cy="28.3" r="1.25"/><circle class="f-thread" cx="66.2" cy="45.1" r="1.25"/><circle class="f-thread" cx="26.7" cy="58.3" r="1.25"/><circle class="f-thread" cx="47.1" cy="21.6" r="1.25"/><circle class="f-thread" cx="57.0" cy="62.8" r="1.25"/><circle class="f-thread" cx="21.5" cy="38.8" r="1.25"/></g></a>
         <!-- II · Bottom-left — Liturgical Bulletin -->
@@ -493,11 +576,85 @@ body {
 <!-- BOTTOM BAR -->
 <footer class="bottom-bar">
   <span class="bottom-right">
+    <button type="button" id="print-postcard" title="Print a postcard of the wall (A6, two sides)">Print postcard</button>
+    &nbsp;·&nbsp;
     <a href="https://github.com/daqhris/daqhris.github.io/blob/master/venice-biennale.html" target="_blank" rel="noopener">GitHub ↗</a>
     &nbsp;·&nbsp;
     <a href="https://daqhris.com" target="_blank" rel="noopener">daqhris.com ↗</a>
   </span>
 </footer>
+
+
+<!-- POSTCARD: hidden on screen, printed only through the "Print postcard" button.
+     Two A6 landscape pages: front (the wall) and back (message, address, stamp). -->
+<div class="postcard" aria-hidden="true">
+  <section class="pc-page pc-front">
+    <div class="pc-art" id="pc-art"></div>
+  </section>
+  <section class="pc-page pc-back">
+    <div class="pc-msg">
+      <div class="pc-lines"><i></i><i></i><i></i><i></i><i></i></div>
+      <p class="pc-key">
+        <strong>Front.</strong> Three works take the place of the three stars
+        of Burundi&rsquo;s flag, its green and red washed almost white.
+        Top: <em>Gemini&rsquo;s Handheld Autoportrait</em>. Left:
+        <em>God Bless The United States Of Aliens</em>. Right:
+        <em>awalkaday 91-2022</em>. A drawing after the installation.
+      </p>
+      <p class="pc-venue">
+        <strong>Solidarity Burundi Pavilion <span class="pc-ast">&#8258;</span> 61st Venice Biennale Arte</strong><br>
+        Guest room of <em>Domus Diasporica</em>, Bosnia and Herzegovina Pavilion<br>
+        Palazzo Malipiero, San Marco 3198, Venice &middot; 9 May &ndash; 22 Nov 2026
+      </p>
+    </div>
+    <div class="pc-addr">
+      <div class="pc-stamp"><span class="pc-ast">&#8258;</span></div>
+      <div class="pc-addr-lines"><i></i><i></i><i></i><i></i></div>
+      <div class="pc-foot">
+        <svg class="pc-qr" viewBox="0 0 29 29" shape-rendering="crispEdges" aria-hidden="true"><path d="M0 0h7v1h-7zM8 0h1v1h-1zM10 0h2v1h-2zM14 0h3v1h-3zM18 0h1v1h-1zM22 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM8 1h5v1h-5zM17 1h1v1h-1zM19 1h1v1h-1zM22 1h1v1h-1zM28 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM8 2h2v1h-2zM11 2h1v1h-1zM15 2h2v1h-2zM18 2h3v1h-3zM22 2h1v1h-1zM24 2h3v1h-3zM28 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM9 3h1v1h-1zM11 3h2v1h-2zM16 3h2v1h-2zM20 3h1v1h-1zM22 3h1v1h-1zM24 3h3v1h-3zM28 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM8 4h1v1h-1zM12 4h1v1h-1zM14 4h2v1h-2zM18 4h2v1h-2zM22 4h1v1h-1zM24 4h3v1h-3zM28 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM10 5h2v1h-2zM17 5h2v1h-2zM22 5h1v1h-1zM28 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h7v1h-7zM9 7h1v1h-1zM13 7h1v1h-1zM16 7h1v1h-1zM0 8h1v1h-1zM3 8h6v1h-6zM10 8h2v1h-2zM13 8h1v1h-1zM15 8h3v1h-3zM19 8h3v1h-3zM24 8h1v1h-1zM26 8h3v1h-3zM1 9h3v1h-3zM7 9h1v1h-1zM13 9h1v1h-1zM15 9h1v1h-1zM18 9h2v1h-2zM21 9h1v1h-1zM23 9h2v1h-2zM26 9h2v1h-2zM0 10h2v1h-2zM4 10h4v1h-4zM9 10h2v1h-2zM13 10h1v1h-1zM15 10h1v1h-1zM18 10h1v1h-1zM21 10h1v1h-1zM23 10h2v1h-2zM26 10h1v1h-1zM0 11h1v1h-1zM2 11h1v1h-1zM4 11h1v1h-1zM7 11h1v1h-1zM9 11h2v1h-2zM12 11h2v1h-2zM17 11h1v1h-1zM19 11h2v1h-2zM23 11h1v1h-1zM25 11h1v1h-1zM28 11h1v1h-1zM0 12h2v1h-2zM6 12h2v1h-2zM9 12h1v1h-1zM11 12h3v1h-3zM16 12h1v1h-1zM20 12h1v1h-1zM22 12h2v1h-2zM28 12h1v1h-1zM2 13h4v1h-4zM8 13h1v1h-1zM12 13h5v1h-5zM18 13h1v1h-1zM20 13h1v1h-1zM22 13h7v1h-7zM4 14h4v1h-4zM10 14h4v1h-4zM15 14h1v1h-1zM19 14h3v1h-3zM23 14h2v1h-2zM26 14h1v1h-1zM28 14h1v1h-1zM1 15h1v1h-1zM3 15h1v1h-1zM5 15h1v1h-1zM7 15h1v1h-1zM10 15h1v1h-1zM16 15h1v1h-1zM21 15h2v1h-2zM24 15h1v1h-1zM26 15h1v1h-1zM28 15h1v1h-1zM3 16h2v1h-2zM6 16h6v1h-6zM14 16h2v1h-2zM18 16h3v1h-3zM25 16h1v1h-1zM0 17h1v1h-1zM3 17h1v1h-1zM5 17h1v1h-1zM7 17h1v1h-1zM9 17h1v1h-1zM11 17h1v1h-1zM13 17h3v1h-3zM18 17h4v1h-4zM24 17h1v1h-1zM26 17h2v1h-2zM0 18h3v1h-3zM5 18h4v1h-4zM12 18h1v1h-1zM15 18h3v1h-3zM19 18h1v1h-1zM21 18h2v1h-2zM24 18h2v1h-2zM28 18h1v1h-1zM0 19h3v1h-3zM4 19h1v1h-1zM7 19h1v1h-1zM9 19h2v1h-2zM14 19h3v1h-3zM21 19h2v1h-2zM24 19h3v1h-3zM0 20h3v1h-3zM5 20h4v1h-4zM10 20h1v1h-1zM13 20h2v1h-2zM16 20h2v1h-2zM20 20h8v1h-8zM8 21h3v1h-3zM14 21h2v1h-2zM18 21h1v1h-1zM20 21h1v1h-1zM24 21h2v1h-2zM0 22h7v1h-7zM8 22h1v1h-1zM10 22h2v1h-2zM14 22h2v1h-2zM18 22h3v1h-3zM22 22h1v1h-1zM24 22h2v1h-2zM0 23h1v1h-1zM6 23h1v1h-1zM8 23h2v1h-2zM14 23h2v1h-2zM17 23h4v1h-4zM24 23h1v1h-1zM27 23h1v1h-1zM0 24h1v1h-1zM2 24h3v1h-3zM6 24h1v1h-1zM8 24h3v1h-3zM12 24h3v1h-3zM16 24h1v1h-1zM19 24h7v1h-7zM27 24h2v1h-2zM0 25h1v1h-1zM2 25h3v1h-3zM6 25h1v1h-1zM8 25h1v1h-1zM11 25h2v1h-2zM15 25h4v1h-4zM28 25h1v1h-1zM0 26h1v1h-1zM2 26h3v1h-3zM6 26h1v1h-1zM9 26h1v1h-1zM11 26h1v1h-1zM13 26h1v1h-1zM15 26h1v1h-1zM18 26h2v1h-2zM21 26h1v1h-1zM23 26h2v1h-2zM26 26h3v1h-3zM0 27h1v1h-1zM6 27h1v1h-1zM10 27h1v1h-1zM13 27h2v1h-2zM21 27h1v1h-1zM24 27h3v1h-3zM28 27h1v1h-1zM0 28h7v1h-7zM8 28h1v1h-1zM12 28h4v1h-4zM19 28h4v1h-4zM24 28h1v1h-1z"/></svg>
+        <p>Chris-Armel Iradukunda (daqhris)<br>Born in Bujumbura &middot; lives and works in Brussels<br><b>daqhris.com/venice-biennale</b></p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+/* Print postcard: same pattern as the print button on the MASP page.
+   A class on <html> reveals the hidden postcard in @media print, a page
+   size is injected only for the duration of the print dialog (so normal
+   printing of this page is untouched), and the live wall is cloned onto
+   the front so the postcard always matches what is on screen. */
+(function () {
+  var btn = document.getElementById('print-postcard');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var wall = document.querySelector('.wall-svg');
+    var slot = document.getElementById('pc-art');
+    if (!wall || !slot) return;
+    var art = wall.cloneNode(true);
+    art.removeAttribute('role');
+    art.setAttribute('aria-hidden', 'true');
+    art.querySelectorAll('a').forEach(function (a) {
+      var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+      while (a.firstChild) g.appendChild(a.firstChild);
+      a.replaceWith(g);
+    });
+    slot.replaceChildren(art);
+    var page = document.createElement('style');
+    page.textContent = '@page { size: 148mm 105mm; margin: 0; }';
+    document.head.appendChild(page);
+    document.documentElement.classList.add('printing-postcard');
+    var done = function () {
+      document.documentElement.classList.remove('printing-postcard');
+      page.remove();
+      slot.replaceChildren();
+      window.removeEventListener('afterprint', done);
+    };
+    window.addEventListener('afterprint', done);
+    window.print();
+  });
+})();
+</script>
 
 </body>
 </html>
